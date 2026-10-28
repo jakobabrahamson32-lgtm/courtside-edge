@@ -11,7 +11,7 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(page_title='Courtside Edge | NBA + NFL',page_icon='◉',layout='wide',initial_sidebar_state='expanded')
-ROOT=Path.home()/'Documents'
+ROOT = Path(__file__).resolve().parent
 C={'navy':'#080F1D','panel':'#111D30','blue':'#2585FF','orange':'#FF9416','green':'#39FF88','red':'#FF4D5A','muted':'#91A4BB'}
 st.markdown('''<style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
