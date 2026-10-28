@@ -1,0 +1,335 @@
+Player,Team,Games,Points,Rebounds,Assists,Threes,Method
+Luka Dončić,LAL,4,35.0,7.1,8.3,4.8,Blended
+Anthony Edwards,MIN,4,31.5,4.8,3.6,4.1,Blended
+Shai Gilgeous-Alexander,OKC,4,28.8,4.3,4.9,1.9,Blended
+Tyrese Maxey,PHI,4,28.6,4.0,5.5,2.6,Blended
+Giannis Antetokounmpo,MIA,4,28.1,9.6,5.2,0.6,Blended
+Donovan Mitchell,CLE,3,27.2,5.8,5.1,3.1,Blended
+Austin Reaves,LAL,4,25.2,3.5,6.1,2.7,Blended
+Stephen Curry,GSW,3,24.8,2.8,3.5,3.4,Blended
+Kevin Durant,HOU,4,24.5,6.1,3.9,2.2,Blended
+Nikola Jokić,DEN,3,24.5,11.0,9.5,1.7,Blended
+Jalen Brunson,NYK,4,24.0,3.0,5.4,1.6,Blended
+Jaylen Brown,PHI,4,23.9,6.2,4.9,2.0,Blended
+Joel Embiid,PHI,3,23.8,8.9,5.0,1.2,Blended
+Pascal Siakam,IND,4,23.7,7.3,3.9,1.9,Blended
+Jamal Murray,DEN,3,23.6,5.6,6.2,3.5,Blended
+Paolo Banchero,ORL,2,23.6,7.3,6.6,1.4,Blended
+Victor Wembanyama,SAS,4,23.4,11.0,2.6,1.4,Blended
+Cooper Flagg,DAL,3,23.4,5.9,5.6,1.4,Blended
+Keyonte George,UTA,4,23.1,3.9,7.1,2.3,Blended
+Alperen Sengun,HOU,4,22.9,9.0,6.7,1.1,Blended
+Kawhi Leonard,TOR,2,22.9,7.1,2.3,2.2,Blended
+Brandon Miller,CHA,4,22.6,4.8,2.2,3.0,Blended
+Tyler Herro,MIL,4,22.3,5.4,5.1,3.0,Blended
+Cade Cunningham,DET,4,22.0,5.6,8.8,2.0,Blended
+Darius Garland,LAC,3,21.9,2.0,6.9,2.9,Blended
+Jalen Johnson,ATL,4,21.9,10.0,8.1,1.1,Blended
+Tyrese Haliburton,IND,4,21.8,4.5,9.5,2.5,Current only
+Anthony Davis,WAS,4,21.8,10.0,2.5,0.8,Blended
+Yaxel Lendeborg,GSW,4,21.8,9.2,4.8,2.2,Current only
+Karl-Anthony Towns,NYK,4,21.5,13.2,2.8,1.5,Blended
+Caleb Wilson,CHI,4,21.0,7.2,1.8,1.2,Current only
+Zion Williamson,NOP,3,20.8,4.1,2.7,0.4,Blended
+Franz Wagner,ORL,3,20.8,7.1,5.1,1.2,Blended
+Trae Young,WAS,4,20.5,2.4,9.8,2.1,Blended
+Norman Powell,CHI,4,20.4,3.2,2.0,2.7,Blended
+RJ Barrett,TOR,3,20.3,5.1,3.1,0.9,Blended
+Lauri Markkanen,UTA,4,20.3,6.1,1.9,2.6,Blended
+Nickeil Alexander-Walker,ATL,4,19.6,3.5,3.7,3.2,Blended
+Kyrie Irving,DAL,3,19.0,3.7,3.7,2.7,Current only
+Dejounte Murray,NOP,3,18.9,5.2,6.4,1.2,Blended
+James Harden,CLE,3,18.8,5.1,7.4,2.6,Blended
+Evan Mobley,CLE,3,18.5,9.2,3.2,1.8,Blended
+LeBron James,PHI,3,18.2,6.6,6.3,0.7,Blended
+Trey Murphy III,NOP,3,17.8,5.5,3.1,2.7,Blended
+CJ McCollum,ATL,4,17.8,2.2,2.8,2.6,Blended
+Stephon Castle,SAS,4,17.6,5.6,5.8,2.6,Blended
+Amen Thompson,HOU,4,17.5,8.5,4.5,0.4,Blended
+Jaren Jackson Jr.,UTA,4,17.5,5.3,2.0,1.5,Blended
+Immanuel Quickley,TOR,3,17.4,3.2,5.4,2.4,Blended
+Scottie Barnes,TOR,3,17.4,7.6,5.0,0.8,Blended
+Naz Reid,CHA,4,17.1,8.2,2.4,2.9,Blended
+Desmond Bane,ORL,3,17.0,4.2,2.4,2.4,Blended
+LaMelo Ball,MIN,4,16.9,3.1,6.6,3.3,Blended
+De'Aaron Fox,SAS,4,16.9,4.2,7.1,1.6,Blended
+Anthony Black,ORL,1,16.8,3.3,4.5,3.6,Blended
+Jaime Jaquez Jr.,MIL,4,16.7,6.8,3.5,1.1,Blended
+Kyshawn George,WAS,4,16.6,5.2,3.6,1.4,Blended
+DeMar DeRozan,DEN,3,16.6,3.0,2.6,0.6,Blended
+Grayson Allen,CHA,4,16.6,2.7,3.5,3.3,Blended
+Saddiq Bey,NOP,3,16.5,4.6,1.8,2.2,Blended
+OG Anunoby,NYK,4,16.4,5.8,2.7,2.0,Blended
+Jabari Smith Jr.,HOU,4,16.4,6.8,2.3,2.3,Blended
+Andrew Nembhard,IND,3,16.4,2.1,6.5,1.8,Blended
+Brandin Podziemski,GSW,2,16.3,4.7,3.9,2.3,Blended
+Meleek Thomas,CLE,1,16.0,2.0,0.0,4.0,Current only
+Walker Kessler,LAL,4,15.8,8.0,1.0,0.0,Current only
+Dylan Harper,SAS,4,15.7,4.5,3.8,1.0,Blended
+Jalen Duren,DET,2,15.6,8.7,2.0,0.0,Blended
+Duncan Robinson,DET,4,15.5,2.0,2.2,3.7,Blended
+Jarrett Allen,CLE,3,15.2,8.2,1.1,0.2,Blended
+Bam Adebayo,MIA,4,15.1,8.4,3.4,1.1,Blended
+P.J. Washington,DAL,4,15.0,7.3,1.6,1.8,Blended
+Ajay Mitchell,OKC,4,15.0,3.3,3.7,0.7,Blended
+Jalen Williams,OKC,3,15.0,4.6,4.2,0.9,Blended
+Ryan Rollins,MIL,4,15.0,4.7,4.8,2.2,Blended
+Matas Buzelis,CHI,4,14.9,4.9,1.9,1.5,Blended
+Wendell Carter Jr.,ORL,3,14.9,8.2,1.4,1.2,Blended
+Jaden McDaniels,MIN,4,14.9,5.6,2.7,1.5,Blended
+Davion Mitchell,MIA,4,14.5,1.5,6.8,1.9,Blended
+Naji Marshall,DAL,3,14.3,3.9,4.7,0.9,Blended
+Brook Lopez,LAC,3,14.2,4.6,1.1,1.8,Blended
+Obi Toppin,IND,4,14.1,4.8,1.8,2.1,Blended
+Mo Bamba,UTA,1,14.0,7.0,1.0,0.0,Current only
+Chet Holmgren,OKC,3,14.0,9.2,1.5,0.9,Blended
+VJ Edgecombe,PHI,3,13.8,7.0,3.5,2.0,Blended
+Aaron Gordon,DEN,3,13.3,5.3,2.5,1.5,Blended
+Ace Bailey,UTA,4,13.3,6.8,2.5,1.8,Blended
+Aaron Wiggins,ATL,4,13.2,3.2,1.6,2.4,Blended
+Ayo Dosunmu,MIN,4,13.1,3.8,3.8,1.3,Blended
+Keaton Wagler,LAC,3,13.0,4.3,4.0,2.0,Current only
+Dennis Schröder,CHA,4,12.7,3.5,4.8,0.9,Blended
+Dyson Daniels,ATL,4,12.7,5.9,4.6,0.3,Blended
+Kyle Kuzma,MIL,4,12.7,6.9,3.0,1.5,Blended
+Peyton Watson,CLE,3,12.6,4.4,2.2,1.0,Blended
+Derik Queen,NOP,3,12.5,7.8,2.5,0.3,Blended
+Aaron Nesmith,IND,3,12.5,2.7,1.6,2.1,Blended
+John Collins,DET,4,12.5,6.9,0.8,1.6,Blended
+Reed Sheppard,HOU,3,12.4,2.8,4.4,2.7,Blended
+Kel'el Ware,MIL,4,12.4,8.7,0.6,0.9,Blended
+Julian Champagnie,SAS,4,12.2,4.0,1.6,3.2,Blended
+Tre Johnson,WAS,4,12.1,2.3,1.4,1.8,Blended
+Tre Jones,CHI,4,11.9,2.6,3.8,0.4,Blended
+Devin Vassell,SAS,4,11.9,3.8,3.6,2.2,Blended
+Alex Sarr,WAS,4,11.8,6.1,2.7,0.6,Blended
+Brandon Williams,GSW,4,11.8,3.0,3.4,1.0,Blended
+Jonathan Kuminga,MIN,4,11.8,5.7,2.4,1.5,Blended
+Bennedict Mathurin,NOP,3,11.8,4.0,2.2,0.8,Blended
+Jalen Smith,CHI,4,11.6,7.2,1.1,1.5,Blended
+Onyeka Okongwu,ATL,4,11.6,6.6,2.9,1.2,Blended
+Tristan da Silva,ORL,3,11.6,2.9,1.8,2.6,Blended
+Bobby Portis Jr.,MIA,4,11.6,7.4,1.4,2.2,Blended
+Collin Sexton,LAL,3,11.6,1.7,2.7,1.0,Blended
+Darryn Peterson,UTA,4,11.5,4.2,2.5,1.0,Current only
+Paul Reed,DET,4,11.4,6.9,2.0,0.5,Blended
+Andrew Wiggins,MIA,4,11.4,4.0,1.8,1.1,Blended
+Josh Hart,NYK,4,11.2,7.6,4.0,2.0,Blended
+Keldon Johnson,SAS,4,11.1,5.2,1.3,0.6,Blended
+Jaylon Tyson,CLE,3,11.1,4.2,3.1,1.4,Blended
+Tari Eason,HOU,4,11.1,5.2,0.9,0.8,Blended
+Christian Braun,DEN,3,11.0,5.5,2.1,0.8,Blended
+Ivica Zubac,IND,3,11.0,9.6,1.7,0.0,Blended
+Derrick Jones Jr.,LAC,3,11.0,4.6,2.0,1.8,Blended
+Josh Giddey,CHI,4,11.0,6.3,8.0,1.1,Blended
+Daniss Jenkins,DET,4,10.8,3.6,4.0,1.3,Blended
+Ja'Kobe Walter,TOR,3,10.8,3.2,2.1,2.2,Blended
+Rui Hachimura,LAC,3,10.8,4.9,0.9,1.9,Blended
+Ziaire Williams,LAL,4,10.8,2.8,1.8,1.6,Blended
+Jeremiah Fears,NOP,3,10.7,3.3,2.2,0.9,Blended
+De'Anthony Melton,GSW,4,10.6,3.1,2.5,1.6,Blended
+Brice Sensabaugh,UTA,4,10.5,3.2,1.4,1.8,Blended
+Max Christie,DAL,4,10.5,3.8,2.3,2.0,Blended
+Jalen Suggs,ORL,3,10.3,4.6,5.6,1.0,Blended
+Sandro Mamukelashvili,LAL,4,10.2,4.4,1.7,1.3,Blended
+Kelly Oubre Jr.,IND,4,10.1,3.4,1.8,1.1,Blended
+Jared McCain,OKC,4,10.1,1.7,1.6,2.2,Blended
+Klay Thompson,MIA,4,10.1,1.9,1.0,2.8,Blended
+Terrence Shannon Jr,MIN,4,10.0,2.4,1.9,1.8,Blended
+Pelle Larsson,MIA,4,10.0,3.2,3.3,0.8,Blended
+Jordan Poole,NOP,3,9.8,2.2,3.6,1.6,Blended
+Quentin Grimes,LAL,4,9.6,3.7,2.7,1.1,Blended
+Bilal Coulibaly,WAS,4,9.5,4.3,1.3,0.8,Blended
+Anfernee Simons,PHI,4,9.3,2.3,1.7,1.8,Blended
+Sam Merrill,CLE,3,9.3,3.2,2.4,1.8,Blended
+Ausar Thompson,DET,3,9.2,6.3,3.6,0.0,Blended
+Isaiah Hartenstein,OKC,4,9.2,8.9,2.8,0.0,Blended
+Miles McBride,NYK,4,9.2,1.7,1.6,2.3,Blended
+Rudy Gobert,MIN,4,9.2,13.2,1.3,0.0,Blended
+Jaxson Hayes,UTA,3,9.2,4.6,1.6,0.0,Blended
+Isaiah Collier,UTA,4,9.2,3.4,6.5,0.2,Blended
+Gui Santos,GSW,4,9.2,4.0,1.8,1.0,Blended
+Myles Turner,MIL,4,9.1,5.4,2.0,1.4,Blended
+Mikal Bridges,NYK,4,9.1,3.3,3.0,1.4,Blended
+Leonard Miller,CHI,4,9.0,4.9,0.8,0.9,Blended
+Trevon Brazile,DEN,3,9.0,7.3,0.0,1.3,Current only
+Isaiah Joe,DET,3,8.8,2.0,1.1,1.6,Blended
+AJ Green,MIL,4,8.8,2.3,1.4,2.6,Blended
+Moussa Diabaté,CHA,4,8.7,9.2,2.0,0.0,Blended
+Kris Dunn,LAC,3,8.7,4.1,5.0,1.2,Blended
+Luguentz Dort,ATL,4,8.6,3.4,1.4,1.4,Blended
+Zaccharie Risacher,DAL,4,8.6,5.1,1.3,1.0,Blended
+Kasparas Jakučionis,MIL,4,8.6,2.8,3.3,0.9,Blended
+Tim Hardaway Jr.,MIA,4,8.6,2.5,1.0,1.7,Blended
+Bub Carrington,WAS,4,8.5,2.0,3.0,2.0,Blended
+Landry Shamet,NYK,4,8.5,1.9,1.8,2.0,Blended
+Corey Kispert,ATL,2,8.5,1.2,0.9,1.8,Blended
+Isaiah Jackson,LAC,3,8.5,5.5,1.8,0.0,Blended
+Jock Landale,ATL,4,8.4,5.0,2.6,0.6,Blended
+Fred VanVleet,HOU,3,8.3,3.0,7.0,1.7,Current only
+Graham Ike,GSW,4,8.2,3.5,1.2,1.0,Current only
+Kentavious Caldwell-Pope,PHI,4,8.2,2.8,2.1,1.6,Blended
+Deandre Ayton,WAS,4,8.2,6.1,0.8,0.0,Blended
+Marcus Smart,HOU,2,8.2,2.6,2.1,1.2,Blended
+Yves Missi,NOP,2,8.0,6.8,2.0,0.0,Blended
+Alex Caruso,OKC,4,8.0,4.0,3.0,1.6,Blended
+Cameron Johnson,DEN,1,7.9,2.7,1.6,1.4,Blended
+Jay Huff,IND,3,7.8,3.6,1.4,1.0,Blended
+Justin Champagnie,WAS,4,7.8,6.7,1.2,0.6,Blended
+Jarace Walker,IND,4,7.8,5.3,1.9,1.2,Blended
+Daniel Gafford,DAL,4,7.7,6.4,2.1,0.0,Blended
+Kevin Huerter,DET,4,7.6,3.4,1.9,1.2,Blended
+Marcus Sasser,DAL,4,7.3,1.5,2.2,1.7,Blended
+Mario Hezonja,CLE,3,7.3,3.7,1.3,1.0,Current only
+DeAndre Jordan,NOP,1,7.2,7.9,1.6,0.0,Blended
+Brayden Burries,MIL,4,7.2,3.2,1.5,1.0,Current only
+Gradey Dick,LAC,3,7.2,3.0,0.3,0.9,Blended
+Cason Wallace,OKC,3,7.2,2.6,1.8,1.1,Blended
+Quenton Jackson,IND,4,7.1,2.1,2.7,0.5,Blended
+Matisse Thybulle,LAL,4,7.1,1.8,1.1,1.7,Blended
+Javonte Green,DET,4,7.1,2.8,0.3,1.5,Blended
+Marvin Bagley III,DEN,3,7.0,4.2,0.8,0.2,Blended
+Nikola Vučević,ORL,3,7.0,4.6,2.1,0.8,Blended
+Colin Castleton,ORL,1,7.0,2.0,1.0,0.0,Current only
+Gary Payton II,GSW,4,6.9,2.3,0.7,0.5,Blended
+LJ Cryer,GSW,3,6.9,1.0,1.6,1.8,Blended
+Collin Murray-Boyles,TOR,3,6.8,5.6,1.8,0.1,Blended
+Andre Drummond,NYK,4,6.8,7.4,1.6,0.2,Blended
+Buddy Hield,CHI,4,6.8,1.8,1.6,1.4,Blended
+Kobe Sanders,LAC,3,6.7,2.3,2.6,1.1,Blended
+Walter Clayton Jr.,DAL,3,6.7,2.2,3.4,1.0,Blended
+Bogdan Bogdanović,HOU,4,6.6,1.8,1.5,1.5,Blended
+Morez Johnson Jr.,DAL,4,6.5,3.0,1.0,0.0,Current only
+Dean Wade,PHI,2,6.5,3.8,0.9,1.4,Blended
+Jake LaRavia,LAL,3,6.3,3.0,1.5,1.0,Blended
+Ryan Kalkbrenner,CHA,4,6.3,5.4,1.4,0.0,Blended
+Isaac Okoro,CHI,4,6.3,1.8,1.5,0.6,Blended
+Tidjane Salaün,CHA,3,6.2,4.2,0.5,1.0,Blended
+Jakob Poeltl,TOR,3,6.1,6.0,1.2,0.0,Blended
+Al Horford,GSW,3,6.1,4.4,1.4,1.4,Blended
+Cam Whitmore,DEN,2,6.1,1.7,0.6,0.3,Blended
+Royce O'Neale,CHA,4,6.0,3.0,1.2,1.7,Blended
+Jose Alvarado,NYK,2,6.0,2.5,2.9,1.2,Blended
+Svi Mykhailiuk,UTA,4,6.0,2.3,1.2,1.1,Blended
+Allen Graves,TOR,3,6.0,4.3,1.3,0.3,Current only
+Hannes Steinbach,CHA,1,6.0,5.0,0.0,0.0,Current only
+Georges Niang,GSW,4,6.0,2.8,1.0,0.8,Current only
+Khris Middleton,WAS,3,5.7,2.5,1.1,0.4,Blended
+Herbert Jones,NOP,3,5.6,2.6,1.3,1.0,Blended
+Joan Beringer,MIN,4,5.6,5.1,0.3,0.0,Blended
+Aday Mara,OKC,4,5.5,4.5,1.0,0.0,Current only
+Jaden Hardy,LAL,1,5.5,1.8,0.4,1.3,Blended
+Taurean Prince,DET,1,5.5,1.2,0.7,1.5,Blended
+Draymond Green,GSW,3,5.4,4.8,6.4,1.0,Blended
+Goga Bitadze,ORL,2,5.4,4.7,0.8,0.0,Blended
+Ronald Holland II,DET,4,5.4,4.3,2.1,0.2,Blended
+Will Richard,GSW,4,5.4,1.8,0.8,0.8,Blended
+Ryan Nembhard,DEN,2,5.3,1.2,2.7,0.6,Blended
+Charles Bassey,GSW,2,5.3,4.2,0.2,0.0,Blended
+Karlo Matković,NOP,2,5.3,2.7,0.6,0.5,Blended
+Kyle Filipowski,UTA,3,5.2,3.3,1.0,0.4,Blended
+Sergio de Larrea,DAL,4,5.2,2.0,1.2,0.8,Current only
+Jett Howard,DAL,1,5.2,0.6,0.3,1.0,Blended
+Jaylin Williams,OKC,4,5.0,4.8,2.0,1.2,Blended
+Bryce Hopkins,DEN,3,5.0,2.0,0.7,0.3,Current only
+Harrison Barnes,SAS,4,4.9,1.1,0.8,0.9,Blended
+Dru Smith,MIA,2,4.9,1.6,1.6,1.1,Blended
+Will Riley,WAS,3,4.9,1.2,0.8,0.4,Blended
+Bones Hyland,MIN,4,4.8,1.6,1.6,0.9,Blended
+Jamal Shead,TOR,3,4.8,1.7,4.2,0.4,Blended
+Zach Collins,CHI,3,4.7,4.2,0.8,0.4,Blended
+Nikola Jović,MIA,3,4.7,3.3,1.5,0.4,Blended
+Steven Adams,HOU,1,4.7,4.6,1.2,0.0,Blended
+Jamison Battle,TOR,3,4.6,1.8,0.6,1.0,Blended
+Jase Richardson,ORL,3,4.6,1.3,1.6,0.8,Blended
+Ben Sheppard,IND,1,4.6,1.8,0.7,1.1,Blended
+Ousmane Dieng,MIL,3,4.6,2.3,1.8,0.6,Blended
+Zeke Nnaji,DEN,1,4.5,1.6,0.2,0.7,Blended
+Jordan Hawkins,CHI,1,4.4,1.3,0.3,0.4,Blended
+Kenrich Williams,OKC,4,4.4,3.0,0.7,0.8,Blended
+Nick Richards,MIA,2,4.4,2.3,0.4,0.3,Blended
+Jalen Slawson,IND,3,4.3,3.4,1.5,0.5,Blended
+Caleb Love,PHI,1,4.2,0.9,1.0,0.8,Blended
+Jordan Clarkson,NYK,3,4.2,1.3,0.7,0.4,Blended
+Luke Kornet,SAS,4,4.2,4.2,1.1,0.0,Blended
+Alpha Diallo,DEN,1,4.0,2.0,3.0,0.0,Current only
+Trey Lyles,MIN,4,4.0,3.5,1.2,1.0,Current only
+Nate Ament,MIL,2,4.0,3.0,0.0,0.5,Current only
+Jalen Pickett,LAC,1,3.9,0.9,0.9,1.0,Blended
+Moussa Cissé,DAL,3,3.8,3.3,0.1,0.0,Blended
+Trayce Jackson-Davis,TOR,3,3.8,1.5,0.5,0.0,Blended
+Sion James,CHA,4,3.8,3.2,2.8,0.8,Blended
+Tyrese Proctor,CLE,2,3.7,1.1,1.5,0.7,Blended
+Cody Williams,MIN,3,3.5,1.2,0.8,0.2,Blended
+Josh Green,UTA,2,3.5,1.9,0.9,0.7,Blended
+Simone Fontecchio,MIA,2,3.4,1.5,0.6,0.7,Blended
+Jabari Walker,PHI,3,3.3,2.0,0.6,0.2,Blended
+Kingston Flemings,ATL,4,3.2,3.0,4.2,0.2,Current only
+Jamal Cain,ORL,3,3.2,2.0,0.3,0.5,Blended
+Adem Bona,PHI,4,3.1,4.6,0.6,0.0,Blended
+Asa Newell,ATL,2,3.0,1.5,0.2,0.6,Blended
+Tobe Awaka,CHI,2,3.0,6.5,1.0,0.0,Current only
+Liam McNeeley,CHA,2,2.9,2.5,0.3,0.3,Blended
+Tony Bradley,UTA,1,2.8,1.7,0.2,0.0,Blended
+Elijah Harkless,DET,1,2.7,0.8,1.2,0.3,Blended
+Larry Nance Jr.,IND,4,2.7,2.4,0.7,0.4,Blended
+Craig Porter Jr.,CLE,2,2.7,2.6,1.6,0.5,Blended
+Myron Gardner,MIA,2,2.6,1.7,0.4,0.2,Blended
+Jevon Carter,ORL,1,2.6,1.3,1.2,0.6,Blended
+Labaron Philon Jr.,PHI,2,2.5,1.0,0.5,0.5,Current only
+Tobi Lawal,DAL,2,2.5,0.5,0.5,0.5,Current only
+Ja'Kobi Gillespie,SAS,2,2.5,0.0,0.0,0.5,Current only
+Kyle Anderson,TOR,2,2.5,2.3,1.8,0.0,Blended
+Carter Bryant,SAS,4,2.4,1.3,0.7,0.3,Blended
+Tyler Kolek,NYK,2,2.4,1.8,4.7,0.3,Blended
+Jaylen Clark,MIN,3,2.4,1.5,0.6,0.2,Blended
+Justin Edwards,PHI,1,2.4,0.6,0.5,0.4,Blended
+Bronny James,LAL,1,2.4,0.2,0.5,0.2,Blended
+David Jones Garcia,SAS,1,2.4,0.5,0.6,0.1,Blended
+DaRon Holmes II,DEN,2,2.4,0.9,0.8,0.6,Blended
+Clint Capela,HOU,3,2.3,3.4,0.5,0.0,Blended
+Anthony Gill,WAS,1,2.3,1.2,0.5,0.1,Blended
+Kevon Looney,LAL,4,2.3,3.4,0.8,0.0,Blended
+Kobe Brown,IND,2,2.3,1.2,0.5,0.4,Blended
+Josh Okogie,UTA,3,2.2,2.0,0.8,0.3,Blended
+Tre Mann,WAS,1,2.2,0.7,0.6,0.4,Blended
+Bennett Stirtz,OKC,4,2.2,0.5,0.2,0.2,Current only
+Chaz Lanier,DET,1,2.2,0.3,0.2,0.2,Blended
+Dorian Finney-Smith,ATL,2,2.2,1.6,0.7,0.6,Blended
+Dailyn Swain,CHI,1,2.0,2.0,2.0,0.0,Current only
+Zyon Pullin,MIN,1,2.0,1.0,0.0,0.0,Current only
+Tarris Reed Jr.,SAS,3,2.0,2.7,0.0,0.0,Current only
+Baba Miller,LAC,2,2.0,2.0,0.5,0.0,Current only
+Jaden Bradley,TOR,3,2.0,0.3,0.3,0.0,Current only
+Jericho Sims,MIL,1,2.0,2.2,0.6,0.0,Blended
+Tyus Jones,DEN,3,2.0,0.4,1.4,0.2,Blended
+Chris Mañon,LAL,1,2.0,1.0,0.0,0.0,Current only
+Alijah Martin,TOR,3,1.9,0.8,0.4,0.1,Blended
+PJ Hall,CHA,1,1.8,2.2,2.0,0.1,Blended
+Noa Essengue,CHI,3,1.7,2.7,0.3,0.0,Current only
+Ryan Conwell,MIA,3,1.7,0.3,0.7,0.3,Current only
+Malevy Leons,GSW,3,1.7,1.2,0.4,0.1,Blended
+Tolu Smith,DET,3,1.7,2.5,0.4,0.0,Blended
+Jaylin Sellers,CHI,2,1.5,0.5,1.5,0.5,Current only
+Zuby Ejiofor,ATL,2,1.5,1.0,0.0,0.5,Current only
+Isaiah Crawford,HOU,3,1.4,0.4,0.2,0.3,Blended
+Mohamed Diawara,NYK,1,1.4,0.6,0.3,0.3,Blended
+Christian Anderson,CHA,4,1.2,1.8,1.2,0.2,Current only
+Jae'Sean Tate,HOU,3,1.1,0.8,0.2,0.1,Blended
+Cam Christie,LAC,1,1.1,0.6,0.2,0.1,Blended
+Ebuka Okorie,DET,2,1.0,0.0,1.0,0.0,Current only
+Felix Okpara,WAS,1,1.0,0.0,0.0,0.0,Current only
+Jordan McLaughlin,SAS,2,0.8,0.6,1.0,0.2,Blended
+Brooks Barnhizer,OKC,3,0.7,0.8,0.4,0.1,Blended
+Pacôme Dadiet,NYK,1,0.7,1.0,0.2,0.1,Blended
+Braden Smith,IND,1,0.0,0.0,0.0,0.0,Current only
+Nick Martinelli,LAC,1,0.0,1.0,1.0,0.0,Current only
+Bruce Thornton,HOU,3,0.0,0.0,0.0,0.0,Current only
+Maliq Brown,SAS,1,0.0,0.0,1.0,0.0,Current only
+Alex Morales,ORL,1,0.0,1.0,0.0,0.0,Current only
+Isaac Jones,DET,1,0.0,0.0,1.0,0.0,Current only
+Isaiah Evans,MIN,3,0.0,0.3,0.7,0.0,Current only
+Jaden Akins,NYK,2,0.0,0.0,0.0,0.0,Current only
+James Wiseman,NYK,3,0.0,1.0,0.0,0.0,Current only
+Josh Dix,OKC,1,0.0,1.0,0.0,0.0,Current only
+Reece Beekman,WAS,1,0.0,0.0,0.0,0.0,Current only

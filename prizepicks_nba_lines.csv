@@ -1,0 +1,246 @@
+playerName,team,stat,line,league,isLive,isCombo,isPromo,oddsType,projectionType,gameStartsAt
+Aaron Nesmith,,Points,11.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Aaron Nesmith,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Alex Sarr,,Rebounds,6.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Andrew Nembhard,,Assists,8.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Ausar Thompson,,Points,9.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Bam Adebayo,,Rebounds,8.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Brandon Miller,,Points,23.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Brandon Miller,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+CJ McCollum,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Cade Cunningham,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Daniss Jenkins,,Assists,3.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Daniss Jenkins,,Points,9.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Daniss Jenkins,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Davion Mitchell,,Assists,6.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Dennis Schröder,,Assists,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Dennis Schröder,,Points,13.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Duncan Robinson,,Assists,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Duncan Robinson,,Points,13.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Dyson Daniels,,Rebounds,7.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Evan Mobley,,Points,18.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Giannis Antetokounmpo,,Rebounds,11.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Grayson Allen,,Points,14.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Jalen Johnson,,Points,22.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Jarrett Allen,,Points,13.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Jay Huff,,Rebounds,5.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Jaylen Brown,,Assists,4.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Jaylen Brown,,Points,21.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Jaylen Brown,,Rebounds,6.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Jock Landale,,Points,7.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Joel Embiid,,Assists,4.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Kelly Oubre,,Assists,1.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Kelly Oubre,,Rebounds,4.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Kentavious Caldwell-Pope,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Kevin Huerter,,Points,7.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Mario Hezonja,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Moussa Diabaté,,Points,8.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Moussa Diabaté,,Rebounds,9.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Naz Reid,,Rebounds,8.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Pascal Siakam,,Assists,4.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Paul Reed,,Assists,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Paul Reed,,Rebounds,8.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Pelle Larsson,,Assists,3.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Pelle Larsson,,Points,10.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Sion James,,Assists,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Tim Hardaway,,Points,7.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Trae Young,,Assists,9.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Trae Young,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Tre Johnson,,Points,9.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+VJ Edgecombe,,Assists,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+VJ Edgecombe,,Points,11.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+VJ Edgecombe,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:00:00.000-04:00
+Aaron Wiggins + Bam Adebayo,,Points,30.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Andrew Nembhard + Jaylen Brown,,Points,37.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Andrew Nembhard + Joel Embiid,,Assists,12.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Andrew Nembhard + LeBron James,,Assists,14.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Andrew Nembhard + Tyrese Maxey,,Assists,13.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Andrew Wiggins,,Rebounds,4.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+CJ McCollum + Andrew Wiggins,,Points,29.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+CJ McCollum + Bam Adebayo,,Points,35.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+CJ McCollum + Davion Mitchell,,Points,29.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Cade Cunningham + Brandon Miller,,Points,47.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Cade Cunningham + Naz Reid,,Points,41.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Donovan Mitchell,,Assists,5.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Donovan Mitchell + Anthony Davis,,Points,47.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Donovan Mitchell + Trae Young,,Points,46.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Dyson Daniels + Bam Adebayo,,Rebounds,15.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Dyson Daniels + Davion Mitchell,,Assists,11.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Dyson Daniels + Giannis Antetokounmpo,,Assists,10.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Evan Mobley + Alex Sarr,,Rebounds,15.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Evan Mobley + Anthony Davis,,Points,39.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Evan Mobley + Anthony Davis,,Rebounds,20.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Evan Mobley + Kyshawn George,,Points,32.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Evan Mobley + Trae Young,,Points,39.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Giannis Antetokounmpo,,Assists,6.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Jalen Johnson + Bam Adebayo,,Points,40.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Jalen Johnson + Bam Adebayo,,Rebounds,18.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Jalen Johnson + Bobby Portis,,Rebounds,17.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Jalen Johnson + Davion Mitchell,,Assists,14.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Jalen Johnson + Giannis Antetokounmpo,,Assists,13.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Jalen Johnson + Giannis Antetokounmpo,,Rebounds,21.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+James Harden,,Assists,7.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+James Harden + Anthony Davis,,Points,39.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+James Harden + Kyshawn George,,Points,32.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+James Harden + Trae Young,,Assists,17.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+James Harden + Trae Young,,Points,38.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Jarrett Allen + Alex Sarr,,Rebounds,14.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Jarrett Allen + Anthony Davis,,Rebounds,19.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Nickeil Alexander-Walker + Andrew Wiggins,,Points,30.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Nickeil Alexander-Walker + Bam Adebayo,,Points,36.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Nickeil Alexander-Walker + Davion Mitchell,,Points,31.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Pascal Siakam + Jaylen Brown,,Points,46.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Pascal Siakam + Joel Embiid,,Points,48.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Pascal Siakam + Joel Embiid,,Rebounds,16.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Pascal Siakam + LeBron James,,Assists,10.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Pascal Siakam + LeBron James,,Points,42.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Pascal Siakam + LeBron James,,Rebounds,14.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Pascal Siakam + Tyrese Maxey,,Points,49.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:10:00.000-04:00
+Anthony Black,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:30:00.000-04:00
+Collin Murray-Boyles,,Points,9.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:30:00.000-04:00
+Immanuel Quickley,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:30:00.000-04:00
+Ja'Kobe Walter,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:30:00.000-04:00
+Jakob Poeltl,,Assists,1.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:30:00.000-04:00
+Jakob Poeltl,,Points,8.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:30:00.000-04:00
+RJ Barrett,,Rebounds,5.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:30:00.000-04:00
+Wendell Carter Jr.,,Points,11.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:30:00.000-04:00
+Wendell Carter Jr.,,Rebounds,7.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:30:00.000-04:00
+Immanuel Quickley + Anthony Black,,Assists,10.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:40:00.000-04:00
+Ja'Kobe Walter + Desmond Bane,,Points,32.5,NBA,False,False,False,standard,STANDARD,2026-10-28T19:40:00.000-04:00
+Scottie Barnes + Anthony Black,,Assists,10.0,NBA,False,False,False,standard,STANDARD,2026-10-28T19:40:00.000-04:00
+Aaron Gordon,,Assists,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Aaron Gordon,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Amen Thompson,,Points,17.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Andre Drummond,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Ayo Dosunmu,,Assists,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Ayo Dosunmu,,Points,16.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Bennedict Mathurin,,Points,8.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Bennedict Mathurin,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Bryce Hopkins,,Points,7.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Bryce Hopkins,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Christian Braun,,Rebounds,5.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Clint Capela,,Points,6.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+DeAndre Jordan,,Rebounds,6.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+DeMar DeRozan,,Points,14.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Dejounte Murray,,Assists,6.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Derik Queen,,Rebounds,7.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Draymond Green,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Fred VanVleet,,Points,12.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Gui Santos,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Jabari Smith,,Points,15.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Jabari Smith,,Rebounds,7.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Jaden McDaniels,,Points,17.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Jaden McDaniels,,Rebounds,5.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Jaime Jaquez,,Points,14.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Jalen Smith,,Points,10.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Jalen Smith,,Rebounds,7.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Jonathan Kuminga,,Assists,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Jordan Poole,,Points,7.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Josh Giddey,,Points,10.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Josh Hart,,Assists,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Josh Hart,,Points,11.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Karl-Anthony Towns,,Assists,3.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Kasparas Jakučionis,,Points,6.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Kasparas Jakučionis,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Kevin Durant,,Points,25.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Kevin Durant,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Kyle Kuzma,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+LaMelo Ball,,Assists,7.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+LaMelo Ball,,Points,22.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+LaMelo Ball,,Rebounds,5.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Matas Buzelis,,Points,13.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Myles Turner,,Points,10.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+OG Anunoby,,Points,17.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+OG Anunoby,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Ryan Rollins,,Rebounds,4.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Trevon Brazile,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Trey Murphy,,Points,17.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Trey Murphy III,,Points,16.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Tyler Herro,,Assists,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Tyler Herro,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:00:00.000-04:00
+Ayo Dosunmu + Stephen Curry,,Assists,8.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Ayo Dosunmu + Yaxel Lendeborg,,Points,33.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Caleb Wilson + Josh Hart,,Points,28.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Caleb Wilson + Josh Hart,,Rebounds,14.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Caleb Wilson + Karl-Anthony Towns,,Points,38.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Caleb Wilson + OG Anunoby,,Points,34.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Dejounte Murray + Aaron Gordon,,Points,33.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Dejounte Murray + DeMar DeRozan,,Points,31.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Dejounte Murray + Jamal Murray,,Assists,12.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Dejounte Murray + Jamal Murray,,Points,41.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Derik Queen + Aaron Gordon,,Rebounds,13.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Jaden McDaniels + Stephen Curry,,Points,41.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Jaden McDaniels + Yaxel Lendeborg,,Points,34.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Jaime Jaquez Jr. + Amen Thompson,,Points,32.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Jaime Jaquez Jr. + Fred VanVleet,,Points,26.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Jaime Jaquez Jr. + Jabari Smith Jr.,,Points,29.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Jalen Smith + Josh Hart,,Rebounds,15.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Jonathan Kuminga + Yaxel Lendeborg,,Rebounds,13.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Kel'el Ware + Amen Thompson,,Rebounds,15.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Kel'el Ware + Clint Capela,,Rebounds,14.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Kyle Kuzma + Amen Thompson,,Rebounds,14.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Kyle Kuzma + Clint Capela,,Rebounds,13.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+LaMelo Ball + Stephen Curry,,Points,47.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+LaMelo Ball + Yaxel Lendeborg,,Points,39.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+LaMelo Ball + Yaxel Lendeborg,,Rebounds,12.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Matas Buzelis + Josh Hart,,Points,25.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Matas Buzelis + OG Anunoby,,Points,31.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Norman Powell + Josh Hart,,Points,30.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Norman Powell + Karl-Anthony Towns,,Points,40.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Norman Powell + OG Anunoby,,Points,36.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Ryan Rollins + Amen Thompson,,Assists,9.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Ryan Rollins + Amen Thompson,,Points,32.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Ryan Rollins + Fred VanVleet,,Assists,10.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Ryan Rollins + Jabari Smith Jr.,,Points,29.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Tre Jones + Josh Hart,,Assists,8.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Tre Jones + Karl-Anthony Towns,,Assists,7.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Trey Murphy,,Rebounds,5.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Trey Murphy III,,Rebounds,5.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Trey Murphy III + Aaron Gordon,,Points,32.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Tyler Herro + Amen Thompson,,Assists,9.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Tyler Herro + Amen Thompson,,Points,39.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Tyler Herro + Fred VanVleet,,Assists,11.0,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Tyler Herro + Jabari Smith Jr.,,Points,36.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Tyler Herro + Kevin Durant,,Points,47.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Zion Williamson + Aaron Gordon,,Points,34.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Zion Williamson + DeMar DeRozan,,Assists,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Zion Williamson + DeMar DeRozan,,Points,33.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Zion Williamson + Jamal Murray,,Points,42.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Zion Williamson + Nikola Jokić,,Points,45.5,NBA,False,False,False,standard,STANDARD,2026-10-28T20:10:00.000-04:00
+Ace Bailey,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T21:00:00.000-04:00
+Darryn Peterson,,Points,14.5,NBA,False,False,False,standard,STANDARD,2026-10-28T21:00:00.000-04:00
+De'Aaron Fox,,Assists,6.5,NBA,False,False,False,standard,STANDARD,2026-10-28T21:00:00.000-04:00
+De'Aaron Fox,,Rebounds,4.0,NBA,False,False,False,standard,STANDARD,2026-10-28T21:00:00.000-04:00
+Devin Vassell,,Points,11.5,NBA,False,False,False,standard,STANDARD,2026-10-28T21:00:00.000-04:00
+Dylan Harper,,Points,15.5,NBA,False,False,False,standard,STANDARD,2026-10-28T21:00:00.000-04:00
+Julian Champagnie,,Points,9.5,NBA,False,False,False,standard,STANDARD,2026-10-28T21:00:00.000-04:00
+Julian Champagnie,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T21:00:00.000-04:00
+Stephon Castle,,Assists,6.0,NBA,False,False,False,standard,STANDARD,2026-10-28T21:00:00.000-04:00
+Stephon Castle,,Rebounds,5.0,NBA,False,False,False,standard,STANDARD,2026-10-28T21:00:00.000-04:00
+Aday Mara,,Points,8.5,NBA,False,False,False,standard,STANDARD,2026-10-28T21:30:00.000-04:00
+Aday Mara,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-10-28T21:30:00.000-04:00
+Ajay Mitchell,,Rebounds,4.0,NBA,False,False,False,standard,STANDARD,2026-10-28T21:30:00.000-04:00
+Cooper Flagg,,Assists,6.0,NBA,False,False,False,standard,STANDARD,2026-10-28T21:30:00.000-04:00
+Jared McCain,,Points,16.5,NBA,False,False,False,standard,STANDARD,2026-10-28T21:30:00.000-04:00
+Kyrie Irving,,Rebounds,4.0,NBA,False,False,False,standard,STANDARD,2026-10-28T21:30:00.000-04:00
+Shai Gilgeous-Alexander,,Points,31.5,NBA,False,False,False,standard,STANDARD,2026-10-28T21:30:00.000-04:00
+Austin Reaves,,Assists,7.0,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Collin Sexton,,Points,11.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Darius Garland,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Derrick Jones,,Assists,1.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Derrick Jones,,Points,11.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Derrick Jones,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Derrick Jones Jr.,,Assists,1.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Derrick Jones Jr.,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Isaiah Jackson,,Rebounds,7.0,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Keaton Wagler,,Points,13.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Keaton Wagler,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Kris Dunn,,Points,8.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Luka Dončić,,Assists,8.0,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Luka Dončić,,Rebounds,7.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Matisse Thybulle,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Quentin Grimes,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Sandro Mamukelashvili,,Points,7.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Sandro Mamukelashvili,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Walker Kessler,,Points,14.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
+Walker Kessler,,Rebounds,10.5,NBA,False,False,False,standard,STANDARD,2026-10-28T22:30:00.000-04:00
