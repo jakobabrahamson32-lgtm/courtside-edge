@@ -87,7 +87,9 @@ def nba_player_ids():
     try:
         from nba_api.stats.static import players
         return {norm(p['full_name']):p['id'] for p in players.get_players()}
-    except Exception:return {}
+    except Exception as exc:
+        st.session_state['nba_photo_error'] = f'{type(exc).__name__}: {exc}'
+        return {}
 
 @st.cache_data(show_spinner=False)
 def nfl_headshots():
@@ -98,7 +100,8 @@ def nfl_headshots():
         image_col=next((c for c in ['headshot_url','headshot','headshot_href'] if c in roster),None)
         if name_col and image_col:
             return {norm(n):u for n,u in zip(roster[name_col],roster[image_col]) if isinstance(u,str) and u.startswith('https://')}
-    except Exception:pass
+    except Exception as exc:
+        st.session_state['nfl_photo_error'] = f'{type(exc).__name__}: {exc}'
     return {}
 
 def photo(name,sport):
@@ -118,7 +121,7 @@ with st.sidebar:
     st.divider()
     if st.button('↻ Refresh data',use_container_width=True):
         st.cache_data.clear();st.rerun()
-    st.caption('Local data · ~/Documents')
+    st.caption('Hosted data · Courtside Edge repository')
 
 files=SPORT_FILES[sport]
 comparison=read_file(files['comparison'])
