@@ -6,7 +6,7 @@ import unicodedata
 print("NBA PRIZEPICKS MODEL")
 print("--------------------")
 
-folder = Path.home() / "Documents"
+folder = Path(__file__).resolve().parent
 
 nba = pd.read_csv(folder / "todays_nba_projections.csv")
 props = pd.read_csv(folder / "prizepicks_nba_lines.csv")
