@@ -6,7 +6,7 @@ import re
 import unicodedata
 import pandas as pd
 
-ROOT = Path.home() / 'Documents'
+ROOT = Path(__file__).resolve().parent
 
 def clean(value):
     if pd.isna(value):
