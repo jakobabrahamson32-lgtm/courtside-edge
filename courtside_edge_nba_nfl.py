@@ -166,7 +166,7 @@ if page=='Settings':
     a.metric('Current season',f'{current}%')
     b.metric('Previous season',f'{100-current}%')
     st.caption('Weights always add to 100%. These apply to the projection generator, not to sportsbook lines.')
-    if st.button('Apply Settings & Recalculate',type='primary'):
+    if False and st.button('Apply Settings & Recalculate',type='primary'):
         model='nba_model.py' if sport=='NBA' else 'nfl_model.py'
         comparator='nba_prizepicks_model.py' if sport=='NBA' else 'nfl_compare.py'
         if not (ROOT/model).exists() or not (ROOT/comparator).exists():
