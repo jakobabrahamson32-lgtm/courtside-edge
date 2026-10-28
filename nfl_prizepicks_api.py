@@ -51,8 +51,7 @@ def run():
     df=df.dropna(subset=['Player','Stat','SportsbookLine'])
     if df.empty:
         print('No valid NFL props; existing CSV preserved.');return
-    dest=Path.home()/'Documents'/'nfl_prizepicks_lines.csv'
-    df.to_csv(dest,index=False)
+dest = Path(__file__).resolve().parent / "nfl_prizepicks_lines.csv"    df.to_csv(dest,index=False)
     print(f'Saved {len(df)} NFL PrizePicks lines to {dest}')
     if unknown:print('Other market keys (not imported):',sorted(unknown))
 
