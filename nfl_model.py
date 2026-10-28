@@ -7,7 +7,7 @@ from pathlib import Path
 import argparse
 import pandas as pd
 
-ROOT = Path.home() / 'Documents'
+ROOT = Path(__file__).resolve().parent
 STAT_COLS = {
     'Passing Yards': 'passing_yards',
     'Passing TDs': 'passing_tds',
