@@ -22,46 +22,31 @@ print("NBA DAILY PLAYER PROP MODEL")
 print("---------------------------")
 
 try:
-    today = datetime.now().strftime("%m/%d/%Y")
+    today = datetime.now(__import__("zoneinfo").ZoneInfo("America/New_York")).strftime("%m/%d/%Y")
 
     print("Checking NBA games for:", today)
 
-    # Get today's games
-    scoreboard = None
-    for attempt in range(1, 4):
-        try:
-            scoreboard = scoreboardv3.ScoreboardV3(game_date=today, timeout=45)
-            break
-        except RequestException as exc:
-            if attempt == 3:
-                raise RuntimeError('NBA stats scoreboard unavailable after 3 attempts; old projections preserved') from exc
-            print(f'NBA scoreboard request failed (attempt {attempt}/3); retrying...', flush=True)
-            time.sleep(3 * attempt)
-
-    
-    games = scoreboard.game_header.get_data_frame()
-
-    print("\nAVAILABLE COLUMNS:")
-    print(games.columns.tolist())
-    print("\nFIRST GAME:")
-    print(games.head(1).to_string())
-
-    if games.empty:
-        raise RuntimeError("No NBA games scheduled today; existing projections were not overwritten")
-
-    else:
-       
-        # Get the teams playing in today's games
-        teams = scoreboard.line_score.get_data_frame()
-
-        print("\nTEAM COLUMNS:")
-        print(teams.columns.tolist())
-
-        team_ids = set(teams["teamId"])
-
-
-
-    
+    # ESPN schedule avoids the frequently blocked NBA Stats scoreboard endpoint.
+    import requests
+    from zoneinfo import ZoneInfo
+    eastern_today = datetime.now(ZoneInfo('America/New_York')).strftime('%Y%m%d')
+    response = requests.get(
+        'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard',
+        params={'dates': eastern_today, 'limit': 100}, timeout=25
+    )
+    response.raise_for_status()
+    events = response.json().get('events', [])
+    team_ids = set()
+    for event in events:
+        for competition in event.get('competitions', []):
+            for competitor in competition.get('competitors', []):
+                raw = competitor.get('team', {}).get('id')
+                if raw and str(raw).isdigit():
+                    team_ids.add(int(raw))
+    if not events or not team_ids:
+        raise RuntimeError('No NBA games/teams in ESPN scoreboard; projections preserved')
+    print(f'ESPN scoreboard: {len(events)} games, {len(team_ids)} teams')
+    if True:
         print("Games today:", len(games))
         print("Downloading player stats...")
 
