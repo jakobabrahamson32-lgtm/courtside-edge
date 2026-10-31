@@ -117,7 +117,7 @@ with st.sidebar:
     st.caption('THE PERFORMANCE LAB')
     st.divider()
     sport=st.radio('SPORT',['NBA','NFL'],horizontal=True)
-    page=st.radio('NAVIGATION',['Overview','Player Props','Betting Comparisons','Top Gaps','Model Performance','Settings'],label_visibility='collapsed')
+    page=st.radio('NAVIGATION',['Overview','Player Props','Betting Comparisons','Top Gaps','Model History','Model Performance','Settings'],label_visibility='collapsed')
     st.divider()
     if st.button('↻ Refresh data',use_container_width=True):
         st.cache_data.clear();st.rerun()
@@ -202,6 +202,66 @@ if page=='Settings':
         st.info('NFL projections are recent-form + prior-season statistical baselines. They do not adjust for injuries, matchup, weather, or usage changes.')
     else:
         st.info('NBA recalculation requires the updated nba_model.py supporting --current-weight.')
+    st.stop()
+
+if page=='Model History':
+    st.subheader(f'{sport} prediction history')
+    st.caption('Immutable pregame snapshots. Results are not considered verified until a separate settlement process records actual player statistics.')
+    history=read_file('model_history.csv')
+    if history is None or history.empty:
+        st.info('No prediction history yet. The scheduled refresh will begin recording eligible pregame lines after the model-history changes are merged.')
+        st.stop()
+    required_history={'Sport','Player','Stat','Line','Projection','Direction','CapturedAtUTC','Result'}
+    if not required_history.issubset(history.columns):
+        st.warning('History file has an unexpected format. Check model_history.csv.')
+        st.stop()
+    history=history[history['Sport'].astype(str).str.upper().eq(sport)].copy()
+    if history.empty:
+        st.info(f'No {sport} predictions have been captured yet.')
+        st.stop()
+    history['CapturedAtUTC']=pd.to_datetime(history['CapturedAtUTC'],utc=True,errors='coerce')
+    history['GameStartsAtUTC']=pd.to_datetime(history.get('GameStartsAtUTC'),utc=True,errors='coerce')
+    history['Result']=history['Result'].fillna('PENDING').astype(str).str.upper()
+    history['Actual']=pd.to_numeric(history.get('Actual'),errors='coerce')
+    history['Projection']=pd.to_numeric(history['Projection'],errors='coerce')
+    history['Line']=pd.to_numeric(history['Line'],errors='coerce')
+    history=history.dropna(subset=['CapturedAtUTC','Projection','Line'])
+    settled=history[history['Result'].isin(['WIN','LOSS','PUSH']) & history['Actual'].notna()].copy()
+    wins=int((settled['Result']=='WIN').sum())
+    losses=int((settled['Result']=='LOSS').sum())
+    decided=wins+losses
+    a,b,c,d=st.columns(4)
+    a.metric('Predictions saved',f'{len(history):,}')
+    b.metric('Awaiting results',f"{(history['Result']=='PENDING').sum():,}")
+    c.metric('Verified decisions',f'{decided:,}')
+    d.metric('Verified hit rate',f'{wins/decided:.1%}' if decided else '—')
+    if not decided:
+        st.info('Hit rate is unavailable until game results are independently settled. A projection gap is not a verified win.')
+    else:
+        st.caption('Hit rate excludes pushes and unresolved predictions; it does not establish profitability.')
+        settled['Absolute error']=(settled['Actual']-settled['Projection']).abs()
+        st.metric('Projection mean absolute error',f"{settled['Absolute error'].mean():.2f}")
+        by_stat=settled[settled['Result'].isin(['WIN','LOSS'])].groupby('Stat')['Result'].agg(
+            Picks='size',Wins=lambda x:(x=='WIN').sum()
+        ).reset_index()
+        by_stat['Hit rate']=by_stat['Wins']/by_stat['Picks']
+        st.markdown('#### Results by prop type')
+        st.dataframe(by_stat,hide_index=True,use_container_width=True)
+    st.markdown('#### Prediction archive')
+    c1,c2=st.columns(2)
+    with c1:
+        player_filter=st.text_input('Search history by player',key=f'history_search_{sport}')
+    with c2:
+        result_filter=st.selectbox('Result',['All','PENDING','WIN','LOSS','PUSH'],key=f'history_result_{sport}')
+    filtered=history
+    if player_filter:
+        filtered=filtered[filtered['Player'].astype(str).str.contains(player_filter,case=False,regex=False,na=False)]
+    if result_filter!='All':
+        filtered=filtered[filtered['Result'].eq(result_filter)]
+    filtered=filtered.sort_values('CapturedAtUTC',ascending=False)
+    cols=[c for c in ['CapturedAtUTC','GameStartsAtUTC','Player','Team','Stat','Sportsbook','Line','Projection','Direction','Result','Actual','ModelVersion'] if c in filtered.columns]
+    st.dataframe(filtered[cols],hide_index=True,use_container_width=True)
+    st.download_button('Download prediction history',filtered.to_csv(index=False).encode('utf-8'),f'{sport.lower()}_model_history.csv','text/csv')
     st.stop()
 
 if page=='Model Performance':
