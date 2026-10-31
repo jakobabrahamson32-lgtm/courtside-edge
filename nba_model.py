@@ -47,7 +47,7 @@ try:
         raise RuntimeError('No NBA games/teams in ESPN scoreboard; projections preserved')
     print(f'ESPN scoreboard: {len(events)} games, {len(team_abbreviations)} teams')
     if True:
-        print("Games today:", len(games))
+        print("Games today:", len(events))
         print("Downloading player stats...")
 
         
