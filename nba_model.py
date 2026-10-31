@@ -7,6 +7,8 @@ from datetime import datetime
 import pandas as pd
 from statistics import NormalDist
 import argparse
+import time
+from requests.exceptions import RequestException
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--current-weight", type=float, default=0.60)
@@ -25,10 +27,16 @@ try:
     print("Checking NBA games for:", today)
 
     # Get today's games
-    scoreboard = scoreboardv3.ScoreboardV3(
-        game_date=today,
-        timeout=60
-    )
+    scoreboard = None
+    for attempt in range(1, 4):
+        try:
+            scoreboard = scoreboardv3.ScoreboardV3(game_date=today, timeout=45)
+            break
+        except RequestException as exc:
+            if attempt == 3:
+                raise RuntimeError('NBA stats scoreboard unavailable after 3 attempts; old projections preserved') from exc
+            print(f'NBA scoreboard request failed (attempt {attempt}/3); retrying...', flush=True)
+            time.sleep(3 * attempt)
 
     
     games = scoreboard.game_header.get_data_frame()
@@ -76,30 +84,20 @@ try:
 
         print("Previous season players loaded:", len(previous_stats))
         
-        print("Downloading previous season game logs...")
-
-        previous_logs_data = leaguegamelog.LeagueGameLog(
-            season="2025-26",
-            season_type_all_star="Regular Season",
-            player_or_team_abbreviation="P",
-            timeout=90
-        )
-
-        previous_logs = previous_logs_data.get_data_frames()[0]
-
-        print("Previous season games loaded:", len(previous_logs))
-
-        
-
-
-
         # Get current season player game logs
-        data = leaguegamelog.LeagueGameLog(
-            season="2026-27",
-            season_type_all_star="Regular Season",
-            player_or_team_abbreviation="P",
-            timeout=90
-        )
+        data = None
+        for attempt in range(1, 4):
+            try:
+                data = leaguegamelog.LeagueGameLog(
+                    season="2026-27", season_type_all_star="Regular Season",
+                    player_or_team_abbreviation="P", timeout=60
+                )
+                break
+            except RequestException as exc:
+                if attempt == 3:
+                    raise RuntimeError("NBA game logs unavailable after 3 attempts; old projections preserved") from exc
+                print(f"NBA game logs request failed (attempt {attempt}/3); retrying...", flush=True)
+                time.sleep(3 * attempt)
 
         stats = data.get_data_frames()[0]
 
