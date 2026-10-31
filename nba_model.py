@@ -36,16 +36,16 @@ try:
     )
     response.raise_for_status()
     events = response.json().get('events', [])
-    team_ids = set()
+    team_abbreviations = set()
     for event in events:
         for competition in event.get('competitions', []):
             for competitor in competition.get('competitors', []):
-                raw = competitor.get('team', {}).get('id')
-                if raw and str(raw).isdigit():
-                    team_ids.add(int(raw))
-    if not events or not team_ids:
+                abbreviation = competitor.get('team', {}).get('abbreviation', '')
+                if abbreviation:
+                    team_abbreviations.add(str(abbreviation).upper())
+    if not events or not team_abbreviations:
         raise RuntimeError('No NBA games/teams in ESPN scoreboard; projections preserved')
-    print(f'ESPN scoreboard: {len(events)} games, {len(team_ids)} teams')
+    print(f'ESPN scoreboard: {len(events)} games, {len(team_abbreviations)} teams')
     if True:
         print("Games today:", len(games))
         print("Downloading player stats...")
@@ -97,7 +97,7 @@ try:
 
         # Keep only players from today's teams
         stats = stats[
-            stats["TEAM_ID"].isin(team_ids)
+            stats["TEAM_ABBREVIATION"].isin(team_abbreviations)
         ]
 
      
