@@ -34,6 +34,8 @@ jobs:
           pip install requests nba_api nflreadpy pyarrow numpy
 
       - name: Refresh NBA and NFL data
+        id: refresh
+        continue-on-error: true
         env:
           PARLAY_API_KEY: ${{ secrets.PARLAY_API_KEY }}
         run: python refresh_all.py
@@ -50,3 +52,9 @@ jobs:
             git commit -m "Auto-refresh NBA and NFL data"
             git push
           fi
+
+      - name: Report partial refresh failure
+        if: steps.refresh.outcome == 'failure'
+        run: |
+          echo 'One or more sports failed to refresh. Successful datasets and history were still committed.'
+          exit 1
