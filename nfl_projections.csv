@@ -175,14 +175,14 @@ J.Jenkins,BAL,00-0030070,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 J.Jenkins,BAL,00-0030070,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 J.Jenkins,BAL,00-0030070,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 J.Jenkins,BAL,00-0030070,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-S.Martin,CAR,00-0030092,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-S.Martin,CAR,00-0030092,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-S.Martin,CAR,00-0030092,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-S.Martin,CAR,00-0030092,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-S.Martin,CAR,00-0030092,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-S.Martin,CAR,00-0030092,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-S.Martin,CAR,00-0030092,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-S.Martin,CAR,00-0030092,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+S.Martin,CAR,00-0030092,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+S.Martin,CAR,00-0030092,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+S.Martin,CAR,00-0030092,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+S.Martin,CAR,00-0030092,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+S.Martin,CAR,00-0030092,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+S.Martin,CAR,00-0030092,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+S.Martin,CAR,00-0030092,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+S.Martin,CAR,00-0030092,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 T.Way,WAS,00-0030140,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 T.Way,WAS,00-0030140,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 T.Way,WAS,00-0030140,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
@@ -431,14 +431,14 @@ M.Burton,CLE,00-0031595,Rushing Attempts,0.33,0.33,,0.33,0.33,3,2026,1.0
 M.Burton,CLE,00-0031595,Receiving Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
 M.Burton,CLE,00-0031595,Receptions,0.0,0.0,,0.0,0.0,3,2026,1.0
 M.Burton,CLE,00-0031595,Receiving TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
-D.Waller,CAR,00-0031610,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-D.Waller,CAR,00-0031610,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-D.Waller,CAR,00-0031610,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-D.Waller,CAR,00-0031610,Rushing Yards,0.18,0.0,0.44,0.0,0.0,6,2026,0.6
-D.Waller,CAR,00-0031610,Rushing Attempts,0.04,0.0,0.11,0.0,0.0,6,2026,0.6
-D.Waller,CAR,00-0031610,Receiving Yards,32.98,33.0,31.44,34.0,33.0,6,2026,0.6
-D.Waller,CAR,00-0031610,Receptions,2.51,2.33,2.67,2.4,2.33,6,2026,0.6
-D.Waller,CAR,00-0031610,Receiving TDs,0.63,0.5,0.67,0.6,0.5,6,2026,0.6
+D.Waller,CAR,00-0031610,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Waller,CAR,00-0031610,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Waller,CAR,00-0031610,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Waller,CAR,00-0031610,Rushing Yards,0.18,0.0,0.44,0.0,0.0,7,2026,0.6
+D.Waller,CAR,00-0031610,Rushing Attempts,0.04,0.0,0.11,0.0,0.0,7,2026,0.6
+D.Waller,CAR,00-0031610,Receiving Yards,30.34,29.86,31.44,29.6,29.86,7,2026,0.6
+D.Waller,CAR,00-0031610,Receptions,2.27,2.14,2.67,2.0,2.14,7,2026,0.6
+D.Waller,CAR,00-0031610,Receiving TDs,0.39,0.43,0.67,0.2,0.43,7,2026,0.6
 D.Carter,DET,00-0031763,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 D.Carter,DET,00-0031763,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 D.Carter,DET,00-0031763,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
@@ -1135,14 +1135,14 @@ X.Woods,CHI,00-0033579,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 X.Woods,CHI,00-0033579,Receiving Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 X.Woods,CHI,00-0033579,Receptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 X.Woods,CHI,00-0033579,Receiving TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-D.Moore,CAR,00-0033589,Passing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-D.Moore,CAR,00-0033589,Passing TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-D.Moore,CAR,00-0033589,Interceptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-D.Moore,CAR,00-0033589,Rushing Yards,1.6,0.0,4.0,0.0,0.0,4,2026,0.6
-D.Moore,CAR,00-0033589,Rushing Attempts,0.13,0.0,0.33,0.0,0.0,4,2026,0.6
-D.Moore,CAR,00-0033589,Receiving Yards,4.72,6.75,1.67,6.75,6.75,4,2026,0.6
-D.Moore,CAR,00-0033589,Receptions,0.28,0.25,0.33,0.25,0.25,4,2026,0.6
-D.Moore,CAR,00-0033589,Receiving TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+D.Moore,CAR,00-0033589,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+D.Moore,CAR,00-0033589,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+D.Moore,CAR,00-0033589,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+D.Moore,CAR,00-0033589,Rushing Yards,1.6,0.0,4.0,0.0,0.0,5,2026,0.6
+D.Moore,CAR,00-0033589,Rushing Attempts,0.13,0.0,0.33,0.0,0.0,5,2026,0.6
+D.Moore,CAR,00-0033589,Receiving Yards,3.91,5.4,1.67,5.4,5.4,5,2026,0.6
+D.Moore,CAR,00-0033589,Receptions,0.25,0.2,0.33,0.2,0.2,5,2026,0.6
+D.Moore,CAR,00-0033589,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 C.Rush,ATL,00-0033662,Passing Yards,99.0,114.5,75.75,114.5,114.5,2,2026,0.6
 C.Rush,ATL,00-0033662,Passing TDs,0.3,0.5,0.0,0.5,0.5,2,2026,0.6
 C.Rush,ATL,00-0033662,Interceptions,1.6,2.0,1.0,2.0,2.0,2,2026,0.6
@@ -2263,14 +2263,14 @@ A.Ingold,LAC,00-0035125,Rushing Attempts,0.09,0.0,0.22,0.0,0.0,3,2026,0.6
 A.Ingold,LAC,00-0035125,Receiving Yards,9.31,11.67,5.78,11.67,11.67,3,2026,0.6
 A.Ingold,LAC,00-0035125,Receptions,0.96,1.0,0.89,1.0,1.0,3,2026,0.6
 A.Ingold,LAC,00-0035125,Receiving TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
-K.Nixon,GB,00-0035133,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-K.Nixon,GB,00-0035133,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-K.Nixon,GB,00-0035133,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-K.Nixon,GB,00-0035133,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-K.Nixon,GB,00-0035133,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-K.Nixon,GB,00-0035133,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-K.Nixon,GB,00-0035133,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-K.Nixon,GB,00-0035133,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+K.Nixon,GB,00-0035133,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+K.Nixon,GB,00-0035133,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+K.Nixon,GB,00-0035133,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+K.Nixon,GB,00-0035133,Rushing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+K.Nixon,GB,00-0035133,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+K.Nixon,GB,00-0035133,Receiving Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+K.Nixon,GB,00-0035133,Receptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+K.Nixon,GB,00-0035133,Receiving TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
 Ma.Wilson,ARI,00-0035144,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 Ma.Wilson,ARI,00-0035144,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 Ma.Wilson,ARI,00-0035144,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
@@ -2527,14 +2527,14 @@ K.Elliss,NO,00-0035316,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 K.Elliss,NO,00-0035316,Receiving Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 K.Elliss,NO,00-0035316,Receptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 K.Elliss,NO,00-0035316,Receiving TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-T.Dodson,CAR,00-0035352,Passing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-T.Dodson,CAR,00-0035352,Passing TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-T.Dodson,CAR,00-0035352,Interceptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-T.Dodson,CAR,00-0035352,Rushing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-T.Dodson,CAR,00-0035352,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-T.Dodson,CAR,00-0035352,Receiving Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-T.Dodson,CAR,00-0035352,Receptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-T.Dodson,CAR,00-0035352,Receiving TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+T.Dodson,CAR,00-0035352,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+T.Dodson,CAR,00-0035352,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+T.Dodson,CAR,00-0035352,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+T.Dodson,CAR,00-0035352,Rushing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+T.Dodson,CAR,00-0035352,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+T.Dodson,CAR,00-0035352,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+T.Dodson,CAR,00-0035352,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+T.Dodson,CAR,00-0035352,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 C.Lewis,CHI,00-0035357,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 C.Lewis,CHI,00-0035357,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 C.Lewis,CHI,00-0035357,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
@@ -2823,14 +2823,14 @@ D.Edwards,NO,00-0035668,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 D.Edwards,NO,00-0035668,Receiving Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 D.Edwards,NO,00-0035668,Receptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 D.Edwards,NO,00-0035668,Receiving TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-N.Scott,CAR,00-0035669,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Scott,CAR,00-0035669,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Scott,CAR,00-0035669,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Scott,CAR,00-0035669,Rushing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Scott,CAR,00-0035669,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Scott,CAR,00-0035669,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Scott,CAR,00-0035669,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Scott,CAR,00-0035669,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+N.Scott,CAR,00-0035669,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Scott,CAR,00-0035669,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Scott,CAR,00-0035669,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Scott,CAR,00-0035669,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Scott,CAR,00-0035669,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Scott,CAR,00-0035669,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Scott,CAR,00-0035669,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Scott,CAR,00-0035669,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 C.Barton,TEN,00-0035672,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 C.Barton,TEN,00-0035672,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 C.Barton,TEN,00-0035672,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
@@ -2895,14 +2895,14 @@ D.Montgomery,HOU,00-0035685,Rushing Attempts,9.96,10.4,9.29,10.4,10.4,5,2026,0.6
 D.Montgomery,HOU,00-0035685,Receiving Yards,12.56,13.4,11.29,13.4,13.4,5,2026,0.6
 D.Montgomery,HOU,00-0035685,Receptions,1.4,1.4,1.41,1.4,1.4,5,2026,0.6
 D.Montgomery,HOU,00-0035685,Receiving TDs,0.12,0.2,0.0,0.2,0.2,5,2026,0.6
-B.Okereke,CAR,00-0035687,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Okereke,CAR,00-0035687,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Okereke,CAR,00-0035687,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Okereke,CAR,00-0035687,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Okereke,CAR,00-0035687,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Okereke,CAR,00-0035687,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Okereke,CAR,00-0035687,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Okereke,CAR,00-0035687,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+B.Okereke,CAR,00-0035687,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Okereke,CAR,00-0035687,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Okereke,CAR,00-0035687,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Okereke,CAR,00-0035687,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Okereke,CAR,00-0035687,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Okereke,CAR,00-0035687,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Okereke,CAR,00-0035687,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Okereke,CAR,00-0035687,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 D.Knox,BUF,00-0035689,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 D.Knox,BUF,00-0035689,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 D.Knox,BUF,00-0035689,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
@@ -2935,14 +2935,14 @@ J.Dean,PIT,00-0035699,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Dean,PIT,00-0035699,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Dean,PIT,00-0035699,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Dean,PIT,00-0035699,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-J.Jacobs,GB,00-0035700,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-J.Jacobs,GB,00-0035700,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-J.Jacobs,GB,00-0035700,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-J.Jacobs,GB,00-0035700,Rushing Yards,46.37,36.0,61.93,36.0,36.0,1,2026,0.6
-J.Jacobs,GB,00-0035700,Rushing Attempts,12.84,11.0,15.6,11.0,11.0,1,2026,0.6
-J.Jacobs,GB,00-0035700,Receiving Yards,40.52,55.0,18.8,55.0,55.0,1,2026,0.6
-J.Jacobs,GB,00-0035700,Receptions,3.96,5.0,2.4,5.0,5.0,1,2026,0.6
-J.Jacobs,GB,00-0035700,Receiving TDs,0.63,1.0,0.07,1.0,1.0,1,2026,0.6
+J.Jacobs,GB,00-0035700,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+J.Jacobs,GB,00-0035700,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+J.Jacobs,GB,00-0035700,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+J.Jacobs,GB,00-0035700,Rushing Yards,47.27,37.5,61.93,37.5,37.5,2,2026,0.6
+J.Jacobs,GB,00-0035700,Rushing Attempts,15.84,16.0,15.6,16.0,16.0,2,2026,0.6
+J.Jacobs,GB,00-0035700,Receiving Yards,27.92,34.0,18.8,34.0,34.0,2,2026,0.6
+J.Jacobs,GB,00-0035700,Receptions,4.26,5.5,2.4,5.5,5.5,2,2026,0.6
+J.Jacobs,GB,00-0035700,Receiving TDs,0.63,1.0,0.07,1.0,1.0,2,2026,0.6
 D.Risner,CIN,00-0035702,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 D.Risner,CIN,00-0035702,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 D.Risner,CIN,00-0035702,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
@@ -3071,14 +3071,14 @@ T.Townsend,TEN,00-0035889,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 T.Townsend,TEN,00-0035889,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 T.Townsend,TEN,00-0035889,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 T.Townsend,TEN,00-0035889,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-T.Wharton,CAR,00-0035890,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-T.Wharton,CAR,00-0035890,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-T.Wharton,CAR,00-0035890,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-T.Wharton,CAR,00-0035890,Rushing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-T.Wharton,CAR,00-0035890,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-T.Wharton,CAR,00-0035890,Receiving Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-T.Wharton,CAR,00-0035890,Receptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-T.Wharton,CAR,00-0035890,Receiving TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+T.Wharton,CAR,00-0035890,Passing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+T.Wharton,CAR,00-0035890,Passing TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+T.Wharton,CAR,00-0035890,Interceptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+T.Wharton,CAR,00-0035890,Rushing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+T.Wharton,CAR,00-0035890,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+T.Wharton,CAR,00-0035890,Receiving Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+T.Wharton,CAR,00-0035890,Receptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+T.Wharton,CAR,00-0035890,Receiving TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 C.White,LV,00-0035891,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 C.White,LV,00-0035891,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 C.White,LV,00-0035891,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
@@ -3183,14 +3183,14 @@ R.Dowdle,PIT,00-0036139,Rushing Attempts,10.2,7.75,13.88,7.75,7.75,4,2026,0.6
 R.Dowdle,PIT,00-0036139,Receiving Yards,19.29,20.5,17.47,20.5,20.5,4,2026,0.6
 R.Dowdle,PIT,00-0036139,Receptions,2.87,3.25,2.29,3.25,3.25,4,2026,0.6
 R.Dowdle,PIT,00-0036139,Receiving TDs,0.02,0.0,0.06,0.0,0.0,4,2026,0.6
-K.Welch,GB,00-0036157,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-K.Welch,GB,00-0036157,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-K.Welch,GB,00-0036157,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-K.Welch,GB,00-0036157,Rushing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-K.Welch,GB,00-0036157,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-K.Welch,GB,00-0036157,Receiving Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-K.Welch,GB,00-0036157,Receptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-K.Welch,GB,00-0036157,Receiving TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+K.Welch,GB,00-0036157,Passing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+K.Welch,GB,00-0036157,Passing TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+K.Welch,GB,00-0036157,Interceptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+K.Welch,GB,00-0036157,Rushing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+K.Welch,GB,00-0036157,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+K.Welch,GB,00-0036157,Receiving Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+K.Welch,GB,00-0036157,Receptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+K.Welch,GB,00-0036157,Receiving TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 J.Dobbins,DEN,00-0036158,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Dobbins,DEN,00-0036158,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Dobbins,DEN,00-0036158,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
@@ -3279,14 +3279,14 @@ T.Tagovailoa,ATL,00-0036212,Rushing Attempts,0.57,0.0,1.43,0.0,0.0,1,2026,0.6
 T.Tagovailoa,ATL,00-0036212,Receiving Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 T.Tagovailoa,ATL,00-0036212,Receptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 T.Tagovailoa,ATL,00-0036212,Receiving TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-D.Brown,CAR,00-0036220,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-D.Brown,CAR,00-0036220,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-D.Brown,CAR,00-0036220,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-D.Brown,CAR,00-0036220,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-D.Brown,CAR,00-0036220,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-D.Brown,CAR,00-0036220,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-D.Brown,CAR,00-0036220,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-D.Brown,CAR,00-0036220,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+D.Brown,CAR,00-0036220,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Brown,CAR,00-0036220,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Brown,CAR,00-0036220,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Brown,CAR,00-0036220,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Brown,CAR,00-0036220,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Brown,CAR,00-0036220,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Brown,CAR,00-0036220,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Brown,CAR,00-0036220,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 B.Jones,DEN,00-0036221,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 B.Jones,DEN,00-0036221,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 B.Jones,DEN,00-0036221,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
@@ -3423,14 +3423,14 @@ D.Hamilton,JAX,00-0036262,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 D.Hamilton,JAX,00-0036262,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 D.Hamilton,JAX,00-0036262,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 D.Hamilton,JAX,00-0036262,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-J.Love,GB,00-0036264,Passing Yards,261.28,279.71,225.4,285.2,279.71,7,2026,0.6
-J.Love,GB,00-0036264,Passing TDs,1.69,1.86,1.53,1.8,1.86,7,2026,0.6
-J.Love,GB,00-0036264,Interceptions,0.64,0.71,0.4,0.8,0.71,7,2026,0.6
-J.Love,GB,00-0036264,Rushing Yards,6.51,1.43,13.27,2.0,1.43,7,2026,0.6
-J.Love,GB,00-0036264,Rushing Attempts,2.45,1.57,3.13,2.0,1.57,7,2026,0.6
-J.Love,GB,00-0036264,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-J.Love,GB,00-0036264,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-J.Love,GB,00-0036264,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+J.Love,GB,00-0036264,Passing Yards,258.4,280.75,225.4,280.4,280.75,8,2026,0.6
+J.Love,GB,00-0036264,Passing TDs,1.81,2.0,1.53,2.0,2.0,8,2026,0.6
+J.Love,GB,00-0036264,Interceptions,0.64,0.75,0.4,0.8,0.75,8,2026,0.6
+J.Love,GB,00-0036264,Rushing Yards,6.51,1.25,13.27,2.0,1.25,8,2026,0.6
+J.Love,GB,00-0036264,Rushing Attempts,2.33,1.38,3.13,1.8,1.38,8,2026,0.6
+J.Love,GB,00-0036264,Receiving Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+J.Love,GB,00-0036264,Receptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+J.Love,GB,00-0036264,Receiving TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
 A.Dillon,CAR,00-0036265,Passing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 A.Dillon,CAR,00-0036265,Passing TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 A.Dillon,CAR,00-0036265,Interceptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
@@ -3551,14 +3551,14 @@ J.Hawkins,BAL,00-0036302,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Hawkins,BAL,00-0036302,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Hawkins,BAL,00-0036302,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Hawkins,BAL,00-0036302,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Gipson,CAR,00-0036305,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Gipson,CAR,00-0036305,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Gipson,CAR,00-0036305,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Gipson,CAR,00-0036305,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Gipson,CAR,00-0036305,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Gipson,CAR,00-0036305,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Gipson,CAR,00-0036305,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Gipson,CAR,00-0036305,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+T.Gipson,CAR,00-0036305,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Gipson,CAR,00-0036305,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Gipson,CAR,00-0036305,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Gipson,CAR,00-0036305,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Gipson,CAR,00-0036305,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Gipson,CAR,00-0036305,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Gipson,CAR,00-0036305,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Gipson,CAR,00-0036305,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 D.Thomas,CLE,00-0036306,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 D.Thomas,CLE,00-0036306,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 D.Thomas,CLE,00-0036306,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
@@ -3727,14 +3727,14 @@ J.Herbert,LAC,00-0036355,Rushing Attempts,4.96,4.83,5.19,4.8,4.83,6,2026,0.6
 J.Herbert,LAC,00-0036355,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Herbert,LAC,00-0036355,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Herbert,LAC,00-0036355,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-I.Simmons,CAR,00-0036356,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-I.Simmons,CAR,00-0036356,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-I.Simmons,CAR,00-0036356,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-I.Simmons,CAR,00-0036356,Rushing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-I.Simmons,CAR,00-0036356,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-I.Simmons,CAR,00-0036356,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-I.Simmons,CAR,00-0036356,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-I.Simmons,CAR,00-0036356,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+I.Simmons,CAR,00-0036356,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+I.Simmons,CAR,00-0036356,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+I.Simmons,CAR,00-0036356,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+I.Simmons,CAR,00-0036356,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+I.Simmons,CAR,00-0036356,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+I.Simmons,CAR,00-0036356,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+I.Simmons,CAR,00-0036356,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+I.Simmons,CAR,00-0036356,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 C.Lamb,DAL,00-0036358,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 C.Lamb,DAL,00-0036358,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 C.Lamb,DAL,00-0036358,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
@@ -3823,14 +3823,14 @@ A.Thomas,NYG,00-0036386,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 A.Thomas,NYG,00-0036386,Receiving Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 A.Thomas,NYG,00-0036386,Receptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 A.Thomas,NYG,00-0036386,Receiving TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-X.McKinney,GB,00-0036388,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-X.McKinney,GB,00-0036388,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-X.McKinney,GB,00-0036388,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-X.McKinney,GB,00-0036388,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-X.McKinney,GB,00-0036388,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-X.McKinney,GB,00-0036388,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-X.McKinney,GB,00-0036388,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-X.McKinney,GB,00-0036388,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+X.McKinney,GB,00-0036388,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+X.McKinney,GB,00-0036388,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+X.McKinney,GB,00-0036388,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+X.McKinney,GB,00-0036388,Rushing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+X.McKinney,GB,00-0036388,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+X.McKinney,GB,00-0036388,Receiving Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+X.McKinney,GB,00-0036388,Receptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+X.McKinney,GB,00-0036388,Receiving TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
 J.Hurts,PHI,00-0036389,Passing Yards,192.56,186.6,201.5,186.6,186.6,5,2026,0.6
 J.Hurts,PHI,00-0036389,Passing TDs,1.58,1.6,1.56,1.6,1.6,5,2026,0.6
 J.Hurts,PHI,00-0036389,Interceptions,0.51,0.6,0.38,0.6,0.6,5,2026,0.6
@@ -4055,14 +4055,14 @@ N.Collins,HOU,00-0036554,Rushing Attempts,0.29,0.4,0.13,0.4,0.4,5,2026,0.6
 N.Collins,HOU,00-0036554,Receiving Yards,69.27,65.8,74.47,65.8,65.8,5,2026,0.6
 N.Collins,HOU,00-0036554,Receptions,4.77,4.8,4.73,4.8,4.8,5,2026,0.6
 N.Collins,HOU,00-0036554,Receiving TDs,0.52,0.6,0.4,0.6,0.6,5,2026,0.6
-C.Hubbard,CAR,00-0036555,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-C.Hubbard,CAR,00-0036555,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-C.Hubbard,CAR,00-0036555,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-C.Hubbard,CAR,00-0036555,Rushing Yards,62.83,76.5,34.07,82.0,76.5,6,2026,0.6
-C.Hubbard,CAR,00-0036555,Rushing Attempts,13.89,16.0,8.93,17.2,16.0,6,2026,0.6
-C.Hubbard,CAR,00-0036555,Receiving Yards,14.83,18.67,14.87,14.8,18.67,6,2026,0.6
-C.Hubbard,CAR,00-0036555,Receptions,2.24,2.5,2.0,2.4,2.5,6,2026,0.6
-C.Hubbard,CAR,00-0036555,Receiving TDs,0.2,0.33,0.2,0.2,0.33,6,2026,0.6
+C.Hubbard,CAR,00-0036555,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+C.Hubbard,CAR,00-0036555,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+C.Hubbard,CAR,00-0036555,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+C.Hubbard,CAR,00-0036555,Rushing Yards,66.19,77.14,34.07,87.6,77.14,7,2026,0.6
+C.Hubbard,CAR,00-0036555,Rushing Attempts,15.09,16.86,8.93,19.2,16.86,7,2026,0.6
+C.Hubbard,CAR,00-0036555,Receiving Yards,18.07,21.43,14.87,20.2,21.43,7,2026,0.6
+C.Hubbard,CAR,00-0036555,Receptions,2.84,3.14,2.0,3.4,3.14,7,2026,0.6
+C.Hubbard,CAR,00-0036555,Receiving TDs,0.08,0.29,0.2,0.0,0.29,7,2026,0.6
 B.Jordan,HOU,00-0036556,Passing Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
 B.Jordan,HOU,00-0036556,Passing TDs,0.0,0.0,,0.0,0.0,4,2026,1.0
 B.Jordan,HOU,00-0036556,Interceptions,0.0,0.0,,0.0,0.0,4,2026,1.0
@@ -4279,14 +4279,14 @@ S.Fehoko,ARI,00-0036646,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 S.Fehoko,ARI,00-0036646,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 S.Fehoko,ARI,00-0036646,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 S.Fehoko,ARI,00-0036646,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Niemann,GB,00-0036648,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Niemann,GB,00-0036648,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Niemann,GB,00-0036648,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Niemann,GB,00-0036648,Rushing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Niemann,GB,00-0036648,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Niemann,GB,00-0036648,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Niemann,GB,00-0036648,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-N.Niemann,GB,00-0036648,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+N.Niemann,GB,00-0036648,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Niemann,GB,00-0036648,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Niemann,GB,00-0036648,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Niemann,GB,00-0036648,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Niemann,GB,00-0036648,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Niemann,GB,00-0036648,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Niemann,GB,00-0036648,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+N.Niemann,GB,00-0036648,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 S.Forsythe,CAR,00-0036653,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 S.Forsythe,CAR,00-0036653,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 S.Forsythe,CAR,00-0036653,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
@@ -4303,14 +4303,14 @@ C.Van Lanen,JAX,00-0036655,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 C.Van Lanen,JAX,00-0036655,Receiving Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 C.Van Lanen,JAX,00-0036655,Receptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 C.Van Lanen,JAX,00-0036655,Receiving TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-I.McDuffie,GB,00-0036658,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-I.McDuffie,GB,00-0036658,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-I.McDuffie,GB,00-0036658,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-I.McDuffie,GB,00-0036658,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-I.McDuffie,GB,00-0036658,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-I.McDuffie,GB,00-0036658,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-I.McDuffie,GB,00-0036658,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-I.McDuffie,GB,00-0036658,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+I.McDuffie,GB,00-0036658,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+I.McDuffie,GB,00-0036658,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+I.McDuffie,GB,00-0036658,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+I.McDuffie,GB,00-0036658,Rushing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+I.McDuffie,GB,00-0036658,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+I.McDuffie,GB,00-0036658,Receiving Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+I.McDuffie,GB,00-0036658,Receptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+I.McDuffie,GB,00-0036658,Receiving TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
 Tr.Smith,KC,00-0036660,Passing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 Tr.Smith,KC,00-0036660,Passing TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 Tr.Smith,KC,00-0036660,Interceptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
@@ -4567,6 +4567,14 @@ T.Togiai,HOU,00-0036883,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 T.Togiai,HOU,00-0036883,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 T.Togiai,HOU,00-0036883,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 T.Togiai,HOU,00-0036883,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+M.Wilson,CAR,00-0036884,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+M.Wilson,CAR,00-0036884,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+M.Wilson,CAR,00-0036884,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+M.Wilson,CAR,00-0036884,Rushing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+M.Wilson,CAR,00-0036884,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+M.Wilson,CAR,00-0036884,Receiving Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+M.Wilson,CAR,00-0036884,Receptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+M.Wilson,CAR,00-0036884,Receiving TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 L.Farrell,SF,00-0036887,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 L.Farrell,SF,00-0036887,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 L.Farrell,SF,00-0036887,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
@@ -4807,14 +4815,14 @@ D.Hall,WAS,00-0036956,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 D.Hall,WAS,00-0036956,Receiving Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 D.Hall,WAS,00-0036956,Receptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 D.Hall,WAS,00-0036956,Receiving TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-T.Moehrig,CAR,00-0036962,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Moehrig,CAR,00-0036962,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Moehrig,CAR,00-0036962,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Moehrig,CAR,00-0036962,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Moehrig,CAR,00-0036962,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Moehrig,CAR,00-0036962,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Moehrig,CAR,00-0036962,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Moehrig,CAR,00-0036962,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+T.Moehrig,CAR,00-0036962,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Moehrig,CAR,00-0036962,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Moehrig,CAR,00-0036962,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Moehrig,CAR,00-0036962,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Moehrig,CAR,00-0036962,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Moehrig,CAR,00-0036962,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Moehrig,CAR,00-0036962,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Moehrig,CAR,00-0036962,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 A.St. Brown,DET,00-0036963,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 A.St. Brown,DET,00-0036963,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 A.St. Brown,DET,00-0036963,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
@@ -5055,22 +5063,22 @@ H.Long,ARI,00-0037004,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 H.Long,ARI,00-0037004,Receiving Yards,7.11,3.75,12.14,3.75,3.75,4,2026,0.6
 H.Long,ARI,00-0037004,Receptions,0.99,0.5,1.71,0.5,0.5,4,2026,0.6
 H.Long,ARI,00-0037004,Receiving TDs,0.11,0.0,0.29,0.0,0.0,4,2026,0.6
-T.Tremble,CAR,00-0037005,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Tremble,CAR,00-0037005,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Tremble,CAR,00-0037005,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Tremble,CAR,00-0037005,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Tremble,CAR,00-0037005,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Tremble,CAR,00-0037005,Receiving Yards,19.96,22.67,16.6,22.2,22.67,6,2026,0.6
-T.Tremble,CAR,00-0037005,Receptions,2.28,2.67,1.8,2.6,2.67,6,2026,0.6
-T.Tremble,CAR,00-0037005,Receiving TDs,0.29,0.33,0.13,0.4,0.33,6,2026,0.6
-P.Jones,CAR,00-0037007,Passing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-P.Jones,CAR,00-0037007,Passing TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-P.Jones,CAR,00-0037007,Interceptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-P.Jones,CAR,00-0037007,Rushing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-P.Jones,CAR,00-0037007,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-P.Jones,CAR,00-0037007,Receiving Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-P.Jones,CAR,00-0037007,Receptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-P.Jones,CAR,00-0037007,Receiving TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+T.Tremble,CAR,00-0037005,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Tremble,CAR,00-0037005,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Tremble,CAR,00-0037005,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Tremble,CAR,00-0037005,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Tremble,CAR,00-0037005,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Tremble,CAR,00-0037005,Receiving Yards,21.76,22.14,16.6,25.2,22.14,7,2026,0.6
+T.Tremble,CAR,00-0037005,Receptions,2.28,2.43,1.8,2.6,2.43,7,2026,0.6
+T.Tremble,CAR,00-0037005,Receiving TDs,0.29,0.29,0.13,0.4,0.29,7,2026,0.6
+P.Jones,CAR,00-0037007,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+P.Jones,CAR,00-0037007,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+P.Jones,CAR,00-0037007,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+P.Jones,CAR,00-0037007,Rushing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+P.Jones,CAR,00-0037007,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+P.Jones,CAR,00-0037007,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+P.Jones,CAR,00-0037007,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+P.Jones,CAR,00-0037007,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 R.Slater,LAC,00-0037009,Passing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
 R.Slater,LAC,00-0037009,Passing TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
 R.Slater,LAC,00-0037009,Interceptions,0.0,0.0,,0.0,0.0,3,2026,1.0
@@ -5111,14 +5119,14 @@ Q.Walker,LV,00-0037074,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 Q.Walker,LV,00-0037074,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 Q.Walker,LV,00-0037074,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 Q.Walker,LV,00-0037074,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Wyatt,GB,00-0037075,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Wyatt,GB,00-0037075,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Wyatt,GB,00-0037075,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Wyatt,GB,00-0037075,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Wyatt,GB,00-0037075,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Wyatt,GB,00-0037075,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Wyatt,GB,00-0037075,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Wyatt,GB,00-0037075,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Wyatt,GB,00-0037075,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Wyatt,GB,00-0037075,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Wyatt,GB,00-0037075,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Wyatt,GB,00-0037075,Rushing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Wyatt,GB,00-0037075,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Wyatt,GB,00-0037075,Receiving Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Wyatt,GB,00-0037075,Receptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Wyatt,GB,00-0037075,Receiving TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
 S.Rhyan,GB,00-0037076,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 S.Rhyan,GB,00-0037076,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 S.Rhyan,GB,00-0037076,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
@@ -5167,14 +5175,14 @@ T.Badie,DEN,00-0037085,Rushing Attempts,0.92,1.2,0.5,1.2,1.2,5,2026,0.6
 T.Badie,DEN,00-0037085,Receiving Yards,11.56,13.4,8.81,13.4,13.4,5,2026,0.6
 T.Badie,DEN,00-0037085,Receptions,1.2,1.2,1.19,1.2,1.2,5,2026,0.6
 T.Badie,DEN,00-0037085,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-B.Melton,GB,00-0037091,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Melton,GB,00-0037091,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Melton,GB,00-0037091,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Melton,GB,00-0037091,Rushing Yards,1.08,0.0,2.69,0.0,0.0,7,2026,0.6
-B.Melton,GB,00-0037091,Rushing Attempts,0.15,0.0,0.38,0.0,0.0,7,2026,0.6
-B.Melton,GB,00-0037091,Receiving Yards,6.17,4.86,8.23,4.8,4.86,7,2026,0.6
-B.Melton,GB,00-0037091,Receptions,0.6,0.71,0.31,0.8,0.71,7,2026,0.6
-B.Melton,GB,00-0037091,Receiving TDs,0.03,0.0,0.08,0.0,0.0,7,2026,0.6
+B.Melton,GB,00-0037091,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Melton,GB,00-0037091,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Melton,GB,00-0037091,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Melton,GB,00-0037091,Rushing Yards,1.08,0.0,2.69,0.0,0.0,8,2026,0.6
+B.Melton,GB,00-0037091,Rushing Attempts,0.15,0.0,0.38,0.0,0.0,8,2026,0.6
+B.Melton,GB,00-0037091,Receiving Yards,6.17,4.25,8.23,4.8,4.25,8,2026,0.6
+B.Melton,GB,00-0037091,Receptions,0.6,0.62,0.31,0.8,0.62,8,2026,0.6
+B.Melton,GB,00-0037091,Receiving TDs,0.03,0.0,0.08,0.0,0.0,8,2026,0.6
 C.Paul,WAS,00-0037092,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 C.Paul,WAS,00-0037092,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 C.Paul,WAS,00-0037092,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
@@ -5327,14 +5335,14 @@ J.Watson,LA,00-0037195,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Watson,LA,00-0037195,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Watson,LA,00-0037195,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Watson,LA,00-0037195,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-R.Walker,CAR,00-0037196,Passing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-R.Walker,CAR,00-0037196,Passing TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-R.Walker,CAR,00-0037196,Interceptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-R.Walker,CAR,00-0037196,Rushing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-R.Walker,CAR,00-0037196,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-R.Walker,CAR,00-0037196,Receiving Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-R.Walker,CAR,00-0037196,Receptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-R.Walker,CAR,00-0037196,Receiving TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+R.Walker,CAR,00-0037196,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+R.Walker,CAR,00-0037196,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+R.Walker,CAR,00-0037196,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+R.Walker,CAR,00-0037196,Rushing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+R.Walker,CAR,00-0037196,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+R.Walker,CAR,00-0037196,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+R.Walker,CAR,00-0037196,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+R.Walker,CAR,00-0037196,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 B.Schooler,NE,00-0037205,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 B.Schooler,NE,00-0037205,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 B.Schooler,NE,00-0037205,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
@@ -5431,14 +5439,14 @@ T.Penning,LAC,00-0037241,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 T.Penning,LAC,00-0037241,Receiving Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 T.Penning,LAC,00-0037241,Receptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 T.Penning,LAC,00-0037241,Receiving TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-D.Lloyd,CAR,00-0037244,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-D.Lloyd,CAR,00-0037244,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-D.Lloyd,CAR,00-0037244,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-D.Lloyd,CAR,00-0037244,Rushing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-D.Lloyd,CAR,00-0037244,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-D.Lloyd,CAR,00-0037244,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-D.Lloyd,CAR,00-0037244,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-D.Lloyd,CAR,00-0037244,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+D.Lloyd,CAR,00-0037244,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+D.Lloyd,CAR,00-0037244,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+D.Lloyd,CAR,00-0037244,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+D.Lloyd,CAR,00-0037244,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+D.Lloyd,CAR,00-0037244,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+D.Lloyd,CAR,00-0037244,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+D.Lloyd,CAR,00-0037244,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+D.Lloyd,CAR,00-0037244,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Pitre,HOU,00-0037246,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 J.Pitre,HOU,00-0037246,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 J.Pitre,HOU,00-0037246,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
@@ -5751,14 +5759,14 @@ B.Hoffman,PIT,00-0037336,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 B.Hoffman,PIT,00-0037336,Receiving Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 B.Hoffman,PIT,00-0037336,Receptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 B.Hoffman,PIT,00-0037336,Receiving TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
-A.Mosby,GB,00-0037364,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-A.Mosby,GB,00-0037364,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-A.Mosby,GB,00-0037364,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-A.Mosby,GB,00-0037364,Rushing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-A.Mosby,GB,00-0037364,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-A.Mosby,GB,00-0037364,Receiving Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-A.Mosby,GB,00-0037364,Receptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-A.Mosby,GB,00-0037364,Receiving TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+A.Mosby,GB,00-0037364,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+A.Mosby,GB,00-0037364,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+A.Mosby,GB,00-0037364,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+A.Mosby,GB,00-0037364,Rushing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+A.Mosby,GB,00-0037364,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+A.Mosby,GB,00-0037364,Receiving Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+A.Mosby,GB,00-0037364,Receptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+A.Mosby,GB,00-0037364,Receiving TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 K.Davis,CHI,00-0037380,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 K.Davis,CHI,00-0037380,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 K.Davis,CHI,00-0037380,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
@@ -5903,14 +5911,14 @@ R.Shaheed,SEA,00-0037545,Rushing Attempts,0.56,0.57,0.5,0.6,0.57,7,2026,0.6
 R.Shaheed,SEA,00-0037545,Receiving Yards,30.15,23.29,38.17,24.8,23.29,7,2026,0.6
 R.Shaheed,SEA,00-0037545,Receptions,2.75,2.29,3.28,2.4,2.29,7,2026,0.6
 R.Shaheed,SEA,00-0037545,Receiving TDs,0.04,0.0,0.11,0.0,0.0,7,2026,0.6
-D.Whelan,GB,00-0037547,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Whelan,GB,00-0037547,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Whelan,GB,00-0037547,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Whelan,GB,00-0037547,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Whelan,GB,00-0037547,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Whelan,GB,00-0037547,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Whelan,GB,00-0037547,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-D.Whelan,GB,00-0037547,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+D.Whelan,GB,00-0037547,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Whelan,GB,00-0037547,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Whelan,GB,00-0037547,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Whelan,GB,00-0037547,Rushing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Whelan,GB,00-0037547,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Whelan,GB,00-0037547,Receiving Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Whelan,GB,00-0037547,Receptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+D.Whelan,GB,00-0037547,Receiving TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
 R.Rivers,LA,00-0037557,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 R.Rivers,LA,00-0037557,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 R.Rivers,LA,00-0037557,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
@@ -5975,14 +5983,14 @@ K.Thibodeaux,NYG,00-0037611,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 K.Thibodeaux,NYG,00-0037611,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 K.Thibodeaux,NYG,00-0037611,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 K.Thibodeaux,NYG,00-0037611,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-J.Metchie,CAR,00-0037614,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-J.Metchie,CAR,00-0037614,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-J.Metchie,CAR,00-0037614,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-J.Metchie,CAR,00-0037614,Rushing Yards,-0.15,0.0,-0.38,0.0,0.0,5,2026,0.6
-J.Metchie,CAR,00-0037614,Rushing Attempts,0.09,0.0,0.23,0.0,0.0,5,2026,0.6
-J.Metchie,CAR,00-0037614,Receiving Yards,20.43,20.0,21.08,20.0,20.0,5,2026,0.6
-J.Metchie,CAR,00-0037614,Receptions,2.1,1.8,2.54,1.8,1.8,5,2026,0.6
-J.Metchie,CAR,00-0037614,Receiving TDs,0.18,0.2,0.15,0.2,0.2,5,2026,0.6
+J.Metchie,CAR,00-0037614,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+J.Metchie,CAR,00-0037614,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+J.Metchie,CAR,00-0037614,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+J.Metchie,CAR,00-0037614,Rushing Yards,-0.15,0.0,-0.38,0.0,0.0,6,2026,0.6
+J.Metchie,CAR,00-0037614,Rushing Attempts,0.09,0.0,0.23,0.0,0.0,6,2026,0.6
+J.Metchie,CAR,00-0037614,Receiving Yards,22.11,19.0,21.08,22.8,19.0,6,2026,0.6
+J.Metchie,CAR,00-0037614,Receptions,2.46,2.0,2.54,2.4,2.0,6,2026,0.6
+J.Metchie,CAR,00-0037614,Receiving TDs,0.18,0.17,0.15,0.2,0.17,6,2026,0.6
 N.Dean,LV,00-0037615,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 N.Dean,LV,00-0037615,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 N.Dean,LV,00-0037615,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
@@ -6407,14 +6415,14 @@ J.Stout,NYG,00-0038094,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Stout,NYG,00-0038094,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Stout,NYG,00-0038094,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Stout,NYG,00-0038094,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-P.Strong,GB,00-0038098,Passing Yards,0.0,0.0,,0.0,0.0,2,2026,1.0
-P.Strong,GB,00-0038098,Passing TDs,0.0,0.0,,0.0,0.0,2,2026,1.0
-P.Strong,GB,00-0038098,Interceptions,0.0,0.0,,0.0,0.0,2,2026,1.0
-P.Strong,GB,00-0038098,Rushing Yards,17.5,17.5,,17.5,17.5,2,2026,1.0
-P.Strong,GB,00-0038098,Rushing Attempts,8.0,8.0,,8.0,8.0,2,2026,1.0
-P.Strong,GB,00-0038098,Receiving Yards,25.0,25.0,,25.0,25.0,2,2026,1.0
-P.Strong,GB,00-0038098,Receptions,4.0,4.0,,4.0,4.0,2,2026,1.0
-P.Strong,GB,00-0038098,Receiving TDs,0.0,0.0,,0.0,0.0,2,2026,1.0
+P.Strong,GB,00-0038098,Passing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
+P.Strong,GB,00-0038098,Passing TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
+P.Strong,GB,00-0038098,Interceptions,0.0,0.0,,0.0,0.0,3,2026,1.0
+P.Strong,GB,00-0038098,Rushing Yards,12.33,12.33,,12.33,12.33,3,2026,1.0
+P.Strong,GB,00-0038098,Rushing Attempts,5.67,5.67,,5.67,5.67,3,2026,1.0
+P.Strong,GB,00-0038098,Receiving Yards,16.67,16.67,,16.67,16.67,3,2026,1.0
+P.Strong,GB,00-0038098,Receptions,2.67,2.67,,2.67,2.67,3,2026,1.0
+P.Strong,GB,00-0038098,Receiving TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
 P.Butler,WAS,00-0038100,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 P.Butler,WAS,00-0038100,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 P.Butler,WAS,00-0038100,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
@@ -6527,14 +6535,14 @@ D.Belton,NYJ,00-0038123,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 D.Belton,NYJ,00-0038123,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 D.Belton,NYJ,00-0038123,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 D.Belton,NYJ,00-0038123,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-C.Watson,GB,00-0038124,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-C.Watson,GB,00-0038124,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-C.Watson,GB,00-0038124,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-C.Watson,GB,00-0038124,Rushing Yards,0.12,0.0,0.3,0.0,0.0,7,2026,0.6
-C.Watson,GB,00-0038124,Rushing Attempts,0.04,0.0,0.1,0.0,0.0,7,2026,0.6
-C.Watson,GB,00-0038124,Receiving Yards,73.28,85.0,61.1,81.4,85.0,7,2026,0.6
-C.Watson,GB,00-0038124,Receptions,4.28,4.86,3.5,4.8,4.86,7,2026,0.6
-C.Watson,GB,00-0038124,Receiving TDs,0.6,0.86,0.6,0.6,0.86,7,2026,0.6
+C.Watson,GB,00-0038124,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+C.Watson,GB,00-0038124,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+C.Watson,GB,00-0038124,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+C.Watson,GB,00-0038124,Rushing Yards,0.12,0.0,0.3,0.0,0.0,8,2026,0.6
+C.Watson,GB,00-0038124,Rushing Attempts,0.04,0.0,0.1,0.0,0.0,8,2026,0.6
+C.Watson,GB,00-0038124,Receiving Yards,75.32,88.5,61.1,84.8,88.5,8,2026,0.6
+C.Watson,GB,00-0038124,Receptions,4.4,5.25,3.5,5.0,5.25,8,2026,0.6
+C.Watson,GB,00-0038124,Receiving TDs,0.48,0.75,0.6,0.4,0.75,8,2026,0.6
 R.McCreary,DET,00-0038125,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 R.McCreary,DET,00-0038125,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 R.McCreary,DET,00-0038125,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
@@ -6759,14 +6767,14 @@ K.Mitchell,LAC,00-0038454,Rushing Attempts,5.54,5.83,4.54,6.2,5.83,6,2026,0.6
 K.Mitchell,LAC,00-0038454,Receiving Yards,8.18,8.67,4.85,10.4,8.67,6,2026,0.6
 K.Mitchell,LAC,00-0038454,Receptions,1.72,2.0,0.69,2.4,2.0,6,2026,0.6
 K.Mitchell,LAC,00-0038454,Receiving TDs,0.12,0.17,0.0,0.2,0.17,6,2026,0.6
-B.Cox,GB,00-0038463,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Cox,GB,00-0038463,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Cox,GB,00-0038463,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Cox,GB,00-0038463,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Cox,GB,00-0038463,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Cox,GB,00-0038463,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Cox,GB,00-0038463,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Cox,GB,00-0038463,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Cox,GB,00-0038463,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Cox,GB,00-0038463,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Cox,GB,00-0038463,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Cox,GB,00-0038463,Rushing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Cox,GB,00-0038463,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Cox,GB,00-0038463,Receiving Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Cox,GB,00-0038463,Receptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Cox,GB,00-0038463,Receiving TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
 T.DeVito,NE,00-0038476,Passing Yards,30.0,30.0,,30.0,30.0,1,2026,1.0
 T.DeVito,NE,00-0038476,Passing TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
 T.DeVito,NE,00-0038476,Interceptions,0.0,0.0,,0.0,0.0,1,2026,1.0
@@ -7559,14 +7567,14 @@ M.Tinsley,CIN,00-0038839,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 M.Tinsley,CIN,00-0038839,Receiving Yards,22.6,28.0,14.5,28.0,28.0,2,2026,0.6
 M.Tinsley,CIN,00-0038839,Receptions,1.6,2.0,1.0,2.0,2.0,2,2026,0.6
 M.Tinsley,CIN,00-0038839,Receiving TDs,0.1,0.0,0.25,0.0,0.0,2,2026,0.6
-B.Tremayne,CAR,00-0038840,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Tremayne,CAR,00-0038840,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Tremayne,CAR,00-0038840,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Tremayne,CAR,00-0038840,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Tremayne,CAR,00-0038840,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Tremayne,CAR,00-0038840,Receiving Yards,18.07,19.17,10.67,23.0,19.17,6,2026,0.6
-B.Tremayne,CAR,00-0038840,Receptions,1.09,1.0,0.93,1.2,1.0,6,2026,0.6
-B.Tremayne,CAR,00-0038840,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+B.Tremayne,CAR,00-0038840,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Tremayne,CAR,00-0038840,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Tremayne,CAR,00-0038840,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Tremayne,CAR,00-0038840,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Tremayne,CAR,00-0038840,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Tremayne,CAR,00-0038840,Receiving Yards,19.39,18.0,10.67,25.2,18.0,7,2026,0.6
+B.Tremayne,CAR,00-0038840,Receptions,1.21,1.0,0.93,1.4,1.0,7,2026,0.6
+B.Tremayne,CAR,00-0038840,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 A.Kendall,BUF,00-0038848,Passing Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
 A.Kendall,BUF,00-0038848,Passing TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
 A.Kendall,BUF,00-0038848,Interceptions,0.0,0.0,,0.0,0.0,1,2026,1.0
@@ -7743,14 +7751,14 @@ J.Addison,MIN,00-0038994,Rushing Attempts,0.3,0.4,0.14,0.4,0.4,5,2026,0.6
 J.Addison,MIN,00-0038994,Receiving Yards,39.39,36.6,43.57,36.6,36.6,5,2026,0.6
 J.Addison,MIN,00-0038994,Receptions,2.76,2.6,3.0,2.6,2.6,5,2026,0.6
 J.Addison,MIN,00-0038994,Receiving TDs,0.21,0.2,0.21,0.2,0.2,5,2026,0.6
-T.Kraft,GB,00-0038996,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-T.Kraft,GB,00-0038996,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-T.Kraft,GB,00-0038996,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-T.Kraft,GB,00-0038996,Rushing Yards,0.75,0.71,0.38,1.0,0.71,7,2026,0.6
-T.Kraft,GB,00-0038996,Rushing Attempts,0.29,0.29,0.12,0.4,0.29,7,2026,0.6
-T.Kraft,GB,00-0038996,Receiving Yards,50.49,42.43,61.12,43.4,42.43,7,2026,0.6
-T.Kraft,GB,00-0038996,Receptions,4.48,4.14,4.0,4.8,4.14,7,2026,0.6
-T.Kraft,GB,00-0038996,Receiving TDs,0.54,0.29,0.75,0.4,0.29,7,2026,0.6
+T.Kraft,GB,00-0038996,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+T.Kraft,GB,00-0038996,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+T.Kraft,GB,00-0038996,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+T.Kraft,GB,00-0038996,Rushing Yards,0.75,0.62,0.38,1.0,0.62,8,2026,0.6
+T.Kraft,GB,00-0038996,Rushing Attempts,0.29,0.25,0.12,0.4,0.25,8,2026,0.6
+T.Kraft,GB,00-0038996,Receiving Yards,53.73,43.75,61.12,48.8,43.75,8,2026,0.6
+T.Kraft,GB,00-0038996,Receptions,4.72,4.38,4.0,5.2,4.38,8,2026,0.6
+T.Kraft,GB,00-0038996,Receiving TDs,0.66,0.38,0.75,0.6,0.38,8,2026,0.6
 J.Downs,IND,00-0038997,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Downs,IND,00-0038997,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Downs,IND,00-0038997,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
@@ -8031,14 +8039,14 @@ P.Nacua,LA,00-0039075,Rushing Attempts,0.85,1.0,0.62,1.0,1.0,5,2026,0.6
 P.Nacua,LA,00-0039075,Receiving Yards,101.07,97.0,107.19,97.0,97.0,5,2026,0.6
 P.Nacua,LA,00-0039075,Receptions,8.62,9.0,8.06,9.0,9.0,5,2026,0.6
 P.Nacua,LA,00-0039075,Receiving TDs,0.49,0.4,0.62,0.4,0.4,5,2026,0.6
-N.Hampton,CAR,00-0039076,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-N.Hampton,CAR,00-0039076,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-N.Hampton,CAR,00-0039076,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-N.Hampton,CAR,00-0039076,Rushing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-N.Hampton,CAR,00-0039076,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-N.Hampton,CAR,00-0039076,Receiving Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-N.Hampton,CAR,00-0039076,Receptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-N.Hampton,CAR,00-0039076,Receiving TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+N.Hampton,CAR,00-0039076,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+N.Hampton,CAR,00-0039076,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+N.Hampton,CAR,00-0039076,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+N.Hampton,CAR,00-0039076,Rushing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+N.Hampton,CAR,00-0039076,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+N.Hampton,CAR,00-0039076,Receiving Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+N.Hampton,CAR,00-0039076,Receptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+N.Hampton,CAR,00-0039076,Receiving TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 W.McClendon,LA,00-0039077,Passing Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
 W.McClendon,LA,00-0039077,Passing TDs,0.0,0.0,,0.0,0.0,4,2026,1.0
 W.McClendon,LA,00-0039077,Interceptions,0.0,0.0,,0.0,0.0,4,2026,1.0
@@ -8079,14 +8087,14 @@ T.Tuipulotu,LAC,00-0039111,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 T.Tuipulotu,LAC,00-0039111,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 T.Tuipulotu,LAC,00-0039111,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 T.Tuipulotu,LAC,00-0039111,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-L.Van Ness,GB,00-0039112,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-L.Van Ness,GB,00-0039112,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-L.Van Ness,GB,00-0039112,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-L.Van Ness,GB,00-0039112,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-L.Van Ness,GB,00-0039112,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-L.Van Ness,GB,00-0039112,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-L.Van Ness,GB,00-0039112,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-L.Van Ness,GB,00-0039112,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+L.Van Ness,GB,00-0039112,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+L.Van Ness,GB,00-0039112,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+L.Van Ness,GB,00-0039112,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+L.Van Ness,GB,00-0039112,Rushing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+L.Van Ness,GB,00-0039112,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+L.Van Ness,GB,00-0039112,Receiving Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+L.Van Ness,GB,00-0039112,Receptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+L.Van Ness,GB,00-0039112,Receiving TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
 B.Young,LA,00-0039137,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 B.Young,LA,00-0039137,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 B.Young,LA,00-0039137,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
@@ -8175,14 +8183,14 @@ Q.Martin,WAS,00-0039149,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 Q.Martin,WAS,00-0039149,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 Q.Martin,WAS,00-0039149,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 Q.Martin,WAS,00-0039149,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Young,CAR,00-0039150,Passing Yards,237.39,285.33,188.19,270.2,285.33,6,2026,0.6
-B.Young,CAR,00-0039150,Passing TDs,1.66,2.0,1.44,1.8,2.0,6,2026,0.6
-B.Young,CAR,00-0039150,Interceptions,0.64,0.67,0.69,0.6,0.67,6,2026,0.6
-B.Young,CAR,00-0039150,Rushing Yards,8.28,5.67,13.5,4.8,5.67,6,2026,0.6
-B.Young,CAR,00-0039150,Rushing Attempts,2.31,1.67,3.38,1.6,1.67,6,2026,0.6
-B.Young,CAR,00-0039150,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Young,CAR,00-0039150,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-B.Young,CAR,00-0039150,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+B.Young,CAR,00-0039150,Passing Yards,228.03,274.43,188.19,254.6,274.43,7,2026,0.6
+B.Young,CAR,00-0039150,Passing TDs,1.42,1.86,1.44,1.4,1.86,7,2026,0.6
+B.Young,CAR,00-0039150,Interceptions,0.76,0.71,0.69,0.8,0.71,7,2026,0.6
+B.Young,CAR,00-0039150,Rushing Yards,7.56,4.86,13.5,3.6,4.86,7,2026,0.6
+B.Young,CAR,00-0039150,Rushing Attempts,2.19,1.43,3.38,1.4,1.43,7,2026,0.6
+B.Young,CAR,00-0039150,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Young,CAR,00-0039150,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+B.Young,CAR,00-0039150,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 E.Forbes,LA,00-0039151,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 E.Forbes,LA,00-0039151,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 E.Forbes,LA,00-0039151,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
@@ -8615,14 +8623,14 @@ J.Carlies,IND,00-0039377,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 J.Carlies,IND,00-0039377,Receiving Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 J.Carlies,IND,00-0039377,Receptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 J.Carlies,IND,00-0039377,Receiving TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
-C.Smith-Wade,CAR,00-0039380,Passing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
-C.Smith-Wade,CAR,00-0039380,Passing TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
-C.Smith-Wade,CAR,00-0039380,Interceptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
-C.Smith-Wade,CAR,00-0039380,Rushing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
-C.Smith-Wade,CAR,00-0039380,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
-C.Smith-Wade,CAR,00-0039380,Receiving Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
-C.Smith-Wade,CAR,00-0039380,Receptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
-C.Smith-Wade,CAR,00-0039380,Receiving TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+C.Smith-Wade,CAR,00-0039380,Passing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+C.Smith-Wade,CAR,00-0039380,Passing TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+C.Smith-Wade,CAR,00-0039380,Interceptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+C.Smith-Wade,CAR,00-0039380,Rushing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+C.Smith-Wade,CAR,00-0039380,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+C.Smith-Wade,CAR,00-0039380,Receiving Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+C.Smith-Wade,CAR,00-0039380,Receptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+C.Smith-Wade,CAR,00-0039380,Receiving TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 J.Simpson,MIA,00-0039383,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 J.Simpson,MIA,00-0039383,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 J.Simpson,MIA,00-0039383,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
@@ -8879,14 +8887,14 @@ H.Rucci,LAC,00-0039489,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 H.Rucci,LAC,00-0039489,Receiving Yards,1.4,2.33,0.0,2.33,2.33,3,2026,0.6
 H.Rucci,LAC,00-0039489,Receptions,0.2,0.33,0.0,0.33,0.33,3,2026,0.6
 H.Rucci,LAC,00-0039489,Receiving TDs,0.2,0.33,0.0,0.33,0.33,3,2026,0.6
-J.Coker,CAR,00-0039491,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-J.Coker,CAR,00-0039491,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-J.Coker,CAR,00-0039491,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-J.Coker,CAR,00-0039491,Rushing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-J.Coker,CAR,00-0039491,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-J.Coker,CAR,00-0039491,Receiving Yards,53.69,65.6,35.82,65.6,65.6,5,2026,0.6
-J.Coker,CAR,00-0039491,Receptions,4.2,5.0,3.0,5.0,5.0,5,2026,0.6
-J.Coker,CAR,00-0039491,Receiving TDs,0.35,0.4,0.27,0.4,0.4,5,2026,0.6
+J.Coker,CAR,00-0039491,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+J.Coker,CAR,00-0039491,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+J.Coker,CAR,00-0039491,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+J.Coker,CAR,00-0039491,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+J.Coker,CAR,00-0039491,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+J.Coker,CAR,00-0039491,Receiving Yards,41.45,60.67,35.82,45.2,60.67,6,2026,0.6
+J.Coker,CAR,00-0039491,Receptions,3.48,4.5,3.0,3.8,4.5,6,2026,0.6
+J.Coker,CAR,00-0039491,Receiving TDs,0.23,0.5,0.27,0.2,0.5,6,2026,0.6
 H.Mevis,LA,00-0039498,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 H.Mevis,LA,00-0039498,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 H.Mevis,LA,00-0039498,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
@@ -9295,30 +9303,30 @@ J.Elliss,DEN,00-0039809,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Elliss,DEN,00-0039809,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Elliss,DEN,00-0039809,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Elliss,DEN,00-0039809,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-M.Lloyd,GB,00-0039811,Passing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-M.Lloyd,GB,00-0039811,Passing TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
-M.Lloyd,GB,00-0039811,Interceptions,0.0,0.0,,0.0,0.0,7,2026,1.0
-M.Lloyd,GB,00-0039811,Rushing Yards,17.0,20.29,,17.0,20.29,7,2026,1.0
-M.Lloyd,GB,00-0039811,Rushing Attempts,7.0,7.71,,7.0,7.71,7,2026,1.0
-M.Lloyd,GB,00-0039811,Receiving Yards,12.8,10.0,,12.8,10.0,7,2026,1.0
-M.Lloyd,GB,00-0039811,Receptions,2.0,1.71,,2.0,1.71,7,2026,1.0
-M.Lloyd,GB,00-0039811,Receiving TDs,0.0,0.14,,0.0,0.14,7,2026,1.0
-T.Hopper,GB,00-0039812,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Hopper,GB,00-0039812,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Hopper,GB,00-0039812,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Hopper,GB,00-0039812,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Hopper,GB,00-0039812,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Hopper,GB,00-0039812,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Hopper,GB,00-0039812,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.Hopper,GB,00-0039812,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-E.Williams,GB,00-0039813,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-E.Williams,GB,00-0039813,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-E.Williams,GB,00-0039813,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-E.Williams,GB,00-0039813,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-E.Williams,GB,00-0039813,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-E.Williams,GB,00-0039813,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-E.Williams,GB,00-0039813,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-E.Williams,GB,00-0039813,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+M.Lloyd,GB,00-0039811,Passing Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+M.Lloyd,GB,00-0039811,Passing TDs,0.0,0.0,,0.0,0.0,8,2026,1.0
+M.Lloyd,GB,00-0039811,Interceptions,0.0,0.0,,0.0,0.0,8,2026,1.0
+M.Lloyd,GB,00-0039811,Rushing Yards,16.2,18.62,,16.2,18.62,8,2026,1.0
+M.Lloyd,GB,00-0039811,Rushing Attempts,6.8,7.12,,6.8,7.12,8,2026,1.0
+M.Lloyd,GB,00-0039811,Receiving Yards,13.2,9.88,,13.2,9.88,8,2026,1.0
+M.Lloyd,GB,00-0039811,Receptions,1.8,1.62,,1.8,1.62,8,2026,1.0
+M.Lloyd,GB,00-0039811,Receiving TDs,0.0,0.12,,0.0,0.12,8,2026,1.0
+T.Hopper,GB,00-0039812,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Hopper,GB,00-0039812,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Hopper,GB,00-0039812,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Hopper,GB,00-0039812,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Hopper,GB,00-0039812,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Hopper,GB,00-0039812,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Hopper,GB,00-0039812,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.Hopper,GB,00-0039812,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+E.Williams,GB,00-0039813,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+E.Williams,GB,00-0039813,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+E.Williams,GB,00-0039813,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+E.Williams,GB,00-0039813,Rushing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+E.Williams,GB,00-0039813,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+E.Williams,GB,00-0039813,Receiving Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+E.Williams,GB,00-0039813,Receptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+E.Williams,GB,00-0039813,Receiving TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
 E.All,CIN,00-0039814,Passing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
 E.All,CIN,00-0039814,Passing TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
 E.All,CIN,00-0039814,Interceptions,0.0,0.0,,0.0,0.0,3,2026,1.0
@@ -9351,14 +9359,14 @@ J.Monk,GB,00-0039817,Rushing Attempts,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Monk,GB,00-0039817,Receiving Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Monk,GB,00-0039817,Receptions,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Monk,GB,00-0039817,Receiving TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
-K.Oladapo,GB,00-0039818,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-K.Oladapo,GB,00-0039818,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-K.Oladapo,GB,00-0039818,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-K.Oladapo,GB,00-0039818,Rushing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-K.Oladapo,GB,00-0039818,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-K.Oladapo,GB,00-0039818,Receiving Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-K.Oladapo,GB,00-0039818,Receptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-K.Oladapo,GB,00-0039818,Receiving TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+K.Oladapo,GB,00-0039818,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+K.Oladapo,GB,00-0039818,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+K.Oladapo,GB,00-0039818,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+K.Oladapo,GB,00-0039818,Rushing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+K.Oladapo,GB,00-0039818,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+K.Oladapo,GB,00-0039818,Receiving Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+K.Oladapo,GB,00-0039818,Receptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+K.Oladapo,GB,00-0039818,Receiving TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
 T.Glover,GB,00-0039819,Passing Yards,0.0,0.0,,0.0,0.0,2,2026,1.0
 T.Glover,GB,00-0039819,Passing TDs,0.0,0.0,,0.0,0.0,2,2026,1.0
 T.Glover,GB,00-0039819,Interceptions,0.0,0.0,,0.0,0.0,2,2026,1.0
@@ -9407,14 +9415,14 @@ D.Muasau,NE,00-0039829,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 D.Muasau,NE,00-0039829,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 D.Muasau,NE,00-0039829,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 D.Muasau,NE,00-0039829,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-K.Hadden,GB,00-0039831,Passing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-K.Hadden,GB,00-0039831,Passing TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-K.Hadden,GB,00-0039831,Interceptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-K.Hadden,GB,00-0039831,Rushing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-K.Hadden,GB,00-0039831,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-K.Hadden,GB,00-0039831,Receiving Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-K.Hadden,GB,00-0039831,Receptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-K.Hadden,GB,00-0039831,Receiving TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+K.Hadden,GB,00-0039831,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+K.Hadden,GB,00-0039831,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+K.Hadden,GB,00-0039831,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+K.Hadden,GB,00-0039831,Rushing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+K.Hadden,GB,00-0039831,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+K.Hadden,GB,00-0039831,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+K.Hadden,GB,00-0039831,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+K.Hadden,GB,00-0039831,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 K.Kinchens,LA,00-0039834,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 K.Kinchens,LA,00-0039834,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 K.Kinchens,LA,00-0039834,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
@@ -9591,14 +9599,14 @@ D.Taylor-Demerson,ARI,00-0039864,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 D.Taylor-Demerson,ARI,00-0039864,Receiving Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 D.Taylor-Demerson,ARI,00-0039864,Receptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 D.Taylor-Demerson,ARI,00-0039864,Receiving TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
-J.Bullard,GB,00-0039867,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-J.Bullard,GB,00-0039867,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-J.Bullard,GB,00-0039867,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-J.Bullard,GB,00-0039867,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-J.Bullard,GB,00-0039867,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-J.Bullard,GB,00-0039867,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-J.Bullard,GB,00-0039867,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-J.Bullard,GB,00-0039867,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+J.Bullard,GB,00-0039867,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+J.Bullard,GB,00-0039867,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+J.Bullard,GB,00-0039867,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+J.Bullard,GB,00-0039867,Rushing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+J.Bullard,GB,00-0039867,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+J.Bullard,GB,00-0039867,Receiving Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+J.Bullard,GB,00-0039867,Receptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+J.Bullard,GB,00-0039867,Receiving TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
 T.Franklin,DEN,00-0039868,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 T.Franklin,DEN,00-0039868,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 T.Franklin,DEN,00-0039868,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
@@ -9911,22 +9919,22 @@ S.Revel,DAL,00-0040008,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 S.Revel,DAL,00-0040008,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 S.Revel,DAL,00-0040008,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 S.Revel,DAL,00-0040008,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-S.Williams,GB,00-0040009,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-S.Williams,GB,00-0040009,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-S.Williams,GB,00-0040009,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-S.Williams,GB,00-0040009,Rushing Yards,5.13,6.5,3.08,6.5,6.5,2,2026,0.6
-S.Williams,GB,00-0040009,Rushing Attempts,1.57,2.0,0.92,2.0,2.0,2,2026,0.6
-S.Williams,GB,00-0040009,Receiving Yards,26.3,39.5,6.5,39.5,39.5,2,2026,0.6
-S.Williams,GB,00-0040009,Receptions,2.43,3.5,0.83,3.5,3.5,2,2026,0.6
-S.Williams,GB,00-0040009,Receiving TDs,0.03,0.0,0.08,0.0,0.0,2,2026,0.6
-B.Sorrell,GB,00-0040010,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Sorrell,GB,00-0040010,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Sorrell,GB,00-0040010,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Sorrell,GB,00-0040010,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Sorrell,GB,00-0040010,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Sorrell,GB,00-0040010,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Sorrell,GB,00-0040010,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-B.Sorrell,GB,00-0040010,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+S.Williams,GB,00-0040009,Passing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+S.Williams,GB,00-0040009,Passing TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+S.Williams,GB,00-0040009,Interceptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+S.Williams,GB,00-0040009,Rushing Yards,7.43,10.33,3.08,10.33,10.33,3,2026,0.6
+S.Williams,GB,00-0040009,Rushing Attempts,1.37,1.67,0.92,1.67,1.67,3,2026,0.6
+S.Williams,GB,00-0040009,Receiving Yards,19.4,28.0,6.5,28.0,28.0,3,2026,0.6
+S.Williams,GB,00-0040009,Receptions,1.93,2.67,0.83,2.67,2.67,3,2026,0.6
+S.Williams,GB,00-0040009,Receiving TDs,0.03,0.0,0.08,0.0,0.0,3,2026,0.6
+B.Sorrell,GB,00-0040010,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Sorrell,GB,00-0040010,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Sorrell,GB,00-0040010,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Sorrell,GB,00-0040010,Rushing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Sorrell,GB,00-0040010,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Sorrell,GB,00-0040010,Receiving Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Sorrell,GB,00-0040010,Receptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+B.Sorrell,GB,00-0040010,Receiving TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
 S.James,DAL,00-0040011,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 S.James,DAL,00-0040011,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 S.James,DAL,00-0040011,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
@@ -9951,6 +9959,14 @@ M.Robinson,TEN,00-0040020,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 M.Robinson,TEN,00-0040020,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 M.Robinson,TEN,00-0040020,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 M.Robinson,TEN,00-0040020,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+J.Williams,GB,00-0040023,Passing Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
+J.Williams,GB,00-0040023,Passing TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
+J.Williams,GB,00-0040023,Interceptions,0.0,0.0,,0.0,0.0,1,2026,1.0
+J.Williams,GB,00-0040023,Rushing Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
+J.Williams,GB,00-0040023,Rushing Attempts,0.0,0.0,,0.0,0.0,1,2026,1.0
+J.Williams,GB,00-0040023,Receiving Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
+J.Williams,GB,00-0040023,Receptions,0.0,0.0,,0.0,0.0,1,2026,1.0
+J.Williams,GB,00-0040023,Receiving TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
 D.Cooper,PHI,00-0040024,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 D.Cooper,PHI,00-0040024,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 D.Cooper,PHI,00-0040024,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
@@ -10143,14 +10159,14 @@ A.Membou,NYJ,00-0040123,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 A.Membou,NYJ,00-0040123,Receiving Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 A.Membou,NYJ,00-0040123,Receptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 A.Membou,NYJ,00-0040123,Receiving TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
-T.McMillan,CAR,00-0040124,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.McMillan,CAR,00-0040124,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.McMillan,CAR,00-0040124,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.McMillan,CAR,00-0040124,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.McMillan,CAR,00-0040124,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-T.McMillan,CAR,00-0040124,Receiving Yards,76.18,85.17,59.65,87.2,85.17,6,2026,0.6
-T.McMillan,CAR,00-0040124,Receptions,5.37,6.0,4.12,6.2,6.0,6,2026,0.6
-T.McMillan,CAR,00-0040124,Receiving TDs,0.4,0.33,0.41,0.4,0.33,6,2026,0.6
+T.McMillan,CAR,00-0040124,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.McMillan,CAR,00-0040124,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.McMillan,CAR,00-0040124,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.McMillan,CAR,00-0040124,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.McMillan,CAR,00-0040124,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+T.McMillan,CAR,00-0040124,Receiving Yards,71.02,81.29,59.65,78.6,81.29,7,2026,0.6
+T.McMillan,CAR,00-0040124,Receptions,5.49,6.0,4.12,6.4,6.0,7,2026,0.6
+T.McMillan,CAR,00-0040124,Receiving TDs,0.4,0.29,0.41,0.4,0.29,7,2026,0.6
 K.Banks,NO,00-0040125,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 K.Banks,NO,00-0040125,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 K.Banks,NO,00-0040125,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
@@ -10223,14 +10239,14 @@ P.Bryant,DEN,00-0040134,Rushing Attempts,0.15,0.25,0.0,0.25,0.25,4,2026,0.6
 P.Bryant,DEN,00-0040134,Receiving Yards,31.58,33.25,29.08,33.25,33.25,4,2026,0.6
 P.Bryant,DEN,00-0040134,Receptions,2.3,2.25,2.38,2.25,2.25,4,2026,0.6
 P.Bryant,DEN,00-0040134,Receiving TDs,0.18,0.25,0.08,0.25,0.25,4,2026,0.6
-P.Umanmielen,CAR,00-0040136,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-P.Umanmielen,CAR,00-0040136,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-P.Umanmielen,CAR,00-0040136,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-P.Umanmielen,CAR,00-0040136,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-P.Umanmielen,CAR,00-0040136,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-P.Umanmielen,CAR,00-0040136,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-P.Umanmielen,CAR,00-0040136,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-P.Umanmielen,CAR,00-0040136,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+P.Umanmielen,CAR,00-0040136,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+P.Umanmielen,CAR,00-0040136,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+P.Umanmielen,CAR,00-0040136,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+P.Umanmielen,CAR,00-0040136,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+P.Umanmielen,CAR,00-0040136,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+P.Umanmielen,CAR,00-0040136,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+P.Umanmielen,CAR,00-0040136,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+P.Umanmielen,CAR,00-0040136,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Burch,ARI,00-0040137,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Burch,ARI,00-0040137,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Burch,ARI,00-0040137,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
@@ -10391,14 +10407,14 @@ D.Walker,TB,00-0040158,Rushing Attempts,0.0,0.0,,0.0,0.0,7,2026,1.0
 D.Walker,TB,00-0040158,Receiving Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
 D.Walker,TB,00-0040158,Receptions,0.0,0.0,,0.0,0.0,7,2026,1.0
 D.Walker,TB,00-0040158,Receiving TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
-L.Ransom,CAR,00-0040159,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-L.Ransom,CAR,00-0040159,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-L.Ransom,CAR,00-0040159,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-L.Ransom,CAR,00-0040159,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-L.Ransom,CAR,00-0040159,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-L.Ransom,CAR,00-0040159,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-L.Ransom,CAR,00-0040159,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-L.Ransom,CAR,00-0040159,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+L.Ransom,CAR,00-0040159,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+L.Ransom,CAR,00-0040159,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+L.Ransom,CAR,00-0040159,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+L.Ransom,CAR,00-0040159,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+L.Ransom,CAR,00-0040159,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+L.Ransom,CAR,00-0040159,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+L.Ransom,CAR,00-0040159,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+L.Ransom,CAR,00-0040159,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Sawyer,PIT,00-0040160,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Sawyer,PIT,00-0040160,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 J.Sawyer,PIT,00-0040160,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
@@ -10559,14 +10575,14 @@ M.Sigle,SF,00-0040185,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 M.Sigle,SF,00-0040185,Receiving Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 M.Sigle,SF,00-0040185,Receptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 M.Sigle,SF,00-0040185,Receiving TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-M.Evans,CAR,00-0040187,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-M.Evans,CAR,00-0040187,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-M.Evans,CAR,00-0040187,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-M.Evans,CAR,00-0040187,Rushing Yards,0.15,0.17,0.07,0.2,0.17,6,2026,0.6
-M.Evans,CAR,00-0040187,Rushing Attempts,0.15,0.17,0.07,0.2,0.17,6,2026,0.6
-M.Evans,CAR,00-0040187,Receiving Yards,16.41,17.5,12.21,19.2,17.5,6,2026,0.6
-M.Evans,CAR,00-0040187,Receptions,1.38,1.33,1.36,1.4,1.33,6,2026,0.6
-M.Evans,CAR,00-0040187,Receiving TDs,0.06,0.0,0.14,0.0,0.0,6,2026,0.6
+M.Evans,CAR,00-0040187,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+M.Evans,CAR,00-0040187,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+M.Evans,CAR,00-0040187,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+M.Evans,CAR,00-0040187,Rushing Yards,0.15,0.14,0.07,0.2,0.14,7,2026,0.6
+M.Evans,CAR,00-0040187,Rushing Attempts,0.15,0.14,0.07,0.2,0.14,7,2026,0.6
+M.Evans,CAR,00-0040187,Receiving Yards,17.49,18.14,12.21,21.0,18.14,7,2026,0.6
+M.Evans,CAR,00-0040187,Receptions,1.5,1.43,1.36,1.6,1.43,7,2026,0.6
+M.Evans,CAR,00-0040187,Receiving TDs,0.06,0.0,0.14,0.0,0.0,7,2026,0.6
 Y.Black,PIT,00-0040188,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 Y.Black,PIT,00-0040188,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 Y.Black,PIT,00-0040188,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
@@ -10871,14 +10887,14 @@ J.Walker,CHI,00-0040277,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 J.Walker,CHI,00-0040277,Receiving Yards,5.95,0.25,14.5,0.25,0.25,4,2026,0.6
 J.Walker,CHI,00-0040277,Receptions,0.55,0.25,1.0,0.25,0.25,4,2026,0.6
 J.Walker,CHI,00-0040277,Receiving TDs,0.28,0.25,0.33,0.25,0.25,4,2026,0.6
-R.Fitzgerald,CAR,00-0040279,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-R.Fitzgerald,CAR,00-0040279,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-R.Fitzgerald,CAR,00-0040279,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-R.Fitzgerald,CAR,00-0040279,Rushing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-R.Fitzgerald,CAR,00-0040279,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-R.Fitzgerald,CAR,00-0040279,Receiving Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-R.Fitzgerald,CAR,00-0040279,Receptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
-R.Fitzgerald,CAR,00-0040279,Receiving TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
+R.Fitzgerald,CAR,00-0040279,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+R.Fitzgerald,CAR,00-0040279,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+R.Fitzgerald,CAR,00-0040279,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+R.Fitzgerald,CAR,00-0040279,Rushing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+R.Fitzgerald,CAR,00-0040279,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+R.Fitzgerald,CAR,00-0040279,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+R.Fitzgerald,CAR,00-0040279,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
+R.Fitzgerald,CAR,00-0040279,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Harrison-Hunte,ARI,00-0040283,Passing Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Harrison-Hunte,ARI,00-0040283,Passing TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Harrison-Hunte,ARI,00-0040283,Interceptions,0.0,0.0,,0.0,0.0,1,2026,1.0
@@ -10887,6 +10903,14 @@ J.Harrison-Hunte,ARI,00-0040283,Rushing Attempts,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Harrison-Hunte,ARI,00-0040283,Receiving Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Harrison-Hunte,ARI,00-0040283,Receptions,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Harrison-Hunte,ARI,00-0040283,Receiving TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
+B.Martin-Scott,CAR,00-0040289,Passing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+B.Martin-Scott,CAR,00-0040289,Passing TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+B.Martin-Scott,CAR,00-0040289,Interceptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+B.Martin-Scott,CAR,00-0040289,Rushing Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+B.Martin-Scott,CAR,00-0040289,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+B.Martin-Scott,CAR,00-0040289,Receiving Yards,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+B.Martin-Scott,CAR,00-0040289,Receptions,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
+B.Martin-Scott,CAR,00-0040289,Receiving TDs,0.0,0.0,0.0,0.0,0.0,1,2026,0.6
 M.Reid,NO,00-0040293,Passing Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
 M.Reid,NO,00-0040293,Passing TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
 M.Reid,NO,00-0040293,Interceptions,0.0,0.0,,0.0,0.0,1,2026,1.0
@@ -10951,14 +10975,14 @@ D.Striggow,JAX,00-0040342,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 D.Striggow,JAX,00-0040342,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 D.Striggow,JAX,00-0040342,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 D.Striggow,JAX,00-0040342,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
-C.Owen,GB,00-0040352,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-C.Owen,GB,00-0040352,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-C.Owen,GB,00-0040352,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-C.Owen,GB,00-0040352,Rushing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-C.Owen,GB,00-0040352,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-C.Owen,GB,00-0040352,Receiving Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-C.Owen,GB,00-0040352,Receptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-C.Owen,GB,00-0040352,Receiving TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+C.Owen,GB,00-0040352,Passing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+C.Owen,GB,00-0040352,Passing TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+C.Owen,GB,00-0040352,Interceptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+C.Owen,GB,00-0040352,Rushing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+C.Owen,GB,00-0040352,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+C.Owen,GB,00-0040352,Receiving Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+C.Owen,GB,00-0040352,Receptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+C.Owen,GB,00-0040352,Receiving TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 K.Latu,BUF,00-0040363,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 K.Latu,BUF,00-0040363,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 K.Latu,BUF,00-0040363,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
@@ -10991,14 +11015,14 @@ J.Meeks,DET,00-0040390,Rushing Attempts,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Meeks,DET,00-0040390,Receiving Yards,8.0,8.0,,8.0,8.0,1,2026,1.0
 J.Meeks,DET,00-0040390,Receptions,1.0,1.0,,1.0,1.0,1,2026,1.0
 J.Meeks,DET,00-0040390,Receiving TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
-A.Tyus,CAR,00-0040394,Passing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Tyus,CAR,00-0040394,Passing TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Tyus,CAR,00-0040394,Interceptions,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Tyus,CAR,00-0040394,Rushing Yards,7.67,7.67,,7.67,7.67,3,2026,1.0
-A.Tyus,CAR,00-0040394,Rushing Attempts,1.0,1.0,,1.0,1.0,3,2026,1.0
-A.Tyus,CAR,00-0040394,Receiving Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Tyus,CAR,00-0040394,Receptions,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Tyus,CAR,00-0040394,Receiving TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
+A.Tyus,CAR,00-0040394,Passing Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Tyus,CAR,00-0040394,Passing TDs,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Tyus,CAR,00-0040394,Interceptions,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Tyus,CAR,00-0040394,Rushing Yards,5.75,5.75,,5.75,5.75,4,2026,1.0
+A.Tyus,CAR,00-0040394,Rushing Attempts,0.75,0.75,,0.75,0.75,4,2026,1.0
+A.Tyus,CAR,00-0040394,Receiving Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Tyus,CAR,00-0040394,Receptions,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Tyus,CAR,00-0040394,Receiving TDs,0.0,0.0,,0.0,0.0,4,2026,1.0
 J.Pritchett,NYJ,00-0040405,Passing Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Pritchett,NYJ,00-0040405,Passing TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Pritchett,NYJ,00-0040405,Interceptions,0.0,0.0,,0.0,0.0,1,2026,1.0
@@ -11047,14 +11071,14 @@ K.Reid,DEN,00-0040449,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 K.Reid,DEN,00-0040449,Receiving Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 K.Reid,DEN,00-0040449,Receptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
 K.Reid,DEN,00-0040449,Receiving TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-T.Edwards,CAR,00-0040458,Passing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
-T.Edwards,CAR,00-0040458,Passing TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
-T.Edwards,CAR,00-0040458,Interceptions,0.0,0.0,,0.0,0.0,3,2026,1.0
-T.Edwards,CAR,00-0040458,Rushing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
-T.Edwards,CAR,00-0040458,Rushing Attempts,0.0,0.0,,0.0,0.0,3,2026,1.0
-T.Edwards,CAR,00-0040458,Receiving Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
-T.Edwards,CAR,00-0040458,Receptions,0.0,0.0,,0.0,0.0,3,2026,1.0
-T.Edwards,CAR,00-0040458,Receiving TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
+T.Edwards,CAR,00-0040458,Passing Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
+T.Edwards,CAR,00-0040458,Passing TDs,0.0,0.0,,0.0,0.0,4,2026,1.0
+T.Edwards,CAR,00-0040458,Interceptions,0.0,0.0,,0.0,0.0,4,2026,1.0
+T.Edwards,CAR,00-0040458,Rushing Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
+T.Edwards,CAR,00-0040458,Rushing Attempts,0.0,0.0,,0.0,0.0,4,2026,1.0
+T.Edwards,CAR,00-0040458,Receiving Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
+T.Edwards,CAR,00-0040458,Receptions,0.0,0.0,,0.0,0.0,4,2026,1.0
+T.Edwards,CAR,00-0040458,Receiving TDs,0.0,0.0,,0.0,0.0,4,2026,1.0
 M.Wax,LAC,00-0040460,Passing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 M.Wax,LAC,00-0040460,Passing TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 M.Wax,LAC,00-0040460,Interceptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
@@ -11327,14 +11351,14 @@ J.Sanker,NO,00-0040643,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Sanker,NO,00-0040643,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Sanker,NO,00-0040643,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 J.Sanker,NO,00-0040643,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-T.Etienne,CAR,00-0040644,Passing Yards,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-T.Etienne,CAR,00-0040644,Passing TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-T.Etienne,CAR,00-0040644,Interceptions,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
-T.Etienne,CAR,00-0040644,Rushing Yards,4.31,3.5,5.53,3.5,3.5,2,2026,0.6
-T.Etienne,CAR,00-0040644,Rushing Attempts,2.57,3.5,1.18,3.5,3.5,2,2026,0.6
-T.Etienne,CAR,00-0040644,Receiving Yards,5.41,8.5,0.76,8.5,8.5,2,2026,0.6
-T.Etienne,CAR,00-0040644,Receptions,0.67,1.0,0.18,1.0,1.0,2,2026,0.6
-T.Etienne,CAR,00-0040644,Receiving TDs,0.0,0.0,0.0,0.0,0.0,2,2026,0.6
+T.Etienne,CAR,00-0040644,Passing Yards,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+T.Etienne,CAR,00-0040644,Passing TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+T.Etienne,CAR,00-0040644,Interceptions,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
+T.Etienne,CAR,00-0040644,Rushing Yards,3.81,2.67,5.53,2.67,2.67,3,2026,0.6
+T.Etienne,CAR,00-0040644,Rushing Attempts,2.07,2.67,1.18,2.67,2.67,3,2026,0.6
+T.Etienne,CAR,00-0040644,Receiving Yards,3.71,5.67,0.76,5.67,5.67,3,2026,0.6
+T.Etienne,CAR,00-0040644,Receptions,0.47,0.67,0.18,0.67,0.67,3,2026,0.6
+T.Etienne,CAR,00-0040644,Receiving TDs,0.0,0.0,0.0,0.0,0.0,3,2026,0.6
 C.Simon,ARI,00-0040645,Passing Yards,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 C.Simon,ARI,00-0040645,Passing TDs,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
 C.Simon,ARI,00-0040645,Interceptions,0.0,0.0,0.0,0.0,0.0,6,2026,0.6
@@ -11423,14 +11447,14 @@ O.Hampton,LAC,00-0040666,Rushing Attempts,13.67,13.33,13.78,13.6,13.33,6,2026,0.
 O.Hampton,LAC,00-0040666,Receiving Yards,15.25,9.33,21.33,11.2,9.33,6,2026,0.6
 O.Hampton,LAC,00-0040666,Receptions,2.5,1.5,3.56,1.8,1.5,6,2026,0.6
 O.Hampton,LAC,00-0040666,Receiving TDs,0.04,0.0,0.11,0.0,0.0,6,2026,0.6
-M.Golden,GB,00-0040667,Passing Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-M.Golden,GB,00-0040667,Passing TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-M.Golden,GB,00-0040667,Interceptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-M.Golden,GB,00-0040667,Rushing Yards,2.12,0.86,3.5,1.2,0.86,7,2026,0.6
-M.Golden,GB,00-0040667,Rushing Attempts,0.41,0.14,0.71,0.2,0.14,7,2026,0.6
-M.Golden,GB,00-0040667,Receiving Yards,56.75,77.14,25.79,77.4,77.14,7,2026,0.6
-M.Golden,GB,00-0040667,Receptions,3.95,5.14,2.07,5.2,5.14,7,2026,0.6
-M.Golden,GB,00-0040667,Receiving TDs,0.36,0.43,0.0,0.6,0.43,7,2026,0.6
+M.Golden,GB,00-0040667,Passing Yards,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+M.Golden,GB,00-0040667,Passing TDs,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+M.Golden,GB,00-0040667,Interceptions,0.0,0.0,0.0,0.0,0.0,8,2026,0.6
+M.Golden,GB,00-0040667,Rushing Yards,2.12,0.75,3.5,1.2,0.75,8,2026,0.6
+M.Golden,GB,00-0040667,Rushing Attempts,0.41,0.12,0.71,0.2,0.12,8,2026,0.6
+M.Golden,GB,00-0040667,Receiving Yards,54.23,77.38,25.79,73.2,77.38,8,2026,0.6
+M.Golden,GB,00-0040667,Receptions,4.19,5.38,2.07,5.6,5.38,8,2026,0.6
+M.Golden,GB,00-0040667,Receiving TDs,0.36,0.5,0.0,0.6,0.5,8,2026,0.6
 S.Sanders,CLE,00-0040668,Passing Yards,70.0,0.0,175.0,0.0,0.0,1,2026,0.6
 S.Sanders,CLE,00-0040668,Passing TDs,0.35,0.0,0.88,0.0,0.0,1,2026,0.6
 S.Sanders,CLE,00-0040668,Interceptions,0.5,0.0,1.25,0.0,0.0,1,2026,0.6
@@ -11519,14 +11543,14 @@ M.Starks,BAL,00-0040688,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 M.Starks,BAL,00-0040688,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 M.Starks,BAL,00-0040688,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 M.Starks,BAL,00-0040688,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-A.Campbell,GB,00-0040689,Passing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Campbell,GB,00-0040689,Passing TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Campbell,GB,00-0040689,Interceptions,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Campbell,GB,00-0040689,Rushing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Campbell,GB,00-0040689,Rushing Attempts,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Campbell,GB,00-0040689,Receiving Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Campbell,GB,00-0040689,Receptions,0.0,0.0,,0.0,0.0,3,2026,1.0
-A.Campbell,GB,00-0040689,Receiving TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
+A.Campbell,GB,00-0040689,Passing Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Campbell,GB,00-0040689,Passing TDs,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Campbell,GB,00-0040689,Interceptions,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Campbell,GB,00-0040689,Rushing Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Campbell,GB,00-0040689,Rushing Attempts,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Campbell,GB,00-0040689,Receiving Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Campbell,GB,00-0040689,Receptions,0.0,0.0,,0.0,0.0,4,2026,1.0
+A.Campbell,GB,00-0040689,Receiving TDs,0.0,0.0,,0.0,0.0,4,2026,1.0
 J.Dart,NYG,00-0040691,Passing Yards,139.91,125.0,162.29,125.0,125.0,2,2026,0.6
 J.Dart,NYG,00-0040691,Passing TDs,1.33,1.5,1.07,1.5,1.5,2,2026,0.6
 J.Dart,NYG,00-0040691,Interceptions,0.14,0.0,0.36,0.0,0.0,2,2026,0.6
@@ -11671,14 +11695,14 @@ D.Ezeiruaku,DAL,00-0040725,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 D.Ezeiruaku,DAL,00-0040725,Receiving Yards,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 D.Ezeiruaku,DAL,00-0040725,Receptions,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
 D.Ezeiruaku,DAL,00-0040725,Receiving TDs,0.0,0.0,0.0,0.0,0.0,7,2026,0.6
-A.Belton,GB,00-0040726,Passing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-A.Belton,GB,00-0040726,Passing TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-A.Belton,GB,00-0040726,Interceptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-A.Belton,GB,00-0040726,Rushing Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-A.Belton,GB,00-0040726,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-A.Belton,GB,00-0040726,Receiving Yards,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-A.Belton,GB,00-0040726,Receptions,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
-A.Belton,GB,00-0040726,Receiving TDs,0.0,0.0,0.0,0.0,0.0,4,2026,0.6
+A.Belton,GB,00-0040726,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+A.Belton,GB,00-0040726,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+A.Belton,GB,00-0040726,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+A.Belton,GB,00-0040726,Rushing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+A.Belton,GB,00-0040726,Rushing Attempts,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+A.Belton,GB,00-0040726,Receiving Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+A.Belton,GB,00-0040726,Receptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
+A.Belton,GB,00-0040726,Receiving TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 T.Harris,LAC,00-0040727,Passing Yards,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 T.Harris,LAC,00-0040727,Passing TDs,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
 T.Harris,LAC,00-0040727,Interceptions,0.0,0.0,0.0,0.0,0.0,5,2026,0.6
@@ -11919,14 +11943,14 @@ T.Stukes,LV,00-0040868,Rushing Attempts,0.0,0.0,,0.0,0.0,6,2026,1.0
 T.Stukes,LV,00-0040868,Receiving Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
 T.Stukes,LV,00-0040868,Receptions,0.0,0.0,,0.0,0.0,6,2026,1.0
 T.Stukes,LV,00-0040868,Receiving TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
-C.McClellan,GB,00-0040869,Passing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-C.McClellan,GB,00-0040869,Passing TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
-C.McClellan,GB,00-0040869,Interceptions,0.0,0.0,,0.0,0.0,7,2026,1.0
-C.McClellan,GB,00-0040869,Rushing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-C.McClellan,GB,00-0040869,Rushing Attempts,0.0,0.0,,0.0,0.0,7,2026,1.0
-C.McClellan,GB,00-0040869,Receiving Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-C.McClellan,GB,00-0040869,Receptions,0.0,0.0,,0.0,0.0,7,2026,1.0
-C.McClellan,GB,00-0040869,Receiving TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
+C.McClellan,GB,00-0040869,Passing Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+C.McClellan,GB,00-0040869,Passing TDs,0.0,0.0,,0.0,0.0,8,2026,1.0
+C.McClellan,GB,00-0040869,Interceptions,0.0,0.0,,0.0,0.0,8,2026,1.0
+C.McClellan,GB,00-0040869,Rushing Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+C.McClellan,GB,00-0040869,Rushing Attempts,0.0,0.0,,0.0,0.0,8,2026,1.0
+C.McClellan,GB,00-0040869,Receiving Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+C.McClellan,GB,00-0040869,Receptions,0.0,0.0,,0.0,0.0,8,2026,1.0
+C.McClellan,GB,00-0040869,Receiving TDs,0.0,0.0,,0.0,0.0,8,2026,1.0
 J.Lane,BAL,00-0040870,Passing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
 J.Lane,BAL,00-0040870,Passing TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
 J.Lane,BAL,00-0040870,Interceptions,0.0,0.0,,0.0,0.0,3,2026,1.0
@@ -11959,14 +11983,14 @@ E.Sarratt,BAL,00-0040876,Rushing Attempts,0.0,0.0,,0.0,0.0,1,2026,1.0
 E.Sarratt,BAL,00-0040876,Receiving Yards,13.0,13.0,,13.0,13.0,1,2026,1.0
 E.Sarratt,BAL,00-0040876,Receptions,1.0,1.0,,1.0,1.0,1,2026,1.0
 E.Sarratt,BAL,00-0040876,Receiving TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
-D.Dennis-Sutton,GB,00-0040877,Passing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-D.Dennis-Sutton,GB,00-0040877,Passing TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
-D.Dennis-Sutton,GB,00-0040877,Interceptions,0.0,0.0,,0.0,0.0,7,2026,1.0
-D.Dennis-Sutton,GB,00-0040877,Rushing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-D.Dennis-Sutton,GB,00-0040877,Rushing Attempts,0.0,0.0,,0.0,0.0,7,2026,1.0
-D.Dennis-Sutton,GB,00-0040877,Receiving Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-D.Dennis-Sutton,GB,00-0040877,Receptions,0.0,0.0,,0.0,0.0,7,2026,1.0
-D.Dennis-Sutton,GB,00-0040877,Receiving TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
+D.Dennis-Sutton,GB,00-0040877,Passing Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+D.Dennis-Sutton,GB,00-0040877,Passing TDs,0.0,0.0,,0.0,0.0,8,2026,1.0
+D.Dennis-Sutton,GB,00-0040877,Interceptions,0.0,0.0,,0.0,0.0,8,2026,1.0
+D.Dennis-Sutton,GB,00-0040877,Rushing Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+D.Dennis-Sutton,GB,00-0040877,Rushing Attempts,0.0,0.0,,0.0,0.0,8,2026,1.0
+D.Dennis-Sutton,GB,00-0040877,Receiving Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+D.Dennis-Sutton,GB,00-0040877,Receptions,0.0,0.0,,0.0,0.0,8,2026,1.0
+D.Dennis-Sutton,GB,00-0040877,Receiving TDs,0.0,0.0,,0.0,0.0,8,2026,1.0
 M.Washington,LV,00-0040878,Passing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
 M.Washington,LV,00-0040878,Passing TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
 M.Washington,LV,00-0040878,Interceptions,0.0,0.0,,0.0,0.0,7,2026,1.0
@@ -12055,14 +12079,14 @@ R.Eckley,BAL,00-0040898,Rushing Attempts,0.0,0.0,,0.0,0.0,7,2026,1.0
 R.Eckley,BAL,00-0040898,Receiving Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
 R.Eckley,BAL,00-0040898,Receptions,0.0,0.0,,0.0,0.0,7,2026,1.0
 R.Eckley,BAL,00-0040898,Receiving TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
-T.Smack,GB,00-0040899,Passing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-T.Smack,GB,00-0040899,Passing TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
-T.Smack,GB,00-0040899,Interceptions,0.0,0.0,,0.0,0.0,7,2026,1.0
-T.Smack,GB,00-0040899,Rushing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-T.Smack,GB,00-0040899,Rushing Attempts,0.0,0.0,,0.0,0.0,7,2026,1.0
-T.Smack,GB,00-0040899,Receiving Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-T.Smack,GB,00-0040899,Receptions,0.0,0.0,,0.0,0.0,7,2026,1.0
-T.Smack,GB,00-0040899,Receiving TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
+T.Smack,GB,00-0040899,Passing Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+T.Smack,GB,00-0040899,Passing TDs,0.0,0.0,,0.0,0.0,8,2026,1.0
+T.Smack,GB,00-0040899,Interceptions,0.0,0.0,,0.0,0.0,8,2026,1.0
+T.Smack,GB,00-0040899,Rushing Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+T.Smack,GB,00-0040899,Rushing Attempts,0.0,0.0,,0.0,0.0,8,2026,1.0
+T.Smack,GB,00-0040899,Receiving Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+T.Smack,GB,00-0040899,Receptions,0.0,0.0,,0.0,0.0,8,2026,1.0
+T.Smack,GB,00-0040899,Receiving TDs,0.0,0.0,,0.0,0.0,8,2026,1.0
 C.Wisniewski,PHI,00-0040905,Passing Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
 C.Wisniewski,PHI,00-0040905,Passing TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
 C.Wisniewski,PHI,00-0040905,Interceptions,0.0,0.0,,0.0,0.0,1,2026,1.0
@@ -12095,14 +12119,14 @@ K.Gushiken,IND,00-0040928,Rushing Attempts,0.0,0.0,,0.0,0.0,5,2026,1.0
 K.Gushiken,IND,00-0040928,Receiving Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
 K.Gushiken,IND,00-0040928,Receptions,0.0,0.0,,0.0,0.0,5,2026,1.0
 K.Gushiken,IND,00-0040928,Receiving TDs,0.0,0.0,,0.0,0.0,5,2026,1.0
-J.Sturdivant,GB,00-0040948,Passing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
-J.Sturdivant,GB,00-0040948,Passing TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
-J.Sturdivant,GB,00-0040948,Interceptions,0.0,0.0,,0.0,0.0,6,2026,1.0
-J.Sturdivant,GB,00-0040948,Rushing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
-J.Sturdivant,GB,00-0040948,Rushing Attempts,0.0,0.0,,0.0,0.0,6,2026,1.0
-J.Sturdivant,GB,00-0040948,Receiving Yards,4.4,3.67,,4.4,3.67,6,2026,1.0
-J.Sturdivant,GB,00-0040948,Receptions,0.6,0.5,,0.6,0.5,6,2026,1.0
-J.Sturdivant,GB,00-0040948,Receiving TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
+J.Sturdivant,GB,00-0040948,Passing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
+J.Sturdivant,GB,00-0040948,Passing TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
+J.Sturdivant,GB,00-0040948,Interceptions,0.0,0.0,,0.0,0.0,7,2026,1.0
+J.Sturdivant,GB,00-0040948,Rushing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
+J.Sturdivant,GB,00-0040948,Rushing Attempts,0.0,0.0,,0.0,0.0,7,2026,1.0
+J.Sturdivant,GB,00-0040948,Receiving Yards,3.2,5.43,,3.2,5.43,7,2026,1.0
+J.Sturdivant,GB,00-0040948,Receptions,0.2,0.57,,0.2,0.57,7,2026,1.0
+J.Sturdivant,GB,00-0040948,Receiving TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
 X.Nwankpa,KC,00-0040957,Passing Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
 X.Nwankpa,KC,00-0040957,Passing TDs,0.0,0.0,,0.0,0.0,4,2026,1.0
 X.Nwankpa,KC,00-0040957,Interceptions,0.0,0.0,,0.0,0.0,4,2026,1.0
@@ -12191,14 +12215,14 @@ C.Banks,MIN,00-0041033,Rushing Attempts,0.0,0.0,,0.0,0.0,5,2026,1.0
 C.Banks,MIN,00-0041033,Receiving Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
 C.Banks,MIN,00-0041033,Receptions,0.0,0.0,,0.0,0.0,5,2026,1.0
 C.Banks,MIN,00-0041033,Receiving TDs,0.0,0.0,,0.0,0.0,5,2026,1.0
-M.Freeling,CAR,00-0041034,Passing Yards,0.0,0.0,,0.0,0.0,2,2026,1.0
-M.Freeling,CAR,00-0041034,Passing TDs,0.0,0.0,,0.0,0.0,2,2026,1.0
-M.Freeling,CAR,00-0041034,Interceptions,0.0,0.0,,0.0,0.0,2,2026,1.0
-M.Freeling,CAR,00-0041034,Rushing Yards,0.0,0.0,,0.0,0.0,2,2026,1.0
-M.Freeling,CAR,00-0041034,Rushing Attempts,0.0,0.0,,0.0,0.0,2,2026,1.0
-M.Freeling,CAR,00-0041034,Receiving Yards,0.0,0.0,,0.0,0.0,2,2026,1.0
-M.Freeling,CAR,00-0041034,Receptions,0.0,0.0,,0.0,0.0,2,2026,1.0
-M.Freeling,CAR,00-0041034,Receiving TDs,0.0,0.0,,0.0,0.0,2,2026,1.0
+M.Freeling,CAR,00-0041034,Passing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
+M.Freeling,CAR,00-0041034,Passing TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
+M.Freeling,CAR,00-0041034,Interceptions,0.0,0.0,,0.0,0.0,3,2026,1.0
+M.Freeling,CAR,00-0041034,Rushing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
+M.Freeling,CAR,00-0041034,Rushing Attempts,0.0,0.0,,0.0,0.0,3,2026,1.0
+M.Freeling,CAR,00-0041034,Receiving Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
+M.Freeling,CAR,00-0041034,Receptions,0.0,0.0,,0.0,0.0,3,2026,1.0
+M.Freeling,CAR,00-0041034,Receiving TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
 T.Parker,BUF,00-0041036,Passing Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
 T.Parker,BUF,00-0041036,Passing TDs,0.0,0.0,,0.0,0.0,5,2026,1.0
 T.Parker,BUF,00-0041036,Interceptions,0.0,0.0,,0.0,0.0,5,2026,1.0
@@ -12359,14 +12383,14 @@ M.Muhammad,CHI,00-0041060,Rushing Attempts,0.0,0.0,,0.0,0.0,7,2026,1.0
 M.Muhammad,CHI,00-0041060,Receiving Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
 M.Muhammad,CHI,00-0041060,Receptions,0.0,0.0,,0.0,0.0,7,2026,1.0
 M.Muhammad,CHI,00-0041060,Receiving TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
-W.Lee,CAR,00-0041063,Passing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
-W.Lee,CAR,00-0041063,Passing TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
-W.Lee,CAR,00-0041063,Interceptions,0.0,0.0,,0.0,0.0,6,2026,1.0
-W.Lee,CAR,00-0041063,Rushing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
-W.Lee,CAR,00-0041063,Rushing Attempts,0.0,0.0,,0.0,0.0,6,2026,1.0
-W.Lee,CAR,00-0041063,Receiving Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
-W.Lee,CAR,00-0041063,Receptions,0.0,0.0,,0.0,0.0,6,2026,1.0
-W.Lee,CAR,00-0041063,Receiving TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
+W.Lee,CAR,00-0041063,Passing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
+W.Lee,CAR,00-0041063,Passing TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
+W.Lee,CAR,00-0041063,Interceptions,0.0,0.0,,0.0,0.0,7,2026,1.0
+W.Lee,CAR,00-0041063,Rushing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
+W.Lee,CAR,00-0041063,Rushing Attempts,0.0,0.0,,0.0,0.0,7,2026,1.0
+W.Lee,CAR,00-0041063,Receiving Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
+W.Lee,CAR,00-0041063,Receptions,0.0,0.0,,0.0,0.0,7,2026,1.0
+W.Lee,CAR,00-0041063,Receiving TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
 G.Smith,LAC,00-0041064,Passing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
 G.Smith,LAC,00-0041064,Passing TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
 G.Smith,LAC,00-0041064,Interceptions,0.0,0.0,,0.0,0.0,6,2026,1.0
@@ -12439,14 +12463,14 @@ J.Jefferson,CLE,00-0041075,Rushing Attempts,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Jefferson,CLE,00-0041075,Receiving Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Jefferson,CLE,00-0041075,Receptions,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Jefferson,CLE,00-0041075,Receiving TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
-Z.Wheatley,CAR,00-0041076,Passing Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
-Z.Wheatley,CAR,00-0041076,Passing TDs,0.0,0.0,,0.0,0.0,5,2026,1.0
-Z.Wheatley,CAR,00-0041076,Interceptions,0.0,0.0,,0.0,0.0,5,2026,1.0
-Z.Wheatley,CAR,00-0041076,Rushing Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
-Z.Wheatley,CAR,00-0041076,Rushing Attempts,0.0,0.0,,0.0,0.0,5,2026,1.0
-Z.Wheatley,CAR,00-0041076,Receiving Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
-Z.Wheatley,CAR,00-0041076,Receptions,0.0,0.0,,0.0,0.0,5,2026,1.0
-Z.Wheatley,CAR,00-0041076,Receiving TDs,0.0,0.0,,0.0,0.0,5,2026,1.0
+Z.Wheatley,CAR,00-0041076,Passing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
+Z.Wheatley,CAR,00-0041076,Passing TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
+Z.Wheatley,CAR,00-0041076,Interceptions,0.0,0.0,,0.0,0.0,6,2026,1.0
+Z.Wheatley,CAR,00-0041076,Rushing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
+Z.Wheatley,CAR,00-0041076,Rushing Attempts,0.0,0.0,,0.0,0.0,6,2026,1.0
+Z.Wheatley,CAR,00-0041076,Receiving Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
+Z.Wheatley,CAR,00-0041076,Receptions,0.0,0.0,,0.0,0.0,6,2026,1.0
+Z.Wheatley,CAR,00-0041076,Receiving TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
 J.Dugger,SF,00-0041078,Passing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
 J.Dugger,SF,00-0041078,Passing TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
 J.Dugger,SF,00-0041078,Interceptions,0.0,0.0,,0.0,0.0,6,2026,1.0
@@ -12615,14 +12639,14 @@ A.Kaliakmanis,WAS,00-0041117,Rushing Attempts,3.0,3.0,,3.0,3.0,1,2026,1.0
 A.Kaliakmanis,WAS,00-0041117,Receiving Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
 A.Kaliakmanis,WAS,00-0041117,Receptions,0.0,0.0,,0.0,0.0,1,2026,1.0
 A.Kaliakmanis,WAS,00-0041117,Receiving TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
-J.Kuwatch,CAR,00-0041119,Passing Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
-J.Kuwatch,CAR,00-0041119,Passing TDs,0.0,0.0,,0.0,0.0,4,2026,1.0
-J.Kuwatch,CAR,00-0041119,Interceptions,0.0,0.0,,0.0,0.0,4,2026,1.0
-J.Kuwatch,CAR,00-0041119,Rushing Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
-J.Kuwatch,CAR,00-0041119,Rushing Attempts,0.0,0.0,,0.0,0.0,4,2026,1.0
-J.Kuwatch,CAR,00-0041119,Receiving Yards,0.0,0.0,,0.0,0.0,4,2026,1.0
-J.Kuwatch,CAR,00-0041119,Receptions,0.0,0.0,,0.0,0.0,4,2026,1.0
-J.Kuwatch,CAR,00-0041119,Receiving TDs,0.0,0.0,,0.0,0.0,4,2026,1.0
+J.Kuwatch,CAR,00-0041119,Passing Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
+J.Kuwatch,CAR,00-0041119,Passing TDs,0.0,0.0,,0.0,0.0,5,2026,1.0
+J.Kuwatch,CAR,00-0041119,Interceptions,0.0,0.0,,0.0,0.0,5,2026,1.0
+J.Kuwatch,CAR,00-0041119,Rushing Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
+J.Kuwatch,CAR,00-0041119,Rushing Attempts,0.0,0.0,,0.0,0.0,5,2026,1.0
+J.Kuwatch,CAR,00-0041119,Receiving Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
+J.Kuwatch,CAR,00-0041119,Receptions,0.0,0.0,,0.0,0.0,5,2026,1.0
+J.Kuwatch,CAR,00-0041119,Receiving TDs,0.0,0.0,,0.0,0.0,5,2026,1.0
 S.McGowan,IND,00-0041125,Passing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
 S.McGowan,IND,00-0041125,Passing TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
 S.McGowan,IND,00-0041125,Interceptions,0.0,0.0,,0.0,0.0,7,2026,1.0
@@ -12671,14 +12695,14 @@ D.Zvada,NYG,00-0041145,Rushing Attempts,0.0,0.0,,0.0,0.0,7,2026,1.0
 D.Zvada,NYG,00-0041145,Receiving Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
 D.Zvada,NYG,00-0041145,Receptions,0.0,0.0,,0.0,0.0,7,2026,1.0
 D.Zvada,NYG,00-0041145,Receiving TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
-A.Hall,CAR,00-0041148,Passing Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
-A.Hall,CAR,00-0041148,Passing TDs,0.0,0.0,,0.0,0.0,5,2026,1.0
-A.Hall,CAR,00-0041148,Interceptions,0.0,0.0,,0.0,0.0,5,2026,1.0
-A.Hall,CAR,00-0041148,Rushing Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
-A.Hall,CAR,00-0041148,Rushing Attempts,0.0,0.0,,0.0,0.0,5,2026,1.0
-A.Hall,CAR,00-0041148,Receiving Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
-A.Hall,CAR,00-0041148,Receptions,0.0,0.0,,0.0,0.0,5,2026,1.0
-A.Hall,CAR,00-0041148,Receiving TDs,0.0,0.0,,0.0,0.0,5,2026,1.0
+A.Hall,CAR,00-0041148,Passing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
+A.Hall,CAR,00-0041148,Passing TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
+A.Hall,CAR,00-0041148,Interceptions,0.0,0.0,,0.0,0.0,6,2026,1.0
+A.Hall,CAR,00-0041148,Rushing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
+A.Hall,CAR,00-0041148,Rushing Attempts,0.0,0.0,,0.0,0.0,6,2026,1.0
+A.Hall,CAR,00-0041148,Receiving Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
+A.Hall,CAR,00-0041148,Receptions,0.0,0.0,,0.0,0.0,6,2026,1.0
+A.Hall,CAR,00-0041148,Receiving TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
 R.McGraw,MIA,00-0041159,Passing Yards,0.0,0.0,,0.0,0.0,3,2026,1.0
 R.McGraw,MIA,00-0041159,Passing TDs,0.0,0.0,,0.0,0.0,3,2026,1.0
 R.McGraw,MIA,00-0041159,Interceptions,0.0,0.0,,0.0,0.0,3,2026,1.0
@@ -12711,6 +12735,14 @@ D.Stevens,WAS,00-0041182,Rushing Attempts,0.0,0.0,,0.0,0.0,6,2026,1.0
 D.Stevens,WAS,00-0041182,Receiving Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
 D.Stevens,WAS,00-0041182,Receptions,0.0,0.0,,0.0,0.0,6,2026,1.0
 D.Stevens,WAS,00-0041182,Receiving TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
+M.DeWalt,CAR,00-0041188,Passing Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
+M.DeWalt,CAR,00-0041188,Passing TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
+M.DeWalt,CAR,00-0041188,Interceptions,0.0,0.0,,0.0,0.0,1,2026,1.0
+M.DeWalt,CAR,00-0041188,Rushing Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
+M.DeWalt,CAR,00-0041188,Rushing Attempts,0.0,0.0,,0.0,0.0,1,2026,1.0
+M.DeWalt,CAR,00-0041188,Receiving Yards,0.0,0.0,,0.0,0.0,1,2026,1.0
+M.DeWalt,CAR,00-0041188,Receptions,0.0,0.0,,0.0,0.0,1,2026,1.0
+M.DeWalt,CAR,00-0041188,Receiving TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Strand,ATL,00-0041194,Passing Yards,59.0,59.0,,59.0,59.0,1,2026,1.0
 J.Strand,ATL,00-0041194,Passing TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
 J.Strand,ATL,00-0041194,Interceptions,1.0,1.0,,1.0,1.0,1,2026,1.0
@@ -13111,14 +13143,14 @@ Av.Terrell,ATL,00-0041469,Rushing Attempts,0.0,0.0,,0.0,0.0,6,2026,1.0
 Av.Terrell,ATL,00-0041469,Receiving Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
 Av.Terrell,ATL,00-0041469,Receptions,0.0,0.0,,0.0,0.0,6,2026,1.0
 Av.Terrell,ATL,00-0041469,Receiving TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
-B.Cisse,GB,00-0041470,Passing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-B.Cisse,GB,00-0041470,Passing TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
-B.Cisse,GB,00-0041470,Interceptions,0.0,0.0,,0.0,0.0,7,2026,1.0
-B.Cisse,GB,00-0041470,Rushing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-B.Cisse,GB,00-0041470,Rushing Attempts,0.0,0.0,,0.0,0.0,7,2026,1.0
-B.Cisse,GB,00-0041470,Receiving Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
-B.Cisse,GB,00-0041470,Receptions,0.0,0.0,,0.0,0.0,7,2026,1.0
-B.Cisse,GB,00-0041470,Receiving TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
+B.Cisse,GB,00-0041470,Passing Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+B.Cisse,GB,00-0041470,Passing TDs,0.0,0.0,,0.0,0.0,8,2026,1.0
+B.Cisse,GB,00-0041470,Interceptions,0.0,0.0,,0.0,0.0,8,2026,1.0
+B.Cisse,GB,00-0041470,Rushing Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+B.Cisse,GB,00-0041470,Rushing Attempts,0.0,0.0,,0.0,0.0,8,2026,1.0
+B.Cisse,GB,00-0041470,Receiving Yards,0.0,0.0,,0.0,0.0,8,2026,1.0
+B.Cisse,GB,00-0041470,Receptions,0.0,0.0,,0.0,0.0,8,2026,1.0
+B.Cisse,GB,00-0041470,Receiving TDs,0.0,0.0,,0.0,0.0,8,2026,1.0
 E.McNeil-Warren,CLE,00-0041471,Passing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
 E.McNeil-Warren,CLE,00-0041471,Passing TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
 E.McNeil-Warren,CLE,00-0041471,Interceptions,0.0,0.0,,0.0,0.0,7,2026,1.0
@@ -13135,14 +13167,14 @@ M.Klein,HOU,00-0041472,Rushing Attempts,0.0,0.0,,0.0,0.0,1,2026,1.0
 M.Klein,HOU,00-0041472,Receiving Yards,16.0,16.0,,16.0,16.0,1,2026,1.0
 M.Klein,HOU,00-0041472,Receptions,1.0,1.0,,1.0,1.0,1,2026,1.0
 M.Klein,HOU,00-0041472,Receiving TDs,0.0,0.0,,0.0,0.0,1,2026,1.0
-L.Hunter,CAR,00-0041478,Passing Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
-L.Hunter,CAR,00-0041478,Passing TDs,0.0,0.0,,0.0,0.0,5,2026,1.0
-L.Hunter,CAR,00-0041478,Interceptions,0.0,0.0,,0.0,0.0,5,2026,1.0
-L.Hunter,CAR,00-0041478,Rushing Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
-L.Hunter,CAR,00-0041478,Rushing Attempts,0.0,0.0,,0.0,0.0,5,2026,1.0
-L.Hunter,CAR,00-0041478,Receiving Yards,0.0,0.0,,0.0,0.0,5,2026,1.0
-L.Hunter,CAR,00-0041478,Receptions,0.0,0.0,,0.0,0.0,5,2026,1.0
-L.Hunter,CAR,00-0041478,Receiving TDs,0.0,0.0,,0.0,0.0,5,2026,1.0
+L.Hunter,CAR,00-0041478,Passing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
+L.Hunter,CAR,00-0041478,Passing TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
+L.Hunter,CAR,00-0041478,Interceptions,0.0,0.0,,0.0,0.0,6,2026,1.0
+L.Hunter,CAR,00-0041478,Rushing Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
+L.Hunter,CAR,00-0041478,Rushing Attempts,0.0,0.0,,0.0,0.0,6,2026,1.0
+L.Hunter,CAR,00-0041478,Receiving Yards,0.0,0.0,,0.0,0.0,6,2026,1.0
+L.Hunter,CAR,00-0041478,Receptions,0.0,0.0,,0.0,0.0,6,2026,1.0
+L.Hunter,CAR,00-0041478,Receiving TDs,0.0,0.0,,0.0,0.0,6,2026,1.0
 A.Hill,TEN,00-0041479,Passing Yards,0.0,0.0,,0.0,0.0,7,2026,1.0
 A.Hill,TEN,00-0041479,Passing TDs,0.0,0.0,,0.0,0.0,7,2026,1.0
 A.Hill,TEN,00-0041479,Interceptions,0.0,0.0,,0.0,0.0,7,2026,1.0
