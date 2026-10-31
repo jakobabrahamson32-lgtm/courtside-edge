@@ -101,7 +101,8 @@ if df.empty:
 df["line"] = pd.to_numeric(df["line"], errors="coerce")
 df = df.dropna(subset=["playerName", "stat", "line"])
 
-output = Path(__file__).resolve().parent / "prizepicks_nba_lines.csv"df.to_csv(output, index=False)
+output = Path(__file__).resolve().parent / "prizepicks_nba_lines.csv"
+df.to_csv(output, index=False)
 
 print(f"Saved {len(df)} PrizePicks props to {output}")
 print(df[["playerName", "team", "stat", "line"]].head(10))
