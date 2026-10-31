@@ -133,12 +133,12 @@ matched = matched.sort_values(
 
 output = matched[
     ["Player", "Team", "stat", "line",
-     "Projection", "Difference", "Direction"]
+     "Projection", "Difference", "Direction", "gameStartsAt"]
 ].copy()
 
 output.columns = [
     "Player", "Team", "Stat", "PrizePicksLine",
-    "ModelProjection", "Difference", "Direction"
+    "ModelProjection", "Difference", "Direction", "GameStartsAt"
 ]
 
 print("\nMatched PrizePicks props:", len(output))
