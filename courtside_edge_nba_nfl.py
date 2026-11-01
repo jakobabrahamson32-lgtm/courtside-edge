@@ -568,6 +568,20 @@ if page=='All PrizePicks Props':
             st.dataframe(counts,hide_index=True,use_container_width=True)
             market_summary=all_props.groupby(['Stat','Coverage reason']).size().reset_index(name='Props')
             st.dataframe(market_summary.sort_values('Props',ascending=False),hide_index=True,use_container_width=True)
+    if sport=='NFL' and search and 'addison' in search.casefold():
+        addison_lines=all_props[all_props['Player'].astype(str).str.contains('Addison',case=False,na=False)]
+        if addison_lines.empty:
+            st.info('Jordan Addison has no eligible upcoming lines in the selected PrizePicks feed.')
+        elif not addison_lines['Has model projection'].any():
+            model_addison=(projections[projections['Player'].astype(str).str.contains('Addison',case=False,na=False)]
+                           if projections is not None and not projections.empty else pd.DataFrame())
+            if model_addison.empty:
+                st.warning('Jordan Addison is in PrizePicks but missing from the current NFL model projections. Check whether his 2026 weekly game data is present, then refresh the NFL model.')
+            else:
+                available=', '.join(sorted(model_addison['Stat'].dropna().astype(str).unique()))
+                st.warning(f'Jordan Addison is in PrizePicks, but his listed markets did not match a projection. Model stats available: {available or "none"}. Check player ID and market mapping.')
+        else:
+            st.success(f'Jordan Addison has {int(addison_lines["Has model projection"].sum())} matched props in this feed.')
     st.caption(f'{feed_note} · {len(all_props)} upcoming props · {int(all_props["Has model projection"].sum())} matched')
     market=st.selectbox('Market',['All']+sorted(all_props['Stat'].dropna().astype(str).unique()),key=f'props_market_v2_{sport}')
     coverage=st.selectbox('Show',['All props','Matched only','Unmatched only'],key=f'props_coverage_v2_{sport}')
