@@ -234,7 +234,7 @@ with st.sidebar:
     st.caption('THE PERFORMANCE LAB')
     st.divider()
     sport=st.radio('SPORT',['NBA','NFL'],horizontal=True)
-    nav_icons={'Lay of the Day':'✦','Overview':'◫','Player Props':'♙','Betting Comparisons':'⇄','Top Gaps':'↗','Model History':'◷','Model Performance':'▥','Settings':'⚙'}
+    nav_icons={'Lay of the Day':'✦','All PrizePicks Props':'▦','Overview':'◫','Player Props':'♙','Betting Comparisons':'⇄','Top Gaps':'↗','Model History':'◷','Model Performance':'▥','Settings':'⚙'}
     page=st.radio('NAVIGATION',list(nav_icons),format_func=lambda name:f"{nav_icons[name]}   {name}",label_visibility='collapsed')
     st.divider()
     if st.button('↻ Refresh data',type='primary',use_container_width=True):
@@ -289,6 +289,78 @@ if not comparison.empty:
         else:
             st.warning(injury_message)
 
+
+def standard_prizepicks_props(selected_sport):
+    """Display all available standard, non-live, non-combo, non-promo PrizePicks lines.
+    Unmatched markets remain visible; they are not invented projections.
+    """
+    if selected_sport=='NBA':
+        raw=read_file('prizepicks_nba_lines.csv')
+        if raw is None or raw.empty:return pd.DataFrame()
+        required={'playerName','stat','line','oddsType'}
+        if not required.issubset(raw.columns):return pd.DataFrame()
+        data=raw.copy()
+        data=data[data['oddsType'].astype(str).str.casefold().eq('standard')]
+        if 'projectionType' in data.columns:
+            data=data[data['projectionType'].astype(str).str.upper().eq('STANDARD')]
+        for flag in ['isLive','isCombo','isPromo']:
+            if flag in data.columns:
+                data=data[data[flag].astype(str).str.casefold().isin(['false','0'])]
+        if 'league' in data.columns:
+            data=data[data['league'].astype(str).str.upper().eq('NBA')]
+        data=data.rename(columns={'playerName':'Player','team':'Team','stat':'Stat','line':'Line','gameStartsAt':'GameStartsAt'})
+    else:
+        raw=read_file('nfl_prizepicks_all_standard.csv')
+        if raw is None or raw.empty:
+            raw=read_file('nfl_prizepicks_lines.csv')
+        if raw is None or raw.empty:return pd.DataFrame()
+        data=raw.copy().rename(columns={'SportsbookLine':'Line'})
+    if not {'Player','Stat','Line'}.issubset(data.columns):return pd.DataFrame()
+    data['Line']=pd.to_numeric(data['Line'],errors='coerce')
+    data=data.dropna(subset=['Player','Stat','Line']).copy()
+    if 'GameStartsAt' in data.columns:
+        starts=pd.to_datetime(data['GameStartsAt'],utc=True,errors='coerce')
+        data=data.loc[starts.notna() & (starts>pd.Timestamp.now(tz='UTC'))].copy()
+    data['Team']=data.get('Team','')
+    return data.drop_duplicates(subset=['Player','Stat','Line','GameStartsAt'] if 'GameStartsAt' in data.columns else ['Player','Stat','Line'])
+
+if page=='All PrizePicks Props':
+    st.subheader(f'All {sport} PrizePicks standard props')
+    st.caption('Only PrizePicks standard lines. No Demons, Goblins, live, combo or promotional lines. Data is limited to what the connected feed actually returns.')
+    all_props=standard_prizepicks_props(sport)
+    if all_props.empty:
+        st.info('No upcoming standard PrizePicks lines are available from the current feed.')
+        st.stop()
+    if not comparison.empty:
+        comparison_keys=set(zip(comparison['Player'].map(norm),comparison['Stat'].map(norm),
+                                pd.to_numeric(comparison['PrizePicksLine'],errors='coerce').round(3)))
+    else:
+        comparison_keys=set()
+    all_props['Has model projection']=[
+        (norm(r.Player),norm(r.Stat),round(float(r.Line),3)) in comparison_keys
+        for r in all_props.itertuples(index=False)]
+    total=len(all_props)
+    matched=int(all_props['Has model projection'].sum())
+    x,y,z=st.columns(3)
+    x.metric('Standard lines received',total)
+    y.metric('With model comparison',matched)
+    z.metric('Without comparison',total-matched)
+    st.caption('A missing comparison means no matched model projection, not a missing PrizePicks market.')
+    search=st.text_input('Search player',placeholder='Type a player name',key=f'all_props_search_{sport}')
+    market=st.selectbox('Prop type',['All']+sorted(all_props['Stat'].dropna().astype(str).unique()),key=f'all_props_market_{sport}')
+    coverage=st.selectbox('Projection coverage',['All props','With model comparison','Without model comparison'],key=f'all_props_coverage_{sport}')
+    view=all_props
+    if search:view=view[view['Player'].astype(str).str.contains(search,case=False,regex=False,na=False)]
+    if market!='All':view=view[view['Stat'].eq(market)]
+    if coverage!='All props':view=view[view['Has model projection'].eq(coverage=='With model comparison')]
+    st.caption(f'{len(view)} matching standard props · feed file: '+modified('prizepicks_nba_lines.csv' if sport=='NBA' else 'nfl_prizepicks_all_standard.csv'))
+    columns=[c for c in ['Player','Team','Stat','Line','GameStartsAt','Has model projection'] if c in view.columns]
+    st.dataframe(view[columns],hide_index=True,use_container_width=True,
+                 column_config={'Line':st.column_config.NumberColumn('PrizePicks line',format='%.1f'),
+                                'Has model projection':st.column_config.CheckboxColumn('Model available')})
+    st.download_button('Download visible standard props',view[columns].to_csv(index=False).encode(),
+                       f'{sport.lower()}_prizepicks_standard_props.csv','text/csv')
+    st.stop()
 
 if page=='Lay of the Day':
     st.subheader('✦ Lay of the Day · 3-Leg Parlay')
