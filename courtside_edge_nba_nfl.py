@@ -94,7 +94,7 @@ hr{border-color:#EBEAF1!important}
 @media(max-width:900px){
   .block-container{padding:1.1rem .9rem 4rem!important;max-width:100%!important}
   /* Hide only the desktop navigation row, never the page content. */
-  [data-testid="stHorizontalBlock"]:has(.pf-desktop-nav-marker){display:none!important}
+  [data-testid="stHorizontalBlock"]:has(.pf-brand){display:none!important}
   [class*="st-key-pf_mobile_nav"]{display:block!important;background:#FFFFFF;border:1px solid #E9E5F2;border-radius:16px;padding:12px 14px;margin:0 0 16px}
   .pf-mobile-brand{font-family:'Lato',sans-serif;font-size:1.55rem;font-weight:900;color:#35105B;margin-bottom:8px}
   .pf-mobile-brand:first-letter{color:#7C3AED}
@@ -418,7 +418,6 @@ else:comparison=pd.DataFrame(columns=['Player','Team','Stat','PrizePicksLine','M
 
 # Top navigation mirrors the sidebar without changing the existing analytics routes.
 # Desktop and mobile navigation use the same page state and underlying data.
-st.markdown('<div class="pf-desktop-nav-marker"></div>',unsafe_allow_html=True)
 navcols=st.columns([2.6,1,1,1.35,1,1.15,1.5],vertical_alignment='center')
 with navcols[0]:
     st.markdown('<div class="pf-brand"><span class="pf-bars">▂▅▇</span><span class="pf-divider">│</span>Propified</div>',unsafe_allow_html=True)
