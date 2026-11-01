@@ -266,13 +266,14 @@ def espn_nba_recent_games(player_name):
                 if found and found[-1]['Game']==str(event.get('date',''))[:10]:break
             if found and found[-1]['Game']==str(event.get('date',''))[:10]:break
     return pd.DataFrame(found[::-1])
+@st.cache_data(ttl=1800,show_spinner=False)
 def recent_game_logs(sport, player_name, player_id=None):
     if sport == 'NFL':
         import nflreadpy as nfl
         raw=nfl.load_player_stats([2025,2026],summary_level='week').to_pandas()
         name_col=next((c for c in ['player_name','player_display_name','player'] if c in raw),None)
         id_col=next((c for c in ['player_id','gsis_id'] if c in raw),None)
-        if name_col is None:return pd.DataFrame()
+        if name_col is None:raise ValueError('NFL weekly stats missing player names')
         if player_id and id_col:
             rows=raw[raw[id_col].astype(str).eq(str(player_id))].copy()
         else:
@@ -300,13 +301,15 @@ def recent_game_logs(sport, player_name, player_id=None):
     today=datetime.now()
     season_year=today.year if today.month>=10 else today.year-1
     games=[]
+    fetch_errors=[]
     for year in [season_year,season_year-1]:
         season=f'{year}-{str((year+1)%100).zfill(2)}'
         try:
             raw=playergamelog.PlayerGameLog(player_id=int(pid),season=season,
                                             season_type_all_star='Regular Season',
                                             timeout=12).get_data_frames()[0]
-        except Exception:
+        except Exception as exc:
+            fetch_errors.append(f'{season}: {type(exc).__name__}: {str(exc)[:120]}')
             continue
         if not raw.empty:
             games.append(raw)
@@ -332,7 +335,7 @@ def show_recent_games(sport, player_name, stat=None, player_id=None):
     try:
         logs=recent_game_logs(sport,player_name,player_id)
     except Exception as exc:
-        st.warning(f'Recent game logs are temporarily unavailable: {type(exc).__name__}.')
+        st.warning(f'Recent game logs unavailable: {type(exc).__name__}: {str(exc)[:240]}')
         return
     if logs.empty or len(logs.columns)<2:
         st.info('Verified per-game stats are not available for this player yet.')
@@ -343,7 +346,7 @@ def show_recent_games(sport, player_name, stat=None, player_id=None):
              'Receiving Yds':'Receiving Yards','Rushing Yds':'Rushing Yards'}
     preferred=aliases.get(str(stat),stat)
     default=choices.index(preferred) if preferred in choices else 0
-    selected=st.selectbox('Stat to chart',choices,index=default,key=f'log_stat_{sport}_{norm(player_name)}')
+    selected=st.selectbox('Stat to chart',choices,index=default,key=f'log_stat_{sport}_{norm(player_name)}_{norm(stat)}')
     chart=logs[['Game',selected]].dropna().set_index('Game')
     if chart.empty:
         st.info('No completed games with this statistic.')
