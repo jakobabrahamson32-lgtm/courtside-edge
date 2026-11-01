@@ -58,6 +58,15 @@ hr{border-color:#DCCBFA!important}\n[data-testid='stExpander']{border:1px solid 
 .smallprint{font-size:.78rem;color:#696780}
 @media(max-width:900px){.block-container{padding:1.25rem 1.1rem 3rem!important}.hero{padding:28px 24px}.hero:after{width:220px;height:220px;right:-110px;top:-120px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.ce-prop-line{font-family:'Plus Jakarta Sans',sans-serif;font-size:1.65rem;font-weight:800;line-height:1.15;margin:.4rem 0 .7rem;color:#2C2443}
+.ce-prop-line span{font-size:.77rem;font-weight:500;color:#77758A}
+[data-testid="stMetric"]{background:#FFFFFF!important;border:1px solid #E9E8F0!important;box-shadow:none!important;min-height:105px;padding:16px 18px!important}
+.stApp,[data-testid="stAppViewContainer"]{background:#F8F8FB!important}
+[data-testid="stSidebar"]{background:#F5F3FA!important}
+.hero{background:linear-gradient(110deg,#FFFFFF 25%,#F3EEFC 100%);border-color:#EAE6F2;padding:30px 36px}
+.hero:after{opacity:.14}
+.hero h1{font-size:clamp(2.1rem,4vw,3.35rem)!important}
+hr{border-color:#EBEAF1!important}
 </style>""",unsafe_allow_html=True)
 
 def norm(v):
@@ -234,7 +243,7 @@ with st.sidebar:
     st.caption('THE PERFORMANCE LAB')
     st.divider()
     sport=st.radio('SPORT',['NBA','NFL'],horizontal=True)
-    nav_icons={'Lay of the Day':'✦','All PrizePicks Props':'▦','Overview':'◫','Player Props':'♙','Betting Comparisons':'⇄','Top Gaps':'↗','Model History':'◷','Model Performance':'▥','Settings':'⚙'}
+    nav_icons={'Lay of the Day':'✦','All PrizePicks Props':'▦','Overview':'◫','Player Props':'♙','Betting Comparisons':'⇄','Model History':'◷','Model Performance':'▥','Settings':'⚙'}
     page=st.radio('NAVIGATION',list(nav_icons),format_func=lambda name:f"{nav_icons[name]}   {name}",label_visibility='collapsed')
     st.divider()
     if st.button('↻ Refresh data',type='primary',use_container_width=True):
@@ -302,7 +311,7 @@ comparison=read_file(files['comparison'])
 projections=read_file(files['projections'])
 nfl_board_source=None
 nfl_board_lines=0
-if sport=='NFL' and page in ('Betting Comparisons','Top Gaps','Overview','Lay of the Day'):
+if sport=='NFL' and page in ('Betting Comparisons','Overview','Lay of the Day'):
     # Never silently show an old 161-row CSV when the live feed fails.
     from nfl_compare import match_frames
     try:
@@ -866,37 +875,37 @@ if comparison.empty and page!='Overview':
     st.stop()
 
 def render_player_gallery(rows, sport, limit=6):
-    """Compact, visual shortlist; scores are heuristic, never verified odds."""
+    """Compact, PrizePicks-inspired tiles with optional details."""
     if rows is None or rows.empty:
         return
-    shortlist=rows.drop_duplicates(subset=['Player']).head(limit)
-    st.markdown('#### Players to explore')
-    st.caption('Select a player below to view their sportsbook line, model projection and last-five-game performance. These are model leans, not verified picks.')
+    shortlist=rows.head(limit)
+    st.markdown('#### Quick prop cards')
+    st.caption('Line = sportsbook target · Model = estimated stat · Lean is not a guaranteed outcome.')
     columns=st.columns(3)
     for index,(_,r) in enumerate(shortlist.iterrows()):
         with columns[index % 3]:
             with st.container(border=True):
-                pic,details=st.columns([1,2],vertical_alignment='center')
+                pic,details=st.columns([1,3],vertical_alignment='center')
                 with pic:
                     url=r.get('Headshot')
                     if isinstance(url,str) and url.startswith('https://'):
                         st.image(url,use_container_width=True)
-                    else:
-                        st.markdown('◉')
                 with details:
                     st.markdown('**'+str(r['Player'])+'**')
                     st.caption(str(r.get('Team',''))+' · '+str(r.get('Stat','')))
-                    st.markdown(f"**{r['Model lean']}** · {float(r['Difference']):+.1f} gap")
-                with st.expander('View player details'):
-                    x,y=st.columns(2)
-                    x.metric('Sportsbook',f"{float(r['PrizePicksLine']):.1f}")
-                    y.metric('Model',f"{float(r['ModelProjection']):.1f}")
+                st.markdown(f"<div class='ce-prop-line'>{float(r['PrizePicksLine']):.1f}<span> {r['Stat']}</span></div>",unsafe_allow_html=True)
+                left,right=st.columns(2)
+                left.caption('MODEL')
+                left.markdown(f"**{float(r['ModelProjection']):.1f}**")
+                right.caption('LEAN')
+                right.markdown(f"**{r['Model lean']}**")
+                with st.expander('More details'):
+                    st.caption(f"Gap: {float(r['Difference']):+.1f} · Injury: {r.get('Injury status','UNVERIFIED')}")
                     if 'PickQuality' in r and pd.notna(r['PickQuality']):
-                        st.caption('Screening: '+str(r['PickQuality'])+' (not a win probability)')
-                    st.caption('Injury: '+str(r.get('Injury status','UNVERIFIED')))
-                    if st.button('Load last 5 games',key=f"gallery_logs_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}"):
-                        st.session_state[f"gallery_open_{sport}_{index}_{norm(r['Player'])}"]=True
-                    if st.session_state.get(f"gallery_open_{sport}_{index}_{norm(r['Player'])}",False):
+                        st.caption('Screening: '+str(r['PickQuality'])+' (not a probability)')
+                    if st.button('Show last 5 games',key=f"gallery_logs_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}"):
+                        st.session_state[f"gallery_open_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}"]=True
+                    if st.session_state.get(f"gallery_open_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}",False):
                         show_recent_games(sport,str(r['Player']),str(r['Stat']))
 
 if page=='Overview':
@@ -947,10 +956,9 @@ if page=='Overview':
         st.markdown('**Sportsbook line** = the target to beat. **Model estimate** = our predicted player stat. **Difference** = estimate minus line. **OVER** means the model estimates more than the line; **UNDER** means less. **Hit rate** = verified winning picks divided by wins plus losses. None of these numbers guarantees a result.')
     st.stop()
 
-elif page=='Top Gaps':
-    st.subheader('Largest projection gaps')
-    st.caption('Candidates to review, not independently verified value picks.')
-else:st.subheader('The comparison board')
+else:st.subheader('Compare player props')
+board_mode=st.radio('Board view',['All comparisons','Top gaps'],horizontal=True,key=f'board_mode_{sport}')
+st.caption('Top gaps highlights the largest model-to-line differences; it does not imply a higher chance of winning.')
 
 f1,f2,f3,f4=st.columns([2,1.3,1.3,1.2])
 with f1:search=st.text_input('Player search',placeholder='Search player')
@@ -968,9 +976,9 @@ if 'ReliabilityScore' in view.columns:
     view=view.sort_values(['ReliabilityScore','Gap'],ascending=False)
 else:
     view=view.sort_values('Gap',ascending=False)
-if page=='Top Gaps':view=view.head(15)
+if board_mode=='Top gaps':view=view.sort_values('Gap',ascending=False).head(15)
 st.caption(f'{len(view)} matching player props · gap = model projection minus sportsbook line')
-if page in ('Top Gaps','Betting Comparisons') and not view.empty:
+if not view.empty:
     render_player_gallery(view,sport)
 with st.expander('How to read this table'):
     st.markdown('**Sportsbook:** listed prop line. **Model:** statistical projection. **Gap:** difference between them. **Model lean:** which side the projection favors. **Injury status:** UNVERIFIED means the feed has not confirmed the player status.')
