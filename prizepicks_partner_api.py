@@ -15,7 +15,7 @@ URL='https://partner-api.prizepicks.com/projections'
 LEAGUES={'NBA':7,'NFL':9}
 NBA={'Points':'Points','Rebounds':'Rebounds','Assists':'Assists',
      '3-PT Made':'3-PT Made','3-Pointers Made':'3-PT Made'}
-NFL={'Pass Attempts':'Passing Attempts','Pass Completions':'Passing Completions','Completions':'Passing Completions','Rush Attempts':'Rushing Attempts','Rush Atts':'Rushing Attempts','Rush Yards':'Rushing Yards','Receiving Yds':'Receiving Yards','Rec Yards':'Receiving Yards','Pass Yards':'Passing Yards','Passing Yards':'Passing Yards','Pass Yards':'Passing Yards',
+NFL={'player_rec_targets':'Targets','Targets':'Targets','Receiving Targets':'Targets','player_receiving_yards':'Receiving Yards','player_receptions':'Receptions','player_rushing_yards':'Rushing Yards','player_rush_attempts':'Rushing Attempts','player_passing_attempts':'Passing Attempts','player_passing_completions':'Passing Completions','Pass Attempts':'Passing Attempts','Pass Completions':'Passing Completions','Completions':'Passing Completions','Rush Attempts':'Rushing Attempts','Rush Atts':'Rushing Attempts','Rush Yards':'Rushing Yards','Receiving Yds':'Receiving Yards','Rec Yards':'Receiving Yards','Pass Yards':'Passing Yards','Passing Yards':'Passing Yards','Pass Yards':'Passing Yards',
      'Passing TDs':'Passing TDs','Rushing Yards':'Rushing Yards',
      'Rushing Attempts':'Rushing Attempts','Receiving Yards':'Receiving Yards',
      'Receptions':'Receptions','Receiving TDs':'Receiving TDs','Passing Attempts':'Passing Attempts','Passing Completions':'Passing Completions'}
