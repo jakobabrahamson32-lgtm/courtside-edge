@@ -241,6 +241,41 @@ with st.sidebar:
         st.cache_data.clear();st.rerun()
     st.caption('Hosted data · Courtside Edge repository')
 
+def standard_prizepicks_props(selected_sport):
+    """Display all available standard, non-live, non-combo, non-promo PrizePicks lines.
+    Unmatched markets remain visible; they are not invented projections.
+    """
+    if selected_sport=='NBA':
+        raw=read_file('prizepicks_nba_lines.csv')
+        if raw is None or raw.empty:return pd.DataFrame()
+        required={'playerName','stat','line','oddsType'}
+        if not required.issubset(raw.columns):return pd.DataFrame()
+        data=raw.copy()
+        data=data[data['oddsType'].astype(str).str.casefold().eq('standard')]
+        if 'projectionType' in data.columns:
+            data=data[data['projectionType'].astype(str).str.upper().eq('STANDARD')]
+        for flag in ['isLive','isCombo','isPromo']:
+            if flag in data.columns:
+                data=data[data[flag].astype(str).str.casefold().isin(['false','0'])]
+        if 'league' in data.columns:
+            data=data[data['league'].astype(str).str.upper().eq('NBA')]
+        data=data.rename(columns={'playerName':'Player','team':'Team','stat':'Stat','line':'Line','gameStartsAt':'GameStartsAt'})
+    else:
+        raw=read_file('nfl_prizepicks_all_standard.csv')
+        if raw is None or raw.empty:
+            raw=read_file('nfl_prizepicks_lines.csv')
+        if raw is None or raw.empty:return pd.DataFrame()
+        data=raw.copy().rename(columns={'SportsbookLine':'Line'})
+    if not {'Player','Stat','Line'}.issubset(data.columns):return pd.DataFrame()
+    data['Line']=pd.to_numeric(data['Line'],errors='coerce')
+    data=data.dropna(subset=['Player','Stat','Line']).copy()
+    if 'GameStartsAt' in data.columns:
+        starts=pd.to_datetime(data['GameStartsAt'],utc=True,errors='coerce')
+        data=data.loc[starts.notna() & (starts>pd.Timestamp.now(tz='UTC'))].copy()
+    data['Team']=data.get('Team','')
+    return data.drop_duplicates(subset=['Player','Stat','Line','GameStartsAt'] if 'GameStartsAt' in data.columns else ['Player','Stat','Line'])
+
+
 @st.cache_data(ttl=300,show_spinner=False)
 def nfl_live_feed():
     from prizepicks_partner_api import fetch
@@ -334,39 +369,6 @@ if not comparison.empty:
             st.warning(injury_message)
 
 
-def standard_prizepicks_props(selected_sport):
-    """Display all available standard, non-live, non-combo, non-promo PrizePicks lines.
-    Unmatched markets remain visible; they are not invented projections.
-    """
-    if selected_sport=='NBA':
-        raw=read_file('prizepicks_nba_lines.csv')
-        if raw is None or raw.empty:return pd.DataFrame()
-        required={'playerName','stat','line','oddsType'}
-        if not required.issubset(raw.columns):return pd.DataFrame()
-        data=raw.copy()
-        data=data[data['oddsType'].astype(str).str.casefold().eq('standard')]
-        if 'projectionType' in data.columns:
-            data=data[data['projectionType'].astype(str).str.upper().eq('STANDARD')]
-        for flag in ['isLive','isCombo','isPromo']:
-            if flag in data.columns:
-                data=data[data[flag].astype(str).str.casefold().isin(['false','0'])]
-        if 'league' in data.columns:
-            data=data[data['league'].astype(str).str.upper().eq('NBA')]
-        data=data.rename(columns={'playerName':'Player','team':'Team','stat':'Stat','line':'Line','gameStartsAt':'GameStartsAt'})
-    else:
-        raw=read_file('nfl_prizepicks_all_standard.csv')
-        if raw is None or raw.empty:
-            raw=read_file('nfl_prizepicks_lines.csv')
-        if raw is None or raw.empty:return pd.DataFrame()
-        data=raw.copy().rename(columns={'SportsbookLine':'Line'})
-    if not {'Player','Stat','Line'}.issubset(data.columns):return pd.DataFrame()
-    data['Line']=pd.to_numeric(data['Line'],errors='coerce')
-    data=data.dropna(subset=['Player','Stat','Line']).copy()
-    if 'GameStartsAt' in data.columns:
-        starts=pd.to_datetime(data['GameStartsAt'],utc=True,errors='coerce')
-        data=data.loc[starts.notna() & (starts>pd.Timestamp.now(tz='UTC'))].copy()
-    data['Team']=data.get('Team','')
-    return data.drop_duplicates(subset=['Player','Stat','Line','GameStartsAt'] if 'GameStartsAt' in data.columns else ['Player','Stat','Line'])
 
 NBA_MARKET_LABELS={
     'player_pts_rebs':'Points + Rebounds',
