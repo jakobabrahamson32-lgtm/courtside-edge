@@ -12,30 +12,53 @@ import streamlit as st
 
 st.set_page_config(page_title='Courtside Edge | NBA + NFL',page_icon='◉',layout='wide',initial_sidebar_state='expanded')
 ROOT = Path(__file__).resolve().parent
-C={'navy':'#080F1D','panel':'#111D30','blue':'#2585FF','orange':'#FF9416','green':'#39FF88','red':'#FF4D5A','muted':'#91A4BB'}
-st.markdown('''<style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
-.stApp{background:radial-gradient(ellipse 85% 35% at 85% -15%,#15365d 0%,transparent 75%),#080F1D;color:#F4F8FF;font-family:'DM Sans',sans-serif}
-[data-testid="stSidebar"]{background:#0D1829;border-right:1px solid #22344C}
-.block-container{max-width:1480px;padding-top:1.7rem;padding-bottom:5rem}
-h1,h2,h3{font-family:'Space Grotesk',sans-serif!important;letter-spacing:-.045em;color:#F4F8FF!important}
-[data-testid="stMetric"]{background:linear-gradient(150deg,#17283F,#111D30);border:1px solid #293B53;border-radius:16px;padding:16px;min-height:112px}
-[data-testid="stMetricLabel"]{color:#91A4BB}
-[data-testid="stMetricValue"]{color:#F4F8FF;font-family:'Space Grotesk',sans-serif}
-[data-testid="stVerticalBlockBorderWrapper"]>div{border:1px solid #263B55!important;background:#111D30!important;border-radius:16px!important}
-.stButton button{border:1px solid #324860!important;border-radius:11px!important;background:#182A41!important;color:#F4F8FF!important;font-weight:700!important}
-.stButton button:hover{border-color:#2585FF!important}
-.stButton button[kind="primary"]{background:#2585FF!important;border-color:#2585FF!important}
-[data-baseweb="input"]>div,[data-baseweb="select"]>div{background:#14243A!important;border-color:#2A3D55!important;color:#F4F8FF!important;border-radius:10px!important}
-[data-baseweb="input"] input{color:#F4F8FF!important}
-[data-testid="stDataFrame"]{border:1px solid #293B53;border-radius:13px;overflow:hidden}
-[data-testid="stSlider"] [role="slider"]{background:#2585FF!important}
-.hero{border-bottom:1px solid #24354B;padding:20px 0 24px;margin-bottom:20px}
-.hero h1{font-size:clamp(2.8rem,5vw,4.6rem);line-height:1.05;margin:9px 0 7px}
-.hero p{color:#91A4BB;font-size:1rem;margin:0}
-.eyebrow{font-size:.7rem;color:#FF9416;letter-spacing:.2em;font-weight:800}
-.smallprint{font-size:.78rem;color:#91A4BB}
-</style>''',unsafe_allow_html=True)
+C={'purple':'#6415D8','deep':'#4C0DB3','lavender':'#EDE3FF','background':'#FAFAFC','text':'#17142F','muted':'#696780','green':'#16A878','red':'#E34D64'}
+st.markdown("""<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+:root{--ce-purple:#6415D8;--ce-deep:#4C0DB3;--ce-lavender:#EDE3FF;--ce-bg:#FAFAFC;--ce-panel:#FFFFFF;--ce-border:#E5E5EF;--ce-text:#17142F;--ce-muted:#696780}
+html,body,[class*="css"],.stApp{font-family:'Inter',sans-serif;color:var(--ce-text)}
+.stApp,[data-testid="stAppViewContainer"]{background:#FAFAFC!important;color:var(--ce-text)!important}
+[data-testid="stHeader"]{background:rgba(250,250,252,.95)!important}
+[data-testid="stSidebar"]{background:linear-gradient(165deg,#F6F1FF 0%,#FFFFFF 58%)!important;border-right:1px solid var(--ce-border)!important}
+[data-testid="stSidebar"] [data-testid="stVerticalBlock"]{gap:.7rem}
+[data-testid="stSidebar"] .stRadio>div[role="radiogroup"]{gap:.3rem}
+[data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label{border-radius:11px;padding:9px 12px;transition:background .15s ease,color .15s ease}
+[data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:hover{background:#F3ECFF}
+[data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:has(input:checked){background:#EDE3FF;color:#4C0DB3!important;font-weight:700}
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p{color:#696780}
+.block-container{max-width:1400px!important;padding:2rem 2.5rem 5rem!important}
+h1,h2,h3,h4{font-family:'Plus Jakarta Sans',sans-serif!important;color:#17142F!important;letter-spacing:-.035em!important}
+h2{font-size:clamp(1.55rem,2.5vw,2.05rem)!important}
+h3{font-size:1.2rem!important}
+p,span,label{font-family:'Inter',sans-serif}
+[data-testid="stMetric"]{background:#FFFFFF!important;border:1px solid #E5E5EF!important;border-radius:17px!important;padding:20px 22px!important;min-height:126px;box-shadow:0 3px 14px rgba(44,24,92,.025)!important}
+[data-testid="stMetricLabel"]{color:#696780!important;font-size:.82rem!important}
+[data-testid="stMetricValue"]{color:#17142F!important;font-family:'Plus Jakarta Sans',sans-serif!important;font-size:clamp(1.6rem,2.7vw,2.3rem)!important;letter-spacing:-.045em!important}
+[data-testid="stMetricDelta"]{color:#16A878}
+[data-testid="stVerticalBlockBorderWrapper"]>div{border:1px solid #E5E5EF!important;background:#FFFFFF!important;border-radius:17px!important}
+.stButton button,.stDownloadButton button{border:1px solid #E5E5EF!important;border-radius:11px!important;background:#FFFFFF!important;color:#17142F!important;font-weight:650!important;transition:background .15s,border-color .15s,transform .15s!important}
+.stButton button:hover,.stDownloadButton button:hover{border-color:#6415D8!important;background:#F6F1FF!important;color:#4C0DB3!important}
+.stButton button[kind="primary"]{background:#6415D8!important;border-color:#6415D8!important;color:#FFFFFF!important}
+.stButton button[kind="primary"]:hover{background:#4C0DB3!important}
+[data-testid="stSidebar"] .stButton button{background:#6415D8!important;color:white!important;border-color:#6415D8!important}
+[data-testid="stSidebar"] .stButton button:hover{background:#4C0DB3!important}
+button:focus-visible,input:focus-visible,[role="radio"]:focus-visible{outline:3px solid #B69BF3!important;outline-offset:2px!important}
+[data-baseweb="input"]>div,[data-baseweb="select"]>div,[data-baseweb="textarea"]>div{background:#FFFFFF!important;border:1px solid #E5E5EF!important;color:#17142F!important;border-radius:10px!important}
+[data-baseweb="input"] input{color:#17142F!important}
+[data-testid="stDataFrame"]{border:1px solid #E5E5EF!important;border-radius:15px!important;overflow:hidden;background:#FFFFFF!important}
+[data-testid="stSlider"] [role="slider"]{background:#6415D8!important}
+[data-testid="stAlert"]{border-radius:12px!important;border-width:1px!important}
+[data-testid="stCaptionContainer"],.stCaption{color:#696780!important}
+hr{border-color:#E5E5EF!important}
+.hero{position:relative;overflow:hidden;background:#FFFFFF;border:1px solid #E5E5EF;border-radius:20px;padding:40px 44px;margin:8px 0 24px}
+.hero:after{content:"";position:absolute;pointer-events:none;width:340px;height:340px;border-radius:50%;right:-125px;top:-195px;background:radial-gradient(circle,#EDE3FF 0%,#F6F1FF 60%,transparent 72%);opacity:.9}
+.hero h1{position:relative;z-index:1;font-size:clamp(2.8rem,5.3vw,4.65rem)!important;line-height:1.07;margin:12px 0 13px;font-weight:800}
+.hero p{position:relative;z-index:1;color:#696780;font-size:1rem;margin:0}
+.eyebrow{position:relative;z-index:1;font-size:.73rem;color:#6415D8;letter-spacing:.16em;font-weight:800}
+.smallprint{font-size:.78rem;color:#696780}
+@media(max-width:900px){.block-container{padding:1.25rem 1.1rem 3rem!important}.hero{padding:28px 24px}.hero:after{width:220px;height:220px;right:-110px;top:-120px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>""",unsafe_allow_html=True)
 
 def norm(v):
     v=unicodedata.normalize('NFKD',str(v).casefold())
@@ -119,7 +142,7 @@ with st.sidebar:
     sport=st.radio('SPORT',['NBA','NFL'],horizontal=True)
     page=st.radio('NAVIGATION',['Overview','Player Props','Betting Comparisons','Top Gaps','Model History','Model Performance','Settings'],label_visibility='collapsed')
     st.divider()
-    if st.button('↻ Refresh data',use_container_width=True):
+    if st.button('↻ Refresh data',type='primary',use_container_width=True):
         st.cache_data.clear();st.rerun()
     st.caption('Hosted data · Courtside Edge repository')
 
@@ -154,7 +177,7 @@ if comparison is not None and not comparison.empty:
 else:comparison=pd.DataFrame()
 
 st.markdown(f'''<div class="hero"><span class="eyebrow">◉ COURTSIDE EDGE / {sport} ANALYTICS</span>
-<h1>Find Your Edge<span style="color:#FF9416">.</span></h1>
+<h1>Find Your Edge<span style="color:#6415D8">.</span></h1>
 <p>Player projections. Sportsbook lines. A clearer picture of the game.</p></div>''',unsafe_allow_html=True)
 st.caption(f"{date.today():%A, %B %d, %Y}  ·  {sport} comparison updated: {modified(files['comparison'])}")
 st.caption('Updated file timestamps do not verify that games, line availability, or player status are current.')
@@ -377,7 +400,7 @@ if not view.empty:
             p2.metric('Model projection',f"{player['ModelProjection']:.1f}")
             p3.metric('Difference',f"{player['Difference']:+.1f}")
         chart=pd.DataFrame({'Value':[player['PrizePicksLine'],player['ModelProjection']]},index=['Sportsbook','Model'])
-        st.bar_chart(chart,horizontal=True,color='#2585FF')
+        st.bar_chart(chart,horizontal=True,color='#6415D8')
         if sport=='NFL':
             s1,s2=st.columns(2)
             for col,area in [('Last5Avg',s1),('Last10Avg',s2)]:
