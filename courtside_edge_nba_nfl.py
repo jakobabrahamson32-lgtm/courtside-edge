@@ -1075,55 +1075,41 @@ if page=='Overview':
         <div class="pf-home-logo"><span class="pf-bars">▂▅▇</span>│ Propified</div>
         <div class="pf-home-tag">PLAYER PROPS &nbsp; / &nbsp; PROJECTIONS &nbsp; / &nbsp; EDGES</div>
         </div>""",unsafe_allow_html=True)
-    history=read_file('model_history.csv')
-    wins=losses=settled_count=saved_count=0
-    if history is not None and {'Sport','Result','Actual'}.issubset(history.columns):
-        past=history[history['Sport'].astype(str).str.upper().eq(sport)].copy()
-        saved_count=len(past)
-        actual=pd.to_numeric(past['Actual'],errors='coerce')
-        results=past['Result'].fillna('PENDING').astype(str).str.upper()
-        verified=actual.notna() & results.isin(['WIN','LOSS','PUSH'])
-        settled_count=int(verified.sum())
-        wins=int((verified & results.eq('WIN')).sum())
-        losses=int((verified & results.eq('LOSS')).sum())
-    st.markdown('<div class="pf-section-space"></div>',unsafe_allow_html=True)
-    k1,k2,k3,k4=st.columns(4)
-    k1.metric(f'{sport} HIT RATE',f'{wins/(wins+losses):.1%}' if wins+losses else '—',help=f'{wins} verified wins / {wins+losses} decisions. Pushes and pending picks excluded.')
-    k2.metric('SAVED PICKS',f'{saved_count:,}',help='Pregame model snapshots recorded for the selected sport.')
-    k3.metric('AVAILABLE PROPS',f'{len(comparison):,}',help='Upcoming sportsbook props matched to model projections; not a measure of model accuracy.')
-    k4.metric('SETTLED PICKS',f'{settled_count:,}',help='Verified wins, losses and pushes with recorded actual stats.')
-    st.markdown('#### Explore today’s picks')
-    nba_col,nfl_col=st.columns(2)
-    with nba_col:
-        st.markdown('<div class="pf-sport-label">🏀 NBA PROPS</div>',unsafe_allow_html=True)
-        st.button('Today’s NBA Picks  →',key='home_nba',use_container_width=True,type='primary',on_click=navigate_to,args=('Betting Comparisons','NBA'))
-        st.caption('Player projections, prop lines and model comparisons')
-    with nfl_col:
-        st.markdown('<div class="pf-sport-label">🏈 NFL PROPS</div>',unsafe_allow_html=True)
-        st.button('Today’s NFL Picks  →',key='home_nfl',use_container_width=True,on_click=navigate_to,args=('Betting Comparisons','NFL'))
-        st.caption('Player projections, prop lines and model comparisons')
-    st.markdown('#### Today’s Top Props')
+    st.markdown('## Best plays today')
+    st.caption(f'{sport} · Upcoming games only · Ranked model comparisons, not guaranteed wins')
     if comparison.empty:
-        st.info('No upcoming matched props are currently available. The verified history above remains accurate.')
+        st.info('No upcoming matched player props are available right now. Check back after the next data refresh.')
     else:
-        market_options=['All']+[x for x in ['Points','Rebounds','Assists','Threes','Passing Yards','Receiving Yards','Rushing Yards','Receptions'] if x in comparison['Stat'].astype(str).unique()]
-        chosen_market=st.radio('Filter props',market_options,horizontal=True,key='home_market_'+sport)
-        shown=comparison if chosen_market=='All' else comparison[comparison['Stat'].astype(str).eq(chosen_market)]
-        shown=shown.sort_values(['ReliabilityScore','Gap'],ascending=False) if 'ReliabilityScore' in shown.columns else shown.sort_values('Gap',ascending=False)
-        if shown.empty:
-            st.info('No upcoming matched props in this category.')
+        top=comparison.copy()
+        top['Gap']=pd.to_numeric(top['Difference'],errors='coerce').abs()
+        top['PrizePicksLine']=pd.to_numeric(top['PrizePicksLine'],errors='coerce')
+        top['ModelProjection']=pd.to_numeric(top['ModelProjection'],errors='coerce')
+        top=top.dropna(subset=['Gap','PrizePicksLine','ModelProjection'])
+        top=top[top['Gap']>0]
+        top=top[~top['Injury status'].isin(['OUT','DOUBTFUL','QUESTIONABLE','REVIEW'])]
+        if 'PickQuality' in top.columns:
+            quality=top['PickQuality'].fillna('').astype(str).str.upper()
+            top=top[quality.isin(['QUALIFIED','STRONG','HIGH','GOOD','A','A+'])]
+        if 'ReliabilityScore' in top.columns:
+            top['ReliabilityScore']=pd.to_numeric(top['ReliabilityScore'],errors='coerce')
+            top=top.dropna(subset=['ReliabilityScore']).sort_values(['ReliabilityScore','Gap'],ascending=False)
         else:
-            render_player_gallery(shown,sport,limit=6)
-        st.caption(f'{len(shown)} upcoming matched props in this view · Model leans are not guaranteed winners.')
-    st.markdown('#### Full model results')
-    st.caption('Full saved comparisons may include games that have already started or ended. Check the game date before using a line.')
-    full_results=saved_comparison if saved_comparison is not None and not saved_comparison.empty else comparison
-    if full_results is not None and not full_results.empty:
-        result_cols=[c for c in ['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','GameStartsAt','ReliabilityScore'] if c in full_results.columns]
-        st.dataframe(full_results[result_cols],hide_index=True,use_container_width=True)
-        st.download_button('Download full model results',full_results[result_cols].to_csv(index=False).encode('utf-8'),file_name=f'{sport.lower()}_full_results.csv',mime='text/csv',key='home_full_results')
-    elif projections is not None and not projections.empty:
-        st.dataframe(projections,hide_index=True,use_container_width=True)
+            top['RelativeGap']=top['Gap']/top['PrizePicksLine'].abs().clip(lower=1)
+            top=top.sort_values('RelativeGap',ascending=False)
+        top=top.drop_duplicates(subset=['Player']).head(5)
+        if top.empty:
+            st.info('No plays pass the current screening criteria. No picks are being invented.')
+        else:
+            for rank,(_,pick) in enumerate(top.iterrows(),start=1):
+                with st.container(border=True):
+                    st.markdown(f"**#{rank} · {pick['Player']}**")
+                    st.caption(f"{pick.get('Team','')} · {pick['Stat']} · {pick.get('Injury status','UNVERIFIED')} injury status")
+                    st.markdown(f"### {pick['Model lean']} {pick['PrizePicksLine']:.1f}")
+                    st.caption(f"Model projection {pick['ModelProjection']:.1f}  ·  Difference {pick['Difference']:+.1f}")
+                    with st.expander('Last 5 games'):
+                        show_recent_games(sport,str(pick['Player']),str(pick['Stat']))
+    st.button('See all comparisons →',key='home_all_comparisons',use_container_width=True,type='primary',on_click=navigate_to,args=('Betting Comparisons',))
+    st.caption('Rankings reflect the current model and available lines. Confirm game time, player status, and line before acting.')
     st.stop()
 
 else:st.subheader('Compare player props')
