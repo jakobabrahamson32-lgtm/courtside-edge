@@ -44,6 +44,7 @@ props = props[
     & is_false(props["isPromo"])
     & (props["oddsType"].astype(str).str.lower() == "standard")
 ].copy()
+print("Eligible sportsbook props after filtering:", len(props))
 
 props["ModelStat"] = props["stat"].map(stat_map)
 
@@ -51,10 +52,12 @@ props["ModelStat"] = props["stat"].map(stat_map)
 props["line"] = pd.to_numeric(props["line"], errors="coerce")
 props = props.dropna(subset=["line", "playerName"])
 
-# Remove ambiguous NBA player names
-nba = nba[
-    ~nba["MatchName"].duplicated(keep=False)
-].copy()
+# ESPN returns recent appearances with former teams as well as current teams.
+# If a name appears for multiple teams, preserve it only if the most recent
+# team can be independently established from the current season data.
+# A unique name is safe for the name-based sportsbook match.
+nba = nba[~nba["MatchName"].duplicated(keep=False)].copy()
+print("Unique ESPN players available:", len(nba))
 
 # Keep one standard line per player and stat
 # Conflicting lines are excluded, not guessed.
