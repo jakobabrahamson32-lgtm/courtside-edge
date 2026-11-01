@@ -62,7 +62,14 @@ hr{border-color:#DCCBFA!important}\n[data-testid='stExpander']{border:1px solid 
 .ce-prop-line span{font-size:.77rem;font-weight:500;color:#77758A}
 [data-testid="stMetric"]{background:#FFFFFF!important;border:1px solid #E9E8F0!important;box-shadow:none!important;min-height:105px;padding:16px 18px!important}
 .stApp,[data-testid="stAppViewContainer"]{background:#F8F8FB!important}
-[data-testid="stSidebar"]{background:#F5F3FA!important}
+[data-testid="stSidebar"]{background:#5B21B6!important;border-right:1px solid #4C1D95!important}
+[data-testid="stSidebar"] label,[data-testid="stSidebar"] p,[data-testid="stSidebar"] span,[data-testid="stSidebar"] h1,[data-testid="stSidebar"] h2,[data-testid="stSidebar"] h3,[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p{color:#F5F0FF!important}
+[data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:hover{background:#7041C5!important}
+[data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:has(input:checked){background:#FFFFFF!important;color:#4C1D95!important}
+[data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:has(input:checked) p{color:#4C1D95!important}
+[data-testid="stSidebar"] .stButton button{background:#FFFFFF!important;color:#4C1D95!important;border-color:#FFFFFF!important}
+[data-testid="stSidebar"] .stButton button:hover{background:#F1EAFE!important;color:#4C1D95!important}
+[data-testid="stSidebar"] hr{border-color:#8B65D0!important}
 .hero{background:linear-gradient(110deg,#FFFFFF 25%,#F3EEFC 100%);border-color:#EAE6F2;padding:30px 36px}
 .hero:after{opacity:.14}
 .hero h1{font-size:clamp(2.1rem,4vw,3.35rem)!important}
