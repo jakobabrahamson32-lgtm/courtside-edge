@@ -59,6 +59,23 @@ def match_frames(projections, lines):
         'playerrushingyards':'Rushing Yards','playerrushattempts':'Rushing Attempts',
         'playerpassingattempts':'Passing Attempts','playerpassingcompletions':'Passing Completions'
     }
+    # Raw market keys from the partner feed; never interpret player combos as
+    # a single-player projection.
+    aliases.update({
+        'playerpassyds':'Passing Yards',
+        'playerpassattempts':'Passing Attempts',
+        'playerpasscompletions':'Passing Completions',
+        'playerrushyards':'Rushing Yards',
+        'playerrushattempts':'Rushing Attempts',
+        'playerrectargets':'Targets',
+        'playerint':'Interceptions',
+        'playerpasstds':'Passing TDs',
+        'playerrushtds':'Rushing TDs',
+        'playercompletionpercentage':'Completion Percentage',
+        'playerrushyardspercarry':'Yards Per Rush Attempt',
+        'playerpassplusrushyds':'Passing + Rushing Yards',
+        'playerrushplusrecyds':'Rushing + Receiving Yards',
+    })
     lines['Stat'] = lines['Stat'].map(lambda v: aliases.get(clean(v),v))
     lines['SportsbookLine'] = pd.to_numeric(lines['SportsbookLine'],errors='coerce')
     lines = lines.dropna(subset=['SportsbookLine'])
