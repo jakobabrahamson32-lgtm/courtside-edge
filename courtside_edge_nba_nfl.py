@@ -134,6 +134,18 @@ if comparison is not None and not comparison.empty:
     for c in ['PrizePicksLine','ModelProjection','Difference']:
         comparison[c]=pd.to_numeric(comparison[c],errors='coerce')
     comparison=comparison.dropna(subset=['PrizePicksLine','ModelProjection','Difference']).copy()
+    # Keep historical CSVs intact; hide props once their scheduled game starts.
+    # Unknown or invalid tipoff times are excluded rather than treated as live picks.
+    if 'GameStartsAt' in comparison.columns:
+        starts=pd.to_datetime(comparison['GameStartsAt'],utc=True,errors='coerce')
+        now_utc=pd.Timestamp.now(tz='UTC')
+        removed=int((starts.isna() | (starts<=now_utc)).sum())
+        comparison=comparison.loc[starts.notna() & (starts>now_utc)].copy()
+        if removed:
+            st.sidebar.caption(f'{removed} started/unscheduled props hidden from live board')
+    else:
+        st.sidebar.warning('Missing game start times: live betting board hidden for safety.')
+        comparison=comparison.iloc[0:0].copy()
     comparison['Gap']=comparison['Difference'].abs()
     comparison['Model lean']=comparison['Difference'].map(lambda x:'OVER' if x>0 else 'UNDER' if x<0 else 'EVEN')
     comparison['Headshot']=comparison['Player'].map(lambda n:photo(n,sport))
