@@ -76,6 +76,18 @@ hr{border-color:#DCCBFA!important}\n[data-testid='stExpander']{border:1px solid 
 hr{border-color:#EBEAF1!important}
 /* Lato for reading; Space Mono for data, numbers and display elements. */
 [data-testid="stMetricValue"],[data-testid="stMetricDelta"],[data-testid="stDataFrame"] [role="gridcell"],.ce-prop-line{font-family:'Space Mono',monospace!important}
+/* Propified homepage visual system */
+.pf-brand{font-family:'Lato',sans-serif;font-size:1.8rem;font-weight:900;letter-spacing:-.05em;color:#260B45;white-space:nowrap}
+.pf-bars{color:#8010F5;letter-spacing:-.12em;margin-right:.35em}
+.pf-divider{color:#260B45;margin-right:.35em;font-weight:300}
+.pf-home-hero{position:relative;overflow:hidden;min-height:270px;display:flex;flex-direction:column;justify-content:center;align-items:center;background:linear-gradient(112deg,#5A079F 0%,#E4D0FA 24%,#FFFFFF 39%,#FFFFFF 63%,#DFCBF7 79%,#350056 100%);border-radius:18px;border:1px solid #E7DDF4;margin:12px 0 24px}
+.pf-home-hero:before,.pf-home-hero:after{content:"";position:absolute;width:17%;height:150%;transform:skewX(-30deg);top:-25%;background:rgba(68,0,113,.28)}
+.pf-home-hero:before{left:2%}.pf-home-hero:after{right:2%}
+.pf-home-logo{z-index:1;color:#29094C;font-family:'Lato',sans-serif;font-size:clamp(2.8rem,7vw,6rem);font-weight:900;letter-spacing:-.06em;white-space:nowrap}
+.pf-home-tag{z-index:1;color:#34144F;font-size:.78rem;letter-spacing:.28em;font-weight:900;text-align:center}
+.pf-section-space{height:4px}
+.pf-sport-label{font-size:.85rem;font-weight:900;letter-spacing:.1em;color:#5D2D9C;margin:10px 0}
+@media(max-width:900px){.pf-home-hero{min-height:190px}.pf-home-logo{font-size:2.3rem}.pf-home-tag{font-size:.56rem;letter-spacing:.12em}.pf-brand{font-size:1.25rem}}
 </style>""",unsafe_allow_html=True)
 
 def norm(v):
@@ -251,9 +263,9 @@ with st.sidebar:
     st.markdown('### ◉ **PROPIFIED**')
     st.caption('THE PERFORMANCE LAB')
     st.divider()
-    sport=st.radio('SPORT',['NBA','NFL'],horizontal=True)
-    nav_icons={'Lay of the Day':'✦','All PrizePicks Props':'▦','Overview':'◫','Player Props':'♙','Betting Comparisons':'⇄','Model History':'◷','Model Performance':'▥','Settings':'⚙'}
-    page=st.radio('NAVIGATION',list(nav_icons),format_func=lambda name:f"{nav_icons[name]}   {name}",label_visibility='collapsed')
+    sport=st.radio('SPORT',['NBA','NFL'],horizontal=True,key='propified_sport')
+    nav_icons={'Overview':'⌂','Betting Comparisons':'⇄','All PrizePicks Props':'▦','Player Props':'♙','Lay of the Day':'✦','Model History':'◷','Model Performance':'▥','Settings':'⚙'}
+    page=st.radio('NAVIGATION',list(nav_icons),format_func=lambda name:f"{nav_icons[name]}   {name}",label_visibility='collapsed',key='propified_page')
     st.divider()
     if st.button('↻ Refresh data',type='primary',use_container_width=True):
         st.cache_data.clear();st.rerun()
@@ -368,9 +380,25 @@ if comparison is not None and not comparison.empty:
     comparison['Injury status']=comparison['Player'].map(lambda n:injury_lookup.get(norm(n),'UNVERIFIED'))
 else:comparison=pd.DataFrame(columns=['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','Gap','Model lean','Headshot','Injury status'])
 
-st.markdown(f'''<div class="hero"><span class="eyebrow">◉ PROPIFIED / {sport} ANALYTICS</span>
-<h1>Find Your <span style="color:#6415D8">Edge.</span></h1>
-<p>Player projections. Sportsbook lines. A clearer picture of the game.</p></div>''',unsafe_allow_html=True)
+# Top navigation mirrors the sidebar without changing the existing analytics routes.
+navcols=st.columns([2.6,1,1,1.35,1,1.15,1.5],vertical_alignment='center')
+with navcols[0]:
+    st.markdown('<div class="pf-brand"><span class="pf-bars">▂▅▇</span><span class="pf-divider">│</span>Propified</div>',unsafe_allow_html=True)
+for slot,label,target in [(1,'Home','Overview'),(2,'Props','All PrizePicks Props'),(3,'Comparisons','Betting Comparisons'),(4,'Results','Model History'),(5,'Insights','Model Performance')]:
+    with navcols[slot]:
+        if st.button(label,key='topnav_'+target,use_container_width=True,type='primary' if page==target else 'secondary'):
+            st.session_state['propified_page']=target
+            st.rerun()
+with navcols[6]:
+    if st.button('↻ Refresh Data',key='topnav_refresh',use_container_width=True):
+        st.cache_data.clear()
+        st.rerun()
+
+if page!='Overview':
+    st.markdown(f'''<div class="hero"><span class="eyebrow">◉ PROPIFIED / {sport} ANALYTICS</span>
+    <h1>Find Your <span style="color:#6415D8">Edge.</span></h1>
+    <p>Player projections. Sportsbook lines. A clearer picture of the game.</p></div>''',unsafe_allow_html=True)
+
 st.caption(f"{date.today():%A, %B %d, %Y}  ·  {sport} comparison file: {modified(files['comparison'])}")
 st.caption('Updated file timestamps do not verify that games, line availability, or player status are current.')
 st.caption(f"Injury feed: {modified(f'{sport.lower()}_injuries.csv')} · UNVERIFIED means no fresh matched report, not healthy.")
@@ -918,51 +946,62 @@ def render_player_gallery(rows, sport, limit=6):
                         show_recent_games(sport,str(r['Player']),str(r['Stat']))
 
 if page=='Overview':
-    st.subheader('Your daily dashboard')
-    st.markdown("**Start here.** See today's available player props, then open a player for more detail.")
+    # User-supplied hero art can be placed in the repository as assets/propified_banner.jpg.
+    # No synthetic player statistics or image-derived KPI values are used.
+    banner=ROOT/'assets'/'propified_banner.jpg'
+    if banner.exists():
+        st.image(str(banner),use_container_width=True)
+    else:
+        st.markdown("""<div class="pf-home-hero"><div class="pf-hero-glow"></div>
+        <div class="pf-home-logo"><span class="pf-bars">▂▅▇</span>│ Propified</div>
+        <div class="pf-home-tag">PLAYER PROPS &nbsp; / &nbsp; PROJECTIONS &nbsp; / &nbsp; EDGES</div>
+        </div>""",unsafe_allow_html=True)
     history=read_file('model_history.csv')
-    wins=losses=0
+    wins=losses=settled_count=saved_count=0
     if history is not None and {'Sport','Result','Actual'}.issubset(history.columns):
         past=history[history['Sport'].astype(str).str.upper().eq(sport)].copy()
-        past=past[past['Actual'].notna()]
-        wins=int(past['Result'].astype(str).str.upper().eq('WIN').sum())
-        losses=int(past['Result'].astype(str).str.upper().eq('LOSS').sum())
-    a,b,c=st.columns(3)
-    a.metric('Available props',len(comparison),help='Upcoming sportsbook props with model projections.')
-    b.metric('Players on the board',comparison['Player'].nunique() if not comparison.empty else 0)
-    c.metric('Verified hit rate',f'{wins/(wins+losses):.1%}' if wins+losses else 'Not enough data',
-             help=f'{wins} verified wins and {losses} losses; pending and pushes excluded.')
+        saved_count=len(past)
+        actual=pd.to_numeric(past['Actual'],errors='coerce')
+        results=past['Result'].fillna('PENDING').astype(str).str.upper()
+        verified=actual.notna() & results.isin(['WIN','LOSS','PUSH'])
+        settled_count=int(verified.sum())
+        wins=int((verified & results.eq('WIN')).sum())
+        losses=int((verified & results.eq('LOSS')).sum())
+    st.markdown('<div class="pf-section-space"></div>',unsafe_allow_html=True)
+    k1,k2,k3,k4=st.columns(4)
+    k1.metric(f'{sport} HIT RATE',f'{wins/(wins+losses):.1%}' if wins+losses else '—',help=f'{wins} verified wins / {wins+losses} decisions. Pushes and pending picks excluded.')
+    k2.metric('SAVED PICKS',f'{saved_count:,}',help='Pregame model snapshots recorded for the selected sport.')
+    k3.metric('AVAILABLE PROPS',f'{len(comparison):,}',help='Upcoming sportsbook props matched to model projections; not a measure of model accuracy.')
+    k4.metric('SETTLED PICKS',f'{settled_count:,}',help='Verified wins, losses and pushes with recorded actual stats.')
+    st.markdown('#### Explore today’s picks')
+    nba_col,nfl_col=st.columns(2)
+    with nba_col:
+        st.markdown('<div class="pf-sport-label">🏀 NBA PROPS</div>',unsafe_allow_html=True)
+        if st.button('Today’s NBA Picks  →',key='home_nba',use_container_width=True,type='primary'):
+            st.session_state['propified_page']='Betting Comparisons'
+            st.session_state['propified_sport']='NBA'
+            st.rerun()
+        st.caption('Player projections, prop lines and model comparisons')
+    with nfl_col:
+        st.markdown('<div class="pf-sport-label">🏈 NFL PROPS</div>',unsafe_allow_html=True)
+        if st.button('Today’s NFL Picks  →',key='home_nfl',use_container_width=True):
+            st.session_state['propified_page']='Betting Comparisons'
+            st.session_state['propified_sport']='NFL'
+            st.rerun()
+        st.caption('Player projections, prop lines and model comparisons')
+    st.markdown('#### Today’s Top Props')
     if comparison.empty:
-        st.info('No upcoming comparisons are available right now. This does not mean the model is broken.')
-        st.stop()
-    st.markdown('#### Top players to look at')
-    st.caption('These are model comparisons, not guaranteed winners. Purple highlights help you scan, but do not indicate certainty.')
-    ranked=comparison.sort_values(['ReliabilityScore','Gap'],ascending=False) if 'ReliabilityScore' in comparison.columns else comparison.sort_values('Gap',ascending=False)
-    with st.expander('Explore featured players',expanded=False):
-        render_player_gallery(ranked,sport,limit=3)
-    st.markdown('#### Find a player')
-    player_names=sorted(comparison['Player'].dropna().astype(str).unique())
-    selected=st.selectbox('Choose a player to see the numbers',player_names,key=f'home_player_{sport}')
-    candidates=comparison[comparison['Player'].eq(selected)]
-    chosen=candidates.iloc[0]
-    with st.container(border=True):
-        left,right=st.columns([1,3],vertical_alignment='center')
-        with left:
-            headshot=chosen.get('Headshot')
-            if isinstance(headshot,str) and headshot.startswith('https://'):
-                st.image(headshot,use_container_width=True)
-        with right:
-            st.markdown(f"### {chosen['Player']}")
-            st.caption(f"{chosen['Team']} · {chosen['Stat']}")
-            st.markdown(f"**Model suggests: :violet[{chosen['Model lean']}]**")
-            x,y,z=st.columns(3)
-            x.metric('Sportsbook line',f"{chosen['PrizePicksLine']:.1f}",help='The sportsbook target.')
-            y.metric('Model estimate',f"{chosen['ModelProjection']:.1f}",help='Our estimated player performance.')
-            z.metric('Difference',f"{chosen['Difference']:+.1f}",help='Model estimate minus sportsbook line.')
-        with st.expander('See their last 5 games',expanded=True):
-            show_recent_games(sport,str(chosen['Player']),str(chosen['Stat']),chosen.get('PlayerID'))
-    with st.expander('What do all these numbers mean?'):
-        st.markdown('**Sportsbook line** = the target to beat. **Model estimate** = our predicted player stat. **Difference** = estimate minus line. **OVER** means the model estimates more than the line; **UNDER** means less. **Hit rate** = verified winning picks divided by wins plus losses. None of these numbers guarantees a result.')
+        st.info('No upcoming matched props are currently available. The verified history above remains accurate.')
+    else:
+        market_options=['All']+[x for x in ['Points','Rebounds','Assists','Threes','Passing Yards','Receiving Yards','Rushing Yards','Receptions'] if x in comparison['Stat'].astype(str).unique()]
+        chosen_market=st.radio('Filter props',market_options,horizontal=True,key='home_market_'+sport)
+        shown=comparison if chosen_market=='All' else comparison[comparison['Stat'].astype(str).eq(chosen_market)]
+        shown=shown.sort_values(['ReliabilityScore','Gap'],ascending=False) if 'ReliabilityScore' in shown.columns else shown.sort_values('Gap',ascending=False)
+        if shown.empty:
+            st.info('No upcoming matched props in this category.')
+        else:
+            render_player_gallery(shown,sport,limit=6)
+        st.caption(f'{len(shown)} upcoming matched props in this view · Model leans are not guaranteed winners.')
     st.stop()
 
 else:st.subheader('Compare player props')
