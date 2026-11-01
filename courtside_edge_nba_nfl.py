@@ -372,83 +372,95 @@ def coverage_audit(lines, model, matched_comparisons, selected_sport):
     return out
 
 if page=='All PrizePicks Props':
-    st.subheader(f'All {sport} PrizePicks standard props')
-    st.caption('Only PrizePicks standard lines. No Demons, Goblins, live, combo or promotional lines. Data is limited to what the connected feed actually returns.')
-    source=st.radio('PrizePicks data source',
-                    ['Saved ParlayAPI feed','Live PrizePicks partner feed (experimental)'],
-                    horizontal=True,key=f'props_source_{sport}')
+    st.subheader(f'{sport} PrizePicks props')
+    st.caption('Standard, non-live, single-player lines only. A missing line is never fabricated.')
+    search=st.text_input('Find a player',placeholder='Search Jordan Addison, Justin Jefferson...',key=f'props_search_{sport}')
+    source=st.radio('Data source',['Live PrizePicks feed','Saved feed'],horizontal=True,key=f'props_source_v2_{sport}')
+    all_props=pd.DataFrame()
+    feed_note=''
     if source.startswith('Live'):
-        st.caption('Requests the PrizePicks endpoint from the hosted website. Access may be blocked or unavailable; no sportsbook lines are invented.')
         try:
             from prizepicks_partner_api import fetch
-            with st.spinner('Requesting live PrizePicks standard lines...'):
-                live=fetch(sport,persist=False)
-            all_props=live[['Player','Team','Stat','Line','GameStartsAt']].copy()
-            st.success(f'Live partner endpoint returned {len(all_props)} standard lines.')
+            with st.spinner('Loading live standard props...'):
+                all_props=fetch(sport,persist=False)
+            feed_note=f'Live feed: {len(all_props)} lines'
         except Exception as exc:
-            st.error(f'Live PrizePicks source unavailable: {type(exc).__name__}: {exc}')
-            st.info('Switch to Saved ParlayAPI feed above to see existing data.')
-            st.stop()
+            st.warning(f'Live feed unavailable ({type(exc).__name__}). Showing saved data instead.')
+            all_props=standard_prizepicks_props(sport)
+            feed_note='Saved fallback'
     else:
         all_props=standard_prizepicks_props(sport)
-    if sport=='NFL' and source.startswith('Live') and projections is not None and not projections.empty:
-        try:
-            from nfl_compare import match_frames
-            live_comparisons=match_frames(projections,all_props.rename(columns={'Line':'SportsbookLine'}))
-            if not live_comparisons.empty:
-                comparison=live_comparisons
-                st.success(f'{len(live_comparisons)} live NFL lines matched to model projections.')
-                with st.expander('Live NFL model comparisons',expanded=True):
-                    st.dataframe(live_comparisons[[c for c in ['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','Direction','PickQuality'] if c in live_comparisons.columns]],hide_index=True,use_container_width=True)
-            else:
-                st.warning('No live NFL lines could be matched to saved projections.')
-        except Exception as exc:
-            st.warning(f'Live NFL comparison unavailable: {type(exc).__name__}: {exc}')
-    if all_props.empty:
-        st.info('No upcoming standard PrizePicks lines are available from the current feed.')
+        feed_note='Saved feed'
+    if all_props is None or all_props.empty:
+        st.warning('No props returned. Try the other data source.')
         st.stop()
-    all_props=coverage_audit(all_props,projections,comparison,sport)
-    total=len(all_props)
-    matched=int(all_props['Has model projection'].sum())
-    x,y,z=st.columns(3)
-    x.metric('Standard lines received',total)
-    y.metric('With model comparison',matched)
-    z.metric('Without comparison',total-matched)
-    st.progress(matched/total if total else 0,text=f'{matched/total:.1%} of received standard lines have model comparisons' if total else 'No lines')
-    reasons=all_props['Coverage status'].value_counts().rename_axis('Reason').reset_index(name='Props')
-    missing=all_props.loc[~all_props['Has model projection']].copy()
-    if not missing.empty:
-        st.warning(f'{len(missing)} standard PrizePicks lines still have no verified comparison.')
-        with st.expander('See every missing line and why',expanded=False):
-            st.dataframe(missing[[c for c in ['Player','Team','Stat','Line','Coverage status']
-                                  if c in missing.columns]],hide_index=True,use_container_width=True)
+    all_props=all_props.copy()
+    all_props['Line']=pd.to_numeric(all_props['Line'],errors='coerce')
+    all_props=all_props.dropna(subset=['Player','Stat','Line'])
+    if 'GameStartsAt' in all_props:
+        starts=pd.to_datetime(all_props['GameStartsAt'],utc=True,errors='coerce')
+        all_props=all_props.loc[starts.notna() & starts.gt(pd.Timestamp.now(tz='UTC'))].copy()
+    all_props=all_props.drop_duplicates(subset=['Player','Stat','Line'])
     if sport=='NFL':
-        for expected in ('Justin Jefferson','Jordan Addison'):
-            found=all_props['Player'].astype(str).str.casefold().eq(expected.casefold())
-            if not found.any():
-                st.info(f'{expected}: not present in the saved standard PrizePicks feed. A model projection alone cannot supply a sportsbook line.')
-            elif not all_props.loc[found,'Has model projection'].all():
-                st.warning(f'{expected}: feed line found, but at least one comparison is missing.')
-    with st.expander('Why are some props missing comparisons?',expanded=True):
-        st.dataframe(reasons,hide_index=True,use_container_width=True)
-        st.caption('Unsupported stats need verified game-level data. Player mismatches and comparison gaps are separate issues.')
-    st.caption('A missing comparison means no matched model projection, not a missing PrizePicks market.')
-    search=st.text_input('Search player',placeholder='Type a player name',key=f'all_props_search_{sport}')
-    market=st.selectbox('Prop type',['All']+sorted(all_props['Stat'].dropna().astype(str).unique()),key=f'all_props_market_{sport}')
-    coverage=st.selectbox('Projection coverage',['All props','With model comparison','Without model comparison'],key=f'all_props_coverage_{sport}')
+        from nfl_compare import match_frames, short_key
+        try:
+            if projections is not None and not projections.empty:
+                live_comparisons=match_frames(projections,all_props.rename(columns={'Line':'SportsbookLine'}))
+            else:
+                live_comparisons=pd.DataFrame()
+        except Exception as exc:
+            live_comparisons=pd.DataFrame()
+            st.warning(f'Matching error: {type(exc).__name__}. Props remain visible.')
+        if not live_comparisons.empty:
+            keys=set(zip(live_comparisons['Player'].map(norm),
+                         live_comparisons['Stat'].map(norm),
+                         pd.to_numeric(live_comparisons['PrizePicksLine'],errors='coerce').round(3)))
+            from nfl_compare import clean
+            alias={'playerrectargets':'Targets','rectargets':'Targets',
+                   'playerreceivingyards':'Receiving Yards','playerreceptions':'Receptions'}
+            all_props['Has model projection']=[
+                (norm(row.Player),norm(alias.get(clean(row.Stat),row.Stat)),round(float(row.Line),3)) in keys
+                for row in all_props.itertuples(index=False)]
+        else:
+            all_props['Has model projection']=False
+    else:
+        try:
+            all_props=coverage_audit(all_props,projections,comparison,sport)
+        except Exception:
+            all_props['Has model projection']=False
+    all_props['Has model projection']=all_props['Has model projection'].fillna(False).astype(bool)
+    st.caption(f'{feed_note} · {len(all_props)} upcoming props · {int(all_props["Has model projection"].sum())} matched')
+    market=st.selectbox('Market',['All']+sorted(all_props['Stat'].dropna().astype(str).unique()),key=f'props_market_v2_{sport}')
+    coverage=st.selectbox('Show',['All props','Matched only','Unmatched only'],key=f'props_coverage_v2_{sport}')
     view=all_props
-    if search:view=view[view['Player'].astype(str).str.contains(search,case=False,regex=False,na=False)]
-    if market!='All':view=view[view['Stat'].eq(market)]
-    if coverage!='All props':view=view[view['Has model projection'].eq(coverage=='With model comparison')]
-    st.caption(f'{len(view)} matching standard props · feed file: '+modified('prizepicks_nba_lines.csv' if sport=='NBA' else 'nfl_prizepicks_all_standard.csv'))
-    columns=[c for c in ['Player','Team','Stat','Line','GameStartsAt','Has model projection','Coverage status'] if c in view.columns]
-    st.dataframe(view[columns],hide_index=True,use_container_width=True,
-                 column_config={'Line':st.column_config.NumberColumn('PrizePicks line',format='%.1f'),
-                                'Has model projection':st.column_config.CheckboxColumn('Model available')})
-    st.download_button('Download full coverage audit',all_props[columns].to_csv(index=False).encode(),
-                       f'{sport.lower()}_prizepicks_coverage_audit.csv','text/csv')
-    st.download_button('Download visible standard props',view[columns].to_csv(index=False).encode(),
-                       f'{sport.lower()}_prizepicks_standard_props.csv','text/csv')
+    if search:
+        view=view[view['Player'].astype(str).str.contains(search,case=False,regex=False,na=False)]
+    if market!='All':
+        view=view[view['Stat'].eq(market)]
+    if coverage=='Matched only':
+        view=view[view['Has model projection']]
+    elif coverage=='Unmatched only':
+        view=view[~view['Has model projection']]
+    st.caption(f'{len(view)} matching props')
+    display=[c for c in ['Player','Team','Stat','Line','GameStartsAt','Has model projection'] if c in view.columns]
+    st.dataframe(view[display],hide_index=True,use_container_width=True)
+    if search and view.empty:
+        st.info('No matching upcoming standard line in this source. Try the other source; this does not mean the player is missing from the model.')
+    if sport=='NFL' and not live_comparisons.empty:
+        with st.expander('Matched NFL model projections'):
+            shown=live_comparisons
+            if search:
+                shown=shown[shown['Player'].astype(str).str.contains(search,case=False,regex=False,na=False)]
+            st.dataframe(shown[[c for c in ['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','Direction'] if c in shown.columns]],hide_index=True,use_container_width=True)
+    with st.expander('Diagnostics and downloads'):
+        st.download_button('Download visible props',view[display].to_csv(index=False).encode(),f'{sport.lower()}_standard_props.csv','text/csv')
+        if sport=='NFL' and search:
+            saved=standard_prizepicks_props(sport)
+            if saved is not None and not saved.empty:
+                saved=saved[saved['Player'].astype(str).str.contains(search,case=False,regex=False,na=False)]
+                st.caption(f'Saved feed also contains {len(saved)} matching lines for this search.')
+                if not saved.empty:
+                    st.dataframe(saved[[c for c in ['Player','Stat','Line','GameStartsAt'] if c in saved.columns]],hide_index=True,use_container_width=True)
     st.stop()
 
 if page=='Lay of the Day':
