@@ -325,6 +325,16 @@ def standard_prizepicks_props(selected_sport):
     return data.drop_duplicates(subset=['Player','Stat','Line','GameStartsAt'] if 'GameStartsAt' in data.columns else ['Player','Stat','Line'])
 
 NBA_MARKET_LABELS={
+    'player_pts_rebs':'Points + Rebounds',
+    'player_pts_asts':'Points + Assists',
+    'player_rebs_asts':'Rebounds + Assists',
+    'player_pts_rebs_asts':'Points + Rebounds + Assists',
+    'player_blks_stls':'Steals + Blocks',
+    'player_stls_blks':'Steals + Blocks',
+    'player_fg_attempts':'Field Goals Attempted',
+    'player_fg_made':'Field Goals Made',
+    'player_ft_attempts':'Free Throws Attempted',
+    'player_ft_made':'Free Throws Made',
     '3-PT Made':'Threes','player_points':'Points','player_rebounds':'Rebounds',
     'player_assists':'Assists','player_threes':'Threes','player_three_pointers':'Threes',
     'player_steals':'Steals','player_blocks':'Blocks','player_turnovers':'Turnovers',
