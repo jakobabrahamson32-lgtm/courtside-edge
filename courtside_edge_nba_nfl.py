@@ -285,49 +285,60 @@ if not comparison.empty:
 
 
 if page=='Lay of the Day':
-    st.subheader('✦ Lay of the Day')
-    st.caption('One featured model lean for review — not a guaranteed win, verified betting edge, or automatically placed wager.')
+    st.subheader('✦ Lay of the Day · 3-Leg Parlay')
+    st.caption('Three different players, three model-selected props. An informational parlay idea, not a verified winning ticket or automatically placed wager.')
     if comparison.empty:
-        st.info('No upcoming, time-verified sportsbook comparisons available. No lay selected.')
+        st.info('No upcoming, time-verified sportsbook comparisons available. No parlay selected.')
         st.stop()
     eligible=comparison.copy()
-    eligible=eligible[eligible['Injury status'].eq('UNVERIFIED') | ~eligible['Injury status'].isin(['OUT','DOUBTFUL','QUESTIONABLE','REVIEW'])].copy()
-    eligible=eligible[eligible['Difference'].abs().gt(0)]
+    # Exclude known injury concerns; an unverified player is shown with a warning.
+    eligible=eligible[~eligible['Injury status'].isin(['OUT','DOUBTFUL','QUESTIONABLE','REVIEW'])]
+    eligible=eligible[eligible['Difference'].abs().gt(0)].copy()
     if 'PickQuality' in eligible.columns:
-        eligible=eligible[eligible['PickQuality'].astype(str).str.upper().eq('QUALIFIED')]
+        quality=eligible['PickQuality'].fillna('').astype(str).str.upper()
+        eligible=eligible[quality.isin(['QUALIFIED','STRONG','HIGH','GOOD','A','A+'])]
     if 'ReliabilityScore' in eligible.columns:
         eligible['ReliabilityScore']=pd.to_numeric(eligible['ReliabilityScore'],errors='coerce')
-        eligible=eligible.dropna(subset=['ReliabilityScore']).sort_values(['ReliabilityScore','Gap'],ascending=False)
+        eligible=eligible.dropna(subset=['ReliabilityScore'])
+        eligible=eligible.sort_values(['ReliabilityScore','Gap'],ascending=False)
     else:
         eligible=eligible.sort_values('Gap',ascending=False)
-    if eligible.empty:
-        st.info('No model leans pass the current screening rules. Skipping a daily feature is intentional.')
+    # Avoid multiple legs on the same player. Distinct players do not guarantee independence.
+    eligible=eligible.drop_duplicates(subset=['Player'])
+    if len(eligible)<3:
+        st.info(f'Only {len(eligible)} eligible distinct-player props available. A three-leg parlay will not be fabricated.')
         st.stop()
-    featured=eligible.iloc[0]
-    with st.container(border=True):
-        pic,detail=st.columns([1,3],vertical_alignment='center')
-        with pic:
-            headshot=featured.get('Headshot')
-            if isinstance(headshot,str) and headshot.startswith('https://'):
-                st.image(headshot,use_container_width=True)
-            else:
-                st.markdown('### ✦')
-        with detail:
-            st.markdown('**FEATURED MODEL LEAN**')
-            st.markdown(f"### {featured['Player']}")
-            st.caption(f"{featured['Team']} · {featured['Stat']}")
-            st.markdown(f"### :violet[{featured['Model lean']}]")
-            p1,p2,p3=st.columns(3)
-            p1.metric('Sportsbook line',f"{featured['PrizePicksLine']:.1f}")
-            p2.metric('Model projection',f"{featured['ModelProjection']:.1f}")
-            p3.metric('Projection gap',f"{featured['Difference']:+.1f}")
-        if 'ReliabilityScore' in featured and pd.notna(featured['ReliabilityScore']):
-            st.caption(f"Model screening score: {featured['ReliabilityScore']:.1f} (heuristic, not a win probability)")
-        st.caption('Injury verification: '+str(featured['Injury status']))
-        if str(featured['Injury status'])=='UNVERIFIED':
-            st.warning('Player availability is unverified. Confirm injury and lineup status independently.')
-        st.info('Featured automatically from upcoming eligible comparisons. This selection is not supported by a separately validated hit-rate advantage.')
-        show_recent_games(sport,str(featured['Player']),str(featured['Stat']))
+    picks=eligible.head(3)
+    st.markdown('#### Today’s three legs')
+    st.caption('Ordered by the model’s existing heuristic ranking, not calibrated win probabilities.')
+    for i,(_,pick) in enumerate(picks.iterrows(),start=1):
+        with st.container(border=True):
+            image_col,body=st.columns([1,4],vertical_alignment='center')
+            with image_col:
+                headshot=pick.get('Headshot')
+                if isinstance(headshot,str) and headshot.startswith('https://'):
+                    st.image(headshot,use_container_width=True)
+                else:
+                    st.markdown('### ✦')
+            with body:
+                st.markdown(f"**LEG {i} · {pick['Player']}**")
+                st.caption(f"{pick['Team']} · {pick['Stat']}")
+                st.markdown(f"### :violet[{pick['Model lean']} {pick['PrizePicksLine']:.1f}]")
+                c1,c2=st.columns(2)
+                c1.metric('Model projection',f"{pick['ModelProjection']:.1f}")
+                c2.metric('Projection gap',f"{pick['Difference']:+.1f}")
+                st.caption('Injury verification: '+str(pick['Injury status']))
+                if pick['Injury status']=='UNVERIFIED':
+                    st.warning('Availability unverified — check injury and lineup status.')
+            with st.expander(f"Last five games · {pick['Player']}"):
+                show_recent_games(sport,str(pick['Player']),str(pick['Stat']))
+    st.markdown('#### Parlay summary')
+    st.dataframe(picks[['Player','Team','Stat','Model lean','PrizePicksLine','ModelProjection','Difference']],
+                 hide_index=True,use_container_width=True,
+                 column_config={'PrizePicksLine':st.column_config.NumberColumn('Line',format='%.1f'),
+                                'ModelProjection':st.column_config.NumberColumn('Projection',format='%.1f'),
+                                'Difference':st.column_config.NumberColumn('Gap',format='%+.1f')})
+    st.caption('All three legs must win for a standard three-leg parlay to win. No combined hit probability or expected payout is shown without validated leg probabilities, dependency estimates and actual payout terms.')
     st.stop()
 
 if page=='Settings':
