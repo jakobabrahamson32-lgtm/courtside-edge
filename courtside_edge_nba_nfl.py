@@ -263,12 +263,12 @@ if comparison is not None and not comparison.empty:
     comparison['Headshot']=comparison['Player'].map(lambda n:photo(n,sport))
     injury_lookup, injury_records, injury_message=injury_report(sport)
     comparison['Injury status']=comparison['Player'].map(lambda n:injury_lookup.get(norm(n),'UNVERIFIED'))
-else:comparison=pd.DataFrame()
+else:comparison=pd.DataFrame(columns=['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','Gap','Model lean','Headshot','Injury status'])
 
 st.markdown(f'''<div class="hero"><span class="eyebrow">◉ COURTSIDE EDGE / {sport} ANALYTICS</span>
 <h1>Find Your Edge<span style="color:#6415D8">.</span></h1>
 <p>Player projections. Sportsbook lines. A clearer picture of the game.</p></div>''',unsafe_allow_html=True)
-st.caption(f"{date.today():%A, %B %d, %Y}  ·  {sport} comparison updated: {modified(files['comparison'])}")
+st.caption(f"{date.today():%A, %B %d, %Y}  ·  {sport} comparison file: {modified(files['comparison'])}")
 st.caption('Updated file timestamps do not verify that games, line availability, or player status are current.')
 st.caption(f"Injury feed: {modified(f'{sport.lower()}_injuries.csv')} · UNVERIFIED means no fresh matched report, not healthy.")
 if not comparison.empty:
@@ -345,11 +345,11 @@ if page=='Settings':
     st.subheader(f'{sport} model controls')
     key=f'{sport.lower()}_weight'
     if key not in st.session_state:st.session_state[key]=60
-    current=st.slider('Current season weight',0,100,st.session_state[key],5)
+    current=st.slider('Current season weight (preview only)',0,100,st.session_state[key],5)
     a,b=st.columns(2)
     a.metric('Current season',f'{current}%')
     b.metric('Previous season',f'{100-current}%')
-    st.caption('Weights always add to 100%. These apply to the projection generator, not to sportsbook lines.')
+    st.warning('Preview only: changing this slider does not recalculate or save the model. Model parameters are controlled by the scheduled pipeline.')
     if False and st.button('Apply Settings & Recalculate',type='primary'):
         model='nba_model.py' if sport=='NBA' else 'nfl_model.py'
         comparator='nba_prizepicks_model.py' if sport=='NBA' else 'nfl_compare.py'
@@ -587,7 +587,8 @@ if page=='Overview':
     st.markdown('#### Top players to look at')
     st.caption('These are model comparisons, not guaranteed winners. Purple highlights help you scan, but do not indicate certainty.')
     ranked=comparison.sort_values(['ReliabilityScore','Gap'],ascending=False) if 'ReliabilityScore' in comparison.columns else comparison.sort_values('Gap',ascending=False)
-    render_player_gallery(ranked,sport,limit=3)
+    with st.expander('Explore featured players',expanded=False):
+        render_player_gallery(ranked,sport,limit=3)
     st.markdown('#### Find a player')
     player_names=sorted(comparison['Player'].dropna().astype(str).unique())
     selected=st.selectbox('Choose a player to see the numbers',player_names,key=f'home_player_{sport}')
