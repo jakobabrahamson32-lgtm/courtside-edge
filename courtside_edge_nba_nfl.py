@@ -961,32 +961,24 @@ def render_player_gallery(rows, sport, limit=6):
     shortlist=rows.head(limit)
     st.markdown('#### Quick prop cards')
     st.caption('Line = sportsbook target · Model = estimated stat · Lean is not a guaranteed outcome.')
-    columns=st.columns(3)
-    for index,(_,r) in enumerate(shortlist.iterrows()):
-        with columns[index % 3]:
-            with st.container(border=True):
-                pic,details=st.columns([1,3],vertical_alignment='center')
-                with pic:
-                    url=r.get('Headshot')
-                    if isinstance(url,str) and url.startswith('https://'):
-                        st.image(url,use_container_width=True)
-                with details:
-                    st.markdown('**'+str(r['Player'])+'**')
-                    st.caption(str(r.get('Team',''))+' · '+str(r.get('Stat','')))
-                st.markdown(f"<div class='ce-prop-line'>{float(r['PrizePicksLine']):.1f}<span> {r['Stat']}</span></div>",unsafe_allow_html=True)
-                left,right=st.columns(2)
-                left.caption('MODEL')
-                left.markdown(f"**{float(r['ModelProjection']):.1f}**")
-                right.caption('LEAN')
-                right.markdown(f"**{r['Model lean']}**")
-                with st.expander('More details'):
-                    st.caption(f"Gap: {float(r['Difference']):+.1f} · Injury: {r.get('Injury status','UNVERIFIED')}")
-                    if 'PickQuality' in r and pd.notna(r['PickQuality']):
-                        st.caption('Screening: '+str(r['PickQuality'])+' (not a probability)')
-                    if st.button('Show last 5 games',key=f"gallery_logs_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}"):
-                        st.session_state[f"gallery_open_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}"]=True
-                    if st.session_state.get(f"gallery_open_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}",False):
-                        show_recent_games(sport,str(r['Player']),str(r['Stat']))
+    for index, (_, r) in enumerate(shortlist.iterrows()):
+        with st.container(border=True):
+            st.markdown('**'+str(r['Player'])+'** · '+str(r.get('Team',''))+' · '+str(r.get('Stat','')))
+            line=pd.to_numeric(r.get('PrizePicksLine'),errors='coerce')
+            model=pd.to_numeric(r.get('ModelProjection'),errors='coerce')
+            gap=pd.to_numeric(r.get('Difference'),errors='coerce')
+            line_label=f'{line:.1f}' if pd.notna(line) else '—'
+            model_label=f'{model:.1f}' if pd.notna(model) else '—'
+            gap_label=f'{gap:+.1f}' if pd.notna(gap) else '—'
+            st.markdown(f'**Sportsbook:** {line_label}　 ·　 **Model:** {model_label}　 ·　 **Gap:** {gap_label}　 ·　 **Lean:** {r.get("Model lean","—")}')
+            with st.expander('More details'):
+                st.caption('Injury: '+str(r.get('Injury status','UNVERIFIED')))
+                if 'PickQuality' in r and pd.notna(r['PickQuality']):
+                    st.caption('Screening: '+str(r['PickQuality'])+' (not a probability)')
+                if st.button('Show last 5 games',key=f"gallery_logs_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}"):
+                    st.session_state[f"gallery_open_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}"]=True
+                if st.session_state.get(f"gallery_open_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}",False):
+                    show_recent_games(sport,str(r['Player']),str(r['Stat']))
 
 if page=='Overview':
     # User-supplied hero art can be placed in the repository as assets/propified_banner.jpg.
