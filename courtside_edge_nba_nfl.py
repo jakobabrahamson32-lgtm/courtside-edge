@@ -436,6 +436,37 @@ if comparison.empty:
         st.code('python3 nfl_model.py\npython3 nfl_prizepicks_api.py\npython3 nfl_compare.py',language='bash')
     st.stop()
 
+def render_player_gallery(rows, sport, limit=6):
+    """Compact, visual shortlist; scores are heuristic, never verified odds."""
+    if rows is None or rows.empty:
+        return
+    shortlist=rows.drop_duplicates(subset=['Player']).head(limit)
+    st.markdown('#### Players to explore')
+    st.caption('Select a player below to view their sportsbook line, model projection and last-five-game performance. These are model leans, not verified picks.')
+    columns=st.columns(3)
+    for index,(_,r) in enumerate(shortlist.iterrows()):
+        with columns[index % 3]:
+            with st.container(border=True):
+                pic,details=st.columns([1,2],vertical_alignment='center')
+                with pic:
+                    url=r.get('Headshot')
+                    if isinstance(url,str) and url.startswith('https://'):
+                        st.image(url,use_container_width=True)
+                    else:
+                        st.markdown('◉')
+                with details:
+                    st.markdown('**'+str(r['Player'])+'**')
+                    st.caption(str(r.get('Team',''))+' · '+str(r.get('Stat','')))
+                    st.markdown(f"**{r['Model lean']}** · {float(r['Difference']):+.1f} gap")
+                with st.expander('View player details'):
+                    x,y=st.columns(2)
+                    x.metric('Sportsbook',f"{float(r['PrizePicksLine']):.1f}")
+                    y.metric('Model',f"{float(r['ModelProjection']):.1f}")
+                    if 'PickQuality' in r and pd.notna(r['PickQuality']):
+                        st.caption('Screening: '+str(r['PickQuality'])+' (not a win probability)')
+                    st.caption('Injury: '+str(r.get('Injury status','UNVERIFIED')))
+                    show_recent_games(sport,str(r['Player']),str(r['Stat']))
+
 if page=='Overview':
     st.subheader(f'{sport} comparison overview')
     a,b,c,d=st.columns(4)
@@ -451,6 +482,11 @@ if page=='Overview':
     else:
         d.metric('Verified hit rate','—')
     st.caption('OVER and UNDER indicate projection direction, not guaranteed favorable bets.')
+    st.markdown('#### What the numbers mean')
+    with st.expander('Understand the model in 30 seconds'):
+        st.markdown('**Sportsbook line:** the number posted by the sportsbook.  **Model projection:** the estimated player statistic.  **Gap:** projection minus line.  **OVER / UNDER:** the model\'s direction, not a guaranteed result.  **Verified hit rate:** settled wins divided by wins plus losses; pushes and pending picks are excluded.')
+    render_player_gallery(comparison.sort_values(['ReliabilityScore','Gap'],ascending=False) if 'ReliabilityScore' in comparison.columns else comparison.sort_values('Gap',ascending=False),sport)
+
 elif page=='Top Gaps':
     st.subheader('Largest projection gaps')
     st.caption('Candidates to review, not independently verified value picks.')
@@ -473,8 +509,13 @@ if 'ReliabilityScore' in view.columns:
 else:
     view=view.sort_values('Gap',ascending=False)
 if page=='Top Gaps':view=view.head(15)
-st.caption(f'{len(view)} matching player props')
-st.dataframe(view[['Headshot','Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','Model lean','Injury status']],
+st.caption(f'{len(view)} matching player props · gap = model projection minus sportsbook line')
+if page in ('Top Gaps','Betting Comparisons') and not view.empty:
+    render_player_gallery(view,sport)
+with st.expander('How to read this table'):
+    st.markdown('**Sportsbook:** listed prop line. **Model:** statistical projection. **Gap:** difference between them. **Model lean:** which side the projection favors. **Injury status:** UNVERIFIED means the feed has not confirmed the player status.')
+
+st.dataframe(view[['Headshot','Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','Model lean','Injury status']+[c for c in ['PickQuality','ReliabilityScore'] if c in view.columns]],
     hide_index=True,use_container_width=True,column_config={
         'Headshot':st.column_config.ImageColumn('Photo',width='small'),
         'PrizePicksLine':st.column_config.NumberColumn('Sportsbook',format='%.1f'),
