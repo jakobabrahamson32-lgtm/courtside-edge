@@ -432,10 +432,13 @@ with navcols[6]:
 with st.container(key='pf_mobile_nav'):
     st.markdown('<div class="pf-mobile-brand">▂▅▇ <strong>Propified</strong></div>',unsafe_allow_html=True)
     mobile_pages={'Home':'Overview','Props':'All PrizePicks Props','Compare':'Betting Comparisons','Results':'Model History','Insights':'Model Performance','Players':'Player Props','Lay of the Day':'Lay of the Day','Settings':'Settings'}
-    mobile_choice=st.selectbox('Go to',list(mobile_pages),index=list(mobile_pages.values()).index(page) if page in mobile_pages.values() else 0,key='pf_mobile_page_choice')
-    if mobile_pages[mobile_choice]!=page:
-        navigate_to(mobile_pages[mobile_choice])
-        st.rerun()
+    def on_mobile_page_change():
+        selected=st.session_state.get('pf_mobile_page_choice','Home')
+        st.session_state['propified_page']=mobile_pages.get(selected,'Overview')
+    current_mobile_page=next((label for label,target in mobile_pages.items() if target==page),'Home')
+    if st.session_state.get('pf_mobile_page_choice')!=current_mobile_page:
+        st.session_state['pf_mobile_page_choice']=current_mobile_page
+    st.selectbox('Go to',list(mobile_pages),key='pf_mobile_page_choice',on_change=on_mobile_page_change)
 
 if page!='Overview':
     st.markdown(f'''<div class="hero"><span class="eyebrow">◉ PROPIFIED / {sport} ANALYTICS</span>
