@@ -465,7 +465,10 @@ def render_player_gallery(rows, sport, limit=6):
                     if 'PickQuality' in r and pd.notna(r['PickQuality']):
                         st.caption('Screening: '+str(r['PickQuality'])+' (not a win probability)')
                     st.caption('Injury: '+str(r.get('Injury status','UNVERIFIED')))
-                    show_recent_games(sport,str(r['Player']),str(r['Stat']))
+                    if st.button('Load last 5 games',key=f"gallery_logs_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}"):
+                        st.session_state[f"gallery_open_{sport}_{index}_{norm(r['Player'])}"]=True
+                    if st.session_state.get(f"gallery_open_{sport}_{index}_{norm(r['Player'])}",False):
+                        show_recent_games(sport,str(r['Player']),str(r['Stat']))
 
 if page=='Overview':
     st.subheader(f'{sport} comparison overview')
