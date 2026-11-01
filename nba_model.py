@@ -14,7 +14,7 @@ import requests
 ROOT = Path(__file__).resolve().parent
 BASE = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba"
 HEADERS = {"User-Agent": "CourtsideEdge/1.0"}
-STAT_KEYS = {"PTS": "Points", "REB": "Rebounds", "AST": "Assists", "3PM": "Threes", "STL": "Steals", "BLK": "Blocks", "TO": "Turnovers"}
+STAT_KEYS = {"PTS": "Points", "REB": "Rebounds", "AST": "Assists", "3PM": "Threes", "STL": "Steals", "BLK": "Blocks", "TO": "Turnovers", "FGA": "Field Goals Attempted", "FGM": "Field Goals Made", "FTA": "Free Throws Attempted", "FTM": "Free Throws Made"}
 ALIASES = {"PHX": "PHO", "GS": "GSW", "NY": "NYK", "SA": "SAS", "UTAH": "UTA"}
 
 def get_json(url, params=None):
@@ -65,6 +65,19 @@ def extract_boxscore(event_id, eligible):
                 for code, label in [("STL","Steals"),("BLK","Blocks"),("TO","Turnovers")]:
                     if code in stats:
                         extra[label] = number(code)
+                for key, label in [("FGA", "Field Goals Attempted"), ("FGM", "Field Goals Made"),
+                                   ("FTA", "Free Throws Attempted"), ("FTM", "Free Throws Made")]:
+                    if key in stats:
+                        extra[label] = number(key)
+                for key, made_label, attempted_label in [
+                    ("FG", "Field Goals Made", "Field Goals Attempted"),
+                    ("FT", "Free Throws Made", "Free Throws Attempted")]:
+                    pair = str(stats.get(key, "")).split("-")
+                    if len(pair) == 2:
+                        try:
+                            extra[made_label], extra[attempted_label] = float(pair[0]), float(pair[1])
+                        except ValueError:
+                            pass
                 rows.append({"Player": athlete["displayName"], "Team": team_abbr,
                              "PlayerID": str(athlete.get("id", "")),
                              "Points": number("PTS"), "Rebounds": number("REB"),
