@@ -307,7 +307,14 @@ if page=='Overview':
     a.metric('Props analyzed',len(comparison))
     b.metric('OVER model leans',int((comparison['Difference']>0).sum()))
     c.metric('Largest projection gap',f"{comparison['Gap'].max():.1f}")
-    d.metric('Verified hit rate','—')
+    recorded=read_file('model_history.csv')
+    if recorded is not None and {'Sport','Result','Actual'}.issubset(recorded.columns):
+        decided=recorded[recorded['Sport'].astype(str).str.upper().eq(sport)].copy()
+        decided=decided[decided['Result'].astype(str).str.upper().isin(['WIN','LOSS']) & decided['Actual'].notna()]
+        hit_rate=(decided['Result'].astype(str).str.upper()=='WIN').mean() if not decided.empty else None
+        d.metric('Verified hit rate',f'{hit_rate:.1%}' if hit_rate is not None else '—')
+    else:
+        d.metric('Verified hit rate','—')
     st.caption('OVER and UNDER indicate projection direction, not guaranteed favorable bets.')
 elif page=='Top Gaps':
     st.subheader('Largest projection gaps')
