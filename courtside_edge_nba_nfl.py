@@ -568,7 +568,7 @@ def render_player_gallery(rows, sport, limit=6):
 
 if page=='Overview':
     st.subheader('Your daily dashboard')
-    st.markdown('**Start here.** See today's available player props, then open a player for more detail.')
+    st.markdown("**Start here.** See today's available player props, then open a player for more detail.")
     history=read_file('model_history.csv')
     wins=losses=0
     if history is not None and {'Sport','Result','Actual'}.issubset(history.columns):
