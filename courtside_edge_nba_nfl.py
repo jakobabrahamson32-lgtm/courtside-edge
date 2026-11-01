@@ -324,6 +324,48 @@ def standard_prizepicks_props(selected_sport):
     data['Team']=data.get('Team','')
     return data.drop_duplicates(subset=['Player','Stat','Line','GameStartsAt'] if 'GameStartsAt' in data.columns else ['Player','Stat','Line'])
 
+NBA_MARKET_LABELS={
+    '3-PT Made':'Threes','player_points':'Points','player_rebounds':'Rebounds',
+    'player_assists':'Assists','player_threes':'Threes','player_three_pointers':'Threes',
+    'player_steals':'Steals','player_blocks':'Blocks','player_turnovers':'Turnovers',
+    'player_points_rebounds':'Points + Rebounds',
+    'player_points_assists':'Points + Assists',
+    'player_rebounds_assists':'Rebounds + Assists',
+    'player_points_rebounds_assists':'Points + Rebounds + Assists',
+    'player_steals_blocks':'Steals + Blocks',
+    'player_field_goals_attempted':'Field Goals Attempted',
+    'player_field_goals_made':'Field Goals Made',
+    'player_free_throws_attempted':'Free Throws Attempted',
+    'player_free_throws_made':'Free Throws Made',
+}
+
+def coverage_audit(lines, model, matched_comparisons, selected_sport):
+    """Account for every feed row; do not equate an unsupported market with a bad prediction."""
+    out=lines.copy()
+    out['ModelStat']=out['Stat'].astype(str).map(
+        lambda x: NBA_MARKET_LABELS.get(x,x) if selected_sport=='NBA' else x)
+    if selected_sport=='NBA':
+        supported=set(model.columns)-{'Player','Team','Games','Method'} if model is not None else set()
+    else:
+        supported=set(model['Stat'].dropna().astype(str)) if model is not None and 'Stat' in model else set()
+    model_names=set(model['Player'].map(norm)) if model is not None and 'Player' in model else set()
+    if matched_comparisons is not None and not matched_comparisons.empty:
+        comparison_keys=set(zip(matched_comparisons['Player'].map(norm),
+                                matched_comparisons['Stat'].map(norm),
+                                pd.to_numeric(matched_comparisons['PrizePicksLine'],errors='coerce').round(3)))
+    else:
+        comparison_keys=set()
+    out['Has model projection']=[
+        (norm(r.Player),norm(r.ModelStat),round(float(r.Line),3)) in comparison_keys
+        for r in out.itertuples(index=False)]
+    def reason(row):
+        if row['Has model projection']:return 'Compared'
+        if row['ModelStat'] not in supported:return 'Stat not modeled'
+        if norm(row['Player']) not in model_names:return 'Player missing from model'
+        return 'Not matched to current comparison'
+    out['Coverage status']=out.apply(reason,axis=1)
+    return out
+
 if page=='All PrizePicks Props':
     st.subheader(f'All {sport} PrizePicks standard props')
     st.caption('Only PrizePicks standard lines. No Demons, Goblins, live, combo or promotional lines. Data is limited to what the connected feed actually returns.')
@@ -331,20 +373,18 @@ if page=='All PrizePicks Props':
     if all_props.empty:
         st.info('No upcoming standard PrizePicks lines are available from the current feed.')
         st.stop()
-    if not comparison.empty:
-        comparison_keys=set(zip(comparison['Player'].map(norm),comparison['Stat'].map(norm),
-                                pd.to_numeric(comparison['PrizePicksLine'],errors='coerce').round(3)))
-    else:
-        comparison_keys=set()
-    all_props['Has model projection']=[
-        (norm(r.Player),norm(r.Stat),round(float(r.Line),3)) in comparison_keys
-        for r in all_props.itertuples(index=False)]
+    all_props=coverage_audit(all_props,projections,comparison,sport)
     total=len(all_props)
     matched=int(all_props['Has model projection'].sum())
     x,y,z=st.columns(3)
     x.metric('Standard lines received',total)
     y.metric('With model comparison',matched)
     z.metric('Without comparison',total-matched)
+    st.progress(matched/total if total else 0,text=f'{matched/total:.1%} of received standard lines have model comparisons' if total else 'No lines')
+    reasons=all_props['Coverage status'].value_counts().rename_axis('Reason').reset_index(name='Props')
+    with st.expander('Why are some props missing comparisons?',expanded=True):
+        st.dataframe(reasons,hide_index=True,use_container_width=True)
+        st.caption('Unsupported stats need verified game-level data. Player mismatches and comparison gaps are separate issues.')
     st.caption('A missing comparison means no matched model projection, not a missing PrizePicks market.')
     search=st.text_input('Search player',placeholder='Type a player name',key=f'all_props_search_{sport}')
     market=st.selectbox('Prop type',['All']+sorted(all_props['Stat'].dropna().astype(str).unique()),key=f'all_props_market_{sport}')
@@ -354,10 +394,12 @@ if page=='All PrizePicks Props':
     if market!='All':view=view[view['Stat'].eq(market)]
     if coverage!='All props':view=view[view['Has model projection'].eq(coverage=='With model comparison')]
     st.caption(f'{len(view)} matching standard props · feed file: '+modified('prizepicks_nba_lines.csv' if sport=='NBA' else 'nfl_prizepicks_all_standard.csv'))
-    columns=[c for c in ['Player','Team','Stat','Line','GameStartsAt','Has model projection'] if c in view.columns]
+    columns=[c for c in ['Player','Team','Stat','Line','GameStartsAt','Has model projection','Coverage status'] if c in view.columns]
     st.dataframe(view[columns],hide_index=True,use_container_width=True,
                  column_config={'Line':st.column_config.NumberColumn('PrizePicks line',format='%.1f'),
                                 'Has model projection':st.column_config.CheckboxColumn('Model available')})
+    st.download_button('Download full coverage audit',all_props[columns].to_csv(index=False).encode(),
+                       f'{sport.lower()}_prizepicks_coverage_audit.csv','text/csv')
     st.download_button('Download visible standard props',view[columns].to_csv(index=False).encode(),
                        f'{sport.lower()}_prizepicks_standard_props.csv','text/csv')
     st.stop()
