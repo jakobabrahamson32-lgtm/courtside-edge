@@ -32,6 +32,32 @@ def short_key(value):
 def run(root=ROOT):
     projections = pd.read_csv(root / 'nfl_projections.csv')
     lines = pd.read_csv(root / 'nfl_prizepicks_lines.csv')
+    result = match_frames(projections, lines)
+    if not result.empty:
+        output = root / 'nfl_comparison.csv'
+        result.to_csv(output, index=False)
+        print(f'Saved {len(result)} NFL comparisons to {output}')
+    return result
+
+def match_frames(projections, lines):
+    """Match in-memory standard sportsbook lines to NFL player projections."""
+    projections = projections.copy()
+    lines = lines.copy()
+    aliases = {
+        'rushatts':'Rushing Attempts','rushattempts':'Rushing Attempts',
+        'rushingatts':'Rushing Attempts','carries':'Rushing Attempts',
+        'rushyards':'Rushing Yards','rushingyds':'Rushing Yards',
+        'passatts':'Passing Attempts','passattempts':'Passing Attempts',
+        'passingatts':'Passing Attempts','passingattempts':'Passing Attempts',
+        'completions':'Passing Completions','passcompletions':'Passing Completions',
+        'passingcompletions':'Passing Completions',
+        'recs':'Receptions','receptions':'Receptions','receivingreceptions':'Receptions',
+        'recyards':'Receiving Yards','receivingyds':'Receiving Yards',
+        'receivingyards':'Receiving Yards'
+    }
+    lines['Stat'] = lines['Stat'].map(lambda v: aliases.get(clean(v),v))
+    lines['SportsbookLine'] = pd.to_numeric(lines['SportsbookLine'],errors='coerce')
+    lines = lines.dropna(subset=['SportsbookLine'])
     print(f'Loaded {len(projections)} model rows and {len(lines)} sportsbook rows.')
     if projections.empty or lines.empty:
         print('One source is empty. No comparison written.')
@@ -137,9 +163,6 @@ def run(root=ROOT):
     result = joined[columns].rename(columns={
         'SportsbookLine': 'PrizePicksLine', 'Projection': 'ModelProjection'
     })
-    output = root / 'nfl_comparison.csv'
-    result.to_csv(output, index=False)
-    print(f'Saved {len(result)} NFL comparisons to {output}')
     return result
 
 if __name__ == '__main__':
