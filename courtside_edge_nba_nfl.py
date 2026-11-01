@@ -196,7 +196,6 @@ def photo(name,sport):
 
 # Read-only recent game logs. These never change model projections or saved picks.
 @st.cache_data(ttl=1800,show_spinner=False)
-@st.cache_data(ttl=3600,show_spinner=False)
 def espn_nba_recent_games(player_name):
     """Fallback to ESPN completed NBA box scores when NBA Stats is unavailable."""
     import requests
@@ -206,10 +205,9 @@ def espn_nba_recent_games(player_name):
     base='https://site.api.espn.com/apis/site/v2/sports/basketball/nba'
     found=[]
     seen=set()
-    # One scoreboard request covers the recent date window; summaries are requested
-    # only for completed games, with bounded timeouts and cached results.
+    # ESPN date ranges can omit events; use a bounded 45-day range and player team filtering.
     end=date.today()
-    start=end-timedelta(days=32)
+    start=end-timedelta(days=45)
     try:
         response=session.get(base+'/scoreboard',params={'dates':start.strftime('%Y%m%d')+'-'+end.strftime('%Y%m%d'),'limit':300},timeout=10)
         response.raise_for_status()
@@ -281,6 +279,8 @@ def recent_game_logs(sport, player_name, player_id=None):
             rows=raw[raw[id_col].astype(str).eq(str(player_id))].copy()
         else:
             rows=raw[raw[name_col].map(norm).eq(norm(player_name))].copy()
+        if rows.empty and 'player_display_name' in raw.columns:
+            rows=raw[raw['player_display_name'].map(norm).eq(norm(player_name))].copy()
         if 'season_type' in rows:
             rows=rows[rows['season_type'].astype(str).str.upper().isin(['REG','REGULAR'])]
         for key in ['season','week']:
@@ -297,7 +297,10 @@ def recent_game_logs(sport, player_name, player_id=None):
         return result
     # NBA IDs from nba_api are NBA Stats IDs, not ESPN IDs.
     # Fetch actual box-score game logs from the matching NBA Stats endpoint.
-    from nba_api.stats.endpoints import playergamelog
+    try:
+        from nba_api.stats.endpoints import playergamelog
+    except Exception:
+        return espn_nba_recent_games(player_name)
     pid=nba_player_ids().get(norm(player_name))
     if not pid:
         return espn_nba_recent_games(player_name)
@@ -341,7 +344,7 @@ def show_recent_games(sport, player_name, stat=None, player_id=None):
         st.warning(f'Recent game logs unavailable: {type(exc).__name__}: {str(exc)[:240]}')
         return
     if logs.empty or len(logs.columns)<2:
-        st.info('Verified per-game stats are not available for this player yet.')
+        st.info('Game log feed returned no completed games for this player. This is a data-source issue, not a zero-stat game.')
         return
     choices=[c for c in logs.columns if c!='Game']
     aliases={'PTS':'Points','REB':'Rebounds','AST':'Assists','3PM':'Threes',
