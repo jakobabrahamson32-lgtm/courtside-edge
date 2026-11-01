@@ -80,6 +80,38 @@ def build(current_weight=0.60, season=2026):
                          'Last10Avg':round(float(curr_values.tail(10).mean()),2),
                          'Games':len(curr_values),'Season':season,
                          'CurrentWeight':effective_weight})
+    # Derived markets use actual weekly numerator/denominator data, not a
+    # quotient of unrelated season totals. Only add when both fields exist.
+    derived = {
+        'Completion Percentage': ('completions','attempts',100.0),
+        'Yards Per Pass Attempt': ('passing_yards','attempts',1.0),
+        'Yards Per Reception': ('receiving_yards','receptions',1.0),
+    }
+    for pid, history in current.groupby(id_col):
+        history=history.sort_values('week')
+        old=previous[previous[id_col].eq(pid)]
+        latest=history.iloc[-1]
+        for stat,(numerator,denominator,multiplier) in derived.items():
+            if numerator not in raw or denominator not in raw:
+                continue
+            def game_values(frame):
+                n=pd.to_numeric(frame[numerator],errors='coerce')
+                d=pd.to_numeric(frame[denominator],errors='coerce')
+                return (n.div(d.where(d.gt(0)))*multiplier).dropna()
+            current_values=game_values(history)
+            previous_values=game_values(old)
+            if current_values.empty:
+                continue
+            prior=previous_values.mean() if not previous_values.empty else None
+            weight=current_weight if prior is not None else 1.0
+            projection=weight*current_values.tail(5).mean()+(1-weight)*(prior if prior is not None else 0)
+            rows.append({'Player':str(latest[player_col]),'Team':str(latest[team_col]),
+                'PlayerID':str(pid),'Stat':stat,'Projection':round(float(projection),2),
+                'CurrentSeasonAvg':round(float(current_values.mean()),2),
+                'PreviousSeasonAvg':round(float(prior),2) if prior is not None else None,
+                'Last5Avg':round(float(current_values.tail(5).mean()),2),
+                'Last10Avg':round(float(current_values.tail(10).mean()),2),
+                'Games':len(current_values),'Season':season,'CurrentWeight':weight})
     out = pd.DataFrame(rows)
     if out.empty:
         raise RuntimeError('No usable NFL projections. Existing files were not changed.')
