@@ -59,6 +59,9 @@ nba = nba.sort_values("Games", ascending=False).drop_duplicates(
     subset=["MatchName"], keep="first"
 ).copy()
 print("Unique ESPN players available:", len(nba))
+print("Potential player matches before stat filtering:", len(
+    set(nba["MatchName"]) & set(props["MatchName"])
+))
 
 # Keep one standard line per player and stat
 # Conflicting lines are excluded, not guessed.
