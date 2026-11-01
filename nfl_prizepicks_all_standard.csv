@@ -2,9 +2,10 @@ Player,Team,Stat,MarketKey,Line,GameStartsAt
 AJ Cole,,player_punts_inside_20,player_punts_inside_20,1.5,2026-11-01T13:00:00.000-05:00
 AJ Cole + Austin McNamara,,player_punts_combo,player_punts_combo,7.5,2026-11-01T13:00:00.000-05:00
 Aaron Jones Sr.,,player_longest_rush,player_longest_rush,9.5,2026-11-01T13:00:00.000-05:00
+Aaron Jones Sr.,,Receiving Yards,player_receiving_yards,9.5,2026-11-01T13:00:00.000-05:00
 Aaron Jones Sr.,,Rushing Attempts,player_rush_attempts,7.5,2026-11-01T13:00:00.000-05:00
-Aaron Jones Sr.,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,42.5,2026-11-01T13:00:00.000-05:00
-Aaron Jones Sr.,,player_rush_yards,player_rush_yards,29.5,2026-11-01T13:00:00.000-05:00
+Aaron Jones Sr.,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,40.5,2026-11-01T13:00:00.000-05:00
+Aaron Jones Sr.,,player_rush_yards,player_rush_yards,28.5,2026-11-01T13:00:00.000-05:00
 Aaron Rodgers,,player_completion_percentage,player_completion_percentage,65.0999984741211,2026-11-01T13:00:00.000-05:00
 Aaron Rodgers,,player_fantasy_points,player_fantasy_points,14.5,2026-11-01T13:00:00.000-05:00
 Aaron Rodgers,,player_longest_completion,player_longest_completion,35.5,2026-11-01T13:00:00.000-05:00
@@ -25,19 +26,17 @@ Amon-Ra St. Brown + Javonte Williams,,player_anytime_tds_combo,player_anytime_td
 Andre Szmyt,,player_fantasy_points,player_fantasy_points,7.0,2026-11-01T13:00:00.000-05:00
 Andre Szmyt,,player_kicking_points,player_kicking_points,6.0,2026-11-01T13:00:00.000-05:00
 Antoine Winfield Jr.,,player_tackles_plus_ast,player_tackles_plus_ast,5.5,2026-11-01T13:00:00.000-05:00
-Ashton Dulin,,Receiving Yards,player_receiving_yards,4.5,2026-11-01T13:00:00.000-05:00
+Ashton Dulin,,Receiving Yards,player_receiving_yards,2.5,2026-11-01T13:00:00.000-05:00
 Ashton Dulin,,Receptions,player_receptions,0.5,2026-11-01T13:00:00.000-05:00
 Ashton Jeanty,,player_anytime_tds,player_anytime_tds,0.5,2026-11-01T13:00:00.000-05:00
 Ashton Jeanty,,player_fantasy_points,player_fantasy_points,14.5,2026-11-01T13:00:00.000-05:00
 Ashton Jeanty,,player_longest_reception,player_longest_reception,12.5,2026-11-01T13:00:00.000-05:00
 Ashton Jeanty,,player_rec_targets,player_rec_targets,5.0,2026-11-01T13:00:00.000-05:00
 Ashton Jeanty,,Receptions,player_receptions,3.5,2026-11-01T13:00:00.000-05:00
-Ashton Jeanty,,Rushing Attempts,player_rush_attempts,13.5,2026-11-01T13:00:00.000-05:00
-Ashton Jeanty,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,83.5,2026-11-01T13:00:00.000-05:00
+Ashton Jeanty,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,82.5,2026-11-01T13:00:00.000-05:00
 Ashton Jeanty,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,18.5,2026-11-01T13:00:00.000-05:00
 Ashton Jeanty,,player_rush_yards_per_carry,player_rush_yards_per_carry,3.700000047683716,2026-11-01T13:00:00.000-05:00
 Austin Hooper,,player_longest_reception,player_longest_reception,5.5,2026-11-01T13:00:00.000-05:00
-Austin Hooper,,Receiving Yards,player_receiving_yards,5.5,2026-11-01T13:00:00.000-05:00
 Austin McNamara,,player_punts_inside_20,player_punts_inside_20,1.5,2026-11-01T13:00:00.000-05:00
 Baker Mayfield,,player_completion_percentage,player_completion_percentage,61.900001525878906,2026-11-01T13:00:00.000-05:00
 Baker Mayfield,,player_fantasy_points,player_fantasy_points,16.0,2026-11-01T13:00:00.000-05:00
@@ -53,11 +52,11 @@ Bhayshul Tuten,,player_fantasy_points,player_fantasy_points,13.5,2026-11-01T13:0
 Bhayshul Tuten,,player_longest_reception,player_longest_reception,9.5,2026-11-01T13:00:00.000-05:00
 Bhayshul Tuten,,player_longest_rush,player_longest_rush,15.5,2026-11-01T13:00:00.000-05:00
 Bhayshul Tuten,,player_rec_targets,player_rec_targets,2.5,2026-11-01T13:00:00.000-05:00
+Bhayshul Tuten,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,86.5,2026-11-01T13:00:00.000-05:00
 Bhayshul Tuten,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,21.5,2026-11-01T13:00:00.000-05:00
 Bhayshul Tuten,,player_rush_yards_per_carry,player_rush_yards_per_carry,4.199999809265137,2026-11-01T13:00:00.000-05:00
 Bijan Robinson,,player_fantasy_points,player_fantasy_points,20.0,2026-11-01T13:00:00.000-05:00
 Bijan Robinson,,player_longest_reception,player_longest_reception,13.5,2026-11-01T13:00:00.000-05:00
-Bijan Robinson,,player_longest_rush,player_longest_rush,17.5,2026-11-01T13:00:00.000-05:00
 Bijan Robinson,,player_rec_targets,player_rec_targets,5.0,2026-11-01T13:00:00.000-05:00
 Bijan Robinson,,Receptions,player_receptions,4.0,2026-11-01T13:00:00.000-05:00
 Bijan Robinson,,Rushing Attempts,player_rush_attempts,19.0,2026-11-01T13:00:00.000-05:00
@@ -70,6 +69,13 @@ Bijan Robinson + Ja'Marr Chase,,player_anytime_tds_combo,player_anytime_tds_comb
 Bijan Robinson + Jonathan Taylor,,player_anytime_tds_combo,player_anytime_tds_combo,1.5,2026-11-01T13:00:00.000-05:00
 Blake Gillikin,,player_punts,player_punts,3.5,2026-11-01T13:00:00.000-05:00
 Blake Gillikin + Bryan Anger,,player_punts_combo,player_punts_combo,6.0,2026-11-01T13:00:00.000-05:00
+Boye Mafe,,player_sacks,player_sacks,0.5,2026-11-01T13:00:00.000-05:00
+Braelon Allen,,player_anytime_tds,player_anytime_tds,0.5,2026-11-01T13:00:00.000-05:00
+Braelon Allen,,player_longest_reception,player_longest_reception,9.5,2026-11-01T13:00:00.000-05:00
+Braelon Allen,,player_longest_rush,player_longest_rush,15.5,2026-11-01T13:00:00.000-05:00
+Braelon Allen,,Receiving Yards,player_receiving_yards,15.5,2026-11-01T13:00:00.000-05:00
+Braelon Allen,,Rushing Attempts,player_rush_attempts,18.5,2026-11-01T13:00:00.000-05:00
+Braelon Allen,,player_rush_yards,player_rush_yards,78.5,2026-11-01T13:00:00.000-05:00
 Brandon Aubrey,,player_fantasy_points,player_fantasy_points,10.5,2026-11-01T13:00:00.000-05:00
 Brandon Aubrey,,player_kicking_points,player_kicking_points,8.5,2026-11-01T13:00:00.000-05:00
 Brandon Aubrey + Chad Ryland,,player_fg_made_combo,player_fg_made_combo,3.5,2026-11-01T13:00:00.000-05:00
@@ -79,8 +85,10 @@ Brandon Aubrey + Chad Ryland,,player_shortest_fg_made_yds_combo,player_shortest_
 Brenton Strange,,player_fantasy_points,player_fantasy_points,9.5,2026-11-01T13:00:00.000-05:00
 Brenton Strange,,player_rec_targets,player_rec_targets,5.5,2026-11-01T13:00:00.000-05:00
 Brenton Strange,,Receptions,player_receptions,4.0,2026-11-01T13:00:00.000-05:00
+Brevyn Spann-Ford,,player_fantasy_points,player_fantasy_points,4.0,2026-11-01T13:00:00.000-05:00
 Brevyn Spann-Ford,,player_longest_reception,player_longest_reception,10.5,2026-11-01T13:00:00.000-05:00
 Brevyn Spann-Ford,,player_rec_targets,player_rec_targets,2.5,2026-11-01T13:00:00.000-05:00
+Brian Thomas Jr.,,player_longest_reception,player_longest_reception,7.5,2026-11-01T13:00:00.000-05:00
 Brian Thomas Jr.,,Receiving Yards,player_receiving_yards,10.5,2026-11-01T13:00:00.000-05:00
 Brock Bowers,,player_fantasy_points,player_fantasy_points,15.5,2026-11-01T13:00:00.000-05:00
 Brock Bowers,,player_rec_targets,player_rec_targets,8.5,2026-11-01T13:00:00.000-05:00
@@ -94,6 +102,7 @@ Bucky Irving,,player_rec_targets,player_rec_targets,3.5,2026-11-01T13:00:00.000-
 Bucky Irving,,Receiving Yards,player_receiving_yards,16.5,2026-11-01T13:00:00.000-05:00
 Bucky Irving,,Receptions,player_receptions,3.0,2026-11-01T13:00:00.000-05:00
 Bucky Irving,,Rushing Attempts,player_rush_attempts,17.0,2026-11-01T13:00:00.000-05:00
+Bucky Irving,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,91.5,2026-11-01T13:00:00.000-05:00
 Bucky Irving,,Rushing TDs,player_rush_tds,0.5,2026-11-01T13:00:00.000-05:00
 Bucky Irving,,player_rush_yards,player_rush_yards,69.5,2026-11-01T13:00:00.000-05:00
 Bucky Irving,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,21.5,2026-11-01T13:00:00.000-05:00
@@ -105,6 +114,7 @@ Cade Otton,,player_fantasy_points,player_fantasy_points,8.0,2026-11-01T13:00:00.
 Cade Otton,,player_longest_reception,player_longest_reception,16.5,2026-11-01T13:00:00.000-05:00
 Cade Otton,,player_rec_targets,player_rec_targets,5.0,2026-11-01T13:00:00.000-05:00
 Cade Otton,,Receptions,player_receptions,3.5,2026-11-01T13:00:00.000-05:00
+Caleb Downs,,player_tackles_plus_ast,player_tackles_plus_ast,6.5,2026-11-01T13:00:00.000-05:00
 Calvin Ridley,,player_fantasy_points,player_fantasy_points,5.0,2026-11-01T13:00:00.000-05:00
 Calvin Ridley,,player_rec_targets,player_rec_targets,3.5,2026-11-01T13:00:00.000-05:00
 Cam Bynum,,player_tackles_plus_ast,player_tackles_plus_ast,4.5,2026-11-01T13:00:00.000-05:00
@@ -136,10 +146,9 @@ Chase Brown,,player_longest_reception,player_longest_reception,9.5,2026-11-01T13
 Chase Brown,,player_longest_rush,player_longest_rush,13.5,2026-11-01T13:00:00.000-05:00
 Chase Brown,,player_rec_targets,player_rec_targets,4.5,2026-11-01T13:00:00.000-05:00
 Chase Brown,,Receptions,player_receptions,3.5,2026-11-01T13:00:00.000-05:00
-Chase Brown,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,84.5,2026-11-01T13:00:00.000-05:00
 Chase Brown,,player_rush_yards,player_rush_yards,57.5,2026-11-01T13:00:00.000-05:00
 Chase Brown,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,18.5,2026-11-01T13:00:00.000-05:00
-Chase Brown,,player_rush_yards_per_carry,player_rush_yards_per_carry,3.799999952316284,2026-11-01T13:00:00.000-05:00
+Chase Brown,,player_rush_yards_per_carry,player_rush_yards_per_carry,3.700000047683716,2026-11-01T13:00:00.000-05:00
 Chase Brown + Jaylen Warren,,player_anytime_tds_combo,player_anytime_tds_combo,1.5,2026-11-01T13:00:00.000-05:00
 Chase McLaughlin,,player_fantasy_points,player_fantasy_points,9.0,2026-11-01T13:00:00.000-05:00
 Chase McLaughlin + Nick Folk,,player_fg_made_combo,player_fg_made_combo,3.5,2026-11-01T13:00:00.000-05:00
@@ -155,14 +164,13 @@ Chris Boswell + Andre Szmyt,,player_shortest_fg_made_yds_combo,player_shortest_f
 Chris Godwin Jr.,,player_fantasy_points,player_fantasy_points,10.0,2026-11-01T13:00:00.000-05:00
 Chris Godwin Jr.,,player_longest_reception,player_longest_reception,16.5,2026-11-01T13:00:00.000-05:00
 Chris Godwin Jr.,,player_rec_targets,player_rec_targets,6.5,2026-11-01T13:00:00.000-05:00
-Chris Godwin Jr.,,Receptions,player_receptions,4.5,2026-11-01T13:00:00.000-05:00
 Chris Rodriguez Jr.,,player_longest_rush,player_longest_rush,11.5,2026-11-01T13:00:00.000-05:00
 Chris Rodriguez Jr.,,Rushing Attempts,player_rush_attempts,7.5,2026-11-01T13:00:00.000-05:00
 Christian Benford,,player_tackles_plus_ast,player_tackles_plus_ast,3.5,2026-11-01T13:00:00.000-05:00
 Connor Heyward,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,0.5,2026-11-01T13:00:00.000-05:00
 DJ Moore,,player_longest_reception,player_longest_reception,22.5,2026-11-01T13:00:00.000-05:00
 DJ Moore,,player_rec_targets,player_rec_targets,7.0,2026-11-01T13:00:00.000-05:00
-DJ Moore,,Receiving Yards,player_receiving_yards,53.5,2026-11-01T13:00:00.000-05:00
+DJ Moore,,Receiving Yards,player_receiving_yards,55.5,2026-11-01T13:00:00.000-05:00
 DK Metcalf,,player_fantasy_points,player_fantasy_points,11.5,2026-11-01T13:00:00.000-05:00
 DK Metcalf,,player_longest_reception,player_longest_reception,23.5,2026-11-01T13:00:00.000-05:00
 DK Metcalf,,player_rec_targets,player_rec_targets,7.0,2026-11-01T13:00:00.000-05:00
@@ -186,9 +194,9 @@ Daniel Jones,,player_completion_percentage,player_completion_percentage,61.90000
 Daniel Jones,,player_fantasy_points,player_fantasy_points,12.0,2026-11-01T13:00:00.000-05:00
 Daniel Jones,,player_longest_rush,player_longest_rush,7.5,2026-11-01T13:00:00.000-05:00
 Daniel Jones,,Passing Completions,player_pass_completions,19.5,2026-11-01T13:00:00.000-05:00
+Daniel Jones,,player_pass_plus_rush_yds,player_pass_plus_rush_yds,207.5,2026-11-01T13:00:00.000-05:00
 Daniel Jones,,Passing Yards,player_pass_yds,192.5,2026-11-01T13:00:00.000-05:00
 Daniel Jones,,player_passer_rating,player_passer_rating,79.5,2026-11-01T13:00:00.000-05:00
-Daniel Jones,,player_rush_yards,player_rush_yards,8.5,2026-11-01T13:00:00.000-05:00
 Daniel Jones,,player_sacks_taken,player_sacks_taken,2.5,2026-11-01T13:00:00.000-05:00
 Daniel Jones + Trevor Lawrence,,player_pass_yards_combo,player_pass_yards_combo,431.5,2026-11-01T13:00:00.000-05:00
 Darnell Washington,,player_fantasy_points,player_fantasy_points,6.0,2026-11-01T13:00:00.000-05:00
@@ -201,6 +209,7 @@ Denzel Boston,,player_rec_targets,player_rec_targets,6.0,2026-11-01T13:00:00.000
 Denzel Boston,,Receiving Yards,player_receiving_yards,49.5,2026-11-01T13:00:00.000-05:00
 Denzel Boston + DJ Moore,,player_anytime_tds_combo,player_anytime_tds_combo,0.5,2026-11-01T13:00:00.000-05:00
 Denzel Boston + DK Metcalf,,player_receiving_yards_combo,player_receiving_yards_combo,101.5,2026-11-01T13:00:00.000-05:00
+Deone Walker,,player_tackles_plus_ast,player_tackles_plus_ast,3.5,2026-11-01T13:00:00.000-05:00
 Derrick Henry,,player_fantasy_points,player_fantasy_points,15.5,2026-11-01T13:00:00.000-05:00
 Derrick Henry,,player_longest_reception,player_longest_reception,5.5,2026-11-01T13:00:00.000-05:00
 Derrick Henry,,player_longest_rush,player_longest_rush,17.5,2026-11-01T13:00:00.000-05:00
@@ -225,7 +234,6 @@ Deshaun Watson,,player_rush_yards,player_rush_yards,25.5,2026-11-01T13:00:00.000
 Deshaun Watson + Aaron Rodgers,,player_pass_yards_combo,player_pass_yards_combo,428.5,2026-11-01T13:00:00.000-05:00
 Devontez Walker,,player_longest_reception,player_longest_reception,0.5,2026-11-01T13:00:00.000-05:00
 Dohnte Meyers,,player_fantasy_points,player_fantasy_points,4.0,2026-11-01T13:00:00.000-05:00
-Dohnte Meyers,,player_longest_reception,player_longest_reception,10.5,2026-11-01T13:00:00.000-05:00
 Drake London,,player_fantasy_points,player_fantasy_points,16.5,2026-11-01T13:00:00.000-05:00
 Drake London,,player_rec_targets,player_rec_targets,10.0,2026-11-01T13:00:00.000-05:00
 Drake London,,Receptions,player_receptions,6.0,2026-11-01T13:00:00.000-05:00
@@ -236,9 +244,7 @@ Dylan Sampson,,player_longest_reception,player_longest_reception,9.5,2026-11-01T
 Dylan Sampson,,Receiving Yards,player_receiving_yards,16.5,2026-11-01T13:00:00.000-05:00
 Dylan Sampson,,player_rush_yards,player_rush_yards,11.5,2026-11-01T13:00:00.000-05:00
 Elic Ayomanor,,player_fantasy_points,player_fantasy_points,6.5,2026-11-01T13:00:00.000-05:00
-Elic Ayomanor,,player_longest_reception,player_longest_reception,16.5,2026-11-01T13:00:00.000-05:00
 Elic Ayomanor,,player_rec_targets,player_rec_targets,4.5,2026-11-01T13:00:00.000-05:00
-Elic Ayomanor,,Receiving Yards,player_receiving_yards,33.5,2026-11-01T13:00:00.000-05:00
 Elijah Higgins,,player_longest_reception,player_longest_reception,11.5,2026-11-01T13:00:00.000-05:00
 Elijah Higgins,,Receptions,player_receptions,2.0,2026-11-01T13:00:00.000-05:00
 Eric Wilson,,player_tackles_plus_ast,player_tackles_plus_ast,5.5,2026-11-01T13:00:00.000-05:00
@@ -251,14 +257,12 @@ Garrett Wilson,,player_fantasy_points,player_fantasy_points,13.5,2026-11-01T13:0
 Garrett Wilson,,player_longest_reception,player_longest_reception,22.5,2026-11-01T13:00:00.000-05:00
 Garrett Wilson,,player_rec_targets,player_rec_targets,7.5,2026-11-01T13:00:00.000-05:00
 Garrett Wilson,,Receptions,player_receptions,5.5,2026-11-01T13:00:00.000-05:00
-Geno Smith,,player_completion_percentage,player_completion_percentage,67.19999694824219,2026-11-01T13:00:00.000-05:00
+Geno Smith,,player_completion_percentage,player_completion_percentage,69.5,2026-11-01T13:00:00.000-05:00
 Geno Smith,,player_fantasy_points,player_fantasy_points,15.5,2026-11-01T13:00:00.000-05:00
-Geno Smith,,player_longest_completion,player_longest_completion,35.5,2026-11-01T13:00:00.000-05:00
+Geno Smith,,player_longest_completion,player_longest_completion,34.5,2026-11-01T13:00:00.000-05:00
 Geno Smith,,player_longest_rush,player_longest_rush,6.5,2026-11-01T13:00:00.000-05:00
-Geno Smith,,Passing Attempts,player_pass_attempts,30.5,2026-11-01T13:00:00.000-05:00
-Geno Smith,,Passing Completions,player_pass_completions,20.5,2026-11-01T13:00:00.000-05:00
+Geno Smith,,player_pass_plus_rush_yds,player_pass_plus_rush_yds,235.5,2026-11-01T13:00:00.000-05:00
 Geno Smith,,Passing TDs,player_pass_tds,1.5,2026-11-01T13:00:00.000-05:00
-Geno Smith,,Passing Yards,player_pass_yds,225.5,2026-11-01T13:00:00.000-05:00
 Geno Smith,,player_passer_rating,player_passer_rating,94.5,2026-11-01T13:00:00.000-05:00
 Geno Smith,,Rushing Attempts,player_rush_attempts,2.5,2026-11-01T13:00:00.000-05:00
 Geno Smith,,player_rush_yards,player_rush_yards,6.5,2026-11-01T13:00:00.000-05:00
@@ -270,6 +274,7 @@ Germie Bernard,,player_fantasy_points,player_fantasy_points,10.5,2026-11-01T13:0
 Germie Bernard,,player_rec_targets,player_rec_targets,7.5,2026-11-01T13:00:00.000-05:00
 Germie Bernard,,Receiving Yards,player_receiving_yards,43.5,2026-11-01T13:00:00.000-05:00
 Germie Bernard,,Receptions,player_receptions,4.5,2026-11-01T13:00:00.000-05:00
+Gervon Dexter Sr.,,player_tackles_plus_ast,player_tackles_plus_ast,3.5,2026-11-01T13:00:00.000-05:00
 Grant Delpit,,player_tackles_plus_ast,player_tackles_plus_ast,4.5,2026-11-01T13:00:00.000-05:00
 Gunnar Helm,,player_fantasy_points,player_fantasy_points,5.5,2026-11-01T13:00:00.000-05:00
 Gunnar Helm,,player_rec_targets,player_rec_targets,3.5,2026-11-01T13:00:00.000-05:00
@@ -277,19 +282,17 @@ Gunnar Helm,,Receptions,player_receptions,2.5,2026-11-01T13:00:00.000-05:00
 Harold Fannin Jr.,,player_fantasy_points,player_fantasy_points,8.5,2026-11-01T13:00:00.000-05:00
 Harold Fannin Jr.,,player_longest_reception,player_longest_reception,15.5,2026-11-01T13:00:00.000-05:00
 Harold Fannin Jr.,,player_rec_targets,player_rec_targets,5.5,2026-11-01T13:00:00.000-05:00
-Harold Fannin Jr.,,Receiving Yards,player_receiving_yards,34.5,2026-11-01T13:00:00.000-05:00
 Harold Fannin Jr.,,Receptions,player_receptions,3.5,2026-11-01T13:00:00.000-05:00
 Isaac TeSlaa,,Receiving Yards,player_receiving_yards,18.5,2026-11-01T13:00:00.000-05:00
 Isaac TeSlaa,,Receptions,player_receptions,1.5,2026-11-01T13:00:00.000-05:00
 Ja'Kobi Lane,,player_fantasy_points,player_fantasy_points,7.0,2026-11-01T13:00:00.000-05:00
 Ja'Kobi Lane,,player_rec_targets,player_rec_targets,4.0,2026-11-01T13:00:00.000-05:00
-Ja'Kobi Lane,,Receiving Yards,player_receiving_yards,31.5,2026-11-01T13:00:00.000-05:00
+Ja'Kobi Lane,,Receiving Yards,player_receiving_yards,32.5,2026-11-01T13:00:00.000-05:00
 Ja'Kobi Lane,,Receptions,player_receptions,2.5,2026-11-01T13:00:00.000-05:00
 Ja'Marr Chase,,player_anytime_tds,player_anytime_tds,0.5,2026-11-01T13:00:00.000-05:00
 Ja'Marr Chase,,player_fantasy_points,player_fantasy_points,18.0,2026-11-01T13:00:00.000-05:00
 Ja'Marr Chase,,player_longest_reception,player_longest_reception,25.5,2026-11-01T13:00:00.000-05:00
 Ja'Marr Chase,,player_rec_targets,player_rec_targets,10.0,2026-11-01T13:00:00.000-05:00
-Ja'Marr Chase,,Receiving Yards,player_receiving_yards,80.5,2026-11-01T13:00:00.000-05:00
 Jacoby Brissett,,player_completion_percentage,player_completion_percentage,67.0999984741211,2026-11-01T13:00:00.000-05:00
 Jacoby Brissett,,player_fantasy_points,player_fantasy_points,18.0,2026-11-01T13:00:00.000-05:00
 Jacoby Brissett,,player_longest_completion,player_longest_completion,35.5,2026-11-01T13:00:00.000-05:00
@@ -334,10 +337,10 @@ Jalen Nailor,,player_rec_targets,player_rec_targets,3.0,2026-11-01T13:00:00.000-
 Jalen Nailor,,Receiving Yards,player_receiving_yards,17.5,2026-11-01T13:00:00.000-05:00
 James Cook III,,player_fantasy_points,player_fantasy_points,16.0,2026-11-01T13:00:00.000-05:00
 James Cook III,,player_longest_reception,player_longest_reception,7.5,2026-11-01T13:00:00.000-05:00
-James Cook III,,player_longest_rush,player_longest_rush,17.5,2026-11-01T13:00:00.000-05:00
+James Cook III,,player_longest_rush,player_longest_rush,16.5,2026-11-01T13:00:00.000-05:00
 James Cook III,,player_rec_targets,player_rec_targets,2.0,2026-11-01T13:00:00.000-05:00
 James Cook III,,Receptions,player_receptions,1.5,2026-11-01T13:00:00.000-05:00
-James Cook III,,Rushing Attempts,player_rush_attempts,18.5,2026-11-01T13:00:00.000-05:00
+James Cook III,,Rushing Attempts,player_rush_attempts,17.5,2026-11-01T13:00:00.000-05:00
 James Cook III,,Rushing TDs,player_rush_tds,0.5,2026-11-01T13:00:00.000-05:00
 James Cook III,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,22.5,2026-11-01T13:00:00.000-05:00
 James Cook III,,player_rush_yards_per_carry,player_rush_yards_per_carry,4.5,2026-11-01T13:00:00.000-05:00
@@ -360,7 +363,6 @@ Jason Sanders,,player_fg_made,player_fg_made,1.5,2026-11-01T13:00:00.000-05:00
 Jauan Jennings,,player_longest_reception,player_longest_reception,10.5,2026-11-01T13:00:00.000-05:00
 Jauan Jennings,,player_rec_targets,player_rec_targets,2.5,2026-11-01T13:00:00.000-05:00
 Jauan Jennings,,Receptions,player_receptions,1.5,2026-11-01T13:00:00.000-05:00
-Javonte Williams,,player_fantasy_points,player_fantasy_points,16.0,2026-11-01T13:00:00.000-05:00
 Javonte Williams,,player_longest_rush,player_longest_rush,16.5,2026-11-01T13:00:00.000-05:00
 Javonte Williams,,player_rec_targets,player_rec_targets,2.5,2026-11-01T13:00:00.000-05:00
 Javonte Williams,,Receiving Yards,player_receiving_yards,11.5,2026-11-01T13:00:00.000-05:00
@@ -388,7 +390,7 @@ Joe Burrow,,player_fantasy_points,player_fantasy_points,21.5,2026-11-01T13:00:00
 Joe Burrow,,player_longest_rush,player_longest_rush,5.5,2026-11-01T13:00:00.000-05:00
 Joe Burrow,,Passing Completions,player_pass_completions,25.0,2026-11-01T13:00:00.000-05:00
 Joe Burrow,,player_rush_yards,player_rush_yards,5.5,2026-11-01T13:00:00.000-05:00
-Joe Burrow,,player_sacks_taken,player_sacks_taken,2.0,2026-11-01T13:00:00.000-05:00
+Joe Burrow,,player_sacks_taken,player_sacks_taken,1.5,2026-11-01T13:00:00.000-05:00
 Joey Slye,,player_fantasy_points,player_fantasy_points,6.5,2026-11-01T13:00:00.000-05:00
 Joey Slye,,player_kicking_points,player_kicking_points,5.0,2026-11-01T13:00:00.000-05:00
 Jonathan Taylor,,player_anytime_tds,player_anytime_tds,0.5,2026-11-01T13:00:00.000-05:00
@@ -396,6 +398,7 @@ Jonathan Taylor,,player_fantasy_points,player_fantasy_points,12.5,2026-11-01T13:
 Jonathan Taylor,,player_longest_reception,player_longest_reception,9.5,2026-11-01T13:00:00.000-05:00
 Jonathan Taylor,,player_rec_targets,player_rec_targets,3.5,2026-11-01T13:00:00.000-05:00
 Jonathan Taylor,,Rushing Attempts,player_rush_attempts,14.5,2026-11-01T13:00:00.000-05:00
+Jonathan Taylor,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,70.5,2026-11-01T13:00:00.000-05:00
 Jonathan Taylor,,Rushing TDs,player_rush_tds,0.5,2026-11-01T13:00:00.000-05:00
 Jonathan Taylor,,player_rush_yards,player_rush_yards,50.5,2026-11-01T13:00:00.000-05:00
 Jonathan Taylor,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,17.5,2026-11-01T13:00:00.000-05:00
@@ -425,6 +428,7 @@ Josh Cuevas,,player_rec_targets,player_rec_targets,1.5,2026-11-01T13:00:00.000-0
 Josh Downs,,player_fantasy_points,player_fantasy_points,7.5,2026-11-01T13:00:00.000-05:00
 Josh Downs,,player_longest_reception,player_longest_reception,16.5,2026-11-01T13:00:00.000-05:00
 Josh Downs,,player_rec_targets,player_rec_targets,5.0,2026-11-01T13:00:00.000-05:00
+Josh Downs,,Receptions,player_receptions,3.0,2026-11-01T13:00:00.000-05:00
 Joshua Metellus,,player_tackles_plus_ast,player_tackles_plus_ast,6.5,2026-11-01T13:00:00.000-05:00
 Joshua Palmer,,player_longest_reception,player_longest_reception,9.5,2026-11-01T13:00:00.000-05:00
 Joshua Palmer,,player_rec_targets,player_rec_targets,2.0,2026-11-01T13:00:00.000-05:00
@@ -445,6 +449,7 @@ Justin Jefferson + Amon-Ra St. Brown,,player_receiving_yards_combo,player_receiv
 KC Concepcion Jr.,,player_fantasy_points,player_fantasy_points,10.5,2026-11-01T13:00:00.000-05:00
 KC Concepcion Jr.,,player_longest_reception,player_longest_reception,18.5,2026-11-01T13:00:00.000-05:00
 KC Concepcion Jr.,,player_rec_targets,player_rec_targets,7.0,2026-11-01T13:00:00.000-05:00
+KC Concepcion Jr.,,Receptions,player_receptions,4.5,2026-11-01T13:00:00.000-05:00
 KC Concepcion Jr. + Germie Bernard,,player_receiving_yards_combo,player_receiving_yards_combo,92.5,2026-11-01T13:00:00.000-05:00
 Keenan Allen,,player_fantasy_points,player_fantasy_points,9.0,2026-11-01T13:00:00.000-05:00
 Keenan Allen,,player_rec_targets,player_rec_targets,6.5,2026-11-01T13:00:00.000-05:00
@@ -455,9 +460,8 @@ Kendrick Bourne,,Receptions,player_receptions,3.5,2026-11-01T13:00:00.000-05:00
 Kenny Gainwell,,player_fantasy_points,player_fantasy_points,5.5,2026-11-01T13:00:00.000-05:00
 Kenny Gainwell,,player_longest_reception,player_longest_reception,8.5,2026-11-01T13:00:00.000-05:00
 Kenyon Sadiq,,player_fantasy_points,player_fantasy_points,4.5,2026-11-01T13:00:00.000-05:00
-Kenyon Sadiq,,player_longest_reception,player_longest_reception,11.5,2026-11-01T13:00:00.000-05:00
 Kenyon Sadiq,,player_rec_targets,player_rec_targets,3.0,2026-11-01T13:00:00.000-05:00
-Kenyon Sadiq,,Receiving Yards,player_receiving_yards,17.5,2026-11-01T13:00:00.000-05:00
+Kenyon Sadiq,,Receiving Yards,player_receiving_yards,16.5,2026-11-01T13:00:00.000-05:00
 Kenyon Sadiq,,Receptions,player_receptions,2.0,2026-11-01T13:00:00.000-05:00
 Keon Coleman,,player_fantasy_points,player_fantasy_points,6.5,2026-11-01T13:00:00.000-05:00
 Keon Coleman,,player_rec_targets,player_rec_targets,3.5,2026-11-01T13:00:00.000-05:00
@@ -496,6 +500,7 @@ Kyler Murray + Jared Goff,,player_pass_yards_combo,player_pass_yards_combo,484.5
 Lamar Jackson,,player_completion_percentage,player_completion_percentage,61.900001525878906,2026-11-01T13:00:00.000-05:00
 Lamar Jackson,,player_longest_completion,player_longest_completion,36.5,2026-11-01T13:00:00.000-05:00
 Lamar Jackson,,Passing TDs,player_pass_tds,1.5,2026-11-01T13:00:00.000-05:00
+Lamar Jackson,,Passing Yards,player_pass_yds,237.5,2026-11-01T13:00:00.000-05:00
 Lamar Jackson,,player_passer_rating,player_passer_rating,96.5,2026-11-01T13:00:00.000-05:00
 Lamar Jackson,,Rushing Attempts,player_rush_attempts,4.0,2026-11-01T13:00:00.000-05:00
 Lamar Jackson,,player_rush_yards,player_rush_yards,25.5,2026-11-01T13:00:00.000-05:00
@@ -510,7 +515,7 @@ Mark Andrews,,player_fantasy_points,player_fantasy_points,8.0,2026-11-01T13:00:0
 Mark Andrews,,player_rec_targets,player_rec_targets,5.0,2026-11-01T13:00:00.000-05:00
 Mark Andrews,,Receiving Yards,player_receiving_yards,27.5,2026-11-01T13:00:00.000-05:00
 Mason Taylor,,player_fantasy_points,player_fantasy_points,6.0,2026-11-01T13:00:00.000-05:00
-Mason Taylor,,player_longest_reception,player_longest_reception,12.5,2026-11-01T13:00:00.000-05:00
+Mason Taylor,,player_longest_reception,player_longest_reception,11.5,2026-11-01T13:00:00.000-05:00
 Mason Taylor,,player_rec_targets,player_rec_targets,4.0,2026-11-01T13:00:00.000-05:00
 Matt Gay,,player_fantasy_points,player_fantasy_points,8.5,2026-11-01T13:00:00.000-05:00
 Matt Gay + Jason Sanders,,player_fg_made_combo,player_fg_made_combo,3.5,2026-11-01T13:00:00.000-05:00
@@ -528,6 +533,7 @@ Michael Mayer,,Receptions,player_receptions,3.0,2026-11-01T13:00:00.000-05:00
 Michael Penix Jr.,,player_completion_percentage,player_completion_percentage,61.900001525878906,2026-11-01T13:00:00.000-05:00
 Michael Penix Jr.,,player_int,player_int,0.5,2026-11-01T13:00:00.000-05:00
 Michael Penix Jr.,,player_longest_rush,player_longest_rush,2.5,2026-11-01T13:00:00.000-05:00
+Michael Penix Jr.,,player_pass_plus_rush_yds,player_pass_plus_rush_yds,232.5,2026-11-01T13:00:00.000-05:00
 Michael Penix Jr.,,Passing Yards,player_pass_yds,229.5,2026-11-01T13:00:00.000-05:00
 Michael Penix Jr.,,player_passer_rating,player_passer_rating,86.5,2026-11-01T13:00:00.000-05:00
 Michael Penix Jr.,,player_rush_yards,player_rush_yards,2.5,2026-11-01T13:00:00.000-05:00
@@ -542,7 +548,6 @@ Mike Washington Jr.,,player_longest_rush,player_longest_rush,11.5,2026-11-01T13:
 Mo Alie-Cox,,player_longest_reception,player_longest_reception,0.5,2026-11-01T13:00:00.000-05:00
 Mo Alie-Cox,,Receiving Yards,player_receiving_yards,0.5,2026-11-01T13:00:00.000-05:00
 Mo Alie-Cox,,Receptions,player_receptions,0.5,2026-11-01T13:00:00.000-05:00
-Nakobe Dean,,player_tackles_plus_ast,player_tackles_plus_ast,9.5,2026-11-01T13:00:00.000-05:00
 Nate Boerkircher,,Receiving Yards,player_receiving_yards,8.5,2026-11-01T13:00:00.000-05:00
 Nick Folk,,player_fantasy_points,player_fantasy_points,7.5,2026-11-01T13:00:00.000-05:00
 Nick Folk,,player_fg_made,player_fg_made,1.5,2026-11-01T13:00:00.000-05:00
@@ -585,6 +590,7 @@ Rigoberto Sanchez,,player_punts_inside_20,player_punts_inside_20,1.5,2026-11-01T
 Rigoberto Sanchez + Logan Cooke,,player_punts_combo,player_punts_combo,7.0,2026-11-01T13:00:00.000-05:00
 Riley Dixon,,player_punts,player_punts,4.0,2026-11-01T13:00:00.000-05:00
 Riley Dixon,,player_punts_inside_20,player_punts_inside_20,1.5,2026-11-01T13:00:00.000-05:00
+Ronnie Hickman,,player_tackles_plus_ast,player_tackles_plus_ast,5.5,2026-11-01T13:00:00.000-05:00
 Roquan Smith,,player_tackles_plus_ast,player_tackles_plus_ast,8.5,2026-11-01T13:00:00.000-05:00
 Ryan Eckley,,player_punts,player_punts,3.0,2026-11-01T13:00:00.000-05:00
 Ryan Eckley + Tommy Doman Jr.,,player_punts_combo,player_punts_combo,6.0,2026-11-01T13:00:00.000-05:00
@@ -598,13 +604,13 @@ Samaje Perine,,player_longest_rush,player_longest_rush,9.5,2026-11-01T13:00:00.0
 Samaje Perine,,player_rec_targets,player_rec_targets,1.5,2026-11-01T13:00:00.000-05:00
 Sean Tucker,,player_rush_yards,player_rush_yards,6.5,2026-11-01T13:00:00.000-05:00
 Seth McGowan,,player_longest_reception,player_longest_reception,2.5,2026-11-01T13:00:00.000-05:00
-Seth McGowan,,player_longest_rush,player_longest_rush,9.5,2026-11-01T13:00:00.000-05:00
 Seth McGowan,,Receiving Yards,player_receiving_yards,2.5,2026-11-01T13:00:00.000-05:00
 Seth McGowan,,Rushing Attempts,player_rush_attempts,6.5,2026-11-01T13:00:00.000-05:00
 Seth McGowan,,player_rush_yards,player_rush_yards,22.5,2026-11-01T13:00:00.000-05:00
 Spencer Shrader,,player_fantasy_points,player_fantasy_points,7.5,2026-11-01T13:00:00.000-05:00
 T.J. Hockenson,,player_fantasy_points,player_fantasy_points,10.0,2026-11-01T13:00:00.000-05:00
 T.J. Hockenson,,player_rec_targets,player_rec_targets,6.5,2026-11-01T13:00:00.000-05:00
+T.J. Hockenson,,Receiving Yards,player_receiving_yards,42.5,2026-11-01T13:00:00.000-05:00
 T.J. Hockenson,,Receptions,player_receptions,4.5,2026-11-01T13:00:00.000-05:00
 Ted Hurst III,,player_fantasy_points,player_fantasy_points,7.0,2026-11-01T13:00:00.000-05:00
 Ted Hurst III,,player_rec_targets,player_rec_targets,4.0,2026-11-01T13:00:00.000-05:00
@@ -625,7 +631,7 @@ Tony Pollard,,player_rush_yards_per_carry,player_rush_yards_per_carry,4.19999980
 Tony Pollard + Chase Brown,,player_rush_yards_combo,player_rush_yards_combo,124.5,2026-11-01T13:00:00.000-05:00
 Travis Hunter,,player_fantasy_points,player_fantasy_points,4.0,2026-11-01T13:00:00.000-05:00
 Travis Hunter,,player_longest_reception,player_longest_reception,11.5,2026-11-01T13:00:00.000-05:00
-Travis Hunter,,Receiving Yards,player_receiving_yards,13.5,2026-11-01T13:00:00.000-05:00
+Travis Hunter,,Receiving Yards,player_receiving_yards,14.5,2026-11-01T13:00:00.000-05:00
 Travis Hunter,,Receptions,player_receptions,1.5,2026-11-01T13:00:00.000-05:00
 Tre Tucker,,player_fantasy_points,player_fantasy_points,10.0,2026-11-01T13:00:00.000-05:00
 Tre Tucker,,player_longest_reception,player_longest_reception,21.5,2026-11-01T13:00:00.000-05:00
@@ -635,7 +641,8 @@ Tre Tucker,,Receptions,player_receptions,3.5,2026-11-01T13:00:00.000-05:00
 Tre Tucker + Omar Cooper Jr.,,player_receiving_yards_combo,player_receiving_yards_combo,89.5,2026-11-01T13:00:00.000-05:00
 Trevor Lawrence,,player_completion_percentage,player_completion_percentage,63.900001525878906,2026-11-01T13:00:00.000-05:00
 Trevor Lawrence,,player_fantasy_points,player_fantasy_points,19.5,2026-11-01T13:00:00.000-05:00
-Trevor Lawrence,,player_longest_rush,player_longest_rush,8.5,2026-11-01T13:00:00.000-05:00
+Trevor Lawrence,,player_longest_completion,player_longest_completion,40.5,2026-11-01T13:00:00.000-05:00
+Trevor Lawrence,,player_longest_rush,player_longest_rush,9.5,2026-11-01T13:00:00.000-05:00
 Trevor Lawrence,,player_pass_plus_rush_yds,player_pass_plus_rush_yds,254.5,2026-11-01T13:00:00.000-05:00
 Trevor Lawrence,,Passing Yards,player_pass_yds,240.5,2026-11-01T13:00:00.000-05:00
 Trevor Lawrence,,player_passer_rating,player_passer_rating,100.5,2026-11-01T13:00:00.000-05:00
@@ -664,6 +671,7 @@ Tyler Bass + Tyler Loop,,player_longest_fg_made_yds_combo,player_longest_fg_made
 Tyler Bass + Tyler Loop,,player_shortest_fg_made_yds_combo,player_shortest_fg_made_yds_combo,26.5,2026-11-01T13:00:00.000-05:00
 Tyler Goodson,,player_longest_reception,player_longest_reception,0.5,2026-11-01T13:00:00.000-05:00
 Tyler Goodson,,player_longest_rush,player_longest_rush,9.5,2026-11-01T13:00:00.000-05:00
+Tyler Goodson,,player_rush_yards,player_rush_yards,21.5,2026-11-01T13:00:00.000-05:00
 Tyler Loop,,player_fantasy_points,player_fantasy_points,8.5,2026-11-01T13:00:00.000-05:00
 Tyler Loop,,player_fg_made,player_fg_made,1.5,2026-11-01T13:00:00.000-05:00
 Tyler Loop,,player_kicking_points,player_kicking_points,7.0,2026-11-01T13:00:00.000-05:00
@@ -679,14 +687,14 @@ Will Reichard,,player_fantasy_points,player_fantasy_points,8.5,2026-11-01T13:00:
 Zay Flowers,,player_fantasy_points,player_fantasy_points,17.0,2026-11-01T13:00:00.000-05:00
 Zay Flowers,,player_longest_reception,player_longest_reception,27.5,2026-11-01T13:00:00.000-05:00
 Zay Flowers,,player_rec_targets,player_rec_targets,9.0,2026-11-01T13:00:00.000-05:00
+Zay Flowers,,Receiving Yards,player_receiving_yards,88.5,2026-11-01T13:00:00.000-05:00
 Zay Flowers,,Receptions,player_receptions,6.0,2026-11-01T13:00:00.000-05:00
-Zay Flowers + DJ Moore,,player_receiving_yards_combo,player_receiving_yards_combo,138.5,2026-11-01T13:00:00.000-05:00
+Zay Flowers + DJ Moore,,player_receiving_yards_combo,player_receiving_yards_combo,140.5,2026-11-01T13:00:00.000-05:00
 Blake Corum,,player_fantasy_points,player_fantasy_points,9.0,2026-11-01T16:05:00.000-05:00
 Blake Corum,,player_longest_reception,player_longest_reception,5.5,2026-11-01T16:05:00.000-05:00
 Blake Corum,,player_longest_rush,player_longest_rush,13.5,2026-11-01T16:05:00.000-05:00
 Blake Corum,,player_rec_targets,player_rec_targets,1.5,2026-11-01T16:05:00.000-05:00
 Blake Corum,,Receiving Yards,player_receiving_yards,6.5,2026-11-01T16:05:00.000-05:00
-Blake Corum,,player_rush_yards,player_rush_yards,47.5,2026-11-01T16:05:00.000-05:00
 Blake Corum,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,22.5,2026-11-01T16:05:00.000-05:00
 Blake Corum,,player_rush_yards_per_carry,player_rush_yards_per_carry,4.5,2026-11-01T16:05:00.000-05:00
 Brandon McManus,,player_fantasy_points,player_fantasy_points,8.5,2026-11-01T16:05:00.000-05:00
@@ -723,12 +731,12 @@ Kam Curl,,player_tackles_plus_ast,player_tackles_plus_ast,4.5,2026-11-01T16:05:0
 Keaton Mitchell,,player_fantasy_points,player_fantasy_points,4.5,2026-11-01T16:05:00.000-05:00
 Keaton Mitchell,,player_longest_reception,player_longest_reception,6.5,2026-11-01T16:05:00.000-05:00
 Keaton Mitchell,,player_longest_rush,player_longest_rush,8.5,2026-11-01T16:05:00.000-05:00
+Keaton Mitchell,,Receiving Yards,player_receiving_yards,7.5,2026-11-01T16:05:00.000-05:00
 Keaton Mitchell,,player_rush_yards,player_rush_yards,14.5,2026-11-01T16:05:00.000-05:00
 Kenneth Walker III + Kyren Williams,,player_anytime_tds_combo,player_anytime_tds_combo,1.5,2026-11-01T16:05:00.000-05:00
 Kimani Vidal,,player_fantasy_points,player_fantasy_points,5.5,2026-11-01T16:05:00.000-05:00
 Kimani Vidal,,player_longest_rush,player_longest_rush,8.5,2026-11-01T16:05:00.000-05:00
 Kimani Vidal,,player_rec_targets,player_rec_targets,2.0,2026-11-01T16:05:00.000-05:00
-Kimani Vidal,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,37.5,2026-11-01T16:05:00.000-05:00
 Konata Mumpfield,,player_fantasy_points,player_fantasy_points,4.5,2026-11-01T16:05:00.000-05:00
 Konata Mumpfield,,player_rec_targets,player_rec_targets,2.5,2026-11-01T16:05:00.000-05:00
 Konata Mumpfield,,Receiving Yards,player_receiving_yards,16.5,2026-11-01T16:05:00.000-05:00
@@ -776,7 +784,6 @@ Andy Borregales + Zane Gonzalez,,player_longest_fg_made_yds_combo,player_longest
 Andy Borregales + Zane Gonzalez,,player_shortest_fg_made_yds_combo,player_shortest_fg_made_yds_combo,26.5,2026-11-01T16:25:00.000-05:00
 Bo Nix,,player_completion_percentage,player_completion_percentage,61.20000076293945,2026-11-01T16:25:00.000-05:00
 Bo Nix,,player_fantasy_points,player_fantasy_points,14.5,2026-11-01T16:25:00.000-05:00
-Bo Nix,,player_int,player_int,0.5,2026-11-01T16:25:00.000-05:00
 Bo Nix,,player_longest_completion,player_longest_completion,33.5,2026-11-01T16:25:00.000-05:00
 Bo Nix,,player_longest_rush,player_longest_rush,8.5,2026-11-01T16:25:00.000-05:00
 Bo Nix,,Passing Completions,player_pass_completions,20.5,2026-11-01T16:25:00.000-05:00
@@ -784,21 +791,22 @@ Bo Nix,,Passing TDs,player_pass_tds,1.0,2026-11-01T16:25:00.000-05:00
 Bo Nix,,player_passer_rating,player_passer_rating,82.5,2026-11-01T16:25:00.000-05:00
 Caleb Douglas,,player_fantasy_points,player_fantasy_points,8.0,2026-11-01T16:25:00.000-05:00
 Caleb Douglas,,player_rec_targets,player_rec_targets,4.5,2026-11-01T16:25:00.000-05:00
-Chris Bell,,player_longest_reception,player_longest_reception,13.5,2026-11-01T16:25:00.000-05:00
+Caleb Douglas,,Receiving Yards,player_receiving_yards,37.5,2026-11-01T16:25:00.000-05:00
+Chris Bell,,player_longest_reception,player_longest_reception,12.5,2026-11-01T16:25:00.000-05:00
 Chris Bell,,player_rec_targets,player_rec_targets,2.5,2026-11-01T16:25:00.000-05:00
 Chris Bell,,Receiving Yards,player_receiving_yards,18.5,2026-11-01T16:25:00.000-05:00
-Chris Bell,,Receptions,player_receptions,1.5,2026-11-01T16:25:00.000-05:00
-Corey Kiner,,player_longest_reception,player_longest_reception,0.5,2026-11-01T16:25:00.000-05:00
-Corey Kiner,,player_longest_rush,player_longest_rush,11.5,2026-11-01T16:25:00.000-05:00
-Corey Kiner,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,43.5,2026-11-01T16:25:00.000-05:00
-Courtland Sutton,,player_fantasy_points,player_fantasy_points,9.5,2026-11-01T16:25:00.000-05:00
+Corey Kiner,,player_longest_rush,player_longest_rush,10.5,2026-11-01T16:25:00.000-05:00
+Corey Kiner,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,42.5,2026-11-01T16:25:00.000-05:00
+Courtland Sutton,,player_fantasy_points,player_fantasy_points,9.0,2026-11-01T16:25:00.000-05:00
 Courtland Sutton,,player_rec_targets,player_rec_targets,6.0,2026-11-01T16:25:00.000-05:00
 Cyrus Allen,,player_fantasy_points,player_fantasy_points,1.5,2026-11-01T16:25:00.000-05:00
 DeMario Douglas,,player_fantasy_points,player_fantasy_points,9.0,2026-11-01T16:25:00.000-05:00
+DeMario Douglas,,player_longest_reception,player_longest_reception,19.5,2026-11-01T16:25:00.000-05:00
 DeMario Douglas,,player_rec_targets,player_rec_targets,4.5,2026-11-01T16:25:00.000-05:00
-Drake Maye,,player_completion_percentage,player_completion_percentage,67.19999694824219,2026-11-01T16:25:00.000-05:00
+DeMario Douglas,,Receiving Yards,player_receiving_yards,40.5,2026-11-01T16:25:00.000-05:00
+Drake Maye,,player_completion_percentage,player_completion_percentage,63.900001525878906,2026-11-01T16:25:00.000-05:00
 Drake Maye,,player_longest_rush,player_longest_rush,12.5,2026-11-01T16:25:00.000-05:00
-Drake Maye,,Passing Attempts,player_pass_attempts,29.5,2026-11-01T16:25:00.000-05:00
+Drake Maye,,Passing Attempts,player_pass_attempts,30.0,2026-11-01T16:25:00.000-05:00
 Drake Maye,,player_passer_rating,player_passer_rating,100.5,2026-11-01T16:25:00.000-05:00
 Drake Maye,,Rushing Attempts,player_rush_attempts,5.0,2026-11-01T16:25:00.000-05:00
 Drake Maye,,player_rush_yards,player_rush_yards,22.5,2026-11-01T16:25:00.000-05:00
@@ -808,7 +816,7 @@ Efton Chism III,,player_rec_targets,player_rec_targets,4.0,2026-11-01T16:25:00.0
 Eli Raridon,,player_fantasy_points,player_fantasy_points,6.5,2026-11-01T16:25:00.000-05:00
 Eli Raridon,,player_longest_reception,player_longest_reception,16.5,2026-11-01T16:25:00.000-05:00
 Eli Raridon,,player_rec_targets,player_rec_targets,3.5,2026-11-01T16:25:00.000-05:00
-Eli Raridon,,Receiving Yards,player_receiving_yards,25.5,2026-11-01T16:25:00.000-05:00
+Eli Raridon,,Receiving Yards,player_receiving_yards,27.5,2026-11-01T16:25:00.000-05:00
 Eli Raridon,,Receptions,player_receptions,2.5,2026-11-01T16:25:00.000-05:00
 Emmett Johnson,,player_fantasy_points,player_fantasy_points,3.5,2026-11-01T16:25:00.000-05:00
 Emmett Johnson,,player_longest_reception,player_longest_reception,6.5,2026-11-01T16:25:00.000-05:00
@@ -816,13 +824,16 @@ Emmett Johnson,,player_longest_rush,player_longest_rush,4.5,2026-11-01T16:25:00.
 Emmett Johnson,,player_rec_targets,player_rec_targets,1.5,2026-11-01T16:25:00.000-05:00
 Emmett Johnson,,Receiving Yards,player_receiving_yards,7.5,2026-11-01T16:25:00.000-05:00
 Emmett Johnson,,Rushing Attempts,player_rush_attempts,2.5,2026-11-01T16:25:00.000-05:00
-Evan Engram,,player_fantasy_points,player_fantasy_points,5.5,2026-11-01T16:25:00.000-05:00
+Emmett Johnson,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,17.5,2026-11-01T16:25:00.000-05:00
+Evan Engram,,player_fantasy_points,player_fantasy_points,6.0,2026-11-01T16:25:00.000-05:00
+Evan Engram,,player_longest_reception,player_longest_reception,14.5,2026-11-01T16:25:00.000-05:00
 Evan Engram,,player_rec_targets,player_rec_targets,3.5,2026-11-01T16:25:00.000-05:00
+Evan Engram,,Receiving Yards,player_receiving_yards,24.5,2026-11-01T16:25:00.000-05:00
 Evan Engram,,Receptions,player_receptions,2.5,2026-11-01T16:25:00.000-05:00
 Greg Dulcich,,player_fantasy_points,player_fantasy_points,7.5,2026-11-01T16:25:00.000-05:00
 Greg Dulcich,,player_longest_reception,player_longest_reception,15.5,2026-11-01T16:25:00.000-05:00
 Greg Dulcich,,player_rec_targets,player_rec_targets,5.0,2026-11-01T16:25:00.000-05:00
-Greg Dulcich,,Receiving Yards,player_receiving_yards,28.5,2026-11-01T16:25:00.000-05:00
+Greg Dulcich,,Receiving Yards,player_receiving_yards,29.5,2026-11-01T16:25:00.000-05:00
 Harrison Butker,,player_fantasy_points,player_fantasy_points,8.5,2026-11-01T16:25:00.000-05:00
 Harrison Butker,,player_fg_made,player_fg_made,1.5,2026-11-01T16:25:00.000-05:00
 Harrison Butker,,player_kicking_points,player_kicking_points,7.0,2026-11-01T16:25:00.000-05:00
@@ -831,17 +842,20 @@ Harrison Butker + Wil Lutz,,player_field_goal_yards_combo,player_field_goal_yard
 Harrison Butker + Wil Lutz,,player_longest_fg_made_yds_combo,player_longest_fg_made_yds_combo,49.5,2026-11-01T16:25:00.000-05:00
 Harrison Butker + Wil Lutz,,player_shortest_fg_made_yds_combo,player_shortest_fg_made_yds_combo,26.5,2026-11-01T16:25:00.000-05:00
 Hunter Henry,,player_fantasy_points,player_fantasy_points,11.0,2026-11-01T16:25:00.000-05:00
+Hunter Henry,,player_longest_reception,player_longest_reception,18.5,2026-11-01T16:25:00.000-05:00
 Hunter Henry,,player_rec_targets,player_rec_targets,5.5,2026-11-01T16:25:00.000-05:00
 J.K. Dobbins,,player_longest_reception,player_longest_reception,5.5,2026-11-01T16:25:00.000-05:00
 J.K. Dobbins,,Receiving Yards,player_receiving_yards,5.5,2026-11-01T16:25:00.000-05:00
 J.K. Dobbins,,Rushing Attempts,player_rush_attempts,8.5,2026-11-01T16:25:00.000-05:00
 J.K. Dobbins,,player_rush_yards,player_rush_yards,29.5,2026-11-01T16:25:00.000-05:00
+Jacob Rodriguez,,player_tackles_plus_ast,player_tackles_plus_ast,8.5,2026-11-01T16:25:00.000-05:00
 Jalen Royals,,player_longest_reception,player_longest_reception,7.5,2026-11-01T16:25:00.000-05:00
 Jalen Royals,,Receiving Yards,player_receiving_yards,8.5,2026-11-01T16:25:00.000-05:00
 Jaylen Waddle,,player_longest_reception,player_longest_reception,17.5,2026-11-01T16:25:00.000-05:00
 Jaylen Waddle + Malik Willis,,player_anytime_tds_combo,player_anytime_tds_combo,0.5,2026-11-01T16:25:00.000-05:00
 Jaylen Wright,,player_longest_rush,player_longest_rush,6.5,2026-11-01T16:25:00.000-05:00
 Jaylen Wright,,Rushing Attempts,player_rush_attempts,4.5,2026-11-01T16:25:00.000-05:00
+Jaylen Wright,,player_rush_yards,player_rush_yards,13.5,2026-11-01T16:25:00.000-05:00
 Jonah Coleman,,player_fantasy_points,player_fantasy_points,11.5,2026-11-01T16:25:00.000-05:00
 Jonah Coleman,,player_longest_reception,player_longest_reception,12.5,2026-11-01T16:25:00.000-05:00
 Jonah Coleman,,Receiving Yards,player_receiving_yards,20.5,2026-11-01T16:25:00.000-05:00
@@ -849,13 +863,13 @@ Jonah Coleman,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,71.5,2026-11-01
 Jonah Coleman,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,19.5,2026-11-01T16:25:00.000-05:00
 Jonah Coleman,,player_rush_yards_per_carry,player_rush_yards_per_carry,3.9000000953674316,2026-11-01T16:25:00.000-05:00
 Jordyn Brooks,,player_tackles_plus_ast,player_tackles_plus_ast,8.5,2026-11-01T16:25:00.000-05:00
-Josh Uche,,player_tackles_plus_ast,player_tackles_plus_ast,3.5,2026-11-01T16:25:00.000-05:00
 Kenneth Walker III,,player_fantasy_points,player_fantasy_points,18.0,2026-11-01T16:25:00.000-05:00
 Kenneth Walker III,,player_longest_reception,player_longest_reception,11.5,2026-11-01T16:25:00.000-05:00
 Kenneth Walker III,,player_longest_rush,player_longest_rush,18.5,2026-11-01T16:25:00.000-05:00
 Kenneth Walker III,,player_rec_targets,player_rec_targets,4.0,2026-11-01T16:25:00.000-05:00
+Kenneth Walker III,,Receiving Yards,player_receiving_yards,19.5,2026-11-01T16:25:00.000-05:00
 Kenneth Walker III,,Rushing Attempts,player_rush_attempts,19.5,2026-11-01T16:25:00.000-05:00
-Kenneth Walker III,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,108.5,2026-11-01T16:25:00.000-05:00
+Kenneth Walker III,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,112.5,2026-11-01T16:25:00.000-05:00
 Kenneth Walker III,,Rushing TDs,player_rush_tds,0.5,2026-11-01T16:25:00.000-05:00
 Kenneth Walker III,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,21.5,2026-11-01T16:25:00.000-05:00
 Kenneth Walker III,,player_rush_yards_per_carry,player_rush_yards_per_carry,4.400000095367432,2026-11-01T16:25:00.000-05:00
@@ -864,35 +878,36 @@ Kenneth Walker III + Rhamondre Stevenson,,player_anytime_tds_combo,player_anytim
 Kyle Williams,,player_fantasy_points,player_fantasy_points,5.0,2026-11-01T16:25:00.000-05:00
 Kyle Williams,,player_longest_reception,player_longest_reception,21.5,2026-11-01T16:25:00.000-05:00
 Kyle Williams,,player_rec_targets,player_rec_targets,2.5,2026-11-01T16:25:00.000-05:00
-Kyle Williams,,Receiving Yards,player_receiving_yards,24.5,2026-11-01T16:25:00.000-05:00
 Malik Washington,,player_fantasy_points,player_fantasy_points,10.0,2026-11-01T16:25:00.000-05:00
-Malik Washington,,player_longest_reception,player_longest_reception,16.5,2026-11-01T16:25:00.000-05:00
+Malik Washington,,player_longest_reception,player_longest_reception,15.5,2026-11-01T16:25:00.000-05:00
 Malik Washington,,player_rec_targets,player_rec_targets,6.5,2026-11-01T16:25:00.000-05:00
-Malik Washington,,Receiving Yards,player_receiving_yards,41.5,2026-11-01T16:25:00.000-05:00
-Malik Washington,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,48.5,2026-11-01T16:25:00.000-05:00
+Malik Washington,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,47.5,2026-11-01T16:25:00.000-05:00
 Malik Washington,,player_rush_yards,player_rush_yards,5.5,2026-11-01T16:25:00.000-05:00
-Malik Willis,,player_completion_percentage,player_completion_percentage,60.0,2026-11-01T16:25:00.000-05:00
-Malik Willis,,player_fantasy_points,player_fantasy_points,15.0,2026-11-01T16:25:00.000-05:00
-Malik Willis,,player_longest_rush,player_longest_rush,12.5,2026-11-01T16:25:00.000-05:00
-Malik Willis,,Passing Completions,player_pass_completions,16.5,2026-11-01T16:25:00.000-05:00
+Malik Willis,,player_completion_percentage,player_completion_percentage,58.5,2026-11-01T16:25:00.000-05:00
+Malik Willis,,player_fantasy_points,player_fantasy_points,14.5,2026-11-01T16:25:00.000-05:00
+Malik Willis,,player_longest_completion,player_longest_completion,33.5,2026-11-01T16:25:00.000-05:00
+Malik Willis,,Passing Completions,player_pass_completions,15.5,2026-11-01T16:25:00.000-05:00
 Malik Willis,,player_passer_rating,player_passer_rating,76.5,2026-11-01T16:25:00.000-05:00
 Malik Willis,,player_rush_yards,player_rush_yards,33.5,2026-11-01T16:25:00.000-05:00
 Marvin Mims Jr.,,player_longest_reception,player_longest_reception,10.5,2026-11-01T16:25:00.000-05:00
 Marvin Mims Jr.,,Receiving Yards,player_receiving_yards,16.5,2026-11-01T16:25:00.000-05:00
 Noah Gray,,player_fantasy_points,player_fantasy_points,3.5,2026-11-01T16:25:00.000-05:00
+Noah Gray,,player_longest_reception,player_longest_reception,12.5,2026-11-01T16:25:00.000-05:00
 Noah Gray,,player_rec_targets,player_rec_targets,2.0,2026-11-01T16:25:00.000-05:00
 Noah Gray,,Receptions,player_receptions,1.5,2026-11-01T16:25:00.000-05:00
 Nohl Williams,,player_tackles_plus_ast,player_tackles_plus_ast,4.5,2026-11-01T16:25:00.000-05:00
 Ollie Gordon II,,player_fantasy_points,player_fantasy_points,11.5,2026-11-01T16:25:00.000-05:00
 Ollie Gordon II,,player_longest_reception,player_longest_reception,6.5,2026-11-01T16:25:00.000-05:00
-Ollie Gordon II,,player_longest_rush,player_longest_rush,14.5,2026-11-01T16:25:00.000-05:00
+Ollie Gordon II,,player_longest_rush,player_longest_rush,13.5,2026-11-01T16:25:00.000-05:00
 Ollie Gordon II,,player_rec_targets,player_rec_targets,2.0,2026-11-01T16:25:00.000-05:00
-Ollie Gordon II,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,20.5,2026-11-01T16:25:00.000-05:00
-Ollie Gordon II,,player_rush_yards_per_carry,player_rush_yards_per_carry,4.099999904632568,2026-11-01T16:25:00.000-05:00
+Ollie Gordon II,,Receiving Yards,player_receiving_yards,10.5,2026-11-01T16:25:00.000-05:00
+Ollie Gordon II,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,75.5,2026-11-01T16:25:00.000-05:00
+Ollie Gordon II,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,18.5,2026-11-01T16:25:00.000-05:00
+Ollie Gordon II,,player_rush_yards_per_carry,player_rush_yards_per_carry,3.700000047683716,2026-11-01T16:25:00.000-05:00
 Patrick Mahomes,,player_completion_percentage,player_completion_percentage,61.20000076293945,2026-11-01T16:25:00.000-05:00
 Patrick Mahomes,,player_fantasy_points,player_fantasy_points,15.0,2026-11-01T16:25:00.000-05:00
 Patrick Mahomes,,player_int,player_int,0.5,2026-11-01T16:25:00.000-05:00
-Patrick Mahomes,,player_longest_completion,player_longest_completion,34.5,2026-11-01T16:25:00.000-05:00
+Patrick Mahomes,,player_longest_completion,player_longest_completion,35.5,2026-11-01T16:25:00.000-05:00
 Patrick Mahomes,,player_longest_rush,player_longest_rush,9.5,2026-11-01T16:25:00.000-05:00
 Patrick Mahomes,,Passing Attempts,player_pass_attempts,33.5,2026-11-01T16:25:00.000-05:00
 Patrick Mahomes,,Passing Completions,player_pass_completions,20.5,2026-11-01T16:25:00.000-05:00
@@ -907,19 +922,20 @@ Rashee Rice,,Receptions,player_receptions,4.5,2026-11-01T16:25:00.000-05:00
 Rhamondre Stevenson,,player_fantasy_points,player_fantasy_points,15.0,2026-11-01T16:25:00.000-05:00
 Rhamondre Stevenson,,player_longest_rush,player_longest_rush,12.5,2026-11-01T16:25:00.000-05:00
 Rhamondre Stevenson,,player_rec_targets,player_rec_targets,3.5,2026-11-01T16:25:00.000-05:00
-Rhamondre Stevenson,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,88.5,2026-11-01T16:25:00.000-05:00
+Rhamondre Stevenson,,Rushing Attempts,player_rush_attempts,14.5,2026-11-01T16:25:00.000-05:00
+Rhamondre Stevenson,,player_rush_plus_rec_yds,player_rush_plus_rec_yds,85.5,2026-11-01T16:25:00.000-05:00
 Rhamondre Stevenson,,player_rush_yards_in_first_5_attempts,player_rush_yards_in_first_5_attempts,20.5,2026-11-01T16:25:00.000-05:00
 Rhamondre Stevenson,,player_rush_yards_per_carry,player_rush_yards_per_carry,4.0,2026-11-01T16:25:00.000-05:00
-Rhamondre Stevenson + Ollie Gordon II,,player_rush_yards_combo,player_rush_yards_combo,123.5,2026-11-01T16:25:00.000-05:00
+Rhamondre Stevenson + Ollie Gordon II,,player_rush_yards_combo,player_rush_yards_combo,121.5,2026-11-01T16:25:00.000-05:00
 Travis Kelce,,player_fantasy_points,player_fantasy_points,10.5,2026-11-01T16:25:00.000-05:00
-Travis Kelce,,player_longest_reception,player_longest_reception,17.5,2026-11-01T16:25:00.000-05:00
+Travis Kelce,,player_longest_reception,player_longest_reception,18.5,2026-11-01T16:25:00.000-05:00
 Travis Kelce,,player_rec_targets,player_rec_targets,6.5,2026-11-01T16:25:00.000-05:00
 Travis Kelce,,Receiving Yards,player_receiving_yards,46.5,2026-11-01T16:25:00.000-05:00
 Troy Franklin,,player_longest_reception,player_longest_reception,9.5,2026-11-01T16:25:00.000-05:00
 Troy Franklin,,Receptions,player_receptions,1.5,2026-11-01T16:25:00.000-05:00
 Wil Lutz,,player_fantasy_points,player_fantasy_points,7.5,2026-11-01T16:25:00.000-05:00
 Xavier Worthy,,player_fantasy_points,player_fantasy_points,7.5,2026-11-01T16:25:00.000-05:00
-Xavier Worthy,,player_longest_reception,player_longest_reception,14.5,2026-11-01T16:25:00.000-05:00
+Xavier Worthy,,player_longest_reception,player_longest_reception,16.5,2026-11-01T16:25:00.000-05:00
 Xavier Worthy,,player_rec_targets,player_rec_targets,5.5,2026-11-01T16:25:00.000-05:00
 Xavier Worthy,,Receiving Yards,player_receiving_yards,29.5,2026-11-01T16:25:00.000-05:00
 Zane Gonzalez,,player_fantasy_points,player_fantasy_points,6.5,2026-11-01T16:25:00.000-05:00
@@ -938,7 +954,6 @@ Dallas Goedert + Stefon Diggs,,player_receiving_yards_combo,player_receiving_yar
 Darius Cooper,,player_fantasy_points,player_fantasy_points,6.0,2026-11-01T20:20:00.000-05:00
 Darius Cooper,,player_longest_reception,player_longest_reception,14.5,2026-11-01T20:20:00.000-05:00
 Darius Cooper,,player_rec_targets,player_rec_targets,4.0,2026-11-01T20:20:00.000-05:00
-Darius Cooper,,Receiving Yards,player_receiving_yards,26.5,2026-11-01T20:20:00.000-05:00
 Darius Cooper,,Receptions,player_receptions,2.5,2026-11-01T20:20:00.000-05:00
 Drew Stevens,,player_fantasy_points,player_fantasy_points,8.0,2026-11-01T20:20:00.000-05:00
 Drew Stevens,,player_fg_made,player_fg_made,1.5,2026-11-01T20:20:00.000-05:00
@@ -997,6 +1012,7 @@ Tanner McKee,,player_fantasy_points,player_fantasy_points,11.5,2026-11-01T20:20:
 Tanner McKee,,player_longest_completion,player_longest_completion,29.5,2026-11-01T20:20:00.000-05:00
 Tanner McKee,,player_longest_rush,player_longest_rush,2.5,2026-11-01T20:20:00.000-05:00
 Tanner McKee,,Passing Completions,player_pass_completions,19.5,2026-11-01T20:20:00.000-05:00
+Tanner McKee,,Passing Yards,player_pass_yds,202.5,2026-11-01T20:20:00.000-05:00
 Tanner McKee,,player_passer_rating,player_passer_rating,77.5,2026-11-01T20:20:00.000-05:00
 Tanner McKee,,player_rush_yards,player_rush_yards,2.5,2026-11-01T20:20:00.000-05:00
 Tanner McKee + Jayden Daniels,,player_pass_yards_combo,player_pass_yards_combo,401.5,2026-11-01T20:20:00.000-05:00
