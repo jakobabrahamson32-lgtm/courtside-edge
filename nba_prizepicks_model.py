@@ -23,11 +23,27 @@ nba["MatchName"] = nba["Player"].apply(clean_name)
 props["MatchName"] = props["playerName"].apply(clean_name)
 
 stat_map = {
-    "Points": "Points",
-    "Rebounds": "Rebounds",
-    "Assists": "Assists",
-    "3-PT Made": "Threes"
+    "Points": "Points", "Rebounds": "Rebounds", "Assists": "Assists",
+    "3-PT Made": "Threes", "Threes": "Threes",
+    "Steals": "Steals", "Blocks": "Blocks", "Turnovers": "Turnovers",
+    "Points + Rebounds": "Points + Rebounds",
+    "Points + Assists": "Points + Assists",
+    "Rebounds + Assists": "Rebounds + Assists",
+    "Points + Rebounds + Assists": "Points + Rebounds + Assists",
+    "Steals + Blocks": "Steals + Blocks",
 }
+market_aliases = {
+    "player_points": "Points", "player_rebounds": "Rebounds",
+    "player_assists": "Assists", "player_threes": "Threes",
+    "player_three_pointers": "Threes", "player_steals": "Steals",
+    "player_blocks": "Blocks", "player_turnovers": "Turnovers",
+    "player_points_rebounds": "Points + Rebounds",
+    "player_points_assists": "Points + Assists",
+    "player_rebounds_assists": "Rebounds + Assists",
+    "player_points_rebounds_assists": "Points + Rebounds + Assists",
+    "player_steals_blocks": "Steals + Blocks",
+}
+stat_map.update(market_aliases)
 
 # Convert boolean-like columns safely
 def is_false(series):
@@ -84,7 +100,7 @@ props = props.drop_duplicates(
 # Convert projections into long format
 nba_long = nba.melt(
     id_vars=["Player", "Team", "MatchName", "Games"],
-    value_vars=["Points", "Rebounds", "Assists", "Threes"],
+    value_vars=list(dict.fromkeys(column for column in stat_map.values() if column in nba.columns)),
     var_name="ModelStat",
     value_name="Projection"
 )
