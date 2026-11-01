@@ -349,6 +349,11 @@ def coverage_audit(lines, model, matched_comparisons, selected_sport):
     else:
         supported=set(model['Stat'].dropna().astype(str)) if model is not None and 'Stat' in model else set()
     model_names=set(model['Player'].map(norm)) if model is not None and 'Player' in model else set()
+    if selected_sport=='NFL' and model is not None and 'Player' in model:
+        from nfl_compare import short_key
+        model_short_names=set(model['Player'].map(short_key))
+    else:
+        model_short_names=set()
     if matched_comparisons is not None and not matched_comparisons.empty:
         comparison_keys=set(zip(matched_comparisons['Player'].map(norm),
                                 matched_comparisons['Stat'].map(norm),
@@ -361,8 +366,8 @@ def coverage_audit(lines, model, matched_comparisons, selected_sport):
     def reason(row):
         if row['Has model projection']:return 'Compared'
         if row['ModelStat'] not in supported:return 'Stat not modeled'
-        if norm(row['Player']) not in model_names:return 'Player missing from model'
-        return 'Not matched to current comparison'
+        if norm(row['Player']) not in model_names and not (selected_sport=='NFL' and short_key(row['Player']) in model_short_names):return 'Player missing from model'
+        return 'Identity, team, or stat mismatch (or saved comparison is stale)'
     out['Coverage status']=out.apply(reason,axis=1)
     return out
 
