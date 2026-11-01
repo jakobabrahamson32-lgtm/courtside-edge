@@ -24,14 +24,14 @@ html,body,[class*="css"],.stApp{font-family:'Inter',sans-serif;color:var(--ce-te
 [data-testid="stSidebar"] .stRadio>div[role="radiogroup"]{gap:.3rem}
 [data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label{border-radius:11px;padding:9px 12px;transition:background .15s ease,color .15s ease}
 [data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:hover{background:#F3ECFF}
-[data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:has(input:checked){background:#EDE3FF;color:#4C0DB3!important;font-weight:700}
+[data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:has(input:checked){background:#E4D4FF;color:#4C0DB3!important;font-weight:700}
 [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p{color:#696780}
 .block-container{max-width:1400px!important;padding:2rem 2.5rem 5rem!important}
 h1,h2,h3,h4{font-family:'Plus Jakarta Sans',sans-serif!important;color:#17142F!important;letter-spacing:-.035em!important}
 h2{font-size:clamp(1.55rem,2.5vw,2.05rem)!important}
 h3{font-size:1.2rem!important}
 p,span,label{font-family:'Inter',sans-serif}
-[data-testid="stMetric"]{background:#FFFFFF!important;border:1px solid #E5E5EF!important;border-radius:17px!important;padding:20px 22px!important;min-height:126px;box-shadow:0 3px 14px rgba(44,24,92,.025)!important}
+[data-testid="stMetric"]{background:linear-gradient(165deg,#FFFFFF 65%,#F6F1FF)!important;border:1px solid #E2D4FA!important;border-radius:17px!important;padding:20px 22px!important;min-height:126px;box-shadow:0 3px 14px rgba(44,24,92,.025)!important}
 [data-testid="stMetricLabel"]{color:#696780!important;font-size:.82rem!important}
 [data-testid="stMetricValue"]{color:#17142F!important;font-family:'Plus Jakarta Sans',sans-serif!important;font-size:clamp(1.6rem,2.7vw,2.3rem)!important;letter-spacing:-.045em!important}
 [data-testid="stMetricDelta"]{color:#16A878}
@@ -49,8 +49,8 @@ button:focus-visible,input:focus-visible,[role="radio"]:focus-visible{outline:3p
 [data-testid="stSlider"] [role="slider"]{background:#6415D8!important}
 [data-testid="stAlert"]{border-radius:12px!important;border-width:1px!important}
 [data-testid="stCaptionContainer"],.stCaption{color:#696780!important}
-hr{border-color:#E5E5EF!important}
-.hero{position:relative;overflow:hidden;background:#FFFFFF;border:1px solid #E5E5EF;border-radius:20px;padding:40px 44px;margin:8px 0 24px}
+hr{border-color:#DCCBFA!important}\n[data-testid='stExpander']{border:1px solid #E2D4FA!important;border-radius:14px!important;background:#FCFAFF!important}\n[data-testid='stTabs'] button[aria-selected='true']{color:#6415D8!important;border-color:#6415D8!important}
+.hero{position:relative;overflow:hidden;background:linear-gradient(110deg,#FFFFFF 35%,#F6F1FF 100%);border:1px solid #DCCBFA;border-radius:20px;padding:40px 44px;margin:8px 0 24px}
 .hero:after{content:"";position:absolute;pointer-events:none;width:340px;height:340px;border-radius:50%;right:-125px;top:-195px;background:radial-gradient(circle,#EDE3FF 0%,#F6F1FF 60%,transparent 72%);opacity:.9}
 .hero h1{position:relative;z-index:1;font-size:clamp(2.8rem,5.3vw,4.65rem)!important;line-height:1.07;margin:12px 0 13px;font-weight:800}
 .hero p{position:relative;z-index:1;color:#696780;font-size:1rem;margin:0}
@@ -160,50 +160,41 @@ def recent_game_logs(sport, player_name, player_id=None):
             if field in rows:
                 result[label]=pd.to_numeric(rows[field],errors='coerce').to_numpy()
         return result
-    import requests
-    from datetime import timedelta
-    from concurrent.futures import ThreadPoolExecutor
-    base='https://site.api.espn.com/apis/site/v2/sports/basketball/nba'
-    session=requests.Session()
-    def get(endpoint,params):
-        response=session.get(base+endpoint,params=params,timeout=15)
-        response.raise_for_status()
-        return response.json()
-    # ESPN athlete gamelog provides actual per-game statistics, not averages.
+    # NBA IDs from nba_api are NBA Stats IDs, not ESPN IDs.
+    # Fetch actual box-score game logs from the matching NBA Stats endpoint.
+    from nba_api.stats.endpoints import playergamelog
     pid=nba_player_ids().get(norm(player_name))
-    if not pid:return pd.DataFrame()
-    season=datetime.now().year if datetime.now().month>=10 else datetime.now().year
-    # NBA season is named for its ending year.
-    season=season+1 if datetime.now().month>=10 else season
-    result=[]
-    for year in [season,season-1]:
+    if not pid:
+        return pd.DataFrame()
+    today=datetime.now()
+    season_year=today.year if today.month>=10 else today.year-1
+    games=[]
+    for year in [season_year,season_year-1]:
+        season=f'{year}-{str((year+1)%100).zfill(2)}'
         try:
-            data=get(f'/athletes/{pid}/gamelog',{'season':year})
-        except (requests.RequestException,ValueError):
+            raw=playergamelog.PlayerGameLog(player_id=int(pid),season=season,
+                                            season_type_all_star='Regular Season',
+                                            timeout=12).get_data_frames()[0]
+        except Exception:
             continue
-        labels=[]
-        for group in data.get('labels',[]):
-            if isinstance(group,list):labels.extend(group)
-        if not labels:
-            labels=data.get('labels',[])
-        events=data.get('events',{})
-        for entry in data.get('seasonTypes',[]):
-            for category in entry.get('categories',[]):
-                names=category.get('labels',labels)
-                for item in category.get('events',[]):
-                    event=events.get(str(item.get('eventId')), {})
-                    if not event or not event.get('date'):continue
-                    values=item.get('stats',[])
-                    stats=dict(zip(names,values))
-                    if not all(k in stats for k in ['PTS','REB','AST']):continue
-                    try:
-                        three=str(stats.get('3PT','0')).split('-')[0]
-                        result.append({'Game':str(event['date'])[:10],
-                          'Points':float(stats['PTS']),'Rebounds':float(stats['REB']),
-                          'Assists':float(stats['AST']),'Threes':float(three)})
-                    except (ValueError,TypeError):continue
-        if len(result)>=5:break
-    return pd.DataFrame(result).drop_duplicates('Game').sort_values('Game').tail(5)
+        if not raw.empty:
+            games.append(raw)
+        if sum(len(g) for g in games)>=5:
+            break
+    if not games:
+        return pd.DataFrame()
+    data=pd.concat(games,ignore_index=True)
+    if not {'GAME_DATE','PTS','REB','AST','FG3M'}.issubset(data.columns):
+        return pd.DataFrame()
+    data['GAME_DATE']=pd.to_datetime(data['GAME_DATE'],errors='coerce')
+    data=data.dropna(subset=['GAME_DATE']).sort_values('GAME_DATE').tail(5)
+    return pd.DataFrame({
+        'Game':data['GAME_DATE'].dt.strftime('%b %d').to_numpy(),
+        'Points':pd.to_numeric(data['PTS'],errors='coerce').to_numpy(),
+        'Rebounds':pd.to_numeric(data['REB'],errors='coerce').to_numpy(),
+        'Assists':pd.to_numeric(data['AST'],errors='coerce').to_numpy(),
+        'Threes':pd.to_numeric(data['FG3M'],errors='coerce').to_numpy()
+    })
 
 def show_recent_games(sport, player_name, stat=None, player_id=None):
     st.markdown('#### Last 5 games')
@@ -216,14 +207,18 @@ def show_recent_games(sport, player_name, stat=None, player_id=None):
         st.info('Verified per-game stats are not available for this player yet.')
         return
     choices=[c for c in logs.columns if c!='Game']
-    default=choices.index(stat) if stat in choices else 0
+    aliases={'PTS':'Points','REB':'Rebounds','AST':'Assists','3PM':'Threes',
+             '3PT':'Threes','3-Pointers Made':'Threes','Passing Yds':'Passing Yards',
+             'Receiving Yds':'Receiving Yards','Rushing Yds':'Rushing Yards'}
+    preferred=aliases.get(str(stat),stat)
+    default=choices.index(preferred) if preferred in choices else 0
     selected=st.selectbox('Stat to chart',choices,index=default,key=f'log_stat_{sport}_{norm(player_name)}')
     chart=logs[['Game',selected]].dropna().set_index('Game')
     if chart.empty:
         st.info('No completed games with this statistic.')
         return
-    st.bar_chart(chart,color='#6415D8',use_container_width=True)
-    st.caption(f'{len(chart)} recorded games · {selected} average: {chart[selected].mean():.1f} · Historical game logs, not model projections.')
+    st.bar_chart(chart,color='#7C3AED',use_container_width=True)
+    st.caption(f'{len(chart)} recorded games · {selected} average: {chart[selected].mean():.1f} · Actual box-score results, not model projections.')
     st.dataframe(logs,hide_index=True,use_container_width=True)
 
 SPORT_FILES={'NBA':{'comparison':'nba_prizepicks_comparison.csv','projections':'todays_nba_projections.csv','lines':'prizepicks_nba_lines.csv'},
@@ -233,7 +228,7 @@ with st.sidebar:
     st.caption('THE PERFORMANCE LAB')
     st.divider()
     sport=st.radio('SPORT',['NBA','NFL'],horizontal=True)
-    nav_icons={'Overview':'◫','Player Props':'♙','Betting Comparisons':'⇄','Top Gaps':'↗','Model History':'◷','Model Performance':'▥','Settings':'⚙'}
+    nav_icons={'Lay of the Day':'✦','Overview':'◫','Player Props':'♙','Betting Comparisons':'⇄','Top Gaps':'↗','Model History':'◷','Model Performance':'▥','Settings':'⚙'}
     page=st.radio('NAVIGATION',list(nav_icons),format_func=lambda name:f"{nav_icons[name]}   {name}",label_visibility='collapsed')
     st.divider()
     if st.button('↻ Refresh data',type='primary',use_container_width=True):
@@ -288,6 +283,52 @@ if not comparison.empty:
         else:
             st.warning(injury_message)
 
+
+if page=='Lay of the Day':
+    st.subheader('✦ Lay of the Day')
+    st.caption('One featured model lean for review — not a guaranteed win, verified betting edge, or automatically placed wager.')
+    if comparison.empty:
+        st.info('No upcoming, time-verified sportsbook comparisons available. No lay selected.')
+        st.stop()
+    eligible=comparison.copy()
+    eligible=eligible[eligible['Injury status'].eq('UNVERIFIED') | ~eligible['Injury status'].isin(['OUT','DOUBTFUL','QUESTIONABLE','REVIEW'])].copy()
+    eligible=eligible[eligible['Difference'].abs().gt(0)]
+    if 'PickQuality' in eligible.columns:
+        eligible=eligible[eligible['PickQuality'].astype(str).str.upper().eq('QUALIFIED')]
+    if 'ReliabilityScore' in eligible.columns:
+        eligible['ReliabilityScore']=pd.to_numeric(eligible['ReliabilityScore'],errors='coerce')
+        eligible=eligible.dropna(subset=['ReliabilityScore']).sort_values(['ReliabilityScore','Gap'],ascending=False)
+    else:
+        eligible=eligible.sort_values('Gap',ascending=False)
+    if eligible.empty:
+        st.info('No model leans pass the current screening rules. Skipping a daily feature is intentional.')
+        st.stop()
+    featured=eligible.iloc[0]
+    with st.container(border=True):
+        pic,detail=st.columns([1,3],vertical_alignment='center')
+        with pic:
+            headshot=featured.get('Headshot')
+            if isinstance(headshot,str) and headshot.startswith('https://'):
+                st.image(headshot,use_container_width=True)
+            else:
+                st.markdown('### ✦')
+        with detail:
+            st.markdown('**FEATURED MODEL LEAN**')
+            st.markdown(f"### {featured['Player']}")
+            st.caption(f"{featured['Team']} · {featured['Stat']}")
+            st.markdown(f"### :violet[{featured['Model lean']}]")
+            p1,p2,p3=st.columns(3)
+            p1.metric('Sportsbook line',f"{featured['PrizePicksLine']:.1f}")
+            p2.metric('Model projection',f"{featured['ModelProjection']:.1f}")
+            p3.metric('Projection gap',f"{featured['Difference']:+.1f}")
+        if 'ReliabilityScore' in featured and pd.notna(featured['ReliabilityScore']):
+            st.caption(f"Model screening score: {featured['ReliabilityScore']:.1f} (heuristic, not a win probability)")
+        st.caption('Injury verification: '+str(featured['Injury status']))
+        if str(featured['Injury status'])=='UNVERIFIED':
+            st.warning('Player availability is unverified. Confirm injury and lineup status independently.')
+        st.info('Featured automatically from upcoming eligible comparisons. This selection is not supported by a separately validated hit-rate advantage.')
+        show_recent_games(sport,str(featured['Player']),str(featured['Stat']))
+    st.stop()
 
 if page=='Settings':
     st.subheader(f'{sport} model controls')
