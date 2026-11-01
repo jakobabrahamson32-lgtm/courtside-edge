@@ -1,20 +1,14 @@
 playerName,team,stat,line,league,isLive,isCombo,isPromo,oddsType,projectionType,gameStartsAt
 Anthony Black,,Assists,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Anthony Black,,Points,13.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Derrick White,,Points,14.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Derrick White,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Desmond Bane,,Assists,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Desmond Bane,,Points,18.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Jase Richardson,,Points,8.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
+Franz Wagner,,Points,23.0,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Jayson Tatum,,Assists,6.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Jordan Walsh,,Points,4.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
+Jayson Tatum,,Points,27.0,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Jordan Walsh,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Paul George,,Points,17.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Paul George,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Payton Pritchard,,Points,15.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Tristan da Silva,,Assists,1.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Tristan da Silva,,Points,9.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Tristan da Silva,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Wendell Carter Jr.,,Points,11.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Aaron Nesmith,,Points,12.5,NBA,False,False,False,standard,STANDARD,2026-11-01T17:00:00.000-05:00
 Andrew Nembhard,,Assists,9.5,NBA,False,False,False,standard,STANDARD,2026-11-01T17:00:00.000-05:00
