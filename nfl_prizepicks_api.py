@@ -26,7 +26,7 @@ def run():
     if not key:
         raise SystemExit('Set PARLAY_API_KEY in Terminal first (same as your NBA script).')
     response=requests.get('https://parlay-api.com/v1/sports/americanfootball_nfl/props',
-      headers={'X-API-Key':key},params={'bookmakers':'prizepicks','markets':','.join(MARKETS),'limit':10000},timeout=45)
+      headers={'X-API-Key':key},params={'bookmakers':'prizepicks','limit':10000},timeout=45)
     response.raise_for_status()
     data=response.json()
     items=data if isinstance(data,list) else data.get('data',data.get('props',[]))
