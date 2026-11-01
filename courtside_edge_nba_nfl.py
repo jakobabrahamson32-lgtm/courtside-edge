@@ -196,6 +196,76 @@ def photo(name,sport):
 
 # Read-only recent game logs. These never change model projections or saved picks.
 @st.cache_data(ttl=1800,show_spinner=False)
+@st.cache_data(ttl=3600,show_spinner=False)
+def espn_nba_recent_games(player_name):
+    """Fallback to ESPN completed NBA box scores when NBA Stats is unavailable."""
+    import requests
+    from datetime import timedelta
+    session=requests.Session()
+    session.headers.update({'User-Agent':'Mozilla/5.0 (compatible; Propified/1.0)'})
+    base='https://site.api.espn.com/apis/site/v2/sports/basketball/nba'
+    found=[]
+    seen=set()
+    # One scoreboard request covers the recent date window; summaries are requested
+    # only for completed games, with bounded timeouts and cached results.
+    end=date.today()
+    start=end-timedelta(days=32)
+    try:
+        response=session.get(base+'/scoreboard',params={'dates':start.strftime('%Y%m%d')+'-'+end.strftime('%Y%m%d'),'limit':300},timeout=10)
+        response.raise_for_status()
+        events=response.json().get('events',[])
+    except Exception:
+        return pd.DataFrame()
+    events=sorted(events,key=lambda e:e.get('date',''),reverse=True)
+    for event in events:
+        if len(found)>=5:
+            break
+        competition=(event.get('competitions') or [{}])[0]
+        if not competition.get('status',{}).get('type',{}).get('completed',False):
+            continue
+        event_id=str(event.get('id',''))
+        if not event_id or event_id in seen:
+            continue
+        seen.add(event_id)
+        try:
+            response=session.get(base+'/summary',params={'event':event_id},timeout=8)
+            response.raise_for_status()
+            box=response.json().get('boxscore',{})
+        except Exception:
+            continue
+        for team in box.get('players',[]):
+            for group in team.get('statistics',[]):
+                labels=group.get('labels',[])
+                names=group.get('names',[])
+                for entry in group.get('athletes',[]):
+                    athlete=entry.get('athlete',{})
+                    if norm(athlete.get('displayName',''))!=norm(player_name):
+                        continue
+                    if entry.get('didNotPlay',False):
+                        continue
+                    stats=dict(zip(names or labels,entry.get('stats',[])))
+                    def number(*keys):
+                        for key in keys:
+                            val=stats.get(key)
+                            if val is not None:
+                                try:return float(val)
+                                except (TypeError,ValueError):pass
+                        return None
+                    # ESPN's box score labels are stable for the core counting stats.
+                    points=number('PTS','points')
+                    rebounds=number('REB','rebounds')
+                    assists=number('AST','assists')
+                    threes=number('3PT','threePointFieldGoalsMade')
+                    if isinstance(stats.get('3PT'),str) and '-' in stats['3PT']:
+                        try:threes=float(stats['3PT'].split('-')[0])
+                        except ValueError:threes=None
+                    if points is None:
+                        continue
+                    found.append({'Game':str(event.get('date',''))[:10],'Points':points,'Rebounds':rebounds,'Assists':assists,'Threes':threes})
+                    break
+                if found and found[-1]['Game']==str(event.get('date',''))[:10]:break
+            if found and found[-1]['Game']==str(event.get('date',''))[:10]:break
+    return pd.DataFrame(found[::-1])
 def recent_game_logs(sport, player_name, player_id=None):
     if sport == 'NFL':
         import nflreadpy as nfl
@@ -226,7 +296,7 @@ def recent_game_logs(sport, player_name, player_id=None):
     from nba_api.stats.endpoints import playergamelog
     pid=nba_player_ids().get(norm(player_name))
     if not pid:
-        return pd.DataFrame()
+        return espn_nba_recent_games(player_name)
     today=datetime.now()
     season_year=today.year if today.month>=10 else today.year-1
     games=[]
@@ -243,10 +313,10 @@ def recent_game_logs(sport, player_name, player_id=None):
         if sum(len(g) for g in games)>=5:
             break
     if not games:
-        return pd.DataFrame()
+        return espn_nba_recent_games(player_name)
     data=pd.concat(games,ignore_index=True)
     if not {'GAME_DATE','PTS','REB','AST','FG3M'}.issubset(data.columns):
-        return pd.DataFrame()
+        return espn_nba_recent_games(player_name)
     data['GAME_DATE']=pd.to_datetime(data['GAME_DATE'],errors='coerce')
     data=data.dropna(subset=['GAME_DATE']).sort_values('GAME_DATE').tail(5)
     return pd.DataFrame({
