@@ -394,16 +394,60 @@ if page=='Model History':
     st.stop()
 
 if page=='Model Performance':
-    st.subheader(f'{sport} model performance')
+    st.subheader(f'{sport} verified model performance')
+    st.caption('Only independently settled predictions count. Pending predictions and pushes are excluded from win rate.')
+    records=read_file('model_history.csv')
+    if records is None or not {'Sport','Result','Actual','Projection','Line','Stat','Direction'}.issubset(records.columns):
+        st.info('Verified model history is unavailable. No performance claims can be calculated.')
+        st.stop()
+    records=records[records['Sport'].astype(str).str.upper().eq(sport)].copy()
+    records['Actual']=pd.to_numeric(records['Actual'],errors='coerce')
+    records['Projection']=pd.to_numeric(records['Projection'],errors='coerce')
+    records['Line']=pd.to_numeric(records['Line'],errors='coerce')
+    records['Result']=records['Result'].fillna('PENDING').astype(str).str.upper()
+    settled=records[records['Result'].isin(['WIN','LOSS','PUSH']) & records['Actual'].notna()].copy()
+    decided=settled[settled['Result'].isin(['WIN','LOSS'])].copy()
+    total=len(decided)
+    wins=int(decided['Result'].eq('WIN').sum())
+    errors=settled.dropna(subset=['Actual','Projection']).copy()
+    c1,c2,c3,c4=st.columns(4)
+    c1.metric('Verified decisions',f'{total:,}')
+    c2.metric('Wins',f'{wins:,}')
+    c3.metric('Verified hit rate',f'{wins/total:.1%}' if total else '—')
+    c4.metric('Projection error (MAE)',f"{(errors['Actual']-errors['Projection']).abs().mean():.1f}" if not errors.empty else '—')
+    if total<30:
+        st.warning(f'Only {total} verified decisions for {sport}. This is a small sample; apparent trends may not persist.')
+    if total==0:
+        st.info('No independently settled wins or losses yet.')
+        st.stop()
+    st.markdown('#### Accuracy by prop type')
+    grouped=decided.groupby('Stat')['Result'].agg(Decisions='size',Wins=lambda x:int(x.eq('WIN').sum())).reset_index()
+    grouped['Hit rate']=grouped['Wins']/grouped['Decisions']
+    grouped=grouped.sort_values(['Decisions','Hit rate'],ascending=False)
+    st.dataframe(grouped,hide_index=True,use_container_width=True,
+        column_config={'Hit rate':st.column_config.NumberColumn('Verified hit rate',format='percent')})
+    st.caption('Compare sample sizes before interpreting hit rates. Small groups are especially noisy.')
+    st.markdown('#### Does a larger projection gap actually help?')
+    eligible=decided.dropna(subset=['Projection','Line']).copy()
+    eligible['Relative gap']=((eligible['Projection']-eligible['Line']).abs()/
+        eligible['Line'].abs().clip(lower=5)).astype(float)
+    eligible['Gap group']=pd.cut(eligible['Relative gap'],
+        bins=[-0.001,0.05,0.10,0.20,float('inf')],
+        labels=['0–5%','5–10%','10–20%','20%+'])
+    buckets=eligible.groupby('Gap group',observed=True)['Result'].agg(
+        Decisions='size',Wins=lambda x:int(x.eq('WIN').sum())).reset_index()
+    if not buckets.empty:
+        buckets['Hit rate']=buckets['Wins']/buckets['Decisions']
+        st.bar_chart(buckets.set_index('Gap group')['Hit rate'],color='#6415D8')
+        st.dataframe(buckets,hide_index=True,use_container_width=True,
+            column_config={'Hit rate':st.column_config.NumberColumn('Hit rate',format='percent')})
+    st.caption('Descriptive historical analysis only. Thresholds are not optimized or validated on unseen games, and a higher hit rate does not necessarily imply profit.')
     if sport=='NBA':
-        history=read_file('nba_backtest_summary.csv')
-        if history is not None and {'Stat','RecentMAE','BlendedMAE'}.issubset(history.columns):
-            st.caption('Historical mean absolute error (MAE). Lower is better; this is not a betting win rate.')
-            st.dataframe(history,use_container_width=True,hide_index=True)
-            st.bar_chart(history.set_index('Stat')[['RecentMAE','BlendedMAE']])
-            st.caption('Existing backtest does not validate the selected weighting or measure profitable bets.')
-        else:st.info('No compatible NBA backtest summary found.')
-    else:st.info('NFL backtesting has not been run yet. Historical accuracy and win rate are intentionally not shown.')
+        backtest=read_file('nba_backtest_summary.csv')
+        if backtest is not None and {'Stat','RecentMAE','BlendedMAE'}.issubset(backtest.columns):
+            with st.expander('Historical projection backtest'):
+                st.dataframe(backtest,use_container_width=True,hide_index=True)
+                st.caption('Backtest projection error is not the same as verified sportsbook hit rate.')
     st.stop()
 
 if page=='Player Props':
