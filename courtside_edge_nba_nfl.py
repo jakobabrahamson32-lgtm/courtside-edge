@@ -434,10 +434,23 @@ if page=='All PrizePicks Props':
         else:
             all_props['Has model projection']=False
     else:
-        try:
-            all_props=coverage_audit(all_props,projections,comparison,sport)
-        except Exception:
-            all_props['Has model projection']=False
+        # Compare each live NBA line directly to the matching model column.
+        # Missing player or unmodeled stat stays visible without a fabricated value.
+        all_props['ModelStat']=all_props['Stat'].map(lambda x:NBA_MARKET_LABELS.get(x,x))
+        all_props['ModelProjection']=float('nan')
+        if projections is not None and not projections.empty and 'Player' in projections:
+            model=projections.copy()
+            model['_key']=model['Player'].map(norm)
+            unique=model['_key'].value_counts()
+            model=model[model['_key'].map(unique).eq(1)].set_index('_key')
+            for stat in all_props['ModelStat'].dropna().unique():
+                if stat not in model.columns:
+                    continue
+                mask=all_props['ModelStat'].eq(stat)
+                all_props.loc[mask,'ModelProjection']=pd.to_numeric(
+                    all_props.loc[mask,'Player'].map(lambda name:model[stat].get(norm(name))),errors='coerce').to_numpy()
+        all_props['Has model projection']=all_props['ModelProjection'].notna()
+        all_props['Difference']=(all_props['ModelProjection']-all_props['Line']).round(2)
     all_props['Has model projection']=all_props['Has model projection'].fillna(False).astype(bool)
     st.caption(f'{feed_note} · {len(all_props)} upcoming props · {int(all_props["Has model projection"].sum())} matched')
     market=st.selectbox('Market',['All']+sorted(all_props['Stat'].dropna().astype(str).unique()),key=f'props_market_v2_{sport}')
@@ -452,7 +465,7 @@ if page=='All PrizePicks Props':
     elif coverage=='Unmatched only':
         view=view[~view['Has model projection']]
     st.caption(f'{len(view)} matching props')
-    display=[c for c in ['Player','Team','Stat','Line','GameStartsAt','Has model projection'] if c in view.columns]
+    display=[c for c in ['Player','Team','Stat','Line','ModelProjection','Difference','GameStartsAt','Has model projection'] if c in view.columns]
     st.dataframe(view[display],hide_index=True,use_container_width=True)
     if search and view.empty:
         st.info('No matching upcoming standard line in this source. Try the other source; this does not mean the player is missing from the model.')
