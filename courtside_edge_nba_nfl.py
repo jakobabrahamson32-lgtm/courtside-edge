@@ -270,7 +270,10 @@ def espn_nba_recent_games(player_name):
 def recent_game_logs(sport, player_name, player_id=None):
     if sport == 'NFL':
         import nflreadpy as nfl
-        raw=nfl.load_player_stats([2025,2026],summary_level='week').to_pandas()
+        try:
+            raw=nfl.load_player_stats([2025,2026],summary_level='week').to_pandas()
+        except Exception:
+            raw=nfl.load_player_stats([2025],summary_level='week').to_pandas()
         name_col=next((c for c in ['player_name','player_display_name','player'] if c in raw),None)
         id_col=next((c for c in ['player_id','gsis_id'] if c in raw),None)
         if name_col is None:raise ValueError('NFL weekly stats missing player names')
