@@ -10,7 +10,7 @@ import unicodedata
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title='Propified | NBA + NFL',page_icon='◉',layout='wide',initial_sidebar_state='expanded')
+st.set_page_config(page_title='Propified | NBA + NFL',page_icon='◉',layout='wide',initial_sidebar_state='auto')
 ROOT = Path(__file__).resolve().parent
 C={'purple':'#6415D8','deep':'#4C0DB3','lavender':'#EDE3FF','background':'#FAFAFC','text':'#17142F','muted':'#696780','green':'#16A878','red':'#E34D64'}
 st.markdown("""<style>
@@ -88,6 +88,37 @@ hr{border-color:#EBEAF1!important}
 .pf-section-space{height:4px}
 .pf-sport-label{font-size:.85rem;font-weight:900;letter-spacing:.1em;color:#5D2D9C;margin:10px 0}
 @media(max-width:900px){.pf-home-hero{min-height:190px}.pf-home-logo{font-size:2.3rem}.pf-home-tag{font-size:.56rem;letter-spacing:.12em}.pf-brand{font-size:1.25rem}}
+/* Responsive layout: wide desktop, comfortable tablet, single-column mobile. */
+[data-testid="stVerticalBlock"]{min-width:0}
+@media(min-width:901px){[class*="st-key-pf_mobile_nav"]{display:none!important}}
+@media(max-width:900px){
+  .block-container{padding:1.1rem .9rem 4rem!important;max-width:100%!important}
+  /* Hide only the desktop navigation row, never the page content. */
+  [data-testid="stHorizontalBlock"]:has(.pf-desktop-nav-marker){display:none!important}
+  [class*="st-key-pf_mobile_nav"]{display:block!important;background:#FFFFFF;border:1px solid #E9E5F2;border-radius:16px;padding:12px 14px;margin:0 0 16px}
+  .pf-mobile-brand{font-family:'Lato',sans-serif;font-size:1.55rem;font-weight:900;color:#35105B;margin-bottom:8px}
+  .pf-mobile-brand:first-letter{color:#7C3AED}
+  [class*="st-key-pf_mobile_nav"] [data-baseweb="select"]{min-width:0}
+  .pf-home-hero{min-height:190px;margin:4px 0 14px;border-radius:14px}
+  .hero{padding:22px 18px!important}
+  .hero h1{font-size:clamp(1.8rem,7vw,2.6rem)!important}
+  [data-testid="stMetric"]{min-height:94px!important;padding:13px!important;border-radius:13px!important}
+  [data-testid="stMetricValue"]{font-size:clamp(1.1rem,4.6vw,1.65rem)!important}
+  [data-testid="stMetricLabel"]{font-size:.7rem!important}
+  .ce-prop-line{font-size:1.35rem}
+  [data-testid="stDataFrame"]{max-width:100%;overflow:auto}
+  .stRadio [role="radiogroup"]{flex-wrap:wrap!important}
+}
+@media(max-width:520px){
+  /* Streamlit stacks columns automatically; keep enough room for numbers. */
+  .pf-home-logo{font-size:clamp(1.95rem,9vw,2.6rem)}
+  .pf-home-tag{padding:0 12px;line-height:1.7}
+  .block-container{padding-left:.7rem!important;padding-right:.7rem!important}
+  [data-testid="stMetricValue"]{overflow-wrap:anywhere}
+  [data-testid="stHorizontalBlock"]{gap:.65rem!important}
+  [data-testid="stColumn"]{min-width:0!important}
+  .stButton button{min-height:42px}
+}
 </style>""",unsafe_allow_html=True)
 
 def norm(v):
@@ -386,6 +417,8 @@ if comparison is not None and not comparison.empty:
 else:comparison=pd.DataFrame(columns=['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','Gap','Model lean','Headshot','Injury status'])
 
 # Top navigation mirrors the sidebar without changing the existing analytics routes.
+# Desktop and mobile navigation use the same page state and underlying data.
+st.markdown('<div class="pf-desktop-nav-marker"></div>',unsafe_allow_html=True)
 navcols=st.columns([2.6,1,1,1.35,1,1.15,1.5],vertical_alignment='center')
 with navcols[0]:
     st.markdown('<div class="pf-brand"><span class="pf-bars">▂▅▇</span><span class="pf-divider">│</span>Propified</div>',unsafe_allow_html=True)
@@ -395,6 +428,14 @@ for slot,label,target in [(1,'Home','Overview'),(2,'Props','All PrizePicks Props
 with navcols[6]:
     if st.button('↻ Refresh Data',key='topnav_refresh',use_container_width=True):
         st.cache_data.clear()
+        st.rerun()
+# Compact mobile navigation: full-width brand + single page selector.
+with st.container(key='pf_mobile_nav'):
+    st.markdown('<div class="pf-mobile-brand">▂▅▇ <strong>Propified</strong></div>',unsafe_allow_html=True)
+    mobile_pages={'Home':'Overview','Props':'All PrizePicks Props','Compare':'Betting Comparisons','Results':'Model History','Insights':'Model Performance','Players':'Player Props','Lay of the Day':'Lay of the Day','Settings':'Settings'}
+    mobile_choice=st.selectbox('Go to',list(mobile_pages),index=list(mobile_pages.values()).index(page) if page in mobile_pages.values() else 0,key='pf_mobile_page_choice')
+    if mobile_pages[mobile_choice]!=page:
+        navigate_to(mobile_pages[mobile_choice])
         st.rerun()
 
 if page!='Overview':
