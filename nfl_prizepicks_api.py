@@ -40,6 +40,10 @@ def run():
             continue
         if str(item.get('odds_type','')).lower()!='standard' or item.get('period') not in ('FULL',None):
             continue
+        if str(item.get('projection_type','STANDARD')).upper() != 'STANDARD':
+            continue
+        if any(str(item.get(flag,False)).lower() in ('true','1') for flag in ('is_live','is_combo','is_promo')):
+            continue
         market=item.get('market_key','')
         # Preserve every ordinary full-game PrizePicks market for browsing,
         # including those for which the model has no projection yet.
@@ -62,9 +66,7 @@ def run():
             print(f'Saved {len(full)} standard NFL PrizePicks lines across all received markets.')
     df=pd.DataFrame(rows)
     if df.empty:
-        print('No supported standard NFL props returned; existing CSV preserved.')
-        if unknown:print('Unmapped NFL markets:',sorted(unknown))
-        return
+        raise RuntimeError('No supported standard NFL props returned. Existing CSV preserved; refresh must not report success.')
     df['SportsbookLine']=pd.to_numeric(df['SportsbookLine'],errors='coerce')
     df=df.dropna(subset=['Player','Stat','SportsbookLine'])
     if df.empty:
@@ -72,6 +74,12 @@ def run():
     dest = Path(__file__).resolve().parent / "nfl_prizepicks_lines.csv"
     df.to_csv(dest,index=False)
     print(f'Saved {len(df)} NFL PrizePicks lines to {dest}')
+    received = set(full['Player'].dropna().astype(str).str.casefold()) if not full.empty else set()
+    for player in ('Justin Jefferson', 'Jordan Addison'):
+        if player.casefold() not in received:
+            print(f'COVERAGE WARNING: {player} absent from returned standard PrizePicks feed.')
+        else:
+            print(f'COVERAGE CHECK: {player} present in standard PrizePicks feed.')
     if unknown:print('Other market keys (not imported):',sorted(unknown))
 
 if __name__=='__main__':run()
