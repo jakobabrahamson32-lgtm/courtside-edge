@@ -1108,6 +1108,15 @@ if page=='Overview':
         else:
             render_player_gallery(shown,sport,limit=6)
         st.caption(f'{len(shown)} upcoming matched props in this view · Model leans are not guaranteed winners.')
+    st.markdown('#### Full model results')
+    st.caption('Full saved comparisons may include games that have already started or ended. Check the game date before using a line.')
+    full_results=saved_comparison if saved_comparison is not None and not saved_comparison.empty else comparison
+    if full_results is not None and not full_results.empty:
+        result_cols=[c for c in ['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','GameStartsAt','ReliabilityScore'] if c in full_results.columns]
+        st.dataframe(full_results[result_cols],hide_index=True,use_container_width=True)
+        st.download_button('Download full model results',full_results[result_cols].to_csv(index=False).encode('utf-8'),file_name=f'{sport.lower()}_full_results.csv',mime='text/csv',key='home_full_results')
+    elif projections is not None and not projections.empty:
+        st.dataframe(projections,hide_index=True,use_container_width=True)
     st.stop()
 
 else:st.subheader('Compare player props')
