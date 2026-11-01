@@ -81,10 +81,10 @@ def fetch(sport):
         output.to_csv(ROOT/'prizepicks_nba_lines.csv',index=False)
     else:
         frame['Stat']=frame['Stat'].map(lambda v:NFL.get(v,v))
-        frame.to_csv(ROOT/'nfl_prizepicks_all_standard.csv',index=False)
         known=set(NFL.values())
         modelable=frame[frame['Stat'].isin(known)].copy()
         if modelable.empty:raise RuntimeError('No recognized NFL markets; existing comparisons preserved.')
+        frame.to_csv(ROOT/'nfl_prizepicks_all_standard.csv',index=False)
         modelable=modelable.rename(columns={'Line':'SportsbookLine'})
         modelable[['Player','Team','Stat','SportsbookLine','GameStartsAt']].to_csv(
             ROOT/'nfl_prizepicks_lines.csv',index=False)
