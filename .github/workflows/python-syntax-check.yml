@@ -1,0 +1,33 @@
+name: Python syntax check
+on:
+  push:
+    paths:
+      - '**.py'
+      - '.github/workflows/python-syntax-check.yml'
+  pull_request:
+    paths:
+      - '**.py'
+      - '.github/workflows/python-syntax-check.yml'
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile all Python source files
+        run: |
+          python - <<'PY'
+          import pathlib
+          import sys
+          failed = []
+          for path in pathlib.Path('.').rglob('*.py'):
+              try:
+                  compile(path.read_bytes(), str(path), 'exec')
+              except (SyntaxError, UnicodeError) as exc:
+                  failed.append(f'{path}: {exc}')
+          if failed:
+              sys.exit('\n'.join(failed))
+          print('Python source syntax OK')
+          PY
