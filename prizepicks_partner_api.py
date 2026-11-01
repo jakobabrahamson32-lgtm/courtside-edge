@@ -5,6 +5,7 @@ spoofing. If the endpoint refuses access, fail without replacing saved CSVs.
 PrizePicks has not documented this as a supported third-party API.
 """
 import os
+import re
 from pathlib import Path
 import pandas as pd
 import requests
@@ -14,10 +15,23 @@ URL='https://partner-api.prizepicks.com/projections'
 LEAGUES={'NBA':7,'NFL':9}
 NBA={'Points':'Points','Rebounds':'Rebounds','Assists':'Assists',
      '3-PT Made':'3-PT Made','3-Pointers Made':'3-PT Made'}
-NFL={'Passing Yards':'Passing Yards','Pass Yards':'Passing Yards',
+NFL={'Pass Attempts':'Passing Attempts','Pass Completions':'Passing Completions','Completions':'Passing Completions','Rush Attempts':'Rushing Attempts','Rush Atts':'Rushing Attempts','Rush Yards':'Rushing Yards','Receiving Yds':'Receiving Yards','Rec Yards':'Receiving Yards','Pass Yards':'Passing Yards','Passing Yards':'Passing Yards','Pass Yards':'Passing Yards',
      'Passing TDs':'Passing TDs','Rushing Yards':'Rushing Yards',
      'Rushing Attempts':'Rushing Attempts','Receiving Yards':'Receiving Yards',
-     'Receptions':'Receptions','Receiving TDs':'Receiving TDs'}
+     'Receptions':'Receptions','Receiving TDs':'Receiving TDs','Passing Attempts':'Passing Attempts','Passing Completions':'Passing Completions'}
+
+def is_standard(a, name, stat):
+    odds=str(a.get('odds_type') or a.get('oddsType') or '').strip().lower()
+    if odds != 'standard':return False
+    projection=str(a.get('projection_type') or a.get('projectionType') or 'standard').lower()
+    if projection not in ('standard',''):return False
+    for key in ('is_promo','is_live','is_combo','is_goblin','is_demon','is_discounted','is_flash_sale'):
+        if str(a.get(key,False)).lower() in ('true','1'):return False
+    if str(a.get('status','')).lower() in ('removed','suspended','closed','inactive'):return False
+    description=' '.join(str(x or '') for x in (name,stat,a.get('description'),a.get('projection_type'),a.get('odds_type'))).lower()
+    if re.search(r'\b(demon|goblin|promo|discount|flash sale|combo|live|protected play)\b',description):return False
+    if re.search(r'\s(?:\+|&|and|vs\.?|/)\s',str(name)):return False
+    return True
 
 def attr(obj,key,default=None):
     return (obj or {}).get('attributes',{}).get(key,default)
@@ -43,13 +57,6 @@ def fetch(sport, persist=True):
             if identifier in seen:continue
             seen.add(identifier);new+=1
             a=item.get('attributes') or {}
-            odds=str(a.get('odds_type','standard')).lower()
-            if odds not in ('standard',''):
-                continue
-            if a.get('is_promo') or a.get('is_live') or a.get('is_combo'):
-                continue
-            if a.get('status') in ('removed','suspended','closed'):
-                continue
             relations=item.get('relationships') or {}
             def related(kind):
                 relation=(relations.get(kind) or {}).get('data') or {}
@@ -59,6 +66,7 @@ def fetch(sport, persist=True):
             stat=attr(related('stat_type'),'name') or a.get('stat_type')
             line=a.get('line_score')
             if not name or not stat or line is None:continue
+            if not is_standard(a,name,stat):continue
             rows.append({'Player':name,'Team':attr(player,'team',''),
                          'Stat':stat,'Line':line,'GameStartsAt':a.get('start_time') or a.get('game_start_time'),
                          'MarketKey':stat,'Source':'PrizePicks partner endpoint'})
@@ -70,6 +78,7 @@ def fetch(sport, persist=True):
     if not rows:raise RuntimeError('No standard lines parsed; saved CSVs unchanged.')
     frame=pd.DataFrame(rows)
     frame['Line']=pd.to_numeric(frame['Line'],errors='coerce')
+    frame=frame.drop_duplicates(subset=['Player','Stat','Line','GameStartsAt'])
     frame=frame.dropna(subset=['Player','Stat','Line'])
     if frame.empty:raise RuntimeError('No usable standard lines; saved CSVs unchanged.')
     if not persist:
