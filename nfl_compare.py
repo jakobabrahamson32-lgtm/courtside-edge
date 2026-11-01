@@ -26,7 +26,11 @@ def short_key(value):
     parts = re.findall(r'[a-z0-9]+', name)
     if len(parts) < 2:
         return clean(value)
-    # Model names like A.Rodgers; bookmaker names like Aaron Rodgers.
+    # Handle initialed first names (A.J. Brown, D.K. Metcalf) while
+    # preserving hyphenated and multi-word surnames.
+    # Full initials before the surname must not become part of the surname.
+    if len(parts)>=3 and all(len(p)==1 for p in parts[:-1]):
+        return parts[0][0]+parts[-1]
     return parts[0][0] + ''.join(parts[1:])
 
 def run(root=ROOT):
