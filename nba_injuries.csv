@@ -1,90 +1,91 @@
 Player,Team,Status,Detail,Source,CheckedAt
-Jock Landale,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Mouhamed Gueye,,OUT,Fracture,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Henri Veesaar,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Mitchell Robinson,,REVIEW,Day-To-Day,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Devin Carter,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Mikel Brown Jr.,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Egor Demin,,OUT,Bruise,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Tyler Bilodeau,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Kon Knueppel,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Coby White,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Grant Williams,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Kylan Boswell,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Dailyn Swain,,REVIEW,Soreness,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Nic Claxton,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jaylon Tyson,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Sergio de Larrea,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Santi Aldama,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Tarik Biberovic,,OUT,Inflammation,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Dereck Lively II,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Alpha Diallo,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Spencer Jones,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Julian Strawther,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Isaiah Joe,,OUT,Bruise,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jalen Duren,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Gui Santos,,REVIEW,Day-To-Day,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Draymond Green,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Stephen Curry,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Kristaps Porzingis,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Moses Moody,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jimmy Butler III,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Reed Sheppard,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Fred VanVleet,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Steven Adams,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Ivica Zubac,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Aaron Nesmith,,REVIEW,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Obi Toppin,,REVIEW,Soreness,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-T.J. McConnell,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Johnny Furphy,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Ben Sheppard,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Tyrese Haliburton,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Yanic Konan Niederhauser,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Max Strus,,OUT,Plantar Fasciitis,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Brandon Ingram,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Bradley Beal,,OUT,Inflammation,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jordan Miller,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Ziaire Williams,,REVIEW,Day-To-Day,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Adou Thiero,,OUT,Inflammation,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Ty Jerome,,OUT,Soreness,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Scotty Pippen Jr.,,OUT,Soreness,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Quinten Post,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Rudy Gobert,,OUT,Spasms,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Anthony Edwards,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Donte DiVincenzo,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Dejounte Murray,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Yves Missi,,OUT,Bruise,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jordan Poole,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jose Alvarado,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Cason Wallace,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Chet Holmgren,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jalen Williams,,OUT,Fracture,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Alex Caruso,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Thomas Sorber,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Nikola Topic,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jonathan Isaac,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jalen Suggs,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Paolo Banchero,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Noah Penda,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Izaiyah Nelson,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-LeBron James,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Joel Embiid,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Dominick Barlow,,OUT,Fracture,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Ariel Hukporti,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Mark Williams,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Ja Morant,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Shaedon Sharpe,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Dylan Cardwell,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Maxime Raynaud,,OUT,Dislocated,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Keegan Murray,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Ben Simmons,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Tobias Harris,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jayden Quaintance,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Kawhi Leonard,,OUT,Inflammation,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Nate Bittle,,OUT,Fracture,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jaren Jackson Jr.,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Trey Alexander,,OUT,Bruise,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jusuf Nurkic,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Justin Champagnie,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Tristan Vukcevic,,OUT,Pinched Nerve,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
-Jamir Watkins,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T00:43:59+00:00
+Jalen Johnson,,REVIEW,Day-To-Day,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jock Landale,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Mouhamed Gueye,,OUT,Fracture,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Henri Veesaar,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Mitchell Robinson,,REVIEW,Day-To-Day,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Devin Carter,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Mikel Brown Jr.,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Egor Demin,,OUT,Bruise,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Tyler Bilodeau,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Kon Knueppel,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Coby White,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Grant Williams,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Kylan Boswell,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Dailyn Swain,,REVIEW,Soreness,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Nic Claxton,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jaylon Tyson,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Sergio de Larrea,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Santi Aldama,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Tarik Biberovic,,OUT,Inflammation,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Dereck Lively II,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Alpha Diallo,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Spencer Jones,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Julian Strawther,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Isaiah Joe,,OUT,Bruise,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jalen Duren,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Gui Santos,,REVIEW,Day-To-Day,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Draymond Green,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Stephen Curry,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Kristaps Porzingis,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Moses Moody,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jimmy Butler III,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Reed Sheppard,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Fred VanVleet,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Steven Adams,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Ivica Zubac,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Aaron Nesmith,,REVIEW,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Obi Toppin,,REVIEW,Soreness,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+T.J. McConnell,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Johnny Furphy,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Ben Sheppard,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Tyrese Haliburton,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Yanic Konan Niederhauser,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Max Strus,,OUT,Plantar Fasciitis,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Brandon Ingram,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Bradley Beal,,OUT,Inflammation,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jordan Miller,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Ziaire Williams,,REVIEW,Day-To-Day,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Adou Thiero,,OUT,Inflammation,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Ty Jerome,,OUT,Soreness,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Scotty Pippen Jr.,,OUT,Soreness,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Quinten Post,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Rudy Gobert,,OUT,Spasms,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Anthony Edwards,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Donte DiVincenzo,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Dejounte Murray,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Yves Missi,,OUT,Bruise,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jordan Poole,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jose Alvarado,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Cason Wallace,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Chet Holmgren,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jalen Williams,,OUT,Fracture,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Alex Caruso,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Thomas Sorber,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Nikola Topic,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jonathan Isaac,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jalen Suggs,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Paolo Banchero,,OUT,Sprain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Noah Penda,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Izaiyah Nelson,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+LeBron James,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Joel Embiid,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Dominick Barlow,,OUT,Fracture,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Ariel Hukporti,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Mark Williams,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Ja Morant,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Shaedon Sharpe,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Dylan Cardwell,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Maxime Raynaud,,OUT,Dislocated,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Keegan Murray,,OUT,Out,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Ben Simmons,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Tobias Harris,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jayden Quaintance,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Kawhi Leonard,,OUT,Inflammation,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Nate Bittle,,OUT,Fracture,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jaren Jackson Jr.,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Trey Alexander,,OUT,Bruise,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jusuf Nurkic,,OUT,Strain,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Justin Champagnie,,OUT,Not Specified,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Tristan Vukcevic,,OUT,Pinched Nerve,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
+Jamir Watkins,,OUT,Surgery,https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries,2026-11-01T01:54:54+00:00
