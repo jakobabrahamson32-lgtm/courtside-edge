@@ -14,7 +14,7 @@ import requests
 ROOT = Path(__file__).resolve().parent
 BASE = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba"
 HEADERS = {"User-Agent": "CourtsideEdge/1.0"}
-STAT_KEYS = {"PTS": "Points", "REB": "Rebounds", "AST": "Assists", "3PM": "Threes"}
+STAT_KEYS = {"PTS": "Points", "REB": "Rebounds", "AST": "Assists", "3PM": "Threes", "STL": "Steals", "BLK": "Blocks", "TO": "Turnovers"}
 ALIASES = {"PHX": "PHO", "GS": "GSW", "NY": "NYK", "SA": "SAS", "UTAH": "UTA"}
 
 def get_json(url, params=None):
@@ -61,11 +61,15 @@ def extract_boxscore(event_id, eligible):
                     threes = 0.0
                 if not athlete.get("displayName") or item.get("didNotPlay"):
                     continue
+                extra = {}
+                for code, label in [("STL","Steals"),("BLK","Blocks"),("TO","Turnovers")]:
+                    if code in stats:
+                        extra[label] = number(code)
                 rows.append({"Player": athlete["displayName"], "Team": team_abbr,
                              "PlayerID": str(athlete.get("id", "")),
                              "Points": number("PTS"), "Rebounds": number("REB"),
                              "Assists": number("AST"), "Threes": threes,
-                             "GameID": str(event_id)})
+                             "GameID": str(event_id), **extra})
     return rows
 
 def main():
@@ -130,7 +134,18 @@ def main():
         row = {"Player": recent.iloc[0]["Player"], "Team": team,
                "Games": len(recent), "Method": "ESPN recent games only"}
         for stat in STAT_KEYS.values():
-            row[stat] = round(float(recent[stat].mean()), 1)
+            if stat in recent and recent[stat].notna().any():
+                row[stat] = round(float(recent[stat].mean()), 1)
+        combinations = {
+            "Points + Rebounds": ["Points", "Rebounds"],
+            "Points + Assists": ["Points", "Assists"],
+            "Rebounds + Assists": ["Rebounds", "Assists"],
+            "Points + Rebounds + Assists": ["Points", "Rebounds", "Assists"],
+            "Steals + Blocks": ["Steals", "Blocks"],
+        }
+        for label, fields in combinations.items():
+            if all(field in recent and recent[field].notna().all() for field in fields):
+                row[label] = round(float(recent[fields].sum(axis=1).mean()), 1)
         results.append(row)
     if not results:
         raise RuntimeError("No eligible player projections; existing CSV preserved")
