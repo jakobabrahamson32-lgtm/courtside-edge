@@ -13,7 +13,7 @@ url = "https://parlay-api.com/v1/sports/basketball_nba/props"
 
 params = {
     "bookmakers": "prizepicks",
-    "markets": "player_points,player_rebounds,player_assists,player_threes",
+    # Request all available PrizePicks markets; do not limit to four stat types.
     "limit": 10000,
 }
 
@@ -70,11 +70,14 @@ for item in rows:
     if item.get("period") not in ("FULL", None):
         continue
 
-    stat = market_names.get(item.get("market_key"))
+    market_key = str(item.get("market_key", ""))
+    stat = market_names.get(market_key, market_key)
     if not stat:
         continue
     
     if str(item.get("odds_type", "")).lower() != "standard":
+        continue
+    if str(item.get("projection_type", "STANDARD")).upper() != "STANDARD":
         continue
     results.append({
     "playerName": item.get("player"),
@@ -83,10 +86,11 @@ for item in rows:
         "line": item.get("line"),
         "league": "NBA",
         "isLive": False,
-        "isCombo": False,
-        "isPromo": False,
+        "isCombo": bool(item.get("is_combo", False)),
+        "isPromo": bool(item.get("is_promo", False)),
         "oddsType": item.get("odds_type", ""),
-        "projectionType": item.get("projection_type", ""),
+        "projectionType": item.get("projection_type", "STANDARD"),
+        "marketKey": market_key,
         "gameStartsAt": item.get("commence_time"),
     })
 
