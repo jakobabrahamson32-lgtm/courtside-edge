@@ -14,9 +14,9 @@ st.set_page_config(page_title='Courtside Edge | NBA + NFL',page_icon='◉',layou
 ROOT = Path(__file__).resolve().parent
 C={'purple':'#6415D8','deep':'#4C0DB3','lavender':'#EDE3FF','background':'#FAFAFC','text':'#17142F','muted':'#696780','green':'#16A878','red':'#E34D64'}
 st.markdown("""<style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Unbounded:wght@400;500;600;700;800&display=swap');
 :root{--ce-purple:#6415D8;--ce-deep:#4C0DB3;--ce-lavender:#EDE3FF;--ce-bg:#FAFAFC;--ce-panel:#FFFFFF;--ce-border:#E5E5EF;--ce-text:#17142F;--ce-muted:#696780}
-html,body,[class*="css"],.stApp{font-family:'Inter',sans-serif;color:var(--ce-text)}
+html,body,[class*="css"],.stApp{font-family:'Syne',sans-serif;color:var(--ce-text)}
 .stApp,[data-testid="stAppViewContainer"]{background:#F2EAFF!important;color:var(--ce-text)!important}
 [data-testid="stHeader"]{background:rgba(250,250,252,.95)!important}
 [data-testid="stSidebar"]{background:linear-gradient(165deg,#D6B8FF 0%,#EEE1FF 54%,#FAF6FF 100%)!important;border-right:1px solid var(--ce-border)!important}
@@ -27,13 +27,13 @@ html,body,[class*="css"],.stApp{font-family:'Inter',sans-serif;color:var(--ce-te
 [data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:has(input:checked){background:#6415D8;color:#FFFFFF!important;font-weight:700}
 [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p{color:#696780}
 .block-container{max-width:1400px!important;padding:2rem 2.5rem 5rem!important}
-h1,h2,h3,h4{font-family:'Plus Jakarta Sans',sans-serif!important;color:#17142F!important;letter-spacing:-.035em!important}
+h1,h2,h3,h4{font-family:'Unbounded',sans-serif!important;color:#17142F!important;letter-spacing:-.035em!important}
 h2{font-size:clamp(1.55rem,2.5vw,2.05rem)!important}
 h3{font-size:1.2rem!important}
-p,span,label{font-family:'Inter',sans-serif}
+p,span,label{font-family:'Syne',sans-serif}
 [data-testid="stMetric"]{background:linear-gradient(135deg,#FFFFFF 30%,#E9D9FF)!important;border:1px solid #B895F5!important;border-radius:17px!important;padding:20px 22px!important;min-height:126px;box-shadow:0 3px 14px rgba(44,24,92,.025)!important}
 [data-testid="stMetricLabel"]{color:#696780!important;font-size:.82rem!important}
-[data-testid="stMetricValue"]{color:#17142F!important;font-family:'Plus Jakarta Sans',sans-serif!important;font-size:clamp(1.6rem,2.7vw,2.3rem)!important;letter-spacing:-.045em!important}
+[data-testid="stMetricValue"]{color:#17142F!important;font-family:'Unbounded',sans-serif!important;font-size:clamp(1.6rem,2.7vw,2.3rem)!important;letter-spacing:-.045em!important}
 [data-testid="stMetricDelta"]{color:#16A878}
 [data-testid="stVerticalBlockBorderWrapper"]>div{border:1px solid #E5E5EF!important;background:#FFFFFF!important;border-radius:17px!important}
 .stButton button,.stDownloadButton button{border:1px solid #E5E5EF!important;border-radius:11px!important;background:#FFFFFF!important;color:#17142F!important;font-weight:650!important;transition:background .15s,border-color .15s,transform .15s!important}
@@ -58,7 +58,7 @@ hr{border-color:#DCCBFA!important}\n[data-testid='stExpander']{border:1px solid 
 .smallprint{font-size:.78rem;color:#696780}
 @media(max-width:900px){.block-container{padding:1.25rem 1.1rem 3rem!important}.hero{padding:28px 24px}.hero:after{width:220px;height:220px;right:-110px;top:-120px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
-.ce-prop-line{font-family:'Plus Jakarta Sans',sans-serif;font-size:1.65rem;font-weight:800;line-height:1.15;margin:.4rem 0 .7rem;color:#2C2443}
+.ce-prop-line{font-family:'Unbounded',sans-serif;font-size:1.65rem;font-weight:800;line-height:1.15;margin:.4rem 0 .7rem;color:#2C2443}
 .ce-prop-line span{font-size:.77rem;font-weight:500;color:#77758A}
 [data-testid="stMetric"]{background:#FFFFFF!important;border:1px solid #E9E8F0!important;box-shadow:none!important;min-height:105px;padding:16px 18px!important}
 .stApp,[data-testid="stAppViewContainer"]{background:#F8F8FB!important}
