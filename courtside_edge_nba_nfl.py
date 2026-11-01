@@ -386,6 +386,19 @@ if page=='All PrizePicks Props':
             st.stop()
     else:
         all_props=standard_prizepicks_props(sport)
+    if sport=='NFL' and source.startswith('Live') and projections is not None and not projections.empty:
+        try:
+            from nfl_compare import match_frames
+            live_comparisons=match_frames(projections,all_props.rename(columns={'Line':'SportsbookLine'}))
+            if not live_comparisons.empty:
+                comparison=live_comparisons
+                st.success(f'{len(live_comparisons)} live NFL lines matched to model projections.')
+                with st.expander('Live NFL model comparisons',expanded=True):
+                    st.dataframe(live_comparisons[[c for c in ['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','Direction','PickQuality'] if c in live_comparisons.columns]],hide_index=True,use_container_width=True)
+            else:
+                st.warning('No live NFL lines could be matched to saved projections.')
+        except Exception as exc:
+            st.warning(f'Live NFL comparison unavailable: {type(exc).__name__}: {exc}')
     if all_props.empty:
         st.info('No upcoming standard PrizePicks lines are available from the current feed.')
         st.stop()
