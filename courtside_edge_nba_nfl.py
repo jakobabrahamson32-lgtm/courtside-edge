@@ -1058,7 +1058,11 @@ def render_player_gallery(rows, sport, limit=6):
                 st.caption('Injury: '+str(r.get('Injury status','UNVERIFIED')))
                 if 'PickQuality' in r and pd.notna(r['PickQuality']):
                     st.caption('Screening: '+str(r['PickQuality'])+' (not a probability)')
-                show_recent_games(sport,str(r['Player']),str(r['Stat']))
+                chart_key=f"gallery_chart_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}"
+                if st.button('Load 5-game chart',key=chart_key+'_button',use_container_width=True):
+                    st.session_state[chart_key]=True
+                if st.session_state.get(chart_key,False):
+                    show_recent_games(sport,str(r['Player']),str(r['Stat']))
 
 if page=='Overview':
     # User-supplied hero art can be placed in the repository as assets/propified_banner.jpg.
