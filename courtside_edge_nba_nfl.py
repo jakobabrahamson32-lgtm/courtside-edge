@@ -133,6 +133,99 @@ def photo(name,sport):
         return f'https://cdn.nba.com/headshots/nba/latest/1040x760/{pid}.png' if pid else None
     return nfl_headshots().get(norm(name))
 
+# Read-only recent game logs. These never change model projections or saved picks.
+@st.cache_data(ttl=1800,show_spinner=False)
+def recent_game_logs(sport, player_name, player_id=None):
+    if sport == 'NFL':
+        import nflreadpy as nfl
+        raw=nfl.load_player_stats([2025,2026],summary_level='week').to_pandas()
+        name_col=next((c for c in ['player_name','player_display_name','player'] if c in raw),None)
+        id_col=next((c for c in ['player_id','gsis_id'] if c in raw),None)
+        if name_col is None:return pd.DataFrame()
+        if player_id and id_col:
+            rows=raw[raw[id_col].astype(str).eq(str(player_id))].copy()
+        else:
+            rows=raw[raw[name_col].map(norm).eq(norm(player_name))].copy()
+        if 'season_type' in rows:
+            rows=rows[rows['season_type'].astype(str).str.upper().isin(['REG','REGULAR'])]
+        for key in ['season','week']:
+            rows[key]=pd.to_numeric(rows[key],errors='coerce')
+        rows=rows.dropna(subset=['season','week']).sort_values(['season','week']).tail(5)
+        mapping={'Passing Yards':'passing_yards','Rushing Yards':'rushing_yards',
+                 'Receiving Yards':'receiving_yards','Receptions':'receptions',
+                 'Passing TDs':'passing_tds','Receiving TDs':'receiving_tds',
+                 'Interceptions':'passing_interceptions','Rushing Attempts':'carries'}
+        result=pd.DataFrame({'Game':[f"{int(r.season)} W{int(r.week)}" for r in rows.itertuples(index=False)]})
+        for label,field in mapping.items():
+            if field in rows:
+                result[label]=pd.to_numeric(rows[field],errors='coerce').to_numpy()
+        return result
+    import requests
+    from datetime import timedelta
+    from concurrent.futures import ThreadPoolExecutor
+    base='https://site.api.espn.com/apis/site/v2/sports/basketball/nba'
+    session=requests.Session()
+    def get(endpoint,params):
+        response=session.get(base+endpoint,params=params,timeout=15)
+        response.raise_for_status()
+        return response.json()
+    # ESPN athlete gamelog provides actual per-game statistics, not averages.
+    pid=nba_player_ids().get(norm(player_name))
+    if not pid:return pd.DataFrame()
+    season=datetime.now().year if datetime.now().month>=10 else datetime.now().year
+    # NBA season is named for its ending year.
+    season=season+1 if datetime.now().month>=10 else season
+    result=[]
+    for year in [season,season-1]:
+        try:
+            data=get(f'/athletes/{pid}/gamelog',{'season':year})
+        except (requests.RequestException,ValueError):
+            continue
+        labels=[]
+        for group in data.get('labels',[]):
+            if isinstance(group,list):labels.extend(group)
+        if not labels:
+            labels=data.get('labels',[])
+        events=data.get('events',{})
+        for entry in data.get('seasonTypes',[]):
+            for category in entry.get('categories',[]):
+                names=category.get('labels',labels)
+                for item in category.get('events',[]):
+                    event=events.get(str(item.get('eventId')), {})
+                    if not event or not event.get('date'):continue
+                    values=item.get('stats',[])
+                    stats=dict(zip(names,values))
+                    if not all(k in stats for k in ['PTS','REB','AST']):continue
+                    try:
+                        three=str(stats.get('3PT','0')).split('-')[0]
+                        result.append({'Game':str(event['date'])[:10],
+                          'Points':float(stats['PTS']),'Rebounds':float(stats['REB']),
+                          'Assists':float(stats['AST']),'Threes':float(three)})
+                    except (ValueError,TypeError):continue
+        if len(result)>=5:break
+    return pd.DataFrame(result).drop_duplicates('Game').sort_values('Game').tail(5)
+
+def show_recent_games(sport, player_name, stat=None, player_id=None):
+    st.markdown('#### Last 5 games')
+    try:
+        logs=recent_game_logs(sport,player_name,player_id)
+    except Exception as exc:
+        st.warning(f'Recent game logs are temporarily unavailable: {type(exc).__name__}.')
+        return
+    if logs.empty or len(logs.columns)<2:
+        st.info('Verified per-game stats are not available for this player yet.')
+        return
+    choices=[c for c in logs.columns if c!='Game']
+    default=choices.index(stat) if stat in choices else 0
+    selected=st.selectbox('Stat to chart',choices,index=default,key=f'log_stat_{sport}_{norm(player_name)}')
+    chart=logs[['Game',selected]].dropna().set_index('Game')
+    if chart.empty:
+        st.info('No completed games with this statistic.')
+        return
+    st.bar_chart(chart,color='#6415D8',use_container_width=True)
+    st.caption(f'{len(chart)} recorded games · {selected} average: {chart[selected].mean():.1f} · Historical game logs, not model projections.')
+    st.dataframe(logs,hide_index=True,use_container_width=True)
+
 SPORT_FILES={'NBA':{'comparison':'nba_prizepicks_comparison.csv','projections':'todays_nba_projections.csv','lines':'prizepicks_nba_lines.csv'},
              'NFL':{'comparison':'nfl_comparison.csv','projections':'nfl_projections.csv','lines':'nfl_prizepicks_lines.csv'}}
 with st.sidebar:
@@ -329,6 +422,12 @@ if page=='Player Props':
         cols=['Headshot']+[c for c in ['Player','Team','Stat','Projection','Points','Rebounds','Assists','Threes','Last5Avg','Last10Avg','Games','Injury status'] if c in data.columns]
         st.dataframe(data[cols],use_container_width=True,hide_index=True,column_config={'Headshot':st.column_config.ImageColumn('Photo',width='small')})
         st.caption(f'{len(data)} rows · {modified(files["projections"])}')
+        available=sorted(data['Player'].dropna().astype(str).unique())
+        if available:
+            selected_player=st.selectbox('View player game logs',available,key=f'logs_player_{sport}')
+            selected_rows=data[data['Player'].eq(selected_player)]
+            pid=selected_rows['PlayerID'].iloc[0] if 'PlayerID' in selected_rows else None
+            show_recent_games(sport,selected_player,player_id=pid)
     st.stop()
 
 if comparison.empty:
@@ -406,6 +505,7 @@ if not view.empty:
             s1,s2=st.columns(2)
             for col,area in [('Last5Avg',s1),('Last10Avg',s2)]:
                 if col in player and pd.notna(player[col]):area.metric(col.replace('Avg',' average'),f"{player[col]:.1f}")
+        show_recent_games(sport,str(player['Player']),str(player['Stat']),player.get('PlayerID'))
         st.caption('Probability and value ratings require calibrated distributions and payout terms; no values are invented.')
     st.download_button('↓ Download comparisons',view.drop(columns=['Headshot']).to_csv(index=False).encode(),f'{sport.lower()}_comparisons.csv','text/csv')
 st.divider()
