@@ -17,21 +17,21 @@ st.markdown("""<style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 :root{--ce-purple:#6415D8;--ce-deep:#4C0DB3;--ce-lavender:#EDE3FF;--ce-bg:#FAFAFC;--ce-panel:#FFFFFF;--ce-border:#E5E5EF;--ce-text:#17142F;--ce-muted:#696780}
 html,body,[class*="css"],.stApp{font-family:'Inter',sans-serif;color:var(--ce-text)}
-.stApp,[data-testid="stAppViewContainer"]{background:#FAFAFC!important;color:var(--ce-text)!important}
+.stApp,[data-testid="stAppViewContainer"]{background:#F2EAFF!important;color:var(--ce-text)!important}
 [data-testid="stHeader"]{background:rgba(250,250,252,.95)!important}
-[data-testid="stSidebar"]{background:linear-gradient(165deg,#F6F1FF 0%,#FFFFFF 58%)!important;border-right:1px solid var(--ce-border)!important}
+[data-testid="stSidebar"]{background:linear-gradient(165deg,#D6B8FF 0%,#EEE1FF 54%,#FAF6FF 100%)!important;border-right:1px solid var(--ce-border)!important}
 [data-testid="stSidebar"] [data-testid="stVerticalBlock"]{gap:.7rem}
 [data-testid="stSidebar"] .stRadio>div[role="radiogroup"]{gap:.3rem}
 [data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label{border-radius:11px;padding:9px 12px;transition:background .15s ease,color .15s ease}
 [data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:hover{background:#F3ECFF}
-[data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:has(input:checked){background:#E4D4FF;color:#4C0DB3!important;font-weight:700}
+[data-testid="stSidebar"] .stRadio>div[role="radiogroup"] label:has(input:checked){background:#6415D8;color:#FFFFFF!important;font-weight:700}
 [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p{color:#696780}
 .block-container{max-width:1400px!important;padding:2rem 2.5rem 5rem!important}
 h1,h2,h3,h4{font-family:'Plus Jakarta Sans',sans-serif!important;color:#17142F!important;letter-spacing:-.035em!important}
 h2{font-size:clamp(1.55rem,2.5vw,2.05rem)!important}
 h3{font-size:1.2rem!important}
 p,span,label{font-family:'Inter',sans-serif}
-[data-testid="stMetric"]{background:linear-gradient(165deg,#FFFFFF 65%,#F6F1FF)!important;border:1px solid #E2D4FA!important;border-radius:17px!important;padding:20px 22px!important;min-height:126px;box-shadow:0 3px 14px rgba(44,24,92,.025)!important}
+[data-testid="stMetric"]{background:linear-gradient(135deg,#FFFFFF 30%,#E9D9FF)!important;border:1px solid #B895F5!important;border-radius:17px!important;padding:20px 22px!important;min-height:126px;box-shadow:0 3px 14px rgba(44,24,92,.025)!important}
 [data-testid="stMetricLabel"]{color:#696780!important;font-size:.82rem!important}
 [data-testid="stMetricValue"]{color:#17142F!important;font-family:'Plus Jakarta Sans',sans-serif!important;font-size:clamp(1.6rem,2.7vw,2.3rem)!important;letter-spacing:-.045em!important}
 [data-testid="stMetricDelta"]{color:#16A878}
@@ -50,8 +50,8 @@ button:focus-visible,input:focus-visible,[role="radio"]:focus-visible{outline:3p
 [data-testid="stAlert"]{border-radius:12px!important;border-width:1px!important}
 [data-testid="stCaptionContainer"],.stCaption{color:#696780!important}
 hr{border-color:#DCCBFA!important}\n[data-testid='stExpander']{border:1px solid #E2D4FA!important;border-radius:14px!important;background:#FCFAFF!important}\n[data-testid='stTabs'] button[aria-selected='true']{color:#6415D8!important;border-color:#6415D8!important}
-.hero{position:relative;overflow:hidden;background:linear-gradient(110deg,#FFFFFF 35%,#F6F1FF 100%);border:1px solid #DCCBFA;border-radius:20px;padding:40px 44px;margin:8px 0 24px}
-.hero:after{content:"";position:absolute;pointer-events:none;width:340px;height:340px;border-radius:50%;right:-125px;top:-195px;background:radial-gradient(circle,#EDE3FF 0%,#F6F1FF 60%,transparent 72%);opacity:.9}
+.hero{position:relative;overflow:hidden;background:linear-gradient(112deg,#FFFFFF 8%,#E8D6FF 66%,#CDA8FF 100%);border:1px solid #DCCBFA;border-radius:20px;padding:40px 44px;margin:8px 0 24px}
+.hero:after{content:"";position:absolute;pointer-events:none;width:340px;height:340px;border-radius:50%;right:-125px;top:-195px;background:radial-gradient(circle,#A66DF5 0%,#D3B0FF 60%,transparent 72%);opacity:.9}
 .hero h1{position:relative;z-index:1;font-size:clamp(2.8rem,5.3vw,4.65rem)!important;line-height:1.07;margin:12px 0 13px;font-weight:800}
 .hero p{position:relative;z-index:1;color:#696780;font-size:1rem;margin:0}
 .eyebrow{position:relative;z-index:1;font-size:.73rem;color:#6415D8;letter-spacing:.16em;font-weight:800}
@@ -526,7 +526,7 @@ if page=='Player Props':
             show_recent_games(sport,selected_player,player_id=pid)
     st.stop()
 
-if comparison.empty:
+if comparison.empty and page!='Overview':
     st.warning(f'No {sport} comparisons yet. Generate projections, download sportsbook lines, and run the comparison script.')
     if sport=='NFL':
         st.code('python3 nfl_model.py\npython3 nfl_prizepicks_api.py\npython3 nfl_compare.py',language='bash')
@@ -567,24 +567,51 @@ def render_player_gallery(rows, sport, limit=6):
                         show_recent_games(sport,str(r['Player']),str(r['Stat']))
 
 if page=='Overview':
-    st.subheader(f'{sport} comparison overview')
-    a,b,c,d=st.columns(4)
-    a.metric('Props analyzed',len(comparison))
-    b.metric('OVER model leans',int((comparison['Difference']>0).sum()))
-    c.metric('Largest projection gap',f"{comparison['Gap'].max():.1f}")
-    recorded=read_file('model_history.csv')
-    if recorded is not None and {'Sport','Result','Actual'}.issubset(recorded.columns):
-        decided=recorded[recorded['Sport'].astype(str).str.upper().eq(sport)].copy()
-        decided=decided[decided['Result'].astype(str).str.upper().isin(['WIN','LOSS']) & decided['Actual'].notna()]
-        hit_rate=(decided['Result'].astype(str).str.upper()=='WIN').mean() if not decided.empty else None
-        d.metric('Verified hit rate',f'{hit_rate:.1%}' if hit_rate is not None else '—')
-    else:
-        d.metric('Verified hit rate','—')
-    st.caption('OVER and UNDER indicate projection direction, not guaranteed favorable bets.')
-    st.markdown('#### What the numbers mean')
-    with st.expander('Understand the model in 30 seconds'):
-        st.markdown('**Sportsbook line:** the number posted by the sportsbook.  **Model projection:** the estimated player statistic.  **Gap:** projection minus line.  **OVER / UNDER:** the model\'s direction, not a guaranteed result.  **Verified hit rate:** settled wins divided by wins plus losses; pushes and pending picks are excluded.')
-    render_player_gallery(comparison.sort_values(['ReliabilityScore','Gap'],ascending=False) if 'ReliabilityScore' in comparison.columns else comparison.sort_values('Gap',ascending=False),sport)
+    st.subheader('Your daily dashboard')
+    st.markdown('**Start here.** See today's available player props, then open a player for more detail.')
+    history=read_file('model_history.csv')
+    wins=losses=0
+    if history is not None and {'Sport','Result','Actual'}.issubset(history.columns):
+        past=history[history['Sport'].astype(str).str.upper().eq(sport)].copy()
+        past=past[past['Actual'].notna()]
+        wins=int(past['Result'].astype(str).str.upper().eq('WIN').sum())
+        losses=int(past['Result'].astype(str).str.upper().eq('LOSS').sum())
+    a,b,c=st.columns(3)
+    a.metric('Available props',len(comparison),help='Upcoming sportsbook props with model projections.')
+    b.metric('Players on the board',comparison['Player'].nunique() if not comparison.empty else 0)
+    c.metric('Verified hit rate',f'{wins/(wins+losses):.1%}' if wins+losses else 'Not enough data',
+             help=f'{wins} verified wins and {losses} losses; pending and pushes excluded.')
+    if comparison.empty:
+        st.info('No upcoming comparisons are available right now. This does not mean the model is broken.')
+        st.stop()
+    st.markdown('#### Top players to look at')
+    st.caption('These are model comparisons, not guaranteed winners. Purple highlights help you scan, but do not indicate certainty.')
+    ranked=comparison.sort_values(['ReliabilityScore','Gap'],ascending=False) if 'ReliabilityScore' in comparison.columns else comparison.sort_values('Gap',ascending=False)
+    render_player_gallery(ranked,sport,limit=3)
+    st.markdown('#### Find a player')
+    player_names=sorted(comparison['Player'].dropna().astype(str).unique())
+    selected=st.selectbox('Choose a player to see the numbers',player_names,key=f'home_player_{sport}')
+    candidates=comparison[comparison['Player'].eq(selected)]
+    chosen=candidates.iloc[0]
+    with st.container(border=True):
+        left,right=st.columns([1,3],vertical_alignment='center')
+        with left:
+            headshot=chosen.get('Headshot')
+            if isinstance(headshot,str) and headshot.startswith('https://'):
+                st.image(headshot,use_container_width=True)
+        with right:
+            st.markdown(f"### {chosen['Player']}")
+            st.caption(f"{chosen['Team']} · {chosen['Stat']}")
+            st.markdown(f"**Model suggests: :violet[{chosen['Model lean']}]**")
+            x,y,z=st.columns(3)
+            x.metric('Sportsbook line',f"{chosen['PrizePicksLine']:.1f}",help='The sportsbook target.')
+            y.metric('Model estimate',f"{chosen['ModelProjection']:.1f}",help='Our estimated player performance.')
+            z.metric('Difference',f"{chosen['Difference']:+.1f}",help='Model estimate minus sportsbook line.')
+        with st.expander('See their last 5 games',expanded=True):
+            show_recent_games(sport,str(chosen['Player']),str(chosen['Stat']),chosen.get('PlayerID'))
+    with st.expander('What do all these numbers mean?'):
+        st.markdown('**Sportsbook line** = the target to beat. **Model estimate** = our predicted player stat. **Difference** = estimate minus line. **OVER** means the model estimates more than the line; **UNDER** means less. **Hit rate** = verified winning picks divided by wins plus losses. None of these numbers guarantees a result.')
+    st.stop()
 
 elif page=='Top Gaps':
     st.subheader('Largest projection gaps')
