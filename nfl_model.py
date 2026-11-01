@@ -17,6 +17,13 @@ STAT_COLS = {
     'Receiving Yards': 'receiving_yards',
     'Receptions': 'receptions',
     'Receiving TDs': 'receiving_tds',
+    'Rushing TDs': 'rushing_tds',
+    'Passing Attempts': 'attempts',
+    'Passing Completions': 'completions',
+    'Passing Interceptions': 'passing_interceptions',
+    'Targets': 'targets',
+    'Receiving Air Yards': 'receiving_air_yards',
+    'Fumbles Lost': 'sack_fumbles_lost',
 }
 
 def build(current_weight=0.60, season=2026):
