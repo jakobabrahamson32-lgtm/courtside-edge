@@ -112,6 +112,59 @@ def build(current_weight=0.60, season=2026):
                 'Last5Avg':round(float(current_values.tail(5).mean()),2),
                 'Last10Avg':round(float(current_values.tail(10).mean()),2),
                 'Games':len(current_values),'Season':season,'CurrentWeight':weight})
+    # Same-game combined markets: add per-game values before blending, so
+    # missing components never silently become zero.
+    combinations={
+        'Passing + Rushing Yards':('passing_yards','rushing_yards'),
+        'Rushing + Receiving Yards':('rushing_yards','receiving_yards'),
+    }
+    for pid,history in current.groupby(id_col):
+        history=history.sort_values('week')
+        old=previous[previous[id_col].eq(pid)]
+        latest=history.iloc[-1]
+        for stat,fields in combinations.items():
+            if not all(field in raw.columns for field in fields):
+                continue
+            def game_sums(frame):
+                values=frame[list(fields)].apply(pd.to_numeric,errors='coerce')
+                return values.sum(axis=1,min_count=len(fields)).dropna()
+            recent=game_sums(history)
+            prior_games=game_sums(old)
+            if recent.empty:
+                continue
+            prior=prior_games.mean() if not prior_games.empty else None
+            weight=current_weight if prior is not None else 1.0
+            projected=weight*recent.tail(5).mean()+(1-weight)*(prior if prior is not None else 0)
+            rows.append({'Player':str(latest[player_col]),'Team':str(latest[team_col]),
+                'PlayerID':str(pid),'Stat':stat,'Projection':round(float(projected),2),
+                'CurrentSeasonAvg':round(float(recent.mean()),2),
+                'PreviousSeasonAvg':round(float(prior),2) if prior is not None else None,
+                'Last5Avg':round(float(recent.tail(5).mean()),2),
+                'Last10Avg':round(float(recent.tail(10).mean()),2),
+                'Games':len(recent),'Season':season,'CurrentWeight':weight})
+    # Rushing efficiency: yards per actual carry in games with attempts.
+    if 'rushing_yards' in raw and 'carries' in raw:
+        for pid,history in current.groupby(id_col):
+            old=previous[previous[id_col].eq(pid)]
+            latest=history.sort_values('week').iloc[-1]
+            def ratios(frame):
+                yards=pd.to_numeric(frame['rushing_yards'],errors='coerce')
+                carries=pd.to_numeric(frame['carries'],errors='coerce')
+                return yards.div(carries.where(carries.gt(0))).dropna()
+            recent=ratios(history.sort_values('week'))
+            prior_games=ratios(old)
+            if recent.empty:continue
+            prior=prior_games.mean() if not prior_games.empty else None
+            weight=current_weight if prior is not None else 1.0
+            projected=weight*recent.tail(5).mean()+(1-weight)*(prior if prior is not None else 0)
+            rows.append({'Player':str(latest[player_col]),'Team':str(latest[team_col]),
+                'PlayerID':str(pid),'Stat':'Yards Per Rush Attempt',
+                'Projection':round(float(projected),2),
+                'CurrentSeasonAvg':round(float(recent.mean()),2),
+                'PreviousSeasonAvg':round(float(prior),2) if prior is not None else None,
+                'Last5Avg':round(float(recent.tail(5).mean()),2),
+                'Last10Avg':round(float(recent.tail(10).mean()),2),
+                'Games':len(recent),'Season':season,'CurrentWeight':weight})
     out = pd.DataFrame(rows)
     if out.empty:
         raise RuntimeError('No usable NFL projections. Existing files were not changed.')
