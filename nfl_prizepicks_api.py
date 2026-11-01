@@ -15,6 +15,10 @@ MARKETS = {
  'player_reception_yds':'Receiving Yards','player_receiving_yards':'Receiving Yards',
  'player_receptions':'Receptions','player_reception_tds':'Receiving TDs',
  'player_receiving_tds':'Receiving TDs',
+ 'player_rush_tds':'Rushing TDs','player_rushing_tds':'Rushing TDs',
+ 'player_pass_attempts':'Passing Attempts','player_passing_attempts':'Passing Attempts',
+ 'player_pass_completions':'Passing Completions','player_passing_completions':'Passing Completions',
+ 'player_targets':'Targets',
 }
 
 def run():
