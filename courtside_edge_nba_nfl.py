@@ -140,7 +140,8 @@ with st.sidebar:
     st.caption('THE PERFORMANCE LAB')
     st.divider()
     sport=st.radio('SPORT',['NBA','NFL'],horizontal=True)
-    page=st.radio('NAVIGATION',['Overview','Player Props','Betting Comparisons','Top Gaps','Model History','Model Performance','Settings'],label_visibility='collapsed')
+    nav_icons={'Overview':'◫','Player Props':'♙','Betting Comparisons':'⇄','Top Gaps':'↗','Model History':'◷','Model Performance':'▥','Settings':'⚙'}
+    page=st.radio('NAVIGATION',list(nav_icons),format_func=lambda name:f"{nav_icons[name]}   {name}",label_visibility='collapsed')
     st.divider()
     if st.button('↻ Refresh data',type='primary',use_container_width=True):
         st.cache_data.clear();st.rerun()
