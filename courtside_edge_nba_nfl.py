@@ -439,17 +439,42 @@ if page=='All PrizePicks Props':
             live_comparisons=pd.DataFrame()
             st.warning(f'Matching error: {type(exc).__name__}. Props remain visible.')
         if not live_comparisons.empty:
-            keys=set(zip(live_comparisons['Player'].map(norm),
-                         live_comparisons['Stat'].map(norm),
-                         pd.to_numeric(live_comparisons['PrizePicksLine'],errors='coerce').round(3)))
             from nfl_compare import clean
-            alias={'playerrectargets':'Targets','rectargets':'Targets',
-                   'playerreceivingyards':'Receiving Yards','playerreceptions':'Receptions'}
-            all_props['Has model projection']=[
-                (norm(row.Player),norm(alias.get(clean(row.Stat),row.Stat)),round(float(row.Line),3)) in keys
-                for row in all_props.itertuples(index=False)]
+            nfl_stat_aliases={
+                'playerrectargets':'Targets','rectargets':'Targets',
+                'playerreceivingyards':'Receiving Yards',
+                'playerreceptions':'Receptions',
+                'playerpassyds':'Passing Yards',
+                'playerpassattempts':'Passing Attempts',
+                'playerpasscompletions':'Passing Completions',
+                'playerrushyards':'Rushing Yards',
+                'playerrushattempts':'Rushing Attempts',
+                'playerint':'Interceptions','playerpasstds':'Passing TDs',
+                'playerrushtds':'Rushing TDs',
+                'playercompletionpercentage':'Completion Percentage',
+                'playerrushyardspercarry':'Yards Per Rush Attempt',
+                'playerpassplusrushyds':'Passing + Rushing Yards',
+                'playerrushplusrecyds':'Rushing + Receiving Yards',
+            }
+            matched=live_comparisons.copy()
+            matched['_match_key']=list(zip(
+                matched['Player'].map(norm),
+                matched['Stat'].map(lambda x:clean(nfl_stat_aliases.get(clean(x),x))),
+                pd.to_numeric(matched['PrizePicksLine'],errors='coerce').round(3)))
+            matched=matched.drop_duplicates('_match_key').set_index('_match_key')
+            all_props['_match_key']=list(zip(
+                all_props['Player'].map(norm),
+                all_props['Stat'].map(lambda x:clean(nfl_stat_aliases.get(clean(x),x))),
+                pd.to_numeric(all_props['Line'],errors='coerce').round(3)))
+            all_props['Has model projection']=all_props['_match_key'].isin(matched.index)
+            all_props['ModelProjection']=pd.to_numeric(
+                all_props['_match_key'].map(matched['ModelProjection']),errors='coerce')
+            all_props['Difference']=(all_props['ModelProjection']-all_props['Line']).round(2)
+            all_props=all_props.drop(columns=['_match_key'])
         else:
             all_props['Has model projection']=False
+            all_props['ModelProjection']=float('nan')
+            all_props['Difference']=float('nan')
     else:
         # Compare each live NBA line directly to the matching model column.
         # Missing player or unmodeled stat stays visible without a fabricated value.
