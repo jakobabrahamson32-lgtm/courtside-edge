@@ -73,8 +73,8 @@ def run(root=ROOT):
         print('No matches. Inspect player spellings and the two Stat columns.')
         return pd.DataFrame()
 
-    team_book = joined['Team_Book'].fillna('').astype(str).str.upper().str.strip()
-    team_model = joined['Team'].fillna('').astype(str).str.upper().str.strip()
+    team_book = joined['Team_Book'].astype('string').fillna('').str.upper().str.strip()
+    team_model = joined['Team'].astype('string').fillna('').str.upper().str.strip()
     joined = joined[(team_book == '') | (team_book == team_model)].copy()
     print(f'{len(joined)} matches after optional team verification.')
     if joined.empty:
@@ -84,11 +84,42 @@ def run(root=ROOT):
     joined['Difference'] = (joined['Projection'] - joined['SportsbookLine']).round(2)
     joined['Direction'] = joined['Difference'].map(lambda x: 'OVER' if x > 0 else 'UNDER' if x < 0 else 'EVEN')
     joined['AbsDifference'] = joined['Difference'].abs()
+    # Conservative, explainable selection score: avoid elevating volatile
+    # small-sample props solely because their absolute yardage gap is large.
+    joined['Games'] = pd.to_numeric(joined['Games'], errors='coerce').fillna(0)
+    joined['Last5Avg'] = pd.to_numeric(joined['Last5Avg'], errors='coerce')
+    joined['Last10Avg'] = pd.to_numeric(joined['Last10Avg'], errors='coerce')
+    joined['CurrentSeasonAvg'] = pd.to_numeric(joined['CurrentSeasonAvg'], errors='coerce')
+    joined['PreviousSeasonAvg'] = pd.to_numeric(joined['PreviousSeasonAvg'], errors='coerce')
+    joined['EdgePct'] = (joined['AbsDifference'] / joined['SportsbookLine'].abs().clip(lower=5)).round(3)
+    # Recent-form disagreement is a warning, not a fabricated win probability.
+    recent = joined['Last5Avg']
+    season = joined['CurrentSeasonAvg']
+    joined['FormDisagreementPct'] = (
+        (recent - season).abs() / joined['SportsbookLine'].abs().clip(lower=5)
+    ).fillna(0).round(3)
+    joined['SampleFactor'] = (joined['Games'] / 8).clip(lower=0, upper=1)
+    joined['ReliabilityScore'] = (
+        100 * joined['EdgePct'].clip(upper=0.5)
+        * joined['SampleFactor']
+        / (1 + joined['FormDisagreementPct'] * 2)
+    ).round(2)
+    # Flags are deliberately conservative. These are NOT calibrated probabilities.
+    joined['PickQuality'] = 'WATCHLIST'
+    joined.loc[
+        (joined['Games'] >= 5)
+        & (joined['EdgePct'] >= 0.12)
+        & (joined['FormDisagreementPct'] <= 0.30)
+        & (joined['Difference'] != 0), 'PickQuality'
+    ] = 'QUALIFIED'
+    joined.loc[joined['Games'] < 4, 'PickQuality'] = 'LOW SAMPLE'
+    joined.loc[joined['Difference'] == 0, 'PickQuality'] = 'NO EDGE'
     joined['Player'] = joined['Player_Book']  # Prefer recognizable full names in dashboard.
-    joined = joined.sort_values('AbsDifference', ascending=False)
+    joined = joined.sort_values(['ReliabilityScore','AbsDifference'], ascending=False)
     columns = ['Player', 'Team', 'PlayerID', 'Stat', 'SportsbookLine', 'Projection',
                'Difference', 'Direction', 'GameStartsAt', 'CurrentSeasonAvg',
-               'PreviousSeasonAvg', 'Last5Avg', 'Last10Avg', 'Games']
+               'PreviousSeasonAvg', 'Last5Avg', 'Last10Avg', 'Games',
+               'EdgePct', 'FormDisagreementPct', 'ReliabilityScore', 'PickQuality']
     result = joined[columns].rename(columns={
         'SportsbookLine': 'PrizePicksLine', 'Projection': 'ModelProjection'
     })
