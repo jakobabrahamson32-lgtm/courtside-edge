@@ -265,24 +265,29 @@ def nfl_allowed_lines(data):
 files=SPORT_FILES[sport]
 comparison=read_file(files['comparison'])
 projections=read_file(files['projections'])
+nfl_board_source=None
+nfl_board_lines=0
 if sport=='NFL' and page in ('Betting Comparisons','Top Gaps','Overview','Lay of the Day'):
-    # The comparison board must use the same current feed as the Props tab.
-    # The saved comparison CSV is only a fallback, never a competing source of truth.
+    # Never silently show an old 161-row CSV when the live feed fails.
+    from nfl_compare import match_frames
     try:
-        from nfl_compare import match_frames
         current_lines=nfl_allowed_lines(nfl_live_feed())
-        if projections is not None and not projections.empty:
-            current_matches=match_frames(projections,current_lines.rename(columns={'Line':'SportsbookLine'}))
-            if not current_matches.empty:
-                comparison=current_matches
-            else:
-                comparison=pd.DataFrame()
-        else:
-            comparison=pd.DataFrame()
-            st.warning('NFL projection data unavailable; live comparisons cannot be calculated.')
+        nfl_board_source='Live PrizePicks'
     except Exception as exc:
-        st.warning(f'Live NFL comparisons unavailable ({type(exc).__name__}); showing saved comparison file.')
-
+        st.warning(f'Live NFL feed unavailable ({type(exc).__name__}: {exc}). Recalculating from saved standard lines instead.')
+        current_lines=nfl_allowed_lines(standard_prizepicks_props('NFL'))
+        nfl_board_source='Saved PrizePicks (live unavailable)'
+    nfl_board_lines=len(current_lines)
+    if projections is not None and not projections.empty and not current_lines.empty:
+        try:
+            comparison=match_frames(projections,current_lines.rename(columns={'Line':'SportsbookLine'}))
+        except Exception as exc:
+            comparison=pd.DataFrame()
+            st.error(f'NFL matching failed: {type(exc).__name__}: {exc}')
+    else:
+        comparison=pd.DataFrame()
+        st.warning('NFL projection data or current standard lines unavailable.')
+    st.caption(f'NFL comparison source: {nfl_board_source} · {nfl_board_lines} eligible lines · {len(comparison)} matched before time filtering.')
 if comparison is not None and not comparison.empty:
     required=['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference']
     missing=set(required)-set(comparison.columns)
