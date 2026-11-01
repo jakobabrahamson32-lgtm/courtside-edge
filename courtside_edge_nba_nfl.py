@@ -344,7 +344,11 @@ if search:view=view[view['Player'].astype(str).str.contains(search,case=False,re
 if teams:view=view[view['Team'].isin(teams)]
 if stats:view=view[view['Stat'].isin(stats)]
 if direction!='All':view=view[view['Model lean']==direction]
-view=view[view['Gap']>=minimum].sort_values('Gap',ascending=False)
+view=view[view['Gap']>=minimum]
+if 'ReliabilityScore' in view.columns:
+    view=view.sort_values(['ReliabilityScore','Gap'],ascending=False)
+else:
+    view=view.sort_values('Gap',ascending=False)
 if page=='Top Gaps':view=view.head(15)
 st.caption(f'{len(view)} matching player props')
 st.dataframe(view[['Headshot','Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','Model lean','Injury status']],
