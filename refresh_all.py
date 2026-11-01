@@ -32,12 +32,15 @@ PIPELINES = {
 def run_pipeline(sport: str) -> bool:
     print(f"\n{'=' * 56}\n{sport} DATA REFRESH\n{'=' * 56}", flush=True)
     for label, script, output in PIPELINES[sport]:
+        partner_mode = os.environ.get("PRIZEPICKS_SOURCE", "parlay").lower() == "partner"
+        if partner_mode and "PrizePicks lines" in label:
+            script = "prizepicks_partner_api.py"
         script_path = ROOT / script
         output_path = ROOT / output
         if not script_path.is_file():
             print(f"ERROR: Missing {script}. Put it in {ROOT}", flush=True)
             return False
-        if "PrizePicks" in label and not os.environ.get("PARLAY_API_KEY"):
+        if "PrizePicks" in label and not partner_mode and not os.environ.get("PARLAY_API_KEY"):
             print("ERROR: PARLAY_API_KEY is not set in this Terminal session.", flush=True)
             print('Set it with: export PARLAY_API_KEY="YOUR_API_KEY"', flush=True)
             return False
@@ -45,7 +48,10 @@ def run_pipeline(sport: str) -> bool:
         print(f"\n→ {label} ({script})", flush=True)
         before = output_path.stat().st_mtime_ns if output_path.exists() else None
         try:
-            completed = subprocess.run([sys.executable, str(script_path)], cwd=ROOT, check=False)
+            command = [sys.executable, str(script_path)]
+            if partner_mode and "PrizePicks lines" in label:
+                command.extend(["--sport", sport])
+            completed = subprocess.run(command, cwd=ROOT, check=False)
         except OSError as exc:
             print(f"ERROR: Could not launch {script}: {exc}", flush=True)
             return False
