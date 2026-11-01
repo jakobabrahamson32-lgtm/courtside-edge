@@ -7,7 +7,7 @@ import csv
 import re
 import unicodedata
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import requests
 import pandas as pd
@@ -25,7 +25,7 @@ NFL_STAT = {"passingyards": ("passing", "YDS"),
             "passingattempts": ("passing", "ATT"),
             "passingcompletions": ("passing", "CMP")}
 TEAM_ALIASES = {"PHX": "PHO", "GS": "GSW", "NY": "NYK", "SA": "SAS", "UTAH": "UTA",
-                "WSH": "WAS", "JAC": "JAX", "LA": "LAR"}
+                "WSH": "WAS", "JAC": "JAX", "LA": "LAR", "NO": "NOP"}
 
 def normalize(value):
     value = unicodedata.normalize("NFKD", str(value).casefold())
@@ -114,8 +114,10 @@ def settle():
     settled = 0
     for (sport, day), picks in pending.items():
         try:
-            events = get_json(sport, "scoreboard", {"dates": day, "limit": 100})
-            events = events.get("events", [])
+            events = []
+            for offset in (-1, 0, 1):
+                date = (datetime.strptime(day, "%Y%m%d") + timedelta(days=offset)).strftime("%Y%m%d")
+                events.extend(get_json(sport, "scoreboard", {"dates": date, "limit": 100}).get("events", []))
         except requests.RequestException as exc:
             print(f"{sport} {day} scoreboard unavailable: {exc}")
             continue
