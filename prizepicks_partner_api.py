@@ -22,7 +22,11 @@ NFL={'player_rec_targets':'Targets','Targets':'Targets','Receiving Targets':'Tar
 
 def is_standard(a, name, stat):
     odds=str(a.get('odds_type') or a.get('oddsType') or '').strip().lower()
-    if odds != 'standard':return False
+    # Some partner responses omit odds_type; an explicit STANDARD projection
+    # classification can still establish the standard market.
+    explicit_projection=str(a.get('projection_type') or a.get('projectionType') or '').strip().lower()
+    if odds not in ('','standard'):return False
+    if not odds and explicit_projection!='standard':return False
     projection=str(a.get('projection_type') or a.get('projectionType') or 'standard').lower()
     if projection not in ('standard',''):return False
     for key in ('is_promo','is_live','is_combo','is_goblin','is_demon','is_discounted','is_flash_sale'):
