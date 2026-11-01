@@ -1,4 +1,4 @@
-"""COURTSIDE EDGE — combined NBA + NFL Streamlit dashboard.
+"""PROPIFIED — combined NBA + NFL Streamlit dashboard.
 Put this file and the companion NFL scripts in ~/Documents.
 Run: python3 -m streamlit run courtside_edge_nba_nfl.py
 """
@@ -10,7 +10,7 @@ import unicodedata
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title='Courtside Edge | NBA + NFL',page_icon='◉',layout='wide',initial_sidebar_state='expanded')
+st.set_page_config(page_title='Propified | NBA + NFL',page_icon='◉',layout='wide',initial_sidebar_state='expanded')
 ROOT = Path(__file__).resolve().parent
 C={'purple':'#6415D8','deep':'#4C0DB3','lavender':'#EDE3FF','background':'#FAFAFC','text':'#17142F','muted':'#696780','green':'#16A878','red':'#E34D64'}
 st.markdown("""<style>
@@ -248,7 +248,7 @@ def show_recent_games(sport, player_name, stat=None, player_id=None):
 SPORT_FILES={'NBA':{'comparison':'nba_prizepicks_comparison.csv','projections':'todays_nba_projections.csv','lines':'prizepicks_nba_lines.csv'},
              'NFL':{'comparison':'nfl_comparison.csv','projections':'nfl_projections.csv','lines':'nfl_prizepicks_lines.csv'}}
 with st.sidebar:
-    st.markdown('### ◉ COURTSIDE **EDGE**')
+    st.markdown('### ◉ **PROPIFIED**')
     st.caption('THE PERFORMANCE LAB')
     st.divider()
     sport=st.radio('SPORT',['NBA','NFL'],horizontal=True)
@@ -257,7 +257,7 @@ with st.sidebar:
     st.divider()
     if st.button('↻ Refresh data',type='primary',use_container_width=True):
         st.cache_data.clear();st.rerun()
-    st.caption('Hosted data · Courtside Edge repository')
+    st.caption('Hosted data · Propified repository')
 
 def standard_prizepicks_props(selected_sport):
     """Display all available standard, non-live, non-combo, non-promo PrizePicks lines.
@@ -368,7 +368,7 @@ if comparison is not None and not comparison.empty:
     comparison['Injury status']=comparison['Player'].map(lambda n:injury_lookup.get(norm(n),'UNVERIFIED'))
 else:comparison=pd.DataFrame(columns=['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','Gap','Model lean','Headshot','Injury status'])
 
-st.markdown(f'''<div class="hero"><span class="eyebrow">◉ COURTSIDE EDGE / {sport} ANALYTICS</span>
+st.markdown(f'''<div class="hero"><span class="eyebrow">◉ PROPIFIED / {sport} ANALYTICS</span>
 <h1>Find Your <span style="color:#6415D8">Edge.</span></h1>
 <p>Player projections. Sportsbook lines. A clearer picture of the game.</p></div>''',unsafe_allow_html=True)
 st.caption(f"{date.today():%A, %B %d, %Y}  ·  {sport} comparison file: {modified(files['comparison'])}")
@@ -1027,4 +1027,4 @@ if not view.empty:
         st.caption('Probability and value ratings require calibrated distributions and payout terms; no values are invented.')
     st.download_button('↓ Download comparisons',view.drop(columns=['Headshot']).to_csv(index=False).encode(),f'{sport.lower()}_comparisons.csv','text/csv')
 st.divider()
-st.caption('Courtside Edge · NBA data: nba_api · NFL data: nflverse / nflreadpy · Sportsbook lines: your ParlayAPI access. Validate player availability and game dates before making decisions.')
+st.caption('Propified · NBA data: nba_api · NFL data: nflverse / nflreadpy · Sportsbook lines: your ParlayAPI access. Validate player availability and game dates before making decisions.')
