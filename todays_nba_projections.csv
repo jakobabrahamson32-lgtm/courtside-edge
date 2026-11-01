@@ -1,6 +1,6 @@
 Player,Team,Games,Method,Points,Rebounds,Assists,Threes,Steals,Blocks,Turnovers,Field Goals Attempted,Field Goals Made,Free Throws Attempted,Free Throws Made,Points + Rebounds,Points + Assists,Rebounds + Assists,Points + Rebounds + Assists,Steals + Blocks
 Luka Doncic,LAL,8,ESPN recent games only,30.0,5.4,5.8,4.4,1.2,0.6,5.1,19.5,8.9,8.9,7.9,35.4,35.8,11.1,41.1,1.9
-Jayson Tatum,BOS,7,ESPN recent games only,25.7,6.4,7.0,2.3,1.0,0.1,2.1,20.3,9.0,6.4,5.4,32.1,32.7,13.4,39.1,1.1
+Jayson Tatum,BOS,7,ESPN recent games only,25.7,6.4,7.0,2.3,1.0,0.1,2.3,20.3,9.0,6.4,5.4,32.1,32.7,13.4,39.1,1.1
 Austin Reaves,LAL,9,ESPN recent games only,22.0,3.9,5.6,2.1,1.0,0.4,5.0,13.3,7.0,6.9,5.9,25.9,27.6,9.4,31.4,1.4
 Scottie Barnes,TOR,8,ESPN recent games only,21.8,6.6,4.1,1.0,1.6,1.2,2.9,17.9,8.9,3.4,3.0,28.4,25.9,10.8,32.5,2.9
 Stephen Curry,GSW,10,ESPN recent games only,21.1,2.9,3.6,3.5,1.0,0.1,1.6,13.3,6.2,5.3,5.2,24.0,24.7,6.5,27.6,1.1
@@ -49,7 +49,7 @@ Collin Sexton,LAL,5,ESPN recent games only,9.6,2.0,2.0,1.2,0.8,0.2,1.6,9.0,3.4,2
 Neemias Queta,BOS,7,ESPN recent games only,9.6,5.0,1.1,0.1,0.3,1.1,1.0,5.7,3.3,4.7,2.9,14.6,10.7,6.1,15.7,1.4
 Sam Hauser,BOS,7,ESPN recent games only,8.9,2.9,1.3,2.4,0.3,0.0,0.3,5.7,3.0,0.4,0.4,11.7,10.1,4.1,13.0,0.3
 Kelly Oubre Jr.,IND,10,ESPN recent games only,8.9,2.5,1.4,1.1,0.5,0.4,1.2,7.1,3.3,1.6,1.2,11.4,10.3,3.9,12.8,0.9
-Luka Garza,BOS,9,ESPN recent games only,8.9,3.9,0.7,1.0,0.7,0.6,0.9,6.1,2.8,3.2,2.3,12.8,9.6,4.6,13.4,1.2
+Luka Garza,BOS,9,ESPN recent games only,8.9,3.9,0.7,1.0,0.7,0.6,0.9,6.2,2.8,3.2,2.3,12.8,9.6,4.6,13.4,1.2
 Egor Demin,BKN,8,ESPN recent games only,8.9,1.8,3.4,1.6,0.9,0.0,1.8,8.4,2.9,1.8,1.5,10.6,12.2,5.1,14.0,0.9
 Gui Santos,GSW,10,ESPN recent games only,8.7,4.0,1.4,0.7,0.5,0.3,1.4,5.9,2.9,3.0,2.2,12.7,10.1,5.4,14.1,0.8
 De'Anthony Melton,GSW,10,ESPN recent games only,8.6,2.9,2.1,1.6,1.8,0.5,1.3,6.6,2.6,2.0,1.8,11.5,10.7,5.0,13.6,2.3
@@ -63,7 +63,7 @@ Jamal Cain,ORL,9,ESPN recent games only,7.7,2.1,0.4,1.1,0.4,0.0,0.8,5.1,2.8,1.2,
 Georges Niang,GSW,10,ESPN recent games only,7.6,2.6,0.9,1.3,0.7,0.1,1.5,6.7,2.6,1.2,1.1,10.2,8.5,3.5,11.1,0.8
 Graham Ike,GSW,9,ESPN recent games only,7.6,4.0,1.3,0.7,0.8,0.2,1.0,5.4,2.6,2.1,1.8,11.6,8.9,5.3,12.9,1.0
 Tucker DeVries,BOS,2,ESPN recent games only,7.5,4.0,1.0,2.5,1.0,0.0,0.5,8.0,2.5,0.0,0.0,11.5,8.5,5.0,12.5,1.0
-Noah Clowney,BKN,9,ESPN recent games only,7.4,4.0,1.2,1.4,0.9,0.6,0.8,4.7,2.1,2.3,1.8,11.4,8.7,5.2,12.7,1.4
+Noah Clowney,BKN,9,ESPN recent games only,7.4,4.1,1.2,1.4,0.9,0.6,0.8,4.7,2.1,2.3,1.8,11.6,8.7,5.3,12.8,1.4
 Jarace Walker,IND,8,ESPN recent games only,7.4,6.0,3.0,1.2,0.5,0.4,2.0,6.9,2.6,1.6,0.9,13.4,10.4,9.0,16.4,0.9
 Quenton Jackson,IND,10,ESPN recent games only,7.4,2.1,2.7,0.6,1.1,0.2,1.3,5.6,2.7,1.5,1.4,9.5,10.1,4.8,12.2,1.3
 Mitchell Robinson,BOS,7,ESPN recent games only,7.3,5.0,0.7,0.0,0.3,1.0,0.6,3.9,3.1,2.6,1.0,12.3,8.0,5.7,13.0,1.3
@@ -72,7 +72,7 @@ Trayce Jackson-Davis,TOR,7,ESPN recent games only,7.1,2.7,0.4,0.0,0.3,0.6,0.7,2.
 Day'Ron Sharpe,BKN,8,ESPN recent games only,7.0,6.0,2.0,0.5,1.1,1.2,1.6,5.6,2.9,1.8,0.8,13.0,9.0,8.0,15.0,2.4
 Kobe Sanders,LAC,5,ESPN recent games only,7.0,3.0,2.4,1.0,1.6,0.0,1.2,6.0,2.4,1.2,1.2,10.0,9.4,5.4,12.4,1.6
 Jaden Hardy,LAL,8,ESPN recent games only,6.9,1.4,1.0,1.0,0.6,0.1,1.8,6.0,2.1,2.0,1.6,8.2,7.9,2.4,9.2,0.8
-Keon Ellis,BKN,9,ESPN recent games only,6.9,1.7,1.6,1.3,1.0,0.8,0.6,6.0,2.6,0.6,0.4,8.6,8.4,3.2,10.1,1.8
+Keon Ellis,BKN,9,ESPN recent games only,6.9,1.6,1.6,1.3,1.0,0.8,0.6,6.0,2.6,0.6,0.4,8.4,8.4,3.1,10.0,1.8
 Grant Nelson,BKN,4,ESPN recent games only,6.8,2.2,0.8,0.5,0.0,0.0,1.2,3.2,2.2,3.0,1.8,9.0,7.5,3.0,9.8,0.0
 Nimari Burnett,TOR,4,ESPN recent games only,6.8,3.0,1.2,1.2,0.8,0.5,0.8,4.0,2.0,1.5,1.5,9.8,8.0,4.2,11.0,1.2
 Malaki Branham,ORL,4,ESPN recent games only,6.8,2.2,0.8,0.8,0.2,0.0,1.5,5.0,2.5,1.2,1.0,9.0,7.5,3.0,9.8,0.2
@@ -101,7 +101,7 @@ Yuki Kawamura,LAC,2,ESPN recent games only,5.5,0.0,2.0,0.5,1.0,0.0,1.5,2.0,1.5,2
 Al Horford,GSW,8,ESPN recent games only,5.4,3.6,1.1,1.4,0.4,0.5,1.1,5.2,1.9,0.2,0.2,9.0,6.5,4.8,10.1,0.9
 Adou Thiero,LAL,3,ESPN recent games only,5.3,3.7,1.7,0.0,1.3,0.7,1.0,5.0,2.3,1.7,0.7,9.0,7.0,5.3,10.7,2.0
 Chris Cenac Jr.,BOS,6,ESPN recent games only,5.3,4.3,0.3,0.2,0.5,0.8,0.7,5.7,2.3,1.5,0.5,9.7,5.7,4.7,10.0,1.3
-Baylor Scheierman,BOS,9,ESPN recent games only,5.3,3.3,2.7,1.1,1.1,0.0,1.2,5.8,1.8,0.8,0.7,8.7,8.0,6.0,11.3,1.1
+Baylor Scheierman,BOS,9,ESPN recent games only,5.3,3.3,2.7,1.1,1.1,0.0,1.2,5.7,1.8,0.8,0.7,8.7,8.0,6.0,11.3,1.1
 Tyler Bilodeau,BKN,2,ESPN recent games only,5.0,4.0,0.0,0.5,0.0,0.0,0.0,2.5,1.5,2.5,1.5,9.0,5.0,4.0,9.0,0.0
 Rienk Mast,IND,4,ESPN recent games only,5.0,3.5,0.5,1.5,0.0,0.0,0.2,3.8,1.8,0.0,0.0,8.5,5.5,4.0,9.0,0.0
 Josh Minott,BKN,8,ESPN recent games only,5.0,2.1,0.4,0.8,0.5,0.1,0.5,4.2,1.6,1.6,1.0,7.1,5.4,2.5,7.5,0.6
@@ -113,7 +113,7 @@ Alijah Martin,TOR,6,ESPN recent games only,4.5,1.0,0.5,0.3,1.0,0.0,1.2,3.0,1.5,1
 Keba Keita,IND,4,ESPN recent games only,4.5,2.5,0.0,0.0,0.0,0.5,0.5,2.8,2.2,0.0,0.0,7.0,4.5,2.5,7.0,0.5
 Nick Martinelli,LAC,6,ESPN recent games only,4.5,1.8,0.8,0.3,0.0,0.0,0.8,4.2,1.7,0.8,0.8,6.3,5.3,2.7,7.2,0.0
 Blake Wesley,LAC,4,ESPN recent games only,4.5,2.0,1.5,0.0,0.2,0.2,1.0,4.5,1.8,1.8,1.0,6.5,6.0,3.5,8.0,0.5
-Mike Conley,BOS,2,ESPN recent games only,4.5,0.5,2.0,1.0,1.5,0.0,1.5,2.5,1.5,0.5,0.5,5.0,6.5,2.5,7.0,1.5
+Mike Conley,BOS,2,ESPN recent games only,4.5,0.5,2.0,1.0,1.5,0.0,1.0,2.5,1.5,0.5,0.5,5.0,6.5,2.5,7.0,1.5
 Chris Manon,LAL,7,ESPN recent games only,4.4,1.6,0.6,0.1,0.7,0.3,1.1,3.0,1.3,2.1,1.7,6.0,5.0,2.1,6.6,1.0
 Noah Penda,ORL,3,ESPN recent games only,4.3,3.0,2.3,1.0,1.0,0.7,1.3,4.0,1.7,0.0,0.0,7.3,6.7,5.3,9.7,1.7
 JD Davison,ORL,4,ESPN recent games only,4.2,1.2,2.2,0.8,0.8,0.5,0.2,2.5,1.2,1.2,1.0,5.5,6.5,3.5,7.8,1.2
