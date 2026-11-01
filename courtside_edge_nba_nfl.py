@@ -465,6 +465,7 @@ if sport=='NFL' and page in ('Betting Comparisons','Overview','Lay of the Day'):
         comparison=pd.DataFrame()
         st.warning('NFL projection data or current standard lines unavailable.')
     st.caption(f'NFL comparison source: {nfl_board_source} · {nfl_board_lines} eligible lines · {len(comparison)} matched before time filtering.')
+saved_comparison= comparison.copy() if comparison is not None else pd.DataFrame()
 if comparison is not None and not comparison.empty:
     required=['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference']
     missing=set(required)-set(comparison.columns)
@@ -1110,6 +1111,23 @@ if page=='Overview':
     st.stop()
 
 else:st.subheader('Compare player props')
+# Always keep the model results visible, even if no upcoming lines qualify.
+st.markdown('### Model results & comparison table')
+st.caption('Upcoming lines are shown first. Saved comparisons are historical snapshots and may no longer be available to bet.')
+table_source=comparison if not comparison.empty else saved_comparison
+if table_source is not None and not table_source.empty:
+    available_cols=[c for c in ['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','GameStartsAt','ReliabilityScore','PickQuality'] if c in table_source.columns]
+    st.dataframe(table_source[available_cols],hide_index=True,use_container_width=True)
+    st.download_button('Download all model comparisons',table_source[available_cols].to_csv(index=False).encode('utf-8'),file_name=f'{sport.lower()}_model_results.csv',mime='text/csv',key='model_results_download')
+elif projections is not None and not projections.empty:
+    st.info('No matched sportsbook lines available. Showing model projections instead.')
+    st.dataframe(projections,hide_index=True,use_container_width=True)
+    st.download_button('Download projections',projections.to_csv(index=False).encode('utf-8'),file_name=f'{sport.lower()}_projections.csv',mime='text/csv',key='projection_results_download')
+else:
+    st.warning('No model projections or comparisons are currently available.')
+if comparison.empty:
+    st.info('No upcoming matched props right now. Historical comparisons above remain visible; refresh for new games.')
+    st.stop()
 board_mode=st.radio('Board view',['All comparisons','Top gaps'],horizontal=True,key=f'board_mode_{sport}')
 st.caption('Top gaps highlights the largest model-to-line differences; it does not imply a higher chance of winning.')
 
