@@ -369,7 +369,23 @@ def coverage_audit(lines, model, matched_comparisons, selected_sport):
 if page=='All PrizePicks Props':
     st.subheader(f'All {sport} PrizePicks standard props')
     st.caption('Only PrizePicks standard lines. No Demons, Goblins, live, combo or promotional lines. Data is limited to what the connected feed actually returns.')
-    all_props=standard_prizepicks_props(sport)
+    source=st.radio('PrizePicks data source',
+                    ['Saved ParlayAPI feed','Live PrizePicks partner feed (experimental)'],
+                    horizontal=True,key=f'props_source_{sport}')
+    if source.startswith('Live'):
+        st.caption('Requests the PrizePicks endpoint from the hosted website. Access may be blocked or unavailable; no sportsbook lines are invented.')
+        try:
+            from prizepicks_partner_api import fetch
+            with st.spinner('Requesting live PrizePicks standard lines...'):
+                live=fetch(sport,persist=False)
+            all_props=live[['Player','Team','Stat','Line','GameStartsAt']].copy()
+            st.success(f'Live partner endpoint returned {len(all_props)} standard lines.')
+        except Exception as exc:
+            st.error(f'Live PrizePicks source unavailable: {type(exc).__name__}: {exc}')
+            st.info('Switch to Saved ParlayAPI feed above to see existing data.')
+            st.stop()
+    else:
+        all_props=standard_prizepicks_props(sport)
     if all_props.empty:
         st.info('No upcoming standard PrizePicks lines are available from the current feed.')
         st.stop()
