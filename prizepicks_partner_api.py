@@ -22,7 +22,7 @@ NFL={'Passing Yards':'Passing Yards','Pass Yards':'Passing Yards',
 def attr(obj,key,default=None):
     return (obj or {}).get('attributes',{}).get(key,default)
 
-def fetch(sport):
+def fetch(sport, persist=True):
     if sport not in LEAGUES:raise ValueError(sport)
     session=requests.Session()
     rows=[];page=1;seen=set()
@@ -72,6 +72,8 @@ def fetch(sport):
     frame['Line']=pd.to_numeric(frame['Line'],errors='coerce')
     frame=frame.dropna(subset=['Player','Stat','Line'])
     if frame.empty:raise RuntimeError('No usable standard lines; saved CSVs unchanged.')
+    if not persist:
+        return frame
     if sport=='NBA':
         frame['stat']=frame['Stat'].map(lambda v:NBA.get(v,v))
         output=frame.rename(columns={'Player':'playerName','Team':'team','Line':'line','GameStartsAt':'gameStartsAt'})
@@ -89,6 +91,7 @@ def fetch(sport):
         modelable[['Player','Team','Stat','SportsbookLine','GameStartsAt']].to_csv(
             ROOT/'nfl_prizepicks_lines.csv',index=False)
     print(f'Partner endpoint: saved {len(frame)} {sport} standard props from {page} page(s).')
+    return frame
 
 if __name__=='__main__':
     import argparse
