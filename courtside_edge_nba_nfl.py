@@ -217,9 +217,15 @@ def show_recent_games(sport, player_name, stat=None, player_id=None):
     if chart.empty:
         st.info('No completed games with this statistic.')
         return
+    values=chart[selected]
+    k1,k2,k3=st.columns(3)
+    k1.metric('Last 5 average',f'{values.mean():.1f}',help='Average from the completed games shown below.')
+    k2.metric('Highest game',f'{values.max():.1f}')
+    k3.metric('Lowest game',f'{values.min():.1f}')
     st.bar_chart(chart,color='#7C3AED',use_container_width=True)
-    st.caption(f'{len(chart)} recorded games · {selected} average: {chart[selected].mean():.1f} · Actual box-score results, not model projections.')
-    st.dataframe(logs,hide_index=True,use_container_width=True)
+    st.caption(f'{len(chart)} completed games · Each purple bar represents one real game, not a prediction.')
+    with st.expander('See the exact game-by-game numbers'):
+        st.dataframe(logs,hide_index=True,use_container_width=True)
 
 SPORT_FILES={'NBA':{'comparison':'nba_prizepicks_comparison.csv','projections':'todays_nba_projections.csv','lines':'prizepicks_nba_lines.csv'},
              'NFL':{'comparison':'nfl_comparison.csv','projections':'nfl_projections.csv','lines':'nfl_prizepicks_lines.csv'}}
@@ -266,7 +272,7 @@ if comparison is not None and not comparison.empty:
 else:comparison=pd.DataFrame(columns=['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference','Gap','Model lean','Headshot','Injury status'])
 
 st.markdown(f'''<div class="hero"><span class="eyebrow">◉ COURTSIDE EDGE / {sport} ANALYTICS</span>
-<h1>Find Your Edge<span style="color:#6415D8">.</span></h1>
+<h1>Find Your <span style="color:#6415D8">Edge.</span></h1>
 <p>Player projections. Sportsbook lines. A clearer picture of the game.</p></div>''',unsafe_allow_html=True)
 st.caption(f"{date.today():%A, %B %d, %Y}  ·  {sport} comparison file: {modified(files['comparison'])}")
 st.caption('Updated file timestamps do not verify that games, line availability, or player status are current.')
@@ -490,6 +496,7 @@ if page=='Model Performance':
         Decisions='size',Wins=lambda x:int(x.eq('WIN').sum())).reset_index()
     if not buckets.empty:
         buckets['Hit rate']=buckets['Wins']/buckets['Decisions']
+        st.caption('These are historical outcomes, not a rule for choosing future bets.')
         st.bar_chart(buckets.set_index('Gap group')['Hit rate'],color='#6415D8')
         st.dataframe(buckets,hide_index=True,use_container_width=True,
             column_config={'Hit rate':st.column_config.NumberColumn('Hit rate',format='percent')})
