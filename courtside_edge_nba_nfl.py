@@ -382,6 +382,19 @@ if page=='All PrizePicks Props':
     z.metric('Without comparison',total-matched)
     st.progress(matched/total if total else 0,text=f'{matched/total:.1%} of received standard lines have model comparisons' if total else 'No lines')
     reasons=all_props['Coverage status'].value_counts().rename_axis('Reason').reset_index(name='Props')
+    missing=all_props.loc[~all_props['Has model projection']].copy()
+    if not missing.empty:
+        st.warning(f'{len(missing)} standard PrizePicks lines still have no verified comparison.')
+        with st.expander('See every missing line and why',expanded=False):
+            st.dataframe(missing[[c for c in ['Player','Team','Stat','Line','Coverage status']
+                                  if c in missing.columns]],hide_index=True,use_container_width=True)
+    if sport=='NFL':
+        for expected in ('Justin Jefferson','Jordan Addison'):
+            found=all_props['Player'].astype(str).str.casefold().eq(expected.casefold())
+            if not found.any():
+                st.info(f'{expected}: not present in the saved standard PrizePicks feed. A model projection alone cannot supply a sportsbook line.')
+            elif not all_props.loc[found,'Has model projection'].all():
+                st.warning(f'{expected}: feed line found, but at least one comparison is missing.')
     with st.expander('Why are some props missing comparisons?',expanded=True):
         st.dataframe(reasons,hide_index=True,use_container_width=True)
         st.caption('Unsupported stats need verified game-level data. Player mismatches and comparison gaps are separate issues.')
