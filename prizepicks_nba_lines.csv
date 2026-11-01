@@ -1,27 +1,21 @@
 playerName,team,stat,line,league,isLive,isCombo,isPromo,oddsType,projectionType,gameStartsAt
 Anthony Black,,Assists,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Anthony Black,,Points,13.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Anthony Black,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Derrick White,,Assists,4.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Derrick White,,Points,14.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Derrick White,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Desmond Bane,,Assists,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Desmond Bane,,Points,18.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Franz Wagner,,Assists,5.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Franz Wagner,,Points,23.0,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Franz Wagner,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Jase Richardson,,Points,8.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Jayson Tatum,,Assists,6.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Jayson Tatum,,Points,27.0,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Jayson Tatum,,Rebounds,7.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Mitchell Robinson,,Rebounds,6.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
+Jordan Walsh,,Points,4.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
+Jordan Walsh,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Paul George,,Points,17.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Paul George,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Payton Pritchard,,Points,15.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Tristan da Silva,,Points,10.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
+Tristan da Silva,,Assists,1.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
+Tristan da Silva,,Points,9.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Tristan da Silva,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Wendell Carter Jr.,,Points,11.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
-Wendell Carter Jr.,,Rebounds,7.5,NBA,False,False,False,standard,STANDARD,2026-11-01T15:30:00.000-05:00
 Aaron Nesmith,,Points,12.5,NBA,False,False,False,standard,STANDARD,2026-11-01T17:00:00.000-05:00
 Andrew Nembhard,,Assists,9.5,NBA,False,False,False,standard,STANDARD,2026-11-01T17:00:00.000-05:00
 Andrew Nembhard,,Points,19.5,NBA,False,False,False,standard,STANDARD,2026-11-01T17:00:00.000-05:00
@@ -43,3 +37,26 @@ Obi Toppin,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-11-01T17:0
 Pascal Siakam,,Assists,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T17:00:00.000-05:00
 Pascal Siakam,,Points,22.5,NBA,False,False,False,standard,STANDARD,2026-11-01T17:00:00.000-05:00
 Pascal Siakam,,Rebounds,7.5,NBA,False,False,False,standard,STANDARD,2026-11-01T17:00:00.000-05:00
+Brandin Podziemski,,Assists,4.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Brandin Podziemski,,Points,16.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Brandin Podziemski,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Brook Lopez,,Points,9.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Darius Garland,,Assists,7.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Darius Garland,,Points,26.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Darius Garland,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Derrick Jones Jr.,,Points,9.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Gui Santos,,Assists,2.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Gui Santos,,Points,11.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Isaiah Jackson,,Points,9.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Isaiah Jackson,,Rebounds,7.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Keaton Wagler,,Points,12.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Keaton Wagler,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Kobe Sanders,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Kris Dunn,,Assists,5.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Kris Dunn,,Points,7.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Kris Dunn,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Rui Hachimura,,Points,13.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Rui Hachimura,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Yaxel Lendeborg,,Assists,3.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Yaxel Lendeborg,,Points,24.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
+Yaxel Lendeborg,,Rebounds,8.5,NBA,False,False,False,standard,STANDARD,2026-11-01T20:30:00.000-05:00
