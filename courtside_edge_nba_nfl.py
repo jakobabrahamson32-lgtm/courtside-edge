@@ -452,6 +452,34 @@ if page=='All PrizePicks Props':
         all_props['Has model projection']=all_props['ModelProjection'].notna()
         all_props['Difference']=(all_props['ModelProjection']-all_props['Line']).round(2)
     all_props['Has model projection']=all_props['Has model projection'].fillna(False).astype(bool)
+    if sport=='NFL':
+        # Coverage must distinguish unsupported markets from identity failures.
+        from nfl_compare import clean, short_key
+        nfl_aliases={
+            'playerpassyds':'Passing Yards','playerpassattempts':'Passing Attempts',
+            'playerpasscompletions':'Passing Completions','playerrushyards':'Rushing Yards',
+            'playerrushattempts':'Rushing Attempts','playerreceivingyards':'Receiving Yards',
+            'playerreceptions':'Receptions','playerrectargets':'Targets',
+            'playerint':'Interceptions','playerpasstds':'Passing TDs',
+            'playerrushtds':'Rushing TDs','playercompletionpercentage':'Completion Percentage',
+            'playerrushyardspercarry':'Yards Per Rush Attempt',
+            'playerpassplusrushyds':'Passing + Rushing Yards',
+            'playerrushplusrecyds':'Rushing + Receiving Yards',
+        }
+        all_props['ModelStat']=all_props['Stat'].map(lambda x:nfl_aliases.get(clean(x),x))
+        model_stats=set(projections['Stat'].dropna().astype(str)) if projections is not None and not projections.empty and 'Stat' in projections else set()
+        model_players=set(projections['Player'].map(short_key)) if projections is not None and not projections.empty and 'Player' in projections else set()
+        def missing_reason(row):
+            if row['Has model projection']:return 'Matched'
+            if row['ModelStat'] not in model_stats:return 'Market not in current projections'
+            if short_key(row['Player']) not in model_players:return 'Player not in current projections'
+            return 'Player/stat match failed'
+        all_props['Coverage reason']=all_props.apply(missing_reason,axis=1)
+        with st.expander('Why are NFL props unmatched?',expanded=False):
+            counts=all_props['Coverage reason'].value_counts().rename_axis('Reason').reset_index(name='Props')
+            st.dataframe(counts,hide_index=True,use_container_width=True)
+            market_summary=all_props.groupby(['Stat','Coverage reason']).size().reset_index(name='Props')
+            st.dataframe(market_summary.sort_values('Props',ascending=False),hide_index=True,use_container_width=True)
     st.caption(f'{feed_note} · {len(all_props)} upcoming props · {int(all_props["Has model projection"].sum())} matched')
     market=st.selectbox('Market',['All']+sorted(all_props['Stat'].dropna().astype(str).unique()),key=f'props_market_v2_{sport}')
     coverage=st.selectbox('Show',['All props','Matched only','Unmatched only'],key=f'props_coverage_v2_{sport}')
@@ -465,7 +493,7 @@ if page=='All PrizePicks Props':
     elif coverage=='Unmatched only':
         view=view[~view['Has model projection']]
     st.caption(f'{len(view)} matching props')
-    display=[c for c in ['Player','Team','Stat','Line','ModelProjection','Difference','GameStartsAt','Has model projection'] if c in view.columns]
+    display=[c for c in ['Player','Team','Stat','Line','ModelProjection','Difference','GameStartsAt','Has model projection','Coverage reason'] if c in view.columns]
     st.dataframe(view[display],hide_index=True,use_container_width=True)
     if search and view.empty:
         st.info('No matching upcoming standard line in this source. Try the other source; this does not mean the player is missing from the model.')
