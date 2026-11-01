@@ -52,11 +52,12 @@ props["ModelStat"] = props["stat"].map(stat_map)
 props["line"] = pd.to_numeric(props["line"], errors="coerce")
 props = props.dropna(subset=["line", "playerName"])
 
-# ESPN returns recent appearances with former teams as well as current teams.
-# If a name appears for multiple teams, preserve it only if the most recent
-# team can be independently established from the current season data.
-# A unique name is safe for the name-based sportsbook match.
-nba = nba[~nba["MatchName"].duplicated(keep=False)].copy()
+# Keep one projection per normalized player name. If ESPN reports a
+# player on multiple teams within the lookback period, choose the row
+# with the largest verified recent-game sample for a stable baseline.
+nba = nba.sort_values("Games", ascending=False).drop_duplicates(
+    subset=["MatchName"], keep="first"
+).copy()
 print("Unique ESPN players available:", len(nba))
 
 # Keep one standard line per player and stat
