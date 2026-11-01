@@ -83,7 +83,7 @@ props = props.drop_duplicates(
 
 # Convert projections into long format
 nba_long = nba.melt(
-    id_vars=["Player", "Team", "MatchName"],
+    id_vars=["Player", "Team", "MatchName", "Games"],
     value_vars=["Points", "Rebounds", "Assists", "Threes"],
     var_name="ModelStat",
     value_name="Projection"
@@ -133,19 +133,38 @@ matched["Direction"] = matched["Difference"].apply(
 )
 
 matched["AbsDifference"] = matched["Difference"].abs()
+# Score relative edge and sample size instead of rewarding raw point gaps.
+# This is a heuristic ranking, not a measured probability of winning.
+matched["Games"] = pd.to_numeric(matched["Games"], errors="coerce").fillna(0)
+matched["EdgePct"] = (
+    matched["AbsDifference"] / matched["line"].abs().clip(lower=3)
+).round(3)
+matched["ReliabilityScore"] = (
+    100 * matched["EdgePct"].clip(upper=0.5)
+    * (matched["Games"] / 8).clip(lower=0, upper=1)
+).round(2)
+matched["PickQuality"] = "WATCHLIST"
+matched.loc[
+    (matched["Games"] >= 5) & (matched["EdgePct"] >= 0.12)
+    & (matched["Difference"] != 0), "PickQuality"
+] = "QUALIFIED"
+matched.loc[matched["Games"] < 4, "PickQuality"] = "LOW SAMPLE"
+matched.loc[matched["Difference"] == 0, "PickQuality"] = "NO EDGE"
 
 matched = matched.sort_values(
-    "AbsDifference", ascending=False
+    ["ReliabilityScore", "AbsDifference"], ascending=False
 )
 
 output = matched[
     ["Player", "Team", "stat", "line",
-     "Projection", "Difference", "Direction", "gameStartsAt"]
+     "Projection", "Difference", "Direction", "gameStartsAt",
+     "Games", "EdgePct", "ReliabilityScore", "PickQuality"]
 ].copy()
 
 output.columns = [
     "Player", "Team", "Stat", "PrizePicksLine",
-    "ModelProjection", "Difference", "Direction", "GameStartsAt"
+    "ModelProjection", "Difference", "Direction", "GameStartsAt",
+    "Games", "EdgePct", "ReliabilityScore", "PickQuality"
 ]
 
 print("\nMatched PrizePicks props:", len(output))
