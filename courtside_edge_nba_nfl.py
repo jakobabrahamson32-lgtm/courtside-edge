@@ -241,9 +241,48 @@ with st.sidebar:
         st.cache_data.clear();st.rerun()
     st.caption('Hosted data · Courtside Edge repository')
 
+@st.cache_data(ttl=300,show_spinner=False)
+def nfl_live_feed():
+    from prizepicks_partner_api import fetch
+    return fetch('NFL',persist=False)
+
+def nfl_allowed_lines(data):
+    from nfl_compare import clean
+    excluded={'playerfantasypoints','fantasypoints','playerlongestreception',
+              'longestreception','playerlongestrush','longestrush',
+              'playertacklesplusast','tacklesplusassists','totaltacklesassists'}
+    result=data.copy()
+    market=result['MarketKey'] if 'MarketKey' in result else result['Stat']
+    result=result.loc[~(market.fillna('').map(clean).isin(excluded) |
+                        result['Stat'].fillna('').map(clean).isin(excluded))].copy()
+    result['Line']=pd.to_numeric(result['Line'],errors='coerce')
+    result=result.dropna(subset=['Player','Stat','Line'])
+    if 'GameStartsAt' in result:
+        starts=pd.to_datetime(result['GameStartsAt'],utc=True,errors='coerce')
+        result=result.loc[starts.notna() & starts.gt(pd.Timestamp.now(tz='UTC'))].copy()
+    return result.drop_duplicates(['Player','Stat','Line'])
+
 files=SPORT_FILES[sport]
 comparison=read_file(files['comparison'])
 projections=read_file(files['projections'])
+if sport=='NFL' and page in ('Betting Comparisons','Top Gaps','Overview','Lay of the Day'):
+    # The comparison board must use the same current feed as the Props tab.
+    # The saved comparison CSV is only a fallback, never a competing source of truth.
+    try:
+        from nfl_compare import match_frames
+        current_lines=nfl_allowed_lines(nfl_live_feed())
+        if projections is not None and not projections.empty:
+            current_matches=match_frames(projections,current_lines.rename(columns={'Line':'SportsbookLine'}))
+            if not current_matches.empty:
+                comparison=current_matches
+            else:
+                comparison=pd.DataFrame()
+        else:
+            comparison=pd.DataFrame()
+            st.warning('NFL projection data unavailable; live comparisons cannot be calculated.')
+    except Exception as exc:
+        st.warning(f'Live NFL comparisons unavailable ({type(exc).__name__}); showing saved comparison file.')
+
 if comparison is not None and not comparison.empty:
     required=['Player','Team','Stat','PrizePicksLine','ModelProjection','Difference']
     missing=set(required)-set(comparison.columns)
@@ -392,7 +431,7 @@ if page=='All PrizePicks Props':
         try:
             from prizepicks_partner_api import fetch
             with st.spinner('Loading live standard props...'):
-                all_props=fetch(sport,persist=False)
+                all_props=nfl_live_feed() if sport=='NFL' else fetch(sport,persist=False)
             feed_note=f'Live feed: {len(all_props)} lines'
         except Exception as exc:
             st.warning(f'Live feed unavailable ({type(exc).__name__}). Showing saved data instead.')
