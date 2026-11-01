@@ -53,7 +53,11 @@ def match_frames(projections, lines):
         'passingcompletions':'Passing Completions',
         'recs':'Receptions','receptions':'Receptions','receivingreceptions':'Receptions',
         'recyards':'Receiving Yards','receivingyds':'Receiving Yards',
-        'receivingyards':'Receiving Yards'
+        'receivingyards':'Receiving Yards',
+        'playerrectargets':'Targets','rectargets':'Targets',
+        'playerreceivingyards':'Receiving Yards','playerreceptions':'Receptions',
+        'playerrushingyards':'Rushing Yards','playerrushattempts':'Rushing Attempts',
+        'playerpassingattempts':'Passing Attempts','playerpassingcompletions':'Passing Completions'
     }
     lines['Stat'] = lines['Stat'].map(lambda v: aliases.get(clean(v),v))
     lines['SportsbookLine'] = pd.to_numeric(lines['SportsbookLine'],errors='coerce')
