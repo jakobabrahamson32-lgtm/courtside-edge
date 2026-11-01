@@ -29,6 +29,7 @@ def run():
     if not isinstance(items,list):
         raise RuntimeError('Unexpected API response format. Existing CSV was not overwritten.')
     rows=[]
+    all_standard=[]
     unknown=set()
     for item in items:
         if not isinstance(item,dict) or str(item.get('bookmaker','')).lower()!='prizepicks':
@@ -36,12 +37,25 @@ def run():
         if str(item.get('odds_type','')).lower()!='standard' or item.get('period') not in ('FULL',None):
             continue
         market=item.get('market_key','')
+        # Preserve every ordinary full-game PrizePicks market for browsing,
+        # including those for which the model has no projection yet.
+        all_standard.append({'Player':item.get('player'),'Team':item.get('team',''),
+                             'Stat':MARKETS.get(market,market),
+                             'MarketKey':market,'Line':item.get('line'),
+                             'GameStartsAt':item.get('commence_time')})
         stat=MARKETS.get(market)
         if not stat:
             unknown.add(str(market));continue
         rows.append({'Player':item.get('player'),'Team':item.get('team',''),
                      'Stat':stat,'SportsbookLine':item.get('line'),
                      'GameStartsAt':item.get('commence_time')})
+    full=pd.DataFrame(all_standard)
+    if not full.empty:
+        full['Line']=pd.to_numeric(full['Line'],errors='coerce')
+        full=full.dropna(subset=['Player','Stat','Line'])
+        if not full.empty:
+            full.to_csv(Path(__file__).resolve().parent/'nfl_prizepicks_all_standard.csv',index=False)
+            print(f'Saved {len(full)} standard NFL PrizePicks lines across all received markets.')
     df=pd.DataFrame(rows)
     if df.empty:
         print('No supported standard NFL props returned; existing CSV preserved.')
