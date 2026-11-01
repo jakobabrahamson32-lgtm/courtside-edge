@@ -44,11 +44,19 @@ def run(root=ROOT):
     projections['StatKey'] = projections['Stat'].map(clean)
     lines['StatKey'] = lines['Stat'].map(clean)
     projections['BookName'] = projections['Player']
+    # Verified identity overrides for abbreviated names that collide with
+    # unrelated NFL players. IDs below are from the nflverse projection file.
+    verified_ids = {'justinjefferson': '00-0036322',
+                    'jordanaddison': '00-0038994'}
+    lines['VerifiedPlayerID'] = lines['Player'].map(
+        lambda name: verified_ids.get(clean(name), ''))
     model_ids = projections.groupby('Key')['PlayerID'].nunique()
     ambiguous = set(model_ids[model_ids > 1].index)
     if ambiguous:
-        print(f'Skipping {len(ambiguous)} ambiguous abbreviated player keys.')
-    projections = projections[~projections['Key'].isin(ambiguous)].copy()
+        print(f'{len(ambiguous)} ambiguous abbreviated keys; require a verified ID for those names.')
+    projections['AmbiguousKey'] = projections['Key'].isin(ambiguous)
+    # Preserve unambiguous names and verified identity matches; never pick
+    # one of two people solely from a shared initial and surname.
 
     # If multiple distinct sportsbook names share the same short key,
     # matching on initial + surname alone is unsafe.
@@ -65,9 +73,15 @@ def run(root=ROOT):
     lines = lines.drop_duplicates(['Key', 'StatKey'])
 
     joined = projections.merge(
-        lines[['Key', 'StatKey', 'Player', 'Team', 'SportsbookLine', 'GameStartsAt']],
+        lines[['Key', 'StatKey', 'Player', 'Team', 'SportsbookLine',
+               'GameStartsAt', 'VerifiedPlayerID']],
         on=['Key', 'StatKey'], how='inner', suffixes=('', '_Book')
     )
+    joined = joined[
+        (~joined['AmbiguousKey']) |
+        ((joined['VerifiedPlayerID'] != '') &
+         (joined['PlayerID'].astype(str) == joined['VerifiedPlayerID']))
+    ].copy()
     print(f'Matched {len(joined)} rows on player initial + surname + prop type (before team filter).')
     if joined.empty:
         print('No matches. Inspect player spellings and the two Stat columns.')
