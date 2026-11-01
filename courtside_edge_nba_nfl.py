@@ -259,6 +259,11 @@ def show_recent_games(sport, player_name, stat=None, player_id=None):
 
 SPORT_FILES={'NBA':{'comparison':'nba_prizepicks_comparison.csv','projections':'todays_nba_projections.csv','lines':'prizepicks_nba_lines.csv'},
              'NFL':{'comparison':'nfl_comparison.csv','projections':'nfl_projections.csv','lines':'nfl_prizepicks_lines.csv'}}
+def navigate_to(target, selected_sport=None):
+    st.session_state['propified_page']=target
+    if selected_sport is not None:
+        st.session_state['propified_sport']=selected_sport
+
 with st.sidebar:
     st.markdown('### ◉ **PROPIFIED**')
     st.caption('THE PERFORMANCE LAB')
@@ -386,9 +391,7 @@ with navcols[0]:
     st.markdown('<div class="pf-brand"><span class="pf-bars">▂▅▇</span><span class="pf-divider">│</span>Propified</div>',unsafe_allow_html=True)
 for slot,label,target in [(1,'Home','Overview'),(2,'Props','All PrizePicks Props'),(3,'Comparisons','Betting Comparisons'),(4,'Results','Model History'),(5,'Insights','Model Performance')]:
     with navcols[slot]:
-        if st.button(label,key='topnav_'+target,use_container_width=True,type='primary' if page==target else 'secondary'):
-            st.session_state['propified_page']=target
-            st.rerun()
+        st.button(label,key='topnav_'+target,use_container_width=True,type='primary' if page==target else 'secondary',on_click=navigate_to,args=(target,))
 with navcols[6]:
     if st.button('↻ Refresh Data',key='topnav_refresh',use_container_width=True):
         st.cache_data.clear()
@@ -977,17 +980,11 @@ if page=='Overview':
     nba_col,nfl_col=st.columns(2)
     with nba_col:
         st.markdown('<div class="pf-sport-label">🏀 NBA PROPS</div>',unsafe_allow_html=True)
-        if st.button('Today’s NBA Picks  →',key='home_nba',use_container_width=True,type='primary'):
-            st.session_state['propified_page']='Betting Comparisons'
-            st.session_state['propified_sport']='NBA'
-            st.rerun()
+        st.button('Today’s NBA Picks  →',key='home_nba',use_container_width=True,type='primary',on_click=navigate_to,args=('Betting Comparisons','NBA'))
         st.caption('Player projections, prop lines and model comparisons')
     with nfl_col:
         st.markdown('<div class="pf-sport-label">🏈 NFL PROPS</div>',unsafe_allow_html=True)
-        if st.button('Today’s NFL Picks  →',key='home_nfl',use_container_width=True):
-            st.session_state['propified_page']='Betting Comparisons'
-            st.session_state['propified_sport']='NFL'
-            st.rerun()
+        st.button('Today’s NFL Picks  →',key='home_nfl',use_container_width=True,on_click=navigate_to,args=('Betting Comparisons','NFL'))
         st.caption('Player projections, prop lines and model comparisons')
     st.markdown('#### Today’s Top Props')
     if comparison.empty:
