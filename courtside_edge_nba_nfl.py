@@ -405,6 +405,23 @@ if page=='All PrizePicks Props':
         st.warning('No props returned. Try the other data source.')
         st.stop()
     all_props=all_props.copy()
+    if sport=='NFL':
+        # Exclude these unsupported NFL markets from both the displayed feed
+        # and its coverage denominator, regardless of source or label style.
+        excluded_nfl_markets={
+            'playerfantasypoints','fantasypoints',
+            'playerlongestreception','longestreception',
+            'playerlongestrush','longestrush',
+            'playertacklesplusast','tacklesplusassists',
+            'totaltacklesassists',
+        }
+        market_names=all_props['MarketKey'] if 'MarketKey' in all_props else all_props['Stat']
+        normalized_markets=market_names.fillna('').astype(str).map(norm)
+        normalized_stats=all_props['Stat'].fillna('').astype(str).map(norm)
+        excluded=normalized_markets.isin(excluded_nfl_markets) | normalized_stats.isin(excluded_nfl_markets)
+        removed=int(excluded.sum())
+        all_props=all_props.loc[~excluded].copy()
+        st.caption(f'{removed} excluded NFL lines: fantasy points, longest reception, longest rush, tackles + assists.')
     all_props['Line']=pd.to_numeric(all_props['Line'],errors='coerce')
     all_props=all_props.dropna(subset=['Player','Stat','Line'])
     if 'GameStartsAt' in all_props:
