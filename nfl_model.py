@@ -37,7 +37,7 @@ def build(current_weight=0.60, season=2026):
     raw = nfl.load_player_stats([season-1, season], summary_level='week').to_pandas()
     if raw.empty:
         raise RuntimeError('NFL data source returned no rows. Existing files were not changed.')
-    player_col = next((c for c in ['player_name','player_display_name','player'] if c in raw), None)
+    player_col = next((c for c in ['player_display_name','player_name','player'] if c in raw), None)
     team_col = next((c for c in ['team','recent_team'] if c in raw), None)
     id_col = next((c for c in ['player_id','gsis_id'] if c in raw), None)
     if not player_col or not team_col or not id_col or 'season' not in raw or 'week' not in raw:
