@@ -1,22 +1,30 @@
 Player,Team,Stat,SportsbookLine,GameStartsAt
-Antonio Williams,,Receiving Yards,35.5,2026-11-01T20:20:00.000-05:00
-Chig Okonkwo,,Receiving Yards,32.5,2026-11-01T20:20:00.000-05:00
-Dallas Goedert,,Receiving Yards,45.5,2026-11-01T20:20:00.000-05:00
-Darius Cooper,,Receiving Yards,27.5,2026-11-01T20:20:00.000-05:00
-Darius Cooper,,Receptions,2.5,2026-11-01T20:20:00.000-05:00
-Elijah Mitchell,,Rushing Attempts,8.5,2026-11-01T20:20:00.000-05:00
-Jayden Daniels,,Passing Attempts,29.5,2026-11-01T20:20:00.000-05:00
-Jayden Daniels,,Passing Completions,18.0,2026-11-01T20:20:00.000-05:00
-Jeremy McNichols,,Rushing Attempts,5.5,2026-11-01T20:20:00.000-05:00
-John Bates,,Receiving Yards,0.5,2026-11-01T20:20:00.000-05:00
-Makai Lemon,,Receptions,4.5,2026-11-01T20:20:00.000-05:00
-Rachaad White,,Rushing Attempts,11.5,2026-11-01T20:20:00.000-05:00
-Saquon Barkley,,Receiving Yards,11.5,2026-11-01T20:20:00.000-05:00
-Stefon Diggs,,Receiving Yards,42.5,2026-11-01T20:20:00.000-05:00
-Stefon Diggs,,Receptions,4.0,2026-11-01T20:20:00.000-05:00
-Tanner McKee,,Passing Attempts,33.5,2026-11-01T20:20:00.000-05:00
-Tanner McKee,,Passing Yards,202.5,2026-11-01T20:20:00.000-05:00
-Treylon Burks,,Receiving Yards,21.5,2026-11-01T20:20:00.000-05:00
+Antonio Williams,,Receiving Yards,39.5,2026-11-01T20:24:00.000-05:00
+Chig Okonkwo,,Receiving Yards,33.5,2026-11-01T20:24:00.000-05:00
+Dallas Goedert,,Receiving Yards,45.5,2026-11-01T20:24:00.000-05:00
+Darius Cooper,,Receiving Yards,28.5,2026-11-01T20:24:00.000-05:00
+Darius Cooper,,Receptions,2.5,2026-11-01T20:24:00.000-05:00
+Dyami Brown,,Receiving Yards,12.5,2026-11-01T20:24:00.000-05:00
+Elijah Mitchell,,Receiving Yards,6.5,2026-11-01T20:24:00.000-05:00
+Elijah Mitchell,,Rushing Attempts,7.5,2026-11-01T20:24:00.000-05:00
+Hollywood Brown,,Receiving Yards,23.5,2026-11-01T20:24:00.000-05:00
+Jayden Daniels,,Passing Attempts,29.5,2026-11-01T20:24:00.000-05:00
+Jayden Daniels,,Passing Completions,18.0,2026-11-01T20:24:00.000-05:00
+Jayden Daniels,,Passing Yards,198.5,2026-11-01T20:24:00.000-05:00
+Jeremy McNichols,,Rushing Attempts,6.0,2026-11-01T20:24:00.000-05:00
+John Bates,,Receiving Yards,0.5,2026-11-01T20:24:00.000-05:00
+Makai Lemon,,Receiving Yards,45.5,2026-11-01T20:24:00.000-05:00
+Rachaad White,,Receiving Yards,13.5,2026-11-01T20:24:00.000-05:00
+Rachaad White,,Rushing Attempts,11.5,2026-11-01T20:24:00.000-05:00
+Saquon Barkley,,Receiving Yards,12.5,2026-11-01T20:24:00.000-05:00
+Saquon Barkley,,Receptions,2.0,2026-11-01T20:24:00.000-05:00
+Saquon Barkley,,Rushing Attempts,11.0,2026-11-01T20:24:00.000-05:00
+Stefon Diggs,,Receiving Yards,42.5,2026-11-01T20:24:00.000-05:00
+Stefon Diggs,,Receptions,4.0,2026-11-01T20:24:00.000-05:00
+Tanner McKee,,Passing Attempts,33.5,2026-11-01T20:24:00.000-05:00
+Tanner McKee,,Passing Completions,20.0,2026-11-01T20:24:00.000-05:00
+Tanner McKee,,Passing Yards,205.5,2026-11-01T20:24:00.000-05:00
+Treylon Burks,,Receiving Yards,21.5,2026-11-01T20:24:00.000-05:00
 AJ Barner,,Receiving Yards,28.5,2026-11-02T20:15:00.000-05:00
 Caleb Williams,,Passing Attempts,32.5,2026-11-02T20:15:00.000-05:00
 Caleb Williams,,Passing Yards,228.5,2026-11-02T20:15:00.000-05:00
@@ -31,13 +39,10 @@ Jaxon Smith-Njigba,,Receptions,7.0,2026-11-02T20:15:00.000-05:00
 Kalif Raymond,,Receiving Yards,16.5,2026-11-02T20:15:00.000-05:00
 Luther Burden III,,Receiving Yards,52.5,2026-11-02T20:15:00.000-05:00
 Luther Burden III,,Receptions,4.0,2026-11-02T20:15:00.000-05:00
-Rome Odunze,,Receiving Yards,40.5,2026-11-02T20:15:00.000-05:00
 Rome Odunze,,Receptions,3.0,2026-11-02T20:15:00.000-05:00
 Roschon Johnson,,Receptions,0.5,2026-11-02T20:15:00.000-05:00
 Roschon Johnson,,Rushing Attempts,3.5,2026-11-02T20:15:00.000-05:00
-Sam Darnold,,Passing Attempts,30.0,2026-11-02T20:15:00.000-05:00
 Sam Darnold,,Passing Completions,20.0,2026-11-02T20:15:00.000-05:00
-Sam Darnold,,Passing Yards,237.5,2026-11-02T20:15:00.000-05:00
 Sam Darnold,,Rushing Attempts,2.5,2026-11-02T20:15:00.000-05:00
 Sam Roush,,Receiving Yards,5.5,2026-11-02T20:15:00.000-05:00
 Tory Horton,,Receiving Yards,20.5,2026-11-02T20:15:00.000-05:00
