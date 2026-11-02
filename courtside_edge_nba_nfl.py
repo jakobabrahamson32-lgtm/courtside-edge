@@ -1062,6 +1062,10 @@ def render_player_gallery(rows, sport, limit=6):
                 if st.button('Load 5-game chart',key=chart_key+'_button',use_container_width=True):
                     st.session_state[chart_key]=True
                 if st.session_state.get(chart_key,False):
+                    chart_key=f"gallery_chart_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}"
+                if st.button('Load last 5 games chart',key=chart_key):
+                    st.session_state[f'{chart_key}_loaded']=True
+                if st.session_state.get(f'{chart_key}_loaded',False):
                     show_recent_games(sport,str(r['Player']),str(r['Stat']))
 
 if page=='Overview':
@@ -1107,7 +1111,11 @@ if page=='Overview':
                     st.markdown(f"### {pick['Model lean']} {pick['PrizePicksLine']:.1f}")
                     st.caption(f"Model projection {pick['ModelProjection']:.1f}  ·  Difference {pick['Difference']:+.1f}")
                     with st.expander('Last 5 games'):
-                        show_recent_games(sport,str(pick['Player']),str(pick['Stat']))
+                        chart_key=f"home_chart_{sport}_{rank}_{norm(pick['Player'])}_{norm(pick['Stat'])}"
+                        if st.button('Load game chart',key=chart_key):
+                            st.session_state[f'{chart_key}_loaded']=True
+                        if st.session_state.get(f'{chart_key}_loaded',False):
+                            show_recent_games(sport,str(pick['Player']),str(pick['Stat']))
     st.button('See all comparisons →',key='home_all_comparisons',use_container_width=True,type='primary',on_click=navigate_to,args=('Betting Comparisons',))
     st.caption('Rankings reflect the current model and available lines. Confirm game time, player status, and line before acting.')
     st.stop()
