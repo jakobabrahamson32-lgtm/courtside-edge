@@ -1062,10 +1062,6 @@ def render_player_gallery(rows, sport, limit=6):
                 if st.button('Load 5-game chart',key=chart_key+'_button',use_container_width=True):
                     st.session_state[chart_key]=True
                 if st.session_state.get(chart_key,False):
-                    chart_key=f"gallery_chart_{sport}_{index}_{norm(r['Player'])}_{norm(r['Stat'])}"
-                if st.button('Load last 5 games chart',key=chart_key):
-                    st.session_state[f'{chart_key}_loaded']=True
-                if st.session_state.get(f'{chart_key}_loaded',False):
                     show_recent_games(sport,str(r['Player']),str(r['Stat']))
 
 if page=='Overview':
