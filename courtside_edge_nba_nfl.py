@@ -1077,6 +1077,11 @@ if page=='Overview':
         </div>""",unsafe_allow_html=True)
     st.markdown('## Best plays today')
     st.caption(f'{sport} · Upcoming games only · Ranked model comparisons, not guaranteed wins')
+    history=read_file('model_history.csv')
+    if history is not None and {'Sport','CapturedAtUTC'}.issubset(history.columns):
+        captured=pd.to_datetime(history.loc[history['Sport'].astype(str).str.upper().eq(sport),'CapturedAtUTC'],utc=True,errors='coerce').max()
+        if pd.notna(captured):
+            st.caption(f'Latest saved {sport} model snapshot: {captured.strftime("%b %d, %Y %H:%M UTC")} · Snapshot time, not live odds freshness.')
     if comparison.empty:
         st.info('No upcoming matched player props are available right now. Check back after the next data refresh.')
     else:
