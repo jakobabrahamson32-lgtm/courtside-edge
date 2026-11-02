@@ -1007,13 +1007,75 @@ if page=='Model Performance':
                 st.caption('Backtest projection error is not the same as verified sportsbook hit rate.')
     st.stop()
 
+@st.cache_data(ttl=3600,show_spinner=False)
+def nfl_player_projection_fallback(query):
+    """Build real-data NFL baselines for a searched player when saved CSV is missing."""
+    import nflreadpy as nfl
+    from nfl_compare import clean, short_key
+    raw=nfl.load_player_stats([2025,2026],summary_level='week').to_pandas()
+    if raw.empty:
+        return pd.DataFrame()
+    name_col=next((c for c in ['player_display_name','player_name','player'] if c in raw.columns),None)
+    id_col=next((c for c in ['player_id','gsis_id'] if c in raw.columns),None)
+    team_col=next((c for c in ['team','recent_team'] if c in raw.columns),None)
+    if not all([name_col,id_col,team_col]) or not {'season','week'}.issubset(raw.columns):
+        return pd.DataFrame()
+    if 'season_type' in raw:
+        raw=raw[raw['season_type'].astype(str).str.upper().isin(['REG','REGULAR'])]
+    raw['season']=pd.to_numeric(raw['season'],errors='coerce')
+    raw['week']=pd.to_numeric(raw['week'],errors='coerce')
+    matches=raw[raw[name_col].map(clean).eq(clean(query))].copy()
+    if matches.empty:
+        matches=raw[raw[name_col].map(short_key).eq(short_key(query))].copy()
+    ids=matches[id_col].dropna().unique()
+    if len(ids)!=1:
+        return pd.DataFrame()
+    history=raw[raw[id_col].eq(ids[0])].sort_values(['season','week'])
+    current=history[history['season'].eq(2026)]
+    prior=history[history['season'].eq(2025)]
+    if current.empty:
+        return pd.DataFrame()
+    latest=current.iloc[-1]
+    mapping={'Passing Yards':'passing_yards','Passing TDs':'passing_tds',
+             'Passing Attempts':'attempts','Passing Completions':'completions',
+             'Interceptions':'passing_interceptions','Rushing Yards':'rushing_yards',
+             'Rushing Attempts':'carries'}
+    rows=[]
+    for stat,column in mapping.items():
+        if column not in raw.columns:
+            continue
+        now=pd.to_numeric(current[column],errors='coerce').dropna()
+        before=pd.to_numeric(prior[column],errors='coerce').dropna()
+        if now.empty:
+            continue
+        previous_avg=before.mean() if not before.empty else None
+        weight=0.6 if previous_avg is not None else 1.0
+        projected=weight*now.tail(5).mean()+(1-weight)*(previous_avg if previous_avg is not None else 0)
+        rows.append({'Player':str(latest[name_col]),'Team':str(latest[team_col]),
+                     'PlayerID':str(ids[0]),'Stat':stat,'Projection':round(float(projected),2),
+                     'Last5Avg':round(float(now.tail(5).mean()),2),
+                     'Last10Avg':round(float(now.tail(10).mean()),2),
+                     'Games':len(now),'Source':'Live NFL weekly stats'})
+    return pd.DataFrame(rows)
+
 if page=='Player Props':
     st.subheader(f'{sport} player projections')
-    if projections is None or projections.empty:
-        st.info(f'No {sport} projections yet. Run '+('nba_model.py' if sport=='NBA' else 'nfl_model.py')+' first.')
+    search=st.text_input('Find a player',placeholder='Search by player name')
+    data=projections.copy() if projections is not None else pd.DataFrame()
+    if sport=='NFL' and search.strip():
+        existing=data['Player'].astype(str).str.contains(search,case=False,regex=False,na=False).any() if 'Player' in data else False
+        if not existing:
+            try:
+                with st.spinner('Checking NFL weekly stats for this player...'):
+                    recovered=nfl_player_projection_fallback(search.strip())
+                if not recovered.empty:
+                    data=pd.concat([data,recovered],ignore_index=True) if not data.empty else recovered
+                    st.caption('Projection recovered from verified NFL weekly statistics (60% recent five games, 40% prior season). Not matchup-adjusted.')
+            except Exception as exc:
+                st.warning(f'NFL player lookup unavailable: {type(exc).__name__}.')
+    if data.empty:
+        st.info(f'No {sport} projections available for this search.')
     else:
-        data=projections.copy()
-        search=st.text_input('Find a player',placeholder='Search by player name')
         if search:
             text_match=data['Player'].astype(str).str.contains(search,case=False,regex=False,na=False)
             if sport=='NFL':
