@@ -1,29 +1,61 @@
 Player,Team,Stat,SportsbookLine,GameStartsAt
 AJ Barner,,Receiving Yards,28.5,2026-11-02T20:15:00.000-05:00
 Caleb Williams,,Passing Attempts,32.5,2026-11-02T20:15:00.000-05:00
+Caleb Williams,,Passing Yards,228.5,2026-11-02T20:15:00.000-05:00
 Caleb Williams,,Rushing Attempts,4.5,2026-11-02T20:15:00.000-05:00
-Colston Loveland,,Receiving Yards,42.5,2026-11-02T20:15:00.000-05:00
+Colston Loveland,,Receptions,4.0,2026-11-02T20:15:00.000-05:00
 Cooper Kupp,,Receiving Yards,29.5,2026-11-02T20:15:00.000-05:00
+D'Andre Swift,,Receiving Yards,18.5,2026-11-02T20:15:00.000-05:00
 D'Andre Swift,,Receptions,3.0,2026-11-02T20:15:00.000-05:00
+D'Andre Swift,,Rushing Attempts,16.5,2026-11-02T20:15:00.000-05:00
 D'Andre Swift,,Rushing TDs,0.5,2026-11-02T20:15:00.000-05:00
-Jadarian Price,,Receiving Yards,4.5,2026-11-02T20:15:00.000-05:00
 Jadarian Price,,Receptions,1.5,2026-11-02T20:15:00.000-05:00
-Luther Burden III,,Receiving Yards,52.5,2026-11-02T20:15:00.000-05:00
+Jaxon Smith-Njigba,,Receptions,7.0,2026-11-02T20:15:00.000-05:00
+Luther Burden III,,Receptions,4.0,2026-11-02T20:15:00.000-05:00
 Rome Odunze,,Receiving Yards,40.5,2026-11-02T20:15:00.000-05:00
 Rome Odunze,,Receptions,3.0,2026-11-02T20:15:00.000-05:00
+Roschon Johnson,,Receiving Yards,5.5,2026-11-02T20:15:00.000-05:00
 Sam Darnold,,Passing Attempts,30.0,2026-11-02T20:15:00.000-05:00
 Sam Darnold,,Passing Completions,20.0,2026-11-02T20:15:00.000-05:00
-Sam Darnold,,Passing TDs,1.5,2026-11-02T20:15:00.000-05:00
 Sam Darnold,,Passing Yards,237.5,2026-11-02T20:15:00.000-05:00
-Sam Darnold,,Rushing Attempts,2.5,2026-11-02T20:15:00.000-05:00
 Tory Horton,,Receiving Yards,21.5,2026-11-02T20:15:00.000-05:00
 Zach Charbonnet,,Receiving Yards,7.5,2026-11-02T20:15:00.000-05:00
 Zach Charbonnet,,Rushing Attempts,9.5,2026-11-02T20:15:00.000-05:00
+Bhayshul Tuten,,Receiving Yards,13.5,2026-11-05T20:15:00.000-05:00
 Bhayshul Tuten,,Rushing Attempts,16.5,2026-11-05T20:15:00.000-05:00
+Brenton Strange,,Receiving Yards,35.5,2026-11-05T20:15:00.000-05:00
+Chris Rodriguez Jr.,,Receiving Yards,0.5,2026-11-05T20:15:00.000-05:00
+Chris Rodriguez Jr.,,Rushing Attempts,7.0,2026-11-05T20:15:00.000-05:00
 Derrick Henry,,Receptions,1.5,2026-11-05T20:15:00.000-05:00
-Derrick Henry,,Rushing Attempts,19.5,2026-11-05T20:15:00.000-05:00
 Ja'Kobi Lane,,Receptions,1.5,2026-11-05T20:15:00.000-05:00
 Joe Fagnano,,Passing Attempts,29.5,2026-11-05T20:15:00.000-05:00
 Mark Andrews,,Receiving Yards,19.5,2026-11-05T20:15:00.000-05:00
-Parker Washington,,Receptions,4.5,2026-11-05T20:15:00.000-05:00
+Rashod Bateman,,Receiving Yards,16.5,2026-11-05T20:15:00.000-05:00
+Trevor Lawrence,,Passing Attempts,30.5,2026-11-05T20:15:00.000-05:00
+Trevor Lawrence,,Passing Completions,19.5,2026-11-05T20:15:00.000-05:00
+Trevor Lawrence,,Rushing Attempts,3.5,2026-11-05T20:15:00.000-05:00
 Zay Flowers,,Receiving Yards,45.5,2026-11-05T20:15:00.000-05:00
+Joe Burrow,,Passing Yards,272.5,2026-11-08T09:30:00.000-05:00
+Michael Penix Jr.,,Passing Yards,234.5,2026-11-08T09:30:00.000-05:00
+Bo Nix,,Passing Yards,215.5,2026-11-08T13:00:00.000-05:00
+Bryce Young,,Passing Yards,232.5,2026-11-08T13:00:00.000-05:00
+Dak Prescott,,Passing Yards,268.5,2026-11-08T13:00:00.000-05:00
+Deshaun Watson,,Passing Yards,219.5,2026-11-08T13:00:00.000-05:00
+Geno Smith,,Passing Yards,228.5,2026-11-08T13:00:00.000-05:00
+J.J. McCarthy,,Passing Yards,218.5,2026-11-08T13:00:00.000-05:00
+Jared Goff,,Passing Yards,269.5,2026-11-08T13:00:00.000-05:00
+Jayden Daniels,,Passing Yards,209.5,2026-11-08T13:00:00.000-05:00
+Malik Willis,,Passing Yards,192.5,2026-11-08T13:00:00.000-05:00
+Matthew Stafford,,Passing Yards,258.5,2026-11-08T13:00:00.000-05:00
+Patrick Mahomes,,Passing Yards,231.5,2026-11-08T13:00:00.000-05:00
+Tanner McKee,,Passing Yards,205.5,2026-11-08T13:00:00.000-05:00
+Tyler Shough,,Passing Yards,229.5,2026-11-08T13:00:00.000-05:00
+C.J. Stroud,,Passing Yards,254.5,2026-11-08T16:05:00.000-05:00
+Justin Herbert,,Passing Yards,198.5,2026-11-08T16:05:00.000-05:00
+Brock Purdy,,Passing Yards,243.5,2026-11-08T16:25:00.000-05:00
+Drake Maye,,Passing Yards,238.5,2026-11-08T16:25:00.000-05:00
+Jordan Love,,Passing Yards,255.5,2026-11-08T16:25:00.000-05:00
+Kirk Cousins,,Passing Yards,244.5,2026-11-08T16:25:00.000-05:00
+Baker Mayfield,,Passing Yards,220.5,2026-11-08T20:20:00.000-05:00
+Josh Allen,,Passing Yards,226.5,2026-11-09T20:15:00.000-05:00
+Kyler Murray,,Passing Yards,212.5,2026-11-09T20:15:00.000-05:00
