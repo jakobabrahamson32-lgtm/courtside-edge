@@ -1014,7 +1014,13 @@ if page=='Player Props':
     else:
         data=projections.copy()
         search=st.text_input('Find a player',placeholder='Search by player name')
-        if search:data=data[data['Player'].astype(str).str.contains(search,case=False,regex=False,na=False)]
+        if search:
+            text_match=data['Player'].astype(str).str.contains(search,case=False,regex=False,na=False)
+            if sport=='NFL':
+                from nfl_compare import short_key
+                # Match C.Williams, C Williams, and Caleb Williams without assuming a unique surname.
+                text_match=text_match | data['Player'].map(short_key).eq(short_key(search))
+            data=data[text_match]
         data.insert(0,'Headshot',data['Player'].map(lambda n:photo(n,sport)))
         if 'Player' in data.columns:
             if 'injury_lookup' not in locals():
@@ -1029,6 +1035,12 @@ if page=='Player Props':
             selected_rows=data[data['Player'].eq(selected_player)]
             pid=selected_rows['PlayerID'].iloc[0] if 'PlayerID' in selected_rows else None
             show_recent_games(sport,selected_player,player_id=pid)
+        if sport=='NFL' and search and data.empty:
+            st.info('No saved projection matches this player. This may be a missing or outdated model-data row, not a zero projection.')
+        elif sport=='NFL' and search and not data.empty:
+            matched_lines=comparison[comparison['Player'].map(norm).eq(norm(search))] if not comparison.empty else pd.DataFrame()
+            if matched_lines.empty:
+                st.caption('Projection available; no current matched upcoming PrizePicks line. The player can still be viewed here.')
     st.stop()
 
 if comparison.empty and page!='Overview':
