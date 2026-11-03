@@ -920,6 +920,16 @@ if page=='Model History':
     b.metric('Awaiting results',f"{(history['Result']=='PENDING').sum():,}")
     c.metric('Verified decisions',f'{decided:,}')
     d.metric('Verified hit rate',f'{wins/decided:.1%}' if decided else '—')
+    # Read-only settlement health: distinguish future pending games from overdue ones.
+    pending_games=history['Result'].eq('PENDING')
+    cutoff=pd.Timestamp.now(tz='UTC')-pd.Timedelta(hours=24)
+    overdue=pending_games & history['GameStartsAtUTC'].notna() & history['GameStartsAtUTC'].lt(cutoff)
+    overdue_count=int(overdue.sum())
+    if overdue_count:
+        st.warning(f'{overdue_count:,} pending prediction snapshots have game start times over 24 hours ago. '
+                   'These are not counted as wins or losses; check settlement and player participation.')
+    else:
+        st.caption('No pending prediction snapshots are more than 24 hours past their recorded game start.')
     if not decided:
         st.info('Hit rate is unavailable until game results are independently settled. A projection gap is not a verified win.')
     else:
