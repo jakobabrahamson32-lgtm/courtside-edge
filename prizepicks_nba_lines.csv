@@ -1,81 +1,98 @@
 playerName,team,stat,line,league,isLive,isCombo,isPromo,oddsType,projectionType,marketKey,gameStartsAt
 AJ Dybantsa,,player_3_pt_attempted,3.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:00:00.000-05:00
+AJ Dybantsa,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:00:00.000-05:00
 AJ Dybantsa,,player_fg_attempted,14.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:00:00.000-05:00
+AJ Dybantsa,,Points,17.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
 AJ Dybantsa,,player_pts_asts,19.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
-AJ Dybantsa,,player_pts_rebs,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
+AJ Dybantsa,,player_pts_rebs_asts,25.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
+AJ Dybantsa,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:00:00.000-05:00
 AJ Dybantsa,,player_two_pointers_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:00:00.000-05:00
-AJ Dybantsa,,player_two_pointers_made,4.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:00:00.000-05:00
-Aaron Wiggins,,Points,12.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
 Aaron Wiggins,,player_pts_rebs_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
 Alex Sarr,,player_fg_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:00:00.000-05:00
-Alex Sarr,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:00:00.000-05:00
+Alex Sarr,,Points,10.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
+Alex Sarr,,player_pts_asts,12.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
 Alex Sarr,,player_pts_rebs,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
+Alex Sarr,,player_pts_rebs_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
 Alex Sarr,,player_turnovers,1.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T19:00:00.000-05:00
 Alex Sarr,,player_two_pointers_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:00:00.000-05:00
-Anfernee Simons,,player_pts_rebs,10.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
+Anfernee Simons,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
 Anfernee Simons,,player_pts_rebs_asts,12.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
 Anfernee Simons,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T19:00:00.000-05:00
 Anthony Davis,,player_3_pt_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:00:00.000-05:00
 Anthony Davis,,player_fg_attempted,17.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:00:00.000-05:00
-Anthony Davis,,player_free_throws_made,4.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:00:00.000-05:00
+Anthony Davis,,player_pts_asts,25.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
 Anthony Davis,,player_pts_rebs,34.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
+Anthony Davis,,Rebounds,10.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:00:00.000-05:00
 Anthony Davis,,player_two_pointers_attempted,15.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:00:00.000-05:00
+Ausar Thompson,,player_pts_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
 Ausar Thompson,,player_pts_rebs_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
-Ausar Thompson,,Rebounds,6.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:00:00.000-05:00
+Ausar Thompson,,player_rebs_asts,10.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:00:00.000-05:00
 Bilal Coulibaly,,player_pts_rebs,12.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
-CJ McCollum,,Points,16.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
-CJ McCollum,,player_pts_rebs,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
+CJ McCollum,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:00:00.000-05:00
+CJ McCollum,,player_pts_asts,20.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
 CJ McCollum,,player_pts_rebs_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
-Cade Cunningham,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:00:00.000-05:00
-Daniss Jenkins,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
-Daniss Jenkins,,player_pts_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
-Daniss Jenkins,,player_pts_rebs,12.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
-Duncan Robinson,,player_rebs_asts,4.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:00:00.000-05:00
+Cade Cunningham,,player_pts_asts,32.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
+Daniss Jenkins,,player_pts_rebs_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
+Daniss Jenkins,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:00:00.000-05:00
+Duncan Robinson,,Points,13.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
+Duncan Robinson,,player_pts_rebs,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
+Duncan Robinson,,player_pts_rebs_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
 Dyson Daniels,,player_blks_plus_stls,2.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:00:00.000-05:00
 Dyson Daniels,,player_pts_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
 Dyson Daniels,,player_pts_rebs,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
+Dyson Daniels,,player_turnovers,1.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T19:00:00.000-05:00
+Jalen Johnson,,Assists,7.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:00:00.000-05:00
+Jalen Johnson,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:00:00.000-05:00
+Jalen Johnson,,player_pts_asts,28.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
 Jalen Johnson,,player_pts_rebs,29.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
 Jalen Johnson,,player_pts_rebs_asts,37.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
-Jalen Johnson,,player_rebs_asts,16.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:00:00.000-05:00
-Javonte Green,,Points,6.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
+Jalen Johnson,,Rebounds,9.0,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:00:00.000-05:00
+Jalen Johnson,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T19:00:00.000-05:00
 Jaylen Brown,,Assists,3.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:00:00.000-05:00
 Jaylen Brown,,player_pts_rebs,25.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
-Joel Embiid,,player_pts_asts,22.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
 Joel Embiid,,player_pts_rebs,27.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
-Joel Embiid,,player_pts_rebs_asts,31.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
+Joel Embiid,,player_pts_rebs_asts,30.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
+Joel Embiid,,Rebounds,7.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:00:00.000-05:00
+Joel Embiid,,player_rebs_asts,11.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:00:00.000-05:00
 Joel Embiid,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T19:00:00.000-05:00
+John Collins,,Points,11.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
 John Collins,,player_pts_rebs_asts,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
 John Collins,,player_rebs_asts,7.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:00:00.000-05:00
 John Collins,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T19:00:00.000-05:00
-Kevin Huerter,,Points,7.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
 Kevin Huerter,,player_pts_rebs,10.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
 Kyshawn George,,player_fg_attempted,11.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:00:00.000-05:00
 Kyshawn George,,player_free_throws_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:00:00.000-05:00
-Kyshawn George,,Points,14.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
-Kyshawn George,,player_pts_rebs,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
-Kyshawn George,,player_turnovers,2.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T19:00:00.000-05:00
+Kyshawn George,,player_pts_rebs_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
 Kyshawn George,,player_two_pointers_attempted,6.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:00:00.000-05:00
 LeBron James,,Points,14.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
 LeBron James,,player_pts_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
 LeBron James,,player_pts_rebs,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
 LeBron James,,player_pts_rebs_asts,27.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
+LeBron James,,player_rebs_asts,12.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:00:00.000-05:00
+LeBron James,,player_turnovers,2.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T19:00:00.000-05:00
 Luguentz Dort,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
 Luguentz Dort,,player_pts_rebs_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
 Luguentz Dort,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:00:00.000-05:00
-Luguentz Dort,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T19:00:00.000-05:00
+Nickeil Alexander-Walker,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:00:00.000-05:00
 Nickeil Alexander-Walker,,player_pts_asts,24.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
+Nickeil Alexander-Walker,,player_pts_rebs_asts,28.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
+Onyeka Okongwu,,Points,14.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
 Onyeka Okongwu,,player_pts_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
-Onyeka Okongwu,,player_pts_rebs,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
+Onyeka Okongwu,,player_rebs_asts,11.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:00:00.000-05:00
 Paul Reed,,player_blks_plus_stls,2.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:00:00.000-05:00
-Paul Reed,,player_rebs_asts,10.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:00:00.000-05:00
+Paul Reed,,Points,12.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
+Paul Reed,,player_pts_rebs_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
+Paul Reed,,player_turnovers,1.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T19:00:00.000-05:00
 Trae Young,,player_free_throws_made,4.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:00:00.000-05:00
-Trae Young,,player_pts_rebs,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
-Trae Young,,player_pts_rebs_asts,32.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
+Trae Young,,Points,19.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
+Trae Young,,player_rebs_asts,13.0,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:00:00.000-05:00
+Trae Young,,player_two_pointers_attempted,6.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:00:00.000-05:00
 Trae Young,,player_two_pointers_made,3.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:00:00.000-05:00
+Tyrese Maxey,,Assists,4.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:00:00.000-05:00
 Tyrese Maxey,,player_pts_rebs,26.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:00:00.000-05:00
-VJ Edgecombe,,Assists,2.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:00:00.000-05:00
-VJ Edgecombe,,player_pts_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:00:00.000-05:00
-VJ Edgecombe,,player_pts_rebs_asts,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:00:00.000-05:00
+VJ Edgecombe,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:00:00.000-05:00
+VJ Edgecombe,,Points,10.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:00:00.000-05:00
+VJ Edgecombe,,player_rebs_asts,8.0,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:00:00.000-05:00
 AJ Dybantsa + Jalen Johnson,,Points,37.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:10:00.000-05:00
 AJ Dybantsa + Nickeil Alexander-Walker,,Points,38.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:10:00.000-05:00
 Alex Sarr + Jalen Johnson,,Rebounds,15.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:10:00.000-05:00
@@ -90,7 +107,6 @@ Ausar Thompson + Joel Embiid,,Rebounds,14.5,NBA,False,False,False,standard,STAND
 Ausar Thompson + LeBron James,,Assists,10.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:10:00.000-05:00
 Ausar Thompson + LeBron James,,Rebounds,12.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:10:00.000-05:00
 Ausar Thompson + Tyrese Maxey,,Assists,8.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:10:00.000-05:00
-Cade Cunningham,,Points,24.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:10:00.000-05:00
 Cade Cunningham + Anfernee Simons,,player_3_pt_made_combo,4.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T19:10:00.000-05:00
 Cade Cunningham + Jaylen Brown,,Points,43.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:10:00.000-05:00
 Cade Cunningham + Joel Embiid,,Points,43.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:10:00.000-05:00
@@ -118,150 +134,179 @@ Paul Reed + Joel Embiid,,Rebounds,15.5,NBA,False,False,False,standard,STANDARD,p
 Paul Reed + LeBron James,,Rebounds,14.0,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:10:00.000-05:00
 Trae Young + Aaron Wiggins,,player_3_pt_made_combo,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T19:10:00.000-05:00
 Trae Young + CJ McCollum,,player_3_pt_made_combo,4.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T19:10:00.000-05:00
-Trae Young + CJ McCollum,,Points,35.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:10:00.000-05:00
+Trae Young + CJ McCollum,,Points,36.0,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:10:00.000-05:00
 Trae Young + Jalen Johnson,,Assists,17.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:10:00.000-05:00
-Trae Young + Jalen Johnson,,Points,39.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:10:00.000-05:00
+Trae Young + Jalen Johnson,,Points,40.0,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:10:00.000-05:00
 Trae Young + Nickeil Alexander-Walker,,player_3_pt_made_combo,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T19:10:00.000-05:00
-Trae Young + Nickeil Alexander-Walker,,Points,40.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:10:00.000-05:00
+Trae Young + Nickeil Alexander-Walker,,Points,41.0,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:10:00.000-05:00
 VJ Edgecombe,,player_dunks,0.5,NBA,False,False,False,standard,STANDARD,player_dunks,2026-11-04T19:10:00.000-05:00
-AJ Green,,Points,6.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
-Andre Drummond,,Points,4.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
 Andre Drummond,,player_pts_rebs,10.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
 Brandon Miller,,player_3_pt_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Brandon Miller,,player_fg_attempted,18.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Brandon Miller,,player_fg_made,7.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
 Brandon Miller,,player_free_throws_attempted,4.0,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:30:00.000-05:00
 Brandon Miller,,player_free_throws_made,3.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
-Brandon Miller,,player_pts_rebs,28.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Brandon Miller,,Points,22.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
 Brandon Miller,,player_pts_rebs_asts,31.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Brandon Miller,,3-PT Made,3.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T19:30:00.000-05:00
 Brandon Miller,,player_turnovers,2.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T19:30:00.000-05:00
 Brandon Miller,,player_two_pointers_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
-Brayden Burries,,Points,11.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
 Brayden Burries,,player_pts_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
-Brayden Burries,,player_pts_rebs,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Brayden Burries,,player_pts_rebs_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Caleb Wilson,,player_3_pt_attempted,7.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Caleb Wilson,,player_fg_attempted,15.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Caleb Wilson,,player_fg_made,6.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
 Caleb Wilson,,player_free_throws_attempted,4.0,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:30:00.000-05:00
+Caleb Wilson,,Points,19.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
 Caleb Wilson,,player_turnovers,2.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T19:30:00.000-05:00
 Caleb Wilson,,player_two_pointers_attempted,8.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
 Coby White,,player_3_pt_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
+Coby White,,Assists,3.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:30:00.000-05:00
 Coby White,,player_blks_plus_stls,0.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:30:00.000-05:00
 Coby White,,player_fg_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Coby White,,player_free_throws_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:30:00.000-05:00
+Coby White,,Points,12.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
 Coby White,,player_pts_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
-Coby White,,player_pts_rebs,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
-Coby White,,player_pts_rebs_asts,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Coby White,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Coby White,,player_pts_rebs_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Day'Ron Sharpe,,player_fg_made,3.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
-Day'Ron Sharpe,,player_pts_asts,10.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
-Day'Ron Sharpe,,player_pts_rebs,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Day'Ron Sharpe,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
+Day'Ron Sharpe,,player_pts_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Day'Ron Sharpe,,player_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
+Dennis Schröder,,Points,7.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
+Dennis Schröder,,player_pts_asts,11.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+Dennis Schröder,,player_pts_rebs,9.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Dennis Schröder,,player_pts_rebs_asts,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Dennis Schröder,,player_rebs_asts,6.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
 Derrick White,,player_3_pt_attempted,6.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Derrick White,,Assists,5.0,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:30:00.000-05:00
+Derrick White,,player_blocks,0.5,NBA,False,False,False,standard,STANDARD,player_blocks,2026-11-04T19:30:00.000-05:00
 Derrick White,,player_fg_attempted,12.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Derrick White,,player_fg_made,5.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
-Derrick White,,player_pts_rebs,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
 Derrick White,,player_pts_rebs_asts,24.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Derrick White,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
+Grayson Allen,,Points,10.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
 Grayson Allen,,player_pts_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
 Grayson Allen,,player_pts_rebs,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
-Grayson Allen,,player_pts_rebs_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Grayson Allen,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:30:00.000-05:00
 Hugo González,,player_fg_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Hugo González,,player_pts_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Hugo González,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:30:00.000-05:00
+Hugo González,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T19:30:00.000-05:00
 Hugo González,,3-PT Made,0.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T19:30:00.000-05:00
 Jaime Jaquez Jr.,,player_fg_attempted,12.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Jaime Jaquez Jr.,,player_fg_made,5.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
 Jaime Jaquez Jr.,,player_free_throws_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:30:00.000-05:00
-Jaime Jaquez Jr.,,player_pts_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
-Jaime Jaquez Jr.,,player_pts_rebs,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
-Jaime Jaquez Jr.,,player_pts_rebs_asts,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Jaime Jaquez Jr.,,player_two_pointers_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
+Jaime Jaquez Jr.,,player_two_pointers_made,4.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:30:00.000-05:00
+Jalen Brunson,,Assists,6.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:30:00.000-05:00
+Jalen Brunson,,player_fg_made,9.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
+Jalen Brunson,,player_pts_rebs,27.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Jalen Brunson,,player_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
+Jalen Brunson,,player_two_pointers_made,6.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:30:00.000-05:00
 Jalen Smith,,player_3_pt_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Jalen Smith,,Assists,1.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:30:00.000-05:00
 Jalen Smith,,player_fg_attempted,9.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Jalen Smith,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
+Jalen Smith,,Points,10.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
+Jalen Smith,,player_pts_asts,12.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+Jalen Smith,,player_pts_rebs,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Jalen Smith,,player_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
 Jalen Smith,,player_two_pointers_made,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:30:00.000-05:00
 Jayson Tatum,,player_3_pt_attempted,7.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Jayson Tatum,,player_fg_attempted,19.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Jayson Tatum,,player_fg_made,9.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
 Jayson Tatum,,player_free_throws_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:30:00.000-05:00
 Jayson Tatum,,player_free_throws_made,6.0,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
+Jayson Tatum,,player_pts_asts,34.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+Jayson Tatum,,player_rebs_asts,14.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
 Jayson Tatum,,player_two_pointers_attempted,12.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
 Jayson Tatum,,player_two_pointers_made,6.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:30:00.000-05:00
-Josh Giddey,,Assists,7.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:30:00.000-05:00
+Josh Giddey,,player_3_pt_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Josh Giddey,,player_fg_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
-Josh Giddey,,player_fg_made,4.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
-Josh Giddey,,player_pts_asts,20.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
-Josh Giddey,,player_pts_rebs_asts,26.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Josh Giddey,,Points,11.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
+Josh Giddey,,player_pts_rebs,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
 Josh Giddey,,player_turnovers,2.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T19:30:00.000-05:00
 Josh Giddey,,player_two_pointers_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
-Julius Randle,,Assists,4.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:30:00.000-05:00
+Josh Hart,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
+Josh Hart,,player_pts_rebs,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Josh Hart,,player_pts_rebs_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Josh Hart,,player_rebs_asts,11.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
+Josh Hart,,player_turnovers,1.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T19:30:00.000-05:00
 Julius Randle,,player_fg_attempted,15.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Julius Randle,,player_fg_made,6.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
-Julius Randle,,player_free_throws_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:30:00.000-05:00
 Julius Randle,,player_free_throws_made,4.0,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
-Julius Randle,,Rebounds,6.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:30:00.000-05:00
+Julius Randle,,player_pts_asts,24.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+Julius Randle,,player_pts_rebs,26.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Julius Randle,,player_pts_rebs_asts,31.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Julius Randle,,player_two_pointers_attempted,10.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
 Julius Randle,,player_two_pointers_made,5.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:30:00.000-05:00
+Karl-Anthony Towns,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:30:00.000-05:00
+Karl-Anthony Towns,,player_free_throws_made,4.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
 Karl-Anthony Towns,,player_pts_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
-Karl-Anthony Towns,,player_rebs_asts,16.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
-Kel'el Ware,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
-Kel'el Ware,,player_pts_rebs,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
-Kel'el Ware,,Rebounds,7.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:30:00.000-05:00
+Karl-Anthony Towns,,player_pts_rebs,32.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Karl-Anthony Towns,,Rebounds,12.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:30:00.000-05:00
+Karl-Anthony Towns,,player_turnovers,2.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T19:30:00.000-05:00
+Karl-Anthony Towns,,player_two_pointers_made,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:30:00.000-05:00
 Kon Knueppel,,player_3_pt_attempted,6.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Kon Knueppel,,player_fg_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Kon Knueppel,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
 Kon Knueppel,,player_personal_fouls,1.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T19:30:00.000-05:00
-Kon Knueppel,,Points,13.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
-Kon Knueppel,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:30:00.000-05:00
+Kon Knueppel,,player_pts_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+Kon Knueppel,,player_pts_rebs,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Kon Knueppel,,player_pts_rebs_asts,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Kon Knueppel,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T19:30:00.000-05:00
+Kon Knueppel,,player_two_pointers_made,1.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:30:00.000-05:00
 Kyle Kuzma,,player_fg_attempted,8.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Kyle Kuzma,,player_fg_made,3.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
-Kyle Kuzma,,player_pts_asts,12.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
-Kyle Kuzma,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
-Kyle Kuzma,,player_pts_rebs_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
-Kyle Kuzma,,player_rebs_asts,6.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
-Landry Shamet,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
+Kyle Kuzma,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
 Matas Buzelis,,player_3_pt_attempted,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Matas Buzelis,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:30:00.000-05:00
 Matas Buzelis,,player_fg_attempted,10.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Matas Buzelis,,player_fg_made,4.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
 Matas Buzelis,,player_free_throws_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:30:00.000-05:00
 Matas Buzelis,,player_pts_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+Matas Buzelis,,player_pts_rebs,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Matas Buzelis,,player_pts_rebs_asts,20.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Matas Buzelis,,player_rebs_asts,6.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
+Matas Buzelis,,player_two_pointers_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
 Michael Porter Jr.,,player_3_pt_attempted,9.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Michael Porter Jr.,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:30:00.000-05:00
-Michael Porter Jr.,,player_fg_attempted,15.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Michael Porter Jr.,,player_fg_made,6.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
-Michael Porter Jr.,,player_free_throws_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:30:00.000-05:00
-Michael Porter Jr.,,Points,21.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
-Michael Porter Jr.,,player_pts_rebs_asts,30.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Michael Porter Jr.,,player_pts_asts,24.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+Michael Porter Jr.,,player_pts_rebs,28.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
 Michael Porter Jr.,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
-Michael Porter Jr.,,player_turnovers,1.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T19:30:00.000-05:00
-Michael Porter Jr.,,player_two_pointers_attempted,6.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
-Mikel Brown Jr.,,Points,11.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
-Mikel Brown Jr.,,player_pts_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
-Mikel Brown Jr.,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
-Mikel Brown Jr.,,player_pts_rebs_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
-Mikel Brown Jr.,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:30:00.000-05:00
+Mikal Bridges,,player_free_throws_made,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
+Mikal Bridges,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
+Mikal Bridges,,player_pts_rebs_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Mikel Brown Jr.,,player_rebs_asts,6.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
+Moritz Wagner,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
+Moritz Wagner,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
 Moussa Diabaté,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
-Moussa Diabaté,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T19:30:00.000-05:00
-Moussa Diabaté,,player_pts_rebs,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Moussa Diabaté,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
+Moussa Diabaté,,player_pts_asts,10.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+Moussa Diabaté,,player_pts_rebs_asts,20.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Moussa Diabaté,,Rebounds,9.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:30:00.000-05:00
+Moussa Diabaté,,player_rebs_asts,11.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
 Myles Turner,,player_3_pt_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
+Myles Turner,,Assists,1.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:30:00.000-05:00
 Myles Turner,,player_fg_attempted,8.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
-Myles Turner,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
 Myles Turner,,player_pts_rebs_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Myles Turner,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T19:30:00.000-05:00
 Myles Turner,,player_two_pointers_made,1.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:30:00.000-05:00
 Naz Reid,,player_3_pt_attempted,6.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Naz Reid,,player_blocks,0.5,NBA,False,False,False,standard,STANDARD,player_blocks,2026-11-04T19:30:00.000-05:00
 Naz Reid,,player_fg_attempted,12.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Naz Reid,,player_fg_made,6.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
-Naz Reid,,player_pts_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+Naz Reid,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
+Naz Reid,,Points,15.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
+Naz Reid,,player_pts_rebs_asts,25.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Naz Reid,,Rebounds,7.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:30:00.000-05:00
+Naz Reid,,player_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
+Naz Reid,,player_two_pointers_made,3.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:30:00.000-05:00
 Neemias Queta,,player_fg_attempted,6.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Neemias Queta,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
 Neemias Queta,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T19:30:00.000-05:00
-Neemias Queta,,player_pts_rebs,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
 Neemias Queta,,player_pts_rebs_asts,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Neemias Queta,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
 Neemias Queta,,player_two_pointers_attempted,6.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
@@ -270,10 +315,6 @@ Nolan Traore,,player_3_pt_attempted,4.5,NBA,False,False,False,standard,STANDARD,
 Nolan Traore,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T19:30:00.000-05:00
 Nolan Traore,,player_fg_attempted,10.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Nolan Traore,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
-Nolan Traore,,Points,10.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
-Nolan Traore,,player_pts_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
-Nolan Traore,,player_pts_rebs,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
-Nolan Traore,,player_pts_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Nolan Traore,,player_two_pointers_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
 Nolan Traore,,player_two_pointers_made,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T19:30:00.000-05:00
 Norman Powell,,player_3_pt_attempted,7.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
@@ -282,34 +323,38 @@ Norman Powell,,player_fg_made,5.5,NBA,False,False,False,standard,STANDARD,player
 Norman Powell,,player_free_throws_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:30:00.000-05:00
 Norman Powell,,player_free_throws_made,4.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
 Norman Powell,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T19:30:00.000-05:00
-Norman Powell,,player_pts_rebs_asts,24.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
+Norman Powell,,player_pts_rebs,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+OG Anunoby,,Points,17.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
 OG Anunoby,,player_pts_asts,19.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+OG Anunoby,,player_pts_rebs,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+OG Anunoby,,player_pts_rebs_asts,24.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Paul George,,player_3_pt_attempted,8.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
+Paul George,,Assists,4.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:30:00.000-05:00
 Paul George,,player_fg_attempted,16.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Paul George,,player_fg_made,7.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
 Paul George,,player_free_throws_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:30:00.000-05:00
 Paul George,,player_free_throws_made,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
+Paul George,,player_pts_asts,25.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
 Paul George,,player_steals,1.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T19:30:00.000-05:00
 Paul George,,player_two_pointers_attempted,8.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
 Payton Pritchard,,player_3_pt_attempted,7.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Payton Pritchard,,player_fg_attempted,12.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Payton Pritchard,,player_fg_made,6.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
 Payton Pritchard,,player_personal_fouls,1.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T19:30:00.000-05:00
-Payton Pritchard,,Points,16.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
-Payton Pritchard,,player_pts_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+Payton Pritchard,,player_pts_asts,22.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
 Payton Pritchard,,player_pts_rebs,20.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
 Payton Pritchard,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T19:30:00.000-05:00
-Ryan Rollins,,Points,10.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
-Ryan Rollins,,player_pts_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
-Ryan Rollins,,player_pts_rebs,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Ryan Rollins,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:30:00.000-05:00
 Ryan Rollins,,player_pts_rebs_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
-Ryan Rollins,,player_rebs_asts,6.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
+Tre Jones,,player_pts_asts,12.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
+Tre Jones,,player_pts_rebs,11.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Tre Jones,,player_pts_rebs_asts,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:30:00.000-05:00
 Tyler Herro,,player_3_pt_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T19:30:00.000-05:00
 Tyler Herro,,player_fg_attempted,15.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T19:30:00.000-05:00
 Tyler Herro,,player_fg_made,7.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T19:30:00.000-05:00
 Tyler Herro,,player_free_throws_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T19:30:00.000-05:00
 Tyler Herro,,player_free_throws_made,3.0,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T19:30:00.000-05:00
-Tyler Herro,,player_pts_rebs,25.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T19:30:00.000-05:00
+Tyler Herro,,player_pts_asts,25.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T19:30:00.000-05:00
 Tyler Herro,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T19:30:00.000-05:00
 Tyler Herro,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T19:30:00.000-05:00
 Tyler Herro,,player_two_pointers_attempted,8.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T19:30:00.000-05:00
@@ -320,6 +365,7 @@ Derrick White + Brayden Burries,,Points,28.5,NBA,False,False,False,standard,STAN
 Derrick White + Jaime Jaquez Jr.,,Points,31.0,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:40:00.000-05:00
 Derrick White + Tyler Herro,,player_3_pt_made_combo,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T19:40:00.000-05:00
 Derrick White + Tyler Herro,,Points,37.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:40:00.000-05:00
+Jalen Brunson,,player_pts_rebs_asts,34.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:40:00.000-05:00
 Jalen Brunson + Caleb Wilson,,player_3_pt_made_combo,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T19:40:00.000-05:00
 Jalen Brunson + Caleb Wilson,,Points,43.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:40:00.000-05:00
 Jalen Brunson + Josh Giddey,,Assists,14.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T19:40:00.000-05:00
@@ -337,6 +383,7 @@ Julius Randle + Dennis Schröder,,Assists,8.5,NBA,False,False,False,standard,STA
 Julius Randle + Moussa Diabaté,,Rebounds,15.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:40:00.000-05:00
 Julius Randle + Naz Reid,,Points,35.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:40:00.000-05:00
 Julius Randle + Naz Reid,,Rebounds,13.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T19:40:00.000-05:00
+Karl-Anthony Towns,,Points,20.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:40:00.000-05:00
 Karl-Anthony Towns + Caleb Wilson,,Points,39.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:40:00.000-05:00
 Karl-Anthony Towns + Matas Buzelis,,Points,33.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:40:00.000-05:00
 Karl-Anthony Towns + Norman Powell,,Points,39.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:40:00.000-05:00
@@ -365,97 +412,107 @@ Payton Pritchard + AJ Green,,player_3_pt_made_combo,4.5,NBA,False,False,False,st
 Payton Pritchard + Jaime Jaquez Jr.,,Points,31.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:40:00.000-05:00
 Payton Pritchard + Tyler Herro,,player_3_pt_made_combo,5.5,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T19:40:00.000-05:00
 Payton Pritchard + Tyler Herro,,Points,38.0,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:40:00.000-05:00
-Tyler Herro,,player_pts_rebs_asts,29.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T19:40:00.000-05:00
-Aaron Nesmith,,player_pts_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
+Tyler Herro,,Points,20.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T19:40:00.000-05:00
+Aaron Nesmith,,player_3_pt_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T20:00:00.000-05:00
 Aaron Nesmith,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:00:00.000-05:00
-Aaron Nesmith,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T20:00:00.000-05:00
 Ace Bailey,,player_3_pt_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T20:00:00.000-05:00
 Ace Bailey,,player_fg_attempted,12.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T20:00:00.000-05:00
 Ace Bailey,,player_fg_made,5.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T20:00:00.000-05:00
 Ace Bailey,,player_free_throws_attempted,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T20:00:00.000-05:00
-Ace Bailey,,player_pts_rebs,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
 Ace Bailey,,player_pts_rebs_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
 Ace Bailey,,player_rebs_asts,7.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
-Aday Mara,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
+Aday Mara,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
 Aday Mara,,player_pts_rebs_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
 Aday Mara,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
-Ajay Mitchell,,Points,18.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
-Alex Caruso,,player_pts_asts,11.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
-Alex Caruso,,player_pts_rebs,12.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
-Alex Caruso,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:00:00.000-05:00
-Alex Caruso,,player_rebs_asts,6.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
-Andrew Nembhard,,player_rebs_asts,11.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
-Brice Sensabaugh,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
+Ajay Mitchell,,player_pts_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
+Ajay Mitchell,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:00:00.000-05:00
+Alex Caruso,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T20:00:00.000-05:00
+Andrew Nembhard,,player_fg_attempted,13.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T20:00:00.000-05:00
+Andrew Nembhard,,player_fg_made,5.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T20:00:00.000-05:00
+Andrew Nembhard,,player_pts_rebs,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
+Andrew Nembhard,,player_pts_rebs_asts,29.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
+Andrew Nembhard,,player_two_pointers_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T20:00:00.000-05:00
+Andrew Nembhard,,player_two_pointers_made,3.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T20:00:00.000-05:00
 Cam Spencer,,Assists,4.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:00:00.000-05:00
-Cam Spencer,,Points,7.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
 Cam Spencer,,player_pts_asts,12.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
 Cam Spencer,,player_pts_rebs,10.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
 Cam Spencer,,player_pts_rebs_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
-Cam Spencer,,player_rebs_asts,7.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
-Cameron Boozer,,Points,17.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
-Cameron Boozer,,player_pts_asts,22.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
-Cameron Boozer,,Rebounds,9.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:00:00.000-05:00
-Cameron Boozer,,player_rebs_asts,14.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
-Cedric Coward,,Assists,2.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:00:00.000-05:00
-Cedric Coward,,Points,13.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
+Cam Spencer,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:00:00.000-05:00
+Cameron Boozer,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T20:00:00.000-05:00
+Cameron Boozer,,player_personal_fouls,3.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T20:00:00.000-05:00
+Cedric Coward,,player_3_pt_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T20:00:00.000-05:00
+Cedric Coward,,player_fg_attempted,10.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T20:00:00.000-05:00
+Cedric Coward,,player_fg_made,4.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T20:00:00.000-05:00
 Cedric Coward,,player_pts_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
 Cedric Coward,,player_pts_rebs,20.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
-Cedric Coward,,player_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
+Cedric Coward,,player_pts_rebs_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
+Cedric Coward,,player_two_pointers_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T20:00:00.000-05:00
 Darryn Peterson,,player_blocks,0.5,NBA,False,False,False,standard,STANDARD,player_blocks,2026-11-04T20:00:00.000-05:00
 Darryn Peterson,,player_fg_attempted,12.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T20:00:00.000-05:00
 Darryn Peterson,,player_fg_made,5.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T20:00:00.000-05:00
 Darryn Peterson,,player_free_throws_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T20:00:00.000-05:00
 Darryn Peterson,,player_personal_fouls,3.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T20:00:00.000-05:00
+Darryn Peterson,,player_pts_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
 Darryn Peterson,,player_pts_rebs,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
-Darryn Peterson,,player_pts_rebs_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
+Darryn Peterson,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:00:00.000-05:00
 Darryn Peterson,,player_two_pointers_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T20:00:00.000-05:00
 Dejounte Murray,,player_fg_made,6.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T20:00:00.000-05:00
 Dejounte Murray,,player_free_throws_made,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T20:00:00.000-05:00
-Dejounte Murray,,Points,17.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
-Dejounte Murray,,player_pts_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
-Dejounte Murray,,player_pts_rebs_asts,29.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
 Dejounte Murray,,player_two_pointers_made,5.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T20:00:00.000-05:00
-Derik Queen,,player_rebs_asts,9.0,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
-Donovan Mitchell,,Assists,5.0,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:00:00.000-05:00
-Donovan Mitchell,,player_pts_rebs,27.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
+Donovan Mitchell,,player_pts_asts,28.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
 Evan Mobley,,Points,16.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
-Evan Mobley,,player_pts_rebs_asts,29.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
-Evan Mobley,,player_rebs_asts,12.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
+Evan Mobley,,player_pts_asts,20.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
+Evan Mobley,,player_pts_rebs,25.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
+Evan Mobley,,Rebounds,8.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:00:00.000-05:00
+Evan Mobley,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T20:00:00.000-05:00
 Isaiah Collier,,Points,6.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
-Isaiah Collier,,player_pts_rebs_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
-Isaiah Hartenstein,,player_pts_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
-Isaiah Hartenstein,,player_pts_rebs_asts,24.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
+Isaiah Hartenstein,,Points,10.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
+Ivica Zubac,,player_fg_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T20:00:00.000-05:00
+Ivica Zubac,,player_free_throws_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T20:00:00.000-05:00
+Ivica Zubac,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T20:00:00.000-05:00
+Ivica Zubac,,Points,14.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
+Ivica Zubac,,player_pts_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
+Ivica Zubac,,player_pts_rebs,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
+Ivica Zubac,,player_pts_rebs_asts,25.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
+Ivica Zubac,,player_turnovers,1.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T20:00:00.000-05:00
+Ivica Zubac,,player_two_pointers_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T20:00:00.000-05:00
+James Harden,,Assists,6.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:00:00.000-05:00
+James Harden,,player_pts_asts,24.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
+James Harden,,player_pts_rebs,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
+James Harden,,player_pts_rebs_asts,29.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
+James Harden,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:00:00.000-05:00
+James Harden,,player_rebs_asts,11.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
 James Harden,,3-PT Made,2.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T20:00:00.000-05:00
-Jared McCain,,Points,13.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
+Jared McCain,,player_pts_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
+Jared McCain,,player_pts_rebs_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
 Jared McCain,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T20:00:00.000-05:00
-Jarrett Allen,,Points,12.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
+Jarrett Allen,,player_pts_rebs,20.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
 Jarrett Allen,,player_pts_rebs_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
 Jarrett Allen,,player_rebs_asts,10.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
 Jaxson Hayes,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T20:00:00.000-05:00
-Jaxson Hayes,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
-Jaxson Hayes,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
 Jaxson Hayes,,player_pts_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
 Jaxson Hayes,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
 Jaxson Hayes,,player_two_pointers_made,3.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T20:00:00.000-05:00
+Jaylen Wells,,player_3_pt_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T20:00:00.000-05:00
+Jaylen Wells,,player_fg_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T20:00:00.000-05:00
+Jaylen Wells,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T20:00:00.000-05:00
+Jaylen Wells,,Points,10.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
 Jaylen Wells,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
-Jaylin Williams,,player_pts_rebs,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
+Jaylen Wells,,player_pts_rebs_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
+Jaylin Williams,,Points,6.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
+Jaylin Williams,,player_pts_rebs_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
+Jaylin Williams,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
 Jaylin Williams,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T20:00:00.000-05:00
+Jaylin Williams,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T20:00:00.000-05:00
 Jerami Grant,,player_pts_rebs,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
-Jerami Grant,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:00:00.000-05:00
 Jerami Grant,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T20:00:00.000-05:00
-Jeremiah Fears,,Assists,3.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:00:00.000-05:00
 Jeremiah Fears,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T20:00:00.000-05:00
 Jeremiah Fears,,player_fg_made,5.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T20:00:00.000-05:00
 Jeremiah Fears,,player_free_throws_attempted,3.0,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T20:00:00.000-05:00
-Jeremiah Fears,,player_pts_rebs,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
-Jeremiah Fears,,player_pts_rebs_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
-Karlo Matković,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
-Karlo Matković,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
+Jeremiah Fears,,Points,13.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
+Jeremiah Fears,,player_pts_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
 Karlo Matković,,player_pts_rebs_asts,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
-Kelly Oubre Jr.,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
-Kelly Oubre Jr.,,player_pts_rebs_asts,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
-Kelly Oubre Jr.,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:00:00.000-05:00
-Kelly Oubre Jr.,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T20:00:00.000-05:00
+Kelly Oubre Jr.,,player_3_pt_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T20:00:00.000-05:00
 Kenrich Williams,,player_pts_rebs_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
 Kenrich Williams,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T20:00:00.000-05:00
 Keyonte George,,player_3_pt_attempted,6.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T20:00:00.000-05:00
@@ -464,34 +521,36 @@ Keyonte George,,player_fg_made,6.5,NBA,False,False,False,standard,STANDARD,playe
 Keyonte George,,player_free_throws_attempted,6.0,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T20:00:00.000-05:00
 Keyonte George,,player_free_throws_made,5.0,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T20:00:00.000-05:00
 Keyonte George,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T20:00:00.000-05:00
+Keyonte George,,player_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
 Keyonte George,,player_two_pointers_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T20:00:00.000-05:00
 Lauri Markkanen,,player_3_pt_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T20:00:00.000-05:00
+Lauri Markkanen,,Assists,1.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:00:00.000-05:00
 Lauri Markkanen,,player_fg_attempted,15.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T20:00:00.000-05:00
 Lauri Markkanen,,player_fg_made,7.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T20:00:00.000-05:00
 Lauri Markkanen,,player_free_throws_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T20:00:00.000-05:00
 Lauri Markkanen,,player_free_throws_made,4.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T20:00:00.000-05:00
 Lauri Markkanen,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T20:00:00.000-05:00
-Lauri Markkanen,,player_pts_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
 Lauri Markkanen,,player_two_pointers_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T20:00:00.000-05:00
-Mario Hezonja,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
-Mario Hezonja,,player_pts_rebs,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
-Pascal Siakam,,player_pts_asts,27.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
-Saddiq Bey,,Points,13.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:00:00.000-05:00
-Saddiq Bey,,player_pts_rebs,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
-Shai Gilgeous-Alexander,,player_pts_rebs,36.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
+Meleek Thomas,,player_rebs_asts,6.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
+Pascal Siakam,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T20:00:00.000-05:00
+Pascal Siakam,,player_pts_rebs_asts,34.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:00:00.000-05:00
+Pascal Siakam,,player_two_pointers_attempted,12.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T20:00:00.000-05:00
 Trey Murphy III,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T20:00:00.000-05:00
 Trey Murphy III,,player_fg_made,5.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T20:00:00.000-05:00
 Trey Murphy III,,player_free_throws_made,3.0,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T20:00:00.000-05:00
-Trey Murphy III,,player_pts_rebs,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
-Trey Murphy III,,3-PT Made,2.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T20:00:00.000-05:00
+Ty Jerome,,player_fg_attempted,17.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T20:00:00.000-05:00
+Ty Jerome,,player_free_throws_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T20:00:00.000-05:00
+Ty Jerome,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T20:00:00.000-05:00
+Ty Jerome,,player_pts_asts,29.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
+Ty Jerome,,player_pts_rebs,27.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
 Ty Jerome,,3-PT Made,2.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T20:00:00.000-05:00
-Zach Edey,,player_pts_rebs,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
+Ty Jerome,,player_two_pointers_attempted,10.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T20:00:00.000-05:00
+Ty Jerome,,player_two_pointers_made,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T20:00:00.000-05:00
+Zach Edey,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T20:00:00.000-05:00
 Zach Edey,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:00:00.000-05:00
+Zion Williamson,,player_blocks,0.5,NBA,False,False,False,standard,STANDARD,player_blocks,2026-11-04T20:00:00.000-05:00
 Zion Williamson,,player_fg_made,6.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T20:00:00.000-05:00
 Zion Williamson,,player_free_throws_made,5.0,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T20:00:00.000-05:00
-Zion Williamson,,player_pts_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:00:00.000-05:00
-Zion Williamson,,player_pts_rebs,26.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:00:00.000-05:00
-Zion Williamson,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:00:00.000-05:00
 Zion Williamson,,player_turnovers,1.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T20:00:00.000-05:00
 Zion Williamson,,player_two_pointers_made,6.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T20:00:00.000-05:00
 Ajay Mitchell + Donovan Mitchell,,Assists,9.0,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:10:00.000-05:00
@@ -517,7 +576,7 @@ Dejounte Murray + Keyonte George,,Points,39.0,NBA,False,False,False,standard,STA
 Dejounte Murray + Lauri Markkanen,,Points,39.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:10:00.000-05:00
 Derik Queen + Ace Bailey,,Rebounds,12.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:10:00.000-05:00
 Derik Queen + Lauri Markkanen,,Rebounds,12.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:10:00.000-05:00
-Donovan Mitchell,,Points,22.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:10:00.000-05:00
+Donovan Mitchell,,player_pts_rebs_asts,33.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:10:00.000-05:00
 Isaiah Hartenstein + Evan Mobley,,Rebounds,19.0,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:10:00.000-05:00
 Isaiah Hartenstein + James Harden,,Points,28.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:10:00.000-05:00
 Isaiah Hartenstein + Jarrett Allen,,Rebounds,18.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:10:00.000-05:00
@@ -531,7 +590,9 @@ Jarrett Allen,,player_dunks,1.5,NBA,False,False,False,standard,STANDARD,player_d
 Jaylen Wells + Andrew Nembhard,,player_3_pt_made_combo,4.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T20:10:00.000-05:00
 Jaylin Williams + Evan Mobley,,Rebounds,14.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:10:00.000-05:00
 Jaylin Williams + Jarrett Allen,,Rebounds,14.0,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:10:00.000-05:00
-Lauri Markkanen,,player_pts_rebs_asts,29.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:10:00.000-05:00
+Lauri Markkanen,,Points,21.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:10:00.000-05:00
+Shai Gilgeous-Alexander,,Points,31.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:10:00.000-05:00
+Shai Gilgeous-Alexander,,player_pts_rebs_asts,42.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:10:00.000-05:00
 Shai Gilgeous-Alexander + Donovan Mitchell,,player_3_pt_made_combo,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T20:10:00.000-05:00
 Shai Gilgeous-Alexander + Donovan Mitchell,,Assists,11.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:10:00.000-05:00
 Shai Gilgeous-Alexander + James Harden,,player_3_pt_made_combo,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T20:10:00.000-05:00
@@ -542,7 +603,7 @@ Trey Murphy III + Keyonte George,,player_3_pt_made_combo,5.0,NBA,False,False,Fal
 Trey Murphy III + Keyonte George,,Points,38.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:10:00.000-05:00
 Trey Murphy III + Lauri Markkanen,,player_3_pt_made_combo,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T20:10:00.000-05:00
 Trey Murphy III + Lauri Markkanen,,Points,39.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:10:00.000-05:00
-Ty Jerome,,Points,23.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:10:00.000-05:00
+Ty Jerome,,player_pts_rebs_asts,33.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:10:00.000-05:00
 Ty Jerome + Aaron Nesmith,,player_3_pt_made_combo,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T20:10:00.000-05:00
 Ty Jerome + Andrew Nembhard,,player_3_pt_made_combo,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T20:10:00.000-05:00
 Ty Jerome + Andrew Nembhard,,Points,41.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:10:00.000-05:00
@@ -555,40 +616,30 @@ Zion Williamson + Darryn Peterson,,Points,34.5,NBA,False,False,False,standard,ST
 Zion Williamson + Keyonte George,,Points,41.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:10:00.000-05:00
 Zion Williamson + Lauri Markkanen,,Points,42.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:10:00.000-05:00
 Zion Williamson + Lauri Markkanen,,Rebounds,11.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:10:00.000-05:00
-Alperen Şengün,,player_pts_rebs,28.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:30:00.000-05:00
-Alperen Şengün,,player_rebs_asts,15.0,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:30:00.000-05:00
+Alperen Şengün,,Assists,6.0,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:30:00.000-05:00
+Alperen Şengün,,player_pts_asts,26.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:30:00.000-05:00
 Alperen Şengün,,player_turnovers,2.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T20:30:00.000-05:00
-Amen Thompson,,player_pts_rebs_asts,26.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:30:00.000-05:00
-Amen Thompson,,player_rebs_asts,10.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:30:00.000-05:00
+Amen Thompson,,Rebounds,6.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:30:00.000-05:00
 Ayo Dosunmu,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T20:30:00.000-05:00
-Ayo Dosunmu,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:30:00.000-05:00
+Ayo Dosunmu,,player_pts_rebs,20.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:30:00.000-05:00
+Ayo Dosunmu,,player_pts_rebs_asts,25.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:30:00.000-05:00
 Fred VanVleet,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T20:30:00.000-05:00
-Fred VanVleet,,Points,12.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:30:00.000-05:00
-Fred VanVleet,,player_pts_rebs,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:30:00.000-05:00
-Fred VanVleet,,player_pts_rebs_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:30:00.000-05:00
 Jabari Smith Jr.,,Assists,1.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:30:00.000-05:00
-Jabari Smith Jr.,,player_pts_rebs,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:30:00.000-05:00
-Jabari Smith Jr.,,player_pts_rebs_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:30:00.000-05:00
+Jabari Smith Jr.,,Points,14.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:30:00.000-05:00
+Jabari Smith Jr.,,player_pts_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:30:00.000-05:00
 Jaden McDaniels,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T20:30:00.000-05:00
-Jaden McDaniels,,player_blocks,0.5,NBA,False,False,False,standard,STANDARD,player_blocks,2026-11-04T20:30:00.000-05:00
-Jaden McDaniels,,Points,16.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:30:00.000-05:00
-Jonathan Kuminga,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T20:30:00.000-05:00
-Jonathan Kuminga,,player_pts_rebs,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:30:00.000-05:00
+Joan Beringer,,Points,6.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:30:00.000-05:00
+Kevin Durant,,Assists,3.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:30:00.000-05:00
+Kevin Durant,,Points,22.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:30:00.000-05:00
+Kevin Durant,,player_pts_asts,25.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:30:00.000-05:00
+Kevin Durant,,player_pts_rebs,27.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:30:00.000-05:00
 Kevin Durant,,player_turnovers,2.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T20:30:00.000-05:00
-LaMelo Ball,,Assists,6.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:30:00.000-05:00
 LaMelo Ball,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T20:30:00.000-05:00
-LaMelo Ball,,player_pts_asts,25.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:30:00.000-05:00
-LaMelo Ball,,player_rebs_asts,10.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:30:00.000-05:00
-LaMelo Ball,,3-PT Made,3.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T20:30:00.000-05:00
-Marcus Smart,,player_pts_rebs_asts,12.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:30:00.000-05:00
+LaMelo Ball,,Points,19.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:30:00.000-05:00
 Rudy Gobert,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T20:30:00.000-05:00
-Rudy Gobert,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:30:00.000-05:00
-Rudy Gobert,,player_pts_asts,10.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T20:30:00.000-05:00
-Rudy Gobert,,player_pts_rebs,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T20:30:00.000-05:00
-Rudy Gobert,,player_pts_rebs_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:30:00.000-05:00
-Rudy Gobert,,player_rebs_asts,12.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T20:30:00.000-05:00
-Tari Eason,,player_blocks,0.5,NBA,False,False,False,standard,STANDARD,player_blocks,2026-11-04T20:30:00.000-05:00
+Rudy Gobert,,Rebounds,10.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:30:00.000-05:00
 Tari Eason,,player_pts_rebs_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T20:30:00.000-05:00
+Tari Eason,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T20:30:00.000-05:00
 Alperen Şengün + Ayo Dosunmu,,Assists,10.0,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T20:40:00.000-05:00
 Alperen Şengün + Ayo Dosunmu,,Points,35.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:40:00.000-05:00
 Alperen Şengün + Jaden McDaniels,,Points,35.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:40:00.000-05:00
@@ -612,81 +663,131 @@ Kevin Durant + Ayo Dosunmu,,Points,38.5,NBA,False,False,False,standard,STANDARD,
 Kevin Durant + Jaden McDaniels,,Points,38.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:40:00.000-05:00
 Kevin Durant + LaMelo Ball,,Points,42.0,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T20:40:00.000-05:00
 Tari Eason,,player_dunks,0.5,NBA,False,False,False,standard,STANDARD,player_dunks,2026-11-04T20:40:00.000-05:00
-Aaron Gordon,,player_pts_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
-Aaron Gordon,,player_pts_rebs,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
-Christian Braun,,Points,12.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
+Aaron Gordon,,player_fg_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
+Aaron Gordon,,player_fg_made,4.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
+Aaron Gordon,,player_free_throws_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
+Aaron Gordon,,player_free_throws_made,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
+Aaron Gordon,,player_pts_rebs_asts,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
+Aaron Gordon,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T21:00:00.000-05:00
+Cameron Johnson,,player_fg_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
+Cameron Johnson,,player_fg_made,4.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
+Cameron Johnson,,Points,11.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
+Cameron Johnson,,player_pts_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
+Cameron Johnson,,player_pts_rebs,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
+Cameron Johnson,,player_pts_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
+Christian Braun,,player_fg_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
+Christian Braun,,player_fg_made,4.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
+Christian Braun,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
 Christian Braun,,player_pts_rebs_asts,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
 Collin Gillespie,,player_3_pt_attempted,6.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
 Collin Gillespie,,player_fg_attempted,9.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
 Collin Gillespie,,player_free_throws_attempted,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
 Collin Gillespie,,player_free_throws_made,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
-Collin Gillespie,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
-Collin Gillespie,,player_pts_asts,12.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
-Collin Gillespie,,player_pts_rebs,12.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
-Collin Gillespie,,player_pts_rebs_asts,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
 Collin Gillespie,,player_steals,1.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T21:00:00.000-05:00
 Collin Gillespie,,player_two_pointers_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T21:00:00.000-05:00
-Collin Murray-Boyles,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T21:00:00.000-05:00
-Collin Murray-Boyles,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
+Collin Murray-Boyles,,player_3_pt_attempted,1.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
+Collin Murray-Boyles,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
+Collin Murray-Boyles,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
 Collin Murray-Boyles,,player_pts_rebs_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
 Collin Murray-Boyles,,player_rebs_asts,7.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:00:00.000-05:00
+Collin Murray-Boyles,,player_two_pointers_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T21:00:00.000-05:00
+Damian Lillard,,player_3_pt_attempted,8.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
+Damian Lillard,,Assists,4.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:00:00.000-05:00
 Damian Lillard,,player_fg_attempted,14.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
 Damian Lillard,,player_fg_made,6.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
+Damian Lillard,,player_free_throws_attempted,5.0,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
+Damian Lillard,,player_free_throws_made,4.0,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
+Damian Lillard,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:00:00.000-05:00
 Damian Lillard,,player_two_pointers_made,3.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T21:00:00.000-05:00
-DeMar DeRozan,,player_pts_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
+DeMar DeRozan,,player_fg_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
+DeMar DeRozan,,player_fg_made,3.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
+DeMar DeRozan,,player_free_throws_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
+DeMar DeRozan,,Points,10.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
+DeMar DeRozan,,player_rebs_asts,4.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:00:00.000-05:00
+DeMar DeRozan,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T21:00:00.000-05:00
+Deni Avdija,,player_3_pt_attempted,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
+Deni Avdija,,Assists,5.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:00:00.000-05:00
 Deni Avdija,,player_fg_attempted,16.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
 Deni Avdija,,player_fg_made,7.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
 Deni Avdija,,player_free_throws_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
 Deni Avdija,,player_free_throws_made,6.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
 Deni Avdija,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T21:00:00.000-05:00
+Deni Avdija,,Points,23.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
+Deni Avdija,,player_pts_asts,29.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
+Deni Avdija,,player_pts_rebs,31.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
+Deni Avdija,,player_pts_rebs_asts,36.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
+Deni Avdija,,player_rebs_asts,12.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:00:00.000-05:00
 Deni Avdija,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T21:00:00.000-05:00
 Deni Avdija,,player_turnovers,3.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T21:00:00.000-05:00
 Deni Avdija,,player_two_pointers_attempted,11.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T21:00:00.000-05:00
 Devin Booker,,player_3_pt_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
 Devin Booker,,player_fg_attempted,16.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
 Devin Booker,,player_fg_made,7.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
-Devin Booker,,player_pts_asts,29.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
+Devin Booker,,player_free_throws_attempted,7.0,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
+Devin Booker,,player_free_throws_made,6.0,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
+Devin Booker,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T21:00:00.000-05:00
 Devin Booker,,player_turnovers,2.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T21:00:00.000-05:00
 Devin Booker,,player_two_pointers_attempted,12.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T21:00:00.000-05:00
 Devin Booker,,player_two_pointers_made,6.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T21:00:00.000-05:00
+Dillon Brooks,,player_3_pt_attempted,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
 Dillon Brooks,,player_fg_attempted,13.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
 Dillon Brooks,,player_fg_made,6.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
 Dillon Brooks,,player_free_throws_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
 Dillon Brooks,,player_personal_fouls,3.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T21:00:00.000-05:00
-Dillon Brooks,,player_pts_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
-Dillon Brooks,,player_pts_rebs,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
-Dillon Brooks,,player_pts_rebs_asts,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
+Dillon Brooks,,Points,16.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
 Dillon Brooks,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T21:00:00.000-05:00
 Dillon Brooks,,player_two_pointers_attempted,8.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T21:00:00.000-05:00
 Donovan Clingan,,player_3_pt_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
 Donovan Clingan,,player_blocks,1.5,NBA,False,False,False,standard,STANDARD,player_blocks,2026-11-04T21:00:00.000-05:00
 Donovan Clingan,,player_fg_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
+Donovan Clingan,,player_rebs_asts,12.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:00:00.000-05:00
 Donovan Clingan,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T21:00:00.000-05:00
 Donovan Clingan,,player_two_pointers_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T21:00:00.000-05:00
-Immanuel Quickley,,player_pts_rebs_asts,27.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
+Immanuel Quickley,,player_fg_made,5.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
+Immanuel Quickley,,player_free_throws_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
+Immanuel Quickley,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T21:00:00.000-05:00
+Immanuel Quickley,,Points,17.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
+Immanuel Quickley,,player_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:00:00.000-05:00
+Immanuel Quickley,,player_two_pointers_made,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T21:00:00.000-05:00
+Ja'Kobe Walter,,player_3_pt_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
 Ja'Kobe Walter,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T21:00:00.000-05:00
-Ja'Kobe Walter,,player_pts_rebs,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
+Ja'Kobe Walter,,player_fg_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
+Ja'Kobe Walter,,player_fg_made,3.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
 Ja'Kobe Walter,,player_pts_rebs_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
+Jakob Poeltl,,player_free_throws_attempted,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
+Jakob Poeltl,,player_free_throws_made,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
+Jakob Poeltl,,Points,6.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
 Jakob Poeltl,,player_pts_rebs_asts,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
+Jakob Poeltl,,Rebounds,5.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T21:00:00.000-05:00
 Jakob Poeltl,,player_rebs_asts,7.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:00:00.000-05:00
 Jalen Green,,player_3_pt_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
 Jalen Green,,player_fg_attempted,12.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
 Jalen Green,,player_fg_made,5.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
 Jalen Green,,player_free_throws_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
+Jalen Green,,Points,15.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
+Jalen Green,,player_pts_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
 Jalen Green,,player_rebs_asts,6.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:00:00.000-05:00
 Jalen Green,,player_two_pointers_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T21:00:00.000-05:00
 Jalen Green,,player_two_pointers_made,3.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T21:00:00.000-05:00
+Jamal Murray,,player_3_pt_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
 Jamal Murray,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T21:00:00.000-05:00
-Jamal Murray,,player_pts_asts,30.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
-Jamal Murray,,player_pts_rebs,28.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
-Jamal Murray,,player_pts_rebs_asts,34.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
+Jamal Murray,,player_fg_attempted,17.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
+Jamal Murray,,player_fg_made,8.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
+Jamal Murray,,player_free_throws_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
+Jamal Murray,,player_free_throws_made,4.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
+Jamal Murray,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T21:00:00.000-05:00
+Jamal Murray,,Points,23.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
 Jamal Murray,,player_turnovers,2.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T21:00:00.000-05:00
+Jamal Murray,,player_two_pointers_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T21:00:00.000-05:00
+Jamal Shead,,player_free_throws_attempted,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
+Jamal Shead,,player_free_throws_made,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
+Jamal Shead,,player_pts_asts,11.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
 Jamal Shead,,player_pts_rebs_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
+Jrue Holiday,,player_3_pt_attempted,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
 Jrue Holiday,,player_fg_attempted,10.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
 Jrue Holiday,,player_fg_made,4.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
 Jrue Holiday,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
-Jrue Holiday,,Points,13.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
-Jrue Holiday,,player_pts_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
+Jrue Holiday,,player_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:00:00.000-05:00
 Jrue Holiday,,player_two_pointers_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T21:00:00.000-05:00
 Jrue Holiday,,player_two_pointers_made,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T21:00:00.000-05:00
 Khaman Maluach,,player_3_pt_attempted,0.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
@@ -694,33 +795,42 @@ Khaman Maluach,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDAR
 Khaman Maluach,,player_fg_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
 Khaman Maluach,,player_free_throws_attempted,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
 Khaman Maluach,,player_free_throws_made,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
-Khaman Maluach,,player_pts_rebs,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
-Khaman Maluach,,player_pts_rebs_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
+Khaman Maluach,,Points,6.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
 Khaman Maluach,,player_rebs_asts,7.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:00:00.000-05:00
 Khaman Maluach,,player_two_pointers_made,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T21:00:00.000-05:00
+Miles Bridges,,player_3_pt_attempted,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
 Miles Bridges,,Assists,2.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:00:00.000-05:00
 Miles Bridges,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T21:00:00.000-05:00
 Miles Bridges,,player_fg_attempted,12.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
 Miles Bridges,,player_fg_made,6.0,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
 Miles Bridges,,player_free_throws_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
 Miles Bridges,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T21:00:00.000-05:00
-Miles Bridges,,player_pts_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:00:00.000-05:00
-Miles Bridges,,player_pts_rebs,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
-Miles Bridges,,player_pts_rebs_asts,25.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
-Nikola Jokić,,Assists,9.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:00:00.000-05:00
-Nikola Jokić,,player_pts_rebs,36.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
-Nikola Jokić,,player_rebs_asts,21.0,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:00:00.000-05:00
+Miles Bridges,,Points,16.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
+Nikola Jokić,,player_3_pt_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
+Nikola Jokić,,player_blks_plus_stls,2.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T21:00:00.000-05:00
+Nikola Jokić,,player_fg_attempted,16.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
+Nikola Jokić,,player_fg_made,8.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
+Nikola Jokić,,player_free_throws_made,5.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T21:00:00.000-05:00
+Nikola Jokić,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T21:00:00.000-05:00
+RJ Barrett,,player_fg_attempted,16.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
+RJ Barrett,,player_free_throws_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
+RJ Barrett,,Points,21.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
+RJ Barrett,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T21:00:00.000-05:00
+RJ Barrett,,player_two_pointers_attempted,11.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T21:00:00.000-05:00
+Scoot Henderson,,player_3_pt_attempted,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
 Scoot Henderson,,player_fg_attempted,10.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
 Scoot Henderson,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T21:00:00.000-05:00
 Scoot Henderson,,player_two_pointers_made,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T21:00:00.000-05:00
-Scottie Barnes,,player_blks_plus_stls,2.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T21:00:00.000-05:00
-Scottie Barnes,,player_steals,1.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T21:00:00.000-05:00
+Scottie Barnes,,player_3_pt_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
+Scottie Barnes,,player_fg_attempted,18.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
+Scottie Barnes,,player_fg_made,8.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T21:00:00.000-05:00
+Scottie Barnes,,player_free_throws_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
+Scottie Barnes,,player_two_pointers_attempted,14.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T21:00:00.000-05:00
+Scottie Barnes,,player_two_pointers_made,7.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T21:00:00.000-05:00
 Toumani Camara,,player_3_pt_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T21:00:00.000-05:00
 Toumani Camara,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T21:00:00.000-05:00
 Toumani Camara,,player_fg_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T21:00:00.000-05:00
 Toumani Camara,,player_free_throws_attempted,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T21:00:00.000-05:00
-Toumani Camara,,Points,12.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:00:00.000-05:00
-Toumani Camara,,player_pts_rebs,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:00:00.000-05:00
 Toumani Camara,,player_pts_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:00:00.000-05:00
 Aaron Gordon,,player_dunks,0.5,NBA,False,False,False,standard,STANDARD,player_dunks,2026-11-04T21:10:00.000-05:00
 Aaron Gordon + Collin Murray-Boyles,,Rebounds,10.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T21:10:00.000-05:00
@@ -736,7 +846,6 @@ Collin Gillespie + Damian Lillard,,player_3_pt_made_combo,5.0,NBA,False,False,Fa
 Collin Gillespie + Deni Avdija,,Assists,8.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:10:00.000-05:00
 Collin Gillespie + Jrue Holiday,,Assists,8.0,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:10:00.000-05:00
 Collin Gillespie + Toumani Camara,,player_3_pt_made_combo,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T21:10:00.000-05:00
-Devin Booker,,player_pts_rebs_asts,33.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:10:00.000-05:00
 Devin Booker + Damian Lillard,,Points,45.0,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:10:00.000-05:00
 Devin Booker + Deni Avdija,,Assists,10.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:10:00.000-05:00
 Devin Booker + Deni Avdija,,Points,47.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:10:00.000-05:00
@@ -747,7 +856,7 @@ Dillon Brooks + Deni Avdija,,Points,40.5,NBA,False,False,False,standard,STANDARD
 Dillon Brooks + Jrue Holiday,,Points,29.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:10:00.000-05:00
 Jamal Murray + Immanuel Quickley,,player_3_pt_made_combo,6.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T21:10:00.000-05:00
 Jamal Murray + Immanuel Quickley,,Assists,12.0,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:10:00.000-05:00
-Jamal Murray + Immanuel Quickley,,Points,40.0,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:10:00.000-05:00
+Jamal Murray + Immanuel Quickley,,Points,40.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:10:00.000-05:00
 Jamal Murray + Ja'Kobe Walter,,player_3_pt_made_combo,5.5,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T21:10:00.000-05:00
 Jamal Murray + Jamal Shead,,Assists,11.0,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:10:00.000-05:00
 Jamal Murray + RJ Barrett,,player_3_pt_made_combo,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T21:10:00.000-05:00
@@ -770,46 +879,35 @@ Caleb Martin,,player_pts_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,p
 Caleb Martin,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T21:30:00.000-05:00
 Caleb Martin,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T21:30:00.000-05:00
 Caleb Martin,,3-PT Made,0.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T21:30:00.000-05:00
-Cooper Flagg,,player_pts_rebs,31.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:30:00.000-05:00
+Cooper Flagg,,Assists,5.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:30:00.000-05:00
+Cooper Flagg,,player_blks_plus_stls,2.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T21:30:00.000-05:00
+Cooper Flagg,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T21:30:00.000-05:00
 Daniel Gafford,,player_pts_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:30:00.000-05:00
 Daniel Gafford,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:30:00.000-05:00
 Daniel Gafford,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T21:30:00.000-05:00
-De'Aaron Fox,,player_pts_rebs,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:30:00.000-05:00
-Devin Vassell,,player_pts_asts,14.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:30:00.000-05:00
-Devin Vassell,,player_pts_rebs,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:30:00.000-05:00
-Dylan Harper,,Assists,4.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:30:00.000-05:00
-Dylan Harper,,Points,16.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:30:00.000-05:00
-Dylan Harper,,player_pts_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:30:00.000-05:00
+De'Aaron Fox,,player_pts_rebs_asts,25.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:30:00.000-05:00
+Devin Vassell,,Points,12.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:30:00.000-05:00
+Devin Vassell,,player_pts_rebs_asts,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:30:00.000-05:00
+Dylan Harper,,player_pts_rebs,22.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:30:00.000-05:00
 Julian Champagnie,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:30:00.000-05:00
 Julian Champagnie,,player_pts_rebs,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:30:00.000-05:00
 Julian Champagnie,,player_pts_rebs_asts,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:30:00.000-05:00
-Keldon Johnson,,player_pts_rebs,12.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:30:00.000-05:00
 Keldon Johnson,,player_pts_rebs_asts,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:30:00.000-05:00
 Keldon Johnson,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T21:30:00.000-05:00
 Keldon Johnson,,3-PT Made,0.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T21:30:00.000-05:00
-Kyrie Irving,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T21:30:00.000-05:00
+Kyrie Irving,,player_pts_rebs,23.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:30:00.000-05:00
 Luke Kornet,,player_pts_rebs_asts,10.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:30:00.000-05:00
 Luke Kornet,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T21:30:00.000-05:00
-Naji Marshall,,Points,11.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:30:00.000-05:00
-P.J. Washington,,Points,12.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:30:00.000-05:00
-P.J. Washington,,player_pts_rebs,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:30:00.000-05:00
 P.J. Washington,,player_pts_rebs_asts,20.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:30:00.000-05:00
 P.J. Washington,,player_rebs_asts,7.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:30:00.000-05:00
-Stephon Castle,,Points,16.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:30:00.000-05:00
-Stephon Castle,,player_pts_asts,22.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:30:00.000-05:00
-Stephon Castle,,player_pts_rebs,21.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:30:00.000-05:00
-Stephon Castle,,player_pts_rebs_asts,27.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:30:00.000-05:00
-Stephon Castle,,player_rebs_asts,11.0,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:30:00.000-05:00
-Victor Wembanyama,,player_pts_asts,29.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T21:30:00.000-05:00
-Victor Wembanyama,,player_pts_rebs,37.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T21:30:00.000-05:00
 Victor Wembanyama,,Rebounds,11.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T21:30:00.000-05:00
-Victor Wembanyama,,player_rebs_asts,14.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T21:30:00.000-05:00
 Zaccharie Risacher,,Points,7.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:30:00.000-05:00
 Zaccharie Risacher,,player_pts_rebs_asts,12.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:30:00.000-05:00
 Zaccharie Risacher,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T21:30:00.000-05:00
+Cooper Flagg,,Points,25.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:40:00.000-05:00
 De'Aaron Fox + Cooper Flagg,,Assists,11.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:40:00.000-05:00
 De'Aaron Fox + Kyrie Irving,,Assists,10.0,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:40:00.000-05:00
-De'Aaron Fox + Kyrie Irving,,Points,35.0,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:40:00.000-05:00
+De'Aaron Fox + Kyrie Irving,,Points,35.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:40:00.000-05:00
 Devin Vassell + Kyrie Irving,,player_3_pt_made_combo,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T21:40:00.000-05:00
 Devin Vassell + P.J. Washington,,player_3_pt_made_combo,4.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T21:40:00.000-05:00
 Dylan Harper + Cooper Flagg,,Rebounds,11.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T21:40:00.000-05:00
@@ -825,7 +923,7 @@ Stephon Castle + Daniel Gafford,,Rebounds,12.5,NBA,False,False,False,standard,ST
 Stephon Castle + Kyrie Irving,,Assists,10.0,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T21:40:00.000-05:00
 Stephon Castle + Kyrie Irving,,Points,36.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:40:00.000-05:00
 Stephon Castle + P.J. Washington,,Points,30.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:40:00.000-05:00
-Victor Wembanyama,,Points,26.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:40:00.000-05:00
+Victor Wembanyama,,player_pts_rebs_asts,40.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T21:40:00.000-05:00
 Victor Wembanyama + Cooper Flagg,,Points,51.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:40:00.000-05:00
 Victor Wembanyama + Kyrie Irving,,player_3_pt_made_combo,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T21:40:00.000-05:00
 Victor Wembanyama + Kyrie Irving,,Points,46.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T21:40:00.000-05:00
@@ -836,7 +934,9 @@ Austin Reaves,,player_fg_attempted,14.5,NBA,False,False,False,standard,STANDARD,
 Austin Reaves,,player_fg_made,7.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:00:00.000-05:00
 Austin Reaves,,player_free_throws_attempted,6.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:00:00.000-05:00
 Austin Reaves,,player_free_throws_made,5.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:00:00.000-05:00
-Austin Reaves,,player_pts_rebs_asts,33.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
+Austin Reaves,,Points,23.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:00:00.000-05:00
+Austin Reaves,,player_pts_rebs,27.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:00:00.000-05:00
+Austin Reaves,,player_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:00:00.000-05:00
 Austin Reaves,,player_two_pointers_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:00:00.000-05:00
 Austin Reaves,,player_two_pointers_made,5.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:00:00.000-05:00
 Darius Acuff Jr.,,player_3_pt_attempted,9.0,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T22:00:00.000-05:00
@@ -849,13 +949,13 @@ Darius Acuff Jr.,,player_pts_rebs,28.5,NBA,False,False,False,standard,STANDARD,p
 Darius Acuff Jr.,,player_pts_rebs_asts,34.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
 Darius Acuff Jr.,,3-PT Made,2.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T22:00:00.000-05:00
 Darius Acuff Jr.,,player_two_pointers_attempted,12.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:00:00.000-05:00
-Darius Acuff Jr.,,player_two_pointers_made,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:00:00.000-05:00
 De'Andre Hunter,,player_3_pt_attempted,6.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T22:00:00.000-05:00
 De'Andre Hunter,,player_fg_attempted,11.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:00:00.000-05:00
 De'Andre Hunter,,player_fg_made,4.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:00:00.000-05:00
 De'Andre Hunter,,player_free_throws_attempted,3.0,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:00:00.000-05:00
 De'Andre Hunter,,player_free_throws_made,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:00:00.000-05:00
 De'Andre Hunter,,player_personal_fouls,3.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T22:00:00.000-05:00
+De'Andre Hunter,,Points,13.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:00:00.000-05:00
 De'Andre Hunter,,player_pts_rebs,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:00:00.000-05:00
 De'Andre Hunter,,player_pts_rebs_asts,20.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
 De'Andre Hunter,,player_two_pointers_made,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:00:00.000-05:00
@@ -866,7 +966,6 @@ Domantas Sabonis,,player_personal_fouls,3.5,NBA,False,False,False,standard,STAND
 Domantas Sabonis,,player_pts_asts,20.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:00:00.000-05:00
 Domantas Sabonis,,player_pts_rebs,26.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:00:00.000-05:00
 Domantas Sabonis,,player_pts_rebs_asts,33.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
-Domantas Sabonis,,Rebounds,12.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T22:00:00.000-05:00
 Domantas Sabonis,,player_rebs_asts,19.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:00:00.000-05:00
 Domantas Sabonis,,player_turnovers,2.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T22:00:00.000-05:00
 Domantas Sabonis,,player_two_pointers_attempted,8.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:00:00.000-05:00
@@ -874,8 +973,6 @@ Domantas Sabonis,,player_two_pointers_made,5.0,NBA,False,False,False,standard,ST
 Jake LaRavia,,player_fg_made,2.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:00:00.000-05:00
 Jake LaRavia,,player_free_throws_attempted,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:00:00.000-05:00
 Jake LaRavia,,player_free_throws_made,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:00:00.000-05:00
-Jake LaRavia,,Points,6.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:00:00.000-05:00
-Jake LaRavia,,player_pts_rebs,9.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:00:00.000-05:00
 Jake LaRavia,,player_pts_rebs_asts,11.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
 Jake LaRavia,,player_two_pointers_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:00:00.000-05:00
 Jake LaRavia,,player_two_pointers_made,1.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:00:00.000-05:00
@@ -887,111 +984,116 @@ Luka Dončić,,player_fg_made,10.0,NBA,False,False,False,standard,STANDARD,playe
 Luka Dončić,,player_free_throws_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:00:00.000-05:00
 Luka Dončić,,player_free_throws_made,8.0,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:00:00.000-05:00
 Luka Dončić,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T22:00:00.000-05:00
-Luka Dončić,,player_pts_asts,41.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:00:00.000-05:00
 Luka Dončić,,player_two_pointers_attempted,10.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:00:00.000-05:00
 Luka Dončić,,player_two_pointers_made,6.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:00:00.000-05:00
 Malik Monk,,player_3_pt_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T22:00:00.000-05:00
 Malik Monk,,Assists,2.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T22:00:00.000-05:00
-Malik Monk,,player_blks_plus_stls,0.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T22:00:00.000-05:00
 Malik Monk,,player_free_throws_attempted,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:00:00.000-05:00
+Malik Monk,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:00:00.000-05:00
 Malik Monk,,player_pts_rebs_asts,11.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
 Malik Monk,,player_two_pointers_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:00:00.000-05:00
 Malik Monk,,player_two_pointers_made,1.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:00:00.000-05:00
 Matisse Thybulle,,player_blks_plus_stls,2.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T22:00:00.000-05:00
-Matisse Thybulle,,player_turnovers,0.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T22:00:00.000-05:00
+Matisse Thybulle,,Points,6.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:00:00.000-05:00
+Matisse Thybulle,,player_pts_rebs,9.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:00:00.000-05:00
+Matisse Thybulle,,player_pts_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
 Precious Achiuwa,,player_fg_attempted,9.0,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:00:00.000-05:00
+Precious Achiuwa,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:00:00.000-05:00
+Precious Achiuwa,,player_pts_rebs,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:00:00.000-05:00
 Precious Achiuwa,,player_pts_rebs_asts,19.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
+Precious Achiuwa,,Rebounds,7.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T22:00:00.000-05:00
 Precious Achiuwa,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:00:00.000-05:00
 Precious Achiuwa,,player_two_pointers_attempted,8.0,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:00:00.000-05:00
 Quentin Grimes,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:00:00.000-05:00
-Quentin Grimes,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:00:00.000-05:00
-Quentin Grimes,,player_pts_asts,11.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:00:00.000-05:00
-Quentin Grimes,,player_pts_rebs,11.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:00:00.000-05:00
-Quentin Grimes,,player_pts_rebs_asts,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
-Quentin Grimes,,player_rebs_asts,5.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:00:00.000-05:00
 Quentin Grimes,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T22:00:00.000-05:00
 Walker Kessler,,player_free_throws_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:00:00.000-05:00
 Walker Kessler,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:00:00.000-05:00
 Walker Kessler,,player_personal_fouls,2.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T22:00:00.000-05:00
+Walker Kessler,,Points,12.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:00:00.000-05:00
+Walker Kessler,,player_pts_rebs,23.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:00:00.000-05:00
 Walker Kessler,,player_pts_rebs_asts,24.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
-Walker Kessler,,Rebounds,10.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T22:00:00.000-05:00
 Walker Kessler,,player_rebs_asts,11.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:00:00.000-05:00
 Walker Kessler,,player_two_pointers_made,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:00:00.000-05:00
 Zach LaVine,,player_3_pt_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T22:00:00.000-05:00
-Zach LaVine,,Assists,2.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T22:00:00.000-05:00
 Zach LaVine,,player_fg_attempted,15.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:00:00.000-05:00
 Zach LaVine,,player_fg_made,6.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:00:00.000-05:00
 Zach LaVine,,player_free_throws_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:00:00.000-05:00
 Zach LaVine,,player_free_throws_made,4.0,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:00:00.000-05:00
 Zach LaVine,,player_pts_asts,24.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:00:00.000-05:00
 Zach LaVine,,player_pts_rebs,24.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:00:00.000-05:00
-Zach LaVine,,player_pts_rebs_asts,27.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
 Zach LaVine,,player_rebs_asts,5.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:00:00.000-05:00
 Zach LaVine,,3-PT Made,2.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T22:00:00.000-05:00
 Zach LaVine,,player_two_pointers_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:00:00.000-05:00
 Ziaire Williams,,player_fg_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:00:00.000-05:00
 Ziaire Williams,,player_fg_made,2.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:00:00.000-05:00
 Ziaire Williams,,player_free_throws_attempted,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:00:00.000-05:00
-Ziaire Williams,,player_pts_rebs,10.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:00:00.000-05:00
+Ziaire Williams,,player_pts_rebs_asts,11.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:00:00.000-05:00
 Ziaire Williams,,player_turnovers,0.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T22:00:00.000-05:00
 Darius Acuff Jr. + Austin Reaves,,player_3_pt_made_combo,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T22:10:00.000-05:00
-Darius Acuff Jr. + Austin Reaves,,Points,48.0,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:10:00.000-05:00
+Darius Acuff Jr. + Austin Reaves,,Points,47.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:10:00.000-05:00
 Darius Acuff Jr. + Luka Dončić,,player_3_pt_made_combo,7.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T22:10:00.000-05:00
 De'Andre Hunter + Austin Reaves,,player_3_pt_made_combo,4.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T22:10:00.000-05:00
 De'Andre Hunter + Walker Kessler,,Points,26.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:10:00.000-05:00
 Domantas Sabonis + Walker Kessler,,Points,26.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:10:00.000-05:00
-Luka Dončić,,player_pts_rebs_asts,48.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:10:00.000-05:00
+Luka Dončić,,Points,33.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:10:00.000-05:00
 Zach LaVine + Austin Reaves,,player_3_pt_made_combo,5.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T22:10:00.000-05:00
 Zach LaVine + Austin Reaves,,Points,45.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:10:00.000-05:00
 Zach LaVine + Luka Dončić,,player_3_pt_made_combo,7.0,NBA,False,False,False,standard,STANDARD,player_3_pt_made_combo,2026-11-04T22:10:00.000-05:00
 Andrew Wiggins,,player_3_pt_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T22:30:00.000-05:00
 Andrew Wiggins,,player_fg_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:30:00.000-05:00
 Andrew Wiggins,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:30:00.000-05:00
+Andrew Wiggins,,Points,11.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:30:00.000-05:00
+Andrew Wiggins,,player_pts_rebs,15.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
 Andrew Wiggins,,player_pts_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
+Andrew Wiggins,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T22:30:00.000-05:00
 Andrew Wiggins,,player_two_pointers_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:30:00.000-05:00
 Bam Adebayo,,player_3_pt_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T22:30:00.000-05:00
+Bam Adebayo,,player_fg_made,6.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:30:00.000-05:00
 Bam Adebayo,,player_free_throws_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:30:00.000-05:00
+Bam Adebayo,,Points,17.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:30:00.000-05:00
+Bam Adebayo,,player_pts_asts,21.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:30:00.000-05:00
+Bam Adebayo,,player_pts_rebs_asts,30.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
+Bam Adebayo,,player_rebs_asts,12.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:30:00.000-05:00
 Bobby Portis Jr.,,player_fg_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:30:00.000-05:00
 Bobby Portis Jr.,,player_fg_made,3.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:30:00.000-05:00
 Bobby Portis Jr.,,player_personal_fouls,1.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T22:30:00.000-05:00
+Bobby Portis Jr.,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
 Bobby Portis Jr.,,player_pts_rebs_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
 Bobby Portis Jr.,,player_rebs_asts,7.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:30:00.000-05:00
 Bobby Portis Jr.,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T22:30:00.000-05:00
 Brook Lopez,,player_fg_made,3.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:30:00.000-05:00
-Brook Lopez,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
+Brook Lopez,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:30:00.000-05:00
 Brook Lopez,,player_pts_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
 Brook Lopez,,player_two_pointers_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:30:00.000-05:00
 Darius Garland,,player_fg_attempted,16.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:30:00.000-05:00
 Darius Garland,,player_fg_made,7.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:30:00.000-05:00
 Darius Garland,,player_free_throws_made,3.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:30:00.000-05:00
-Darius Garland,,Points,21.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:30:00.000-05:00
-Darius Garland,,player_pts_rebs,23.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
-Darius Garland,,player_pts_rebs_asts,31.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
+Darius Garland,,player_pts_asts,28.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:30:00.000-05:00
+Darius Garland,,player_pts_rebs,24.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
 Darius Garland,,player_turnovers,4.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T22:30:00.000-05:00
 Darius Garland,,player_two_pointers_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:30:00.000-05:00
 Davion Mitchell,,player_3_pt_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T22:30:00.000-05:00
 Davion Mitchell,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T22:30:00.000-05:00
 Davion Mitchell,,player_fg_attempted,10.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:30:00.000-05:00
+Davion Mitchell,,player_pts_asts,19.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:30:00.000-05:00
+Davion Mitchell,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
+Davion Mitchell,,player_rebs_asts,9.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:30:00.000-05:00
+Davion Mitchell,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T22:30:00.000-05:00
 Davion Mitchell,,player_two_pointers_attempted,5.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:30:00.000-05:00
 Derrick Jones Jr.,,player_3_pt_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T22:30:00.000-05:00
 Derrick Jones Jr.,,player_fg_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:30:00.000-05:00
-Derrick Jones Jr.,,Points,10.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:30:00.000-05:00
-Derrick Jones Jr.,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
 Derrick Jones Jr.,,player_pts_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
 Derrick Jones Jr.,,player_two_pointers_made,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:30:00.000-05:00
 Giannis Antetokounmpo,,player_fg_attempted,18.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:30:00.000-05:00
 Giannis Antetokounmpo,,player_fg_made,11.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:30:00.000-05:00
 Giannis Antetokounmpo,,player_free_throws_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:30:00.000-05:00
 Giannis Antetokounmpo,,player_free_throws_made,5.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:30:00.000-05:00
-Giannis Antetokounmpo,,player_pts_asts,36.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:30:00.000-05:00
-Giannis Antetokounmpo,,player_pts_rebs,42.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
-Giannis Antetokounmpo,,player_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:30:00.000-05:00
+Giannis Antetokounmpo,,Rebounds,11.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T22:30:00.000-05:00
 Giannis Antetokounmpo,,3-PT Made,0.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T22:30:00.000-05:00
 Giannis Antetokounmpo,,player_turnovers,3.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T22:30:00.000-05:00
 Giannis Antetokounmpo,,player_two_pointers_attempted,16.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:30:00.000-05:00
 Giannis Antetokounmpo,,player_two_pointers_made,10.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:30:00.000-05:00
 Isaiah Jackson,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:30:00.000-05:00
-Isaiah Jackson,,player_pts_rebs,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
 Isaiah Jackson,,player_pts_rebs_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
 Isaiah Jackson,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:30:00.000-05:00
 Isaiah Jackson,,player_turnovers,1.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T22:30:00.000-05:00
@@ -1001,41 +1103,35 @@ Keaton Wagler,,Assists,3.5,NBA,False,False,False,standard,STANDARD,player_assist
 Keaton Wagler,,player_fg_attempted,9.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:30:00.000-05:00
 Keaton Wagler,,player_fg_made,3.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:30:00.000-05:00
 Keaton Wagler,,player_free_throws_made,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:30:00.000-05:00
-Keaton Wagler,,Points,11.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:30:00.000-05:00
 Keaton Wagler,,player_pts_rebs_asts,20.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
 Keaton Wagler,,Rebounds,4.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-04T22:30:00.000-05:00
 Keaton Wagler,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:30:00.000-05:00
 Keaton Wagler,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T22:30:00.000-05:00
+Keaton Wagler,,3-PT Made,1.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T22:30:00.000-05:00
 Keaton Wagler,,player_two_pointers_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:30:00.000-05:00
 Klay Thompson,,player_fg_attempted,8.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:30:00.000-05:00
 Klay Thompson,,player_free_throws_attempted,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:30:00.000-05:00
 Klay Thompson,,player_personal_fouls,1.5,NBA,False,False,False,standard,STANDARD,player_personal_fouls,2026-11-04T22:30:00.000-05:00
-Klay Thompson,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:30:00.000-05:00
 Klay Thompson,,player_pts_rebs_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
 Klay Thompson,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T22:30:00.000-05:00
 Klay Thompson,,player_two_pointers_attempted,1.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:30:00.000-05:00
 Klay Thompson,,player_two_pointers_made,0.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:30:00.000-05:00
 Kris Dunn,,player_3_pt_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T22:30:00.000-05:00
-Kris Dunn,,Assists,4.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T22:30:00.000-05:00
 Kris Dunn,,player_free_throws_attempted,0.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:30:00.000-05:00
-Kris Dunn,,Points,7.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:30:00.000-05:00
-Kris Dunn,,player_pts_rebs,11.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
-Kris Dunn,,player_pts_rebs_asts,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
-Kris Dunn,,player_rebs_asts,8.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:30:00.000-05:00
+Kris Dunn,,player_pts_asts,12.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:30:00.000-05:00
 Kris Dunn,,player_turnovers,1.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T22:30:00.000-05:00
 Kris Dunn,,player_two_pointers_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:30:00.000-05:00
 Max Strus,,Assists,2.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T22:30:00.000-05:00
-Max Strus,,Points,9.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:30:00.000-05:00
-Max Strus,,player_pts_rebs,13.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
 Max Strus,,player_pts_rebs_asts,17.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
 Max Strus,,player_rebs_asts,7.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:30:00.000-05:00
-Max Strus,,3-PT Made,2.5,NBA,False,False,False,standard,STANDARD,player_three_pointers,2026-11-04T22:30:00.000-05:00
 Pelle Larsson,,player_3_pt_attempted,2.5,NBA,False,False,False,standard,STANDARD,player_3_pt_attempted,2026-11-04T22:30:00.000-05:00
-Pelle Larsson,,Assists,3.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-04T22:30:00.000-05:00
 Pelle Larsson,,player_fg_attempted,7.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:30:00.000-05:00
 Pelle Larsson,,player_fg_made,3.5,NBA,False,False,False,standard,STANDARD,player_fg_made,2026-11-04T22:30:00.000-05:00
 Pelle Larsson,,player_free_throws_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:30:00.000-05:00
 Pelle Larsson,,player_free_throws_made,2.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:30:00.000-05:00
+Pelle Larsson,,Points,11.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:30:00.000-05:00
+Pelle Larsson,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:30:00.000-05:00
+Pelle Larsson,,player_pts_rebs_asts,18.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:30:00.000-05:00
 Pelle Larsson,,player_two_pointers_attempted,4.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_attempted,2026-11-04T22:30:00.000-05:00
 Pelle Larsson,,player_two_pointers_made,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:30:00.000-05:00
 Rui Hachimura,,player_fg_attempted,13.5,NBA,False,False,False,standard,STANDARD,player_fg_attempted,2026-11-04T22:30:00.000-05:00
