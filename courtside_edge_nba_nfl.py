@@ -981,6 +981,20 @@ if page=='Model Performance':
     c2.metric('Wins',f'{wins:,}')
     c3.metric('Verified hit rate',f'{wins/total:.1%}' if total else '—')
     c4.metric('Projection error (MAE)',f"{(errors['Actual']-errors['Projection']).abs().mean():.1f}" if not errors.empty else '—')
+    # Compare recent settled results with the full record without rewriting history.
+    if 'SettledAtUTC' in decided.columns:
+        settled_times=pd.to_datetime(decided['SettledAtUTC'],utc=True,errors='coerce')
+        recent_mask=settled_times.ge(pd.Timestamp.now(tz='UTC')-pd.Timedelta(days=7))
+        recent_decisions=decided.loc[recent_mask]
+        recent_count=len(recent_decisions)
+        recent_wins=int(recent_decisions['Result'].eq('WIN').sum())
+        st.markdown('#### Recent results · last 7 days')
+        a,b=st.columns(2)
+        a.metric('Recent decisions',f'{recent_count:,}')
+        b.metric('Recent hit rate',f'{recent_wins/recent_count:.1%}' if recent_count else '—')
+        st.caption('Based on settlement timestamp, not game date. Multiple prop predictions can share a game; recent samples may be small. Compare with the all-time verified hit rate above.')
+        if 0<recent_count<30:
+            st.info('Fewer than 30 recent decisions: treat changes in hit rate as preliminary.')
     if total<30:
         st.warning(f'Only {total} verified decisions for {sport}. This is a small sample; apparent trends may not persist.')
     if total==0:
