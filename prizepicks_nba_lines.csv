@@ -1,21 +1,30 @@
 playerName,team,stat,line,league,isLive,isCombo,isPromo,oddsType,projectionType,marketKey,gameStartsAt
-Andrew Wiggins,,player_blks_plus_stls,1.5,NBA,False,False,False,standard,STANDARD,player_blks_plus_stls,2026-11-04T22:41:00.000-05:00
-Brook Lopez,,player_pts_rebs,14.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:41:00.000-05:00
-Darius Garland,,player_fantasy_points,36.5,NBA,False,False,False,standard,STANDARD,player_fantasy_points,2026-11-04T22:41:00.000-05:00
-Darius Garland,,player_pts_asts,30.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:41:00.000-05:00
-Darius Garland,,player_pts_rebs,26.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:41:00.000-05:00
-Darius Garland,,player_rebs_asts,10.0,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-04T22:41:00.000-05:00
-Davion Mitchell,,player_fantasy_points,28.0,NBA,False,False,False,standard,STANDARD,player_fantasy_points,2026-11-04T22:41:00.000-05:00
-Davion Mitchell,,player_free_throws_made,1.5,NBA,False,False,False,standard,STANDARD,player_free_throws_made,2026-11-04T22:41:00.000-05:00
-Derrick Jones Jr.,,player_blocks,0.5,NBA,False,False,False,standard,STANDARD,player_blocks,2026-11-04T22:41:00.000-05:00
-Isaiah Jackson,,player_pts_rebs_asts,18.0,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-04T22:41:00.000-05:00
-Keaton Wagler,,player_free_throws_attempted,3.5,NBA,False,False,False,standard,STANDARD,player_free_throws_attempted,2026-11-04T22:41:00.000-05:00
-Klay Thompson,,player_pts_asts,8.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:41:00.000-05:00
-Kobe Sanders,,Points,6.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:41:00.000-05:00
-Kobe Sanders,,player_steals,0.5,NBA,False,False,False,standard,STANDARD,player_steals,2026-11-04T22:41:00.000-05:00
-Kris Dunn,,player_pts_asts,11.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:41:00.000-05:00
-Pelle Larsson,,player_two_pointers_made,2.5,NBA,False,False,False,standard,STANDARD,player_two_pointers_made,2026-11-04T22:41:00.000-05:00
-Rui Hachimura,,Points,15.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-04T22:41:00.000-05:00
-Rui Hachimura,,player_turnovers,1.5,NBA,False,False,False,standard,STANDARD,player_turnovers,2026-11-04T22:41:00.000-05:00
-Tim Hardaway Jr.,,player_pts_asts,8.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-04T22:41:00.000-05:00
-Tim Hardaway Jr.,,player_pts_rebs,9.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-04T22:41:00.000-05:00
+Anthony Black,,Points,14.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-05T21:00:00.000-05:00
+Anthony Black,,player_pts_rebs_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-05T21:00:00.000-05:00
+Desmond Bane,,player_pts_asts,23.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-05T21:00:00.000-05:00
+Desmond Bane,,player_pts_rebs,24.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-05T21:00:00.000-05:00
+Desmond Bane,,player_pts_rebs_asts,27.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-05T21:00:00.000-05:00
+Desmond Bane,,player_rebs_asts,7.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-05T21:00:00.000-05:00
+Franz Wagner,,Points,22.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-05T21:00:00.000-05:00
+Franz Wagner,,player_pts_asts,29.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-05T21:00:00.000-05:00
+Franz Wagner,,player_pts_rebs,29.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-05T21:00:00.000-05:00
+Franz Wagner,,player_pts_rebs_asts,35.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-05T21:00:00.000-05:00
+Franz Wagner,,player_rebs_asts,12.5,NBA,False,False,False,standard,STANDARD,player_rebs_asts,2026-11-05T21:00:00.000-05:00
+Jase Richardson,,Assists,2.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-05T21:00:00.000-05:00
+Jase Richardson,,Points,8.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-05T21:00:00.000-05:00
+Jase Richardson,,player_pts_asts,11.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-05T21:00:00.000-05:00
+Jase Richardson,,player_pts_rebs,11.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-05T21:00:00.000-05:00
+Jase Richardson,,Rebounds,2.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-05T21:00:00.000-05:00
+Tristan da Silva,,player_pts_asts,13.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-05T21:00:00.000-05:00
+Tristan da Silva,,player_pts_rebs,16.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-05T21:00:00.000-05:00
+Wendell Carter Jr.,,Rebounds,8.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-05T21:00:00.000-05:00
+Stephen Curry,,Assists,4.5,NBA,False,False,False,standard,STANDARD,player_assists,2026-11-05T22:00:00.000-05:00
+Stephen Curry,,Points,25.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-05T22:00:00.000-05:00
+Stephen Curry,,player_pts_asts,30.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-05T22:00:00.000-05:00
+Stephen Curry,,player_pts_rebs,29.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-05T22:00:00.000-05:00
+Stephen Curry,,player_pts_rebs_asts,34.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-05T22:00:00.000-05:00
+Stephen Curry,,Rebounds,3.5,NBA,False,False,False,standard,STANDARD,player_rebounds,2026-11-05T22:00:00.000-05:00
+Yaxel Lendeborg,,Points,18.5,NBA,False,False,False,standard,STANDARD,player_points,2026-11-05T22:00:00.000-05:00
+Yaxel Lendeborg,,player_pts_asts,22.5,NBA,False,False,False,standard,STANDARD,player_pts_asts,2026-11-05T22:00:00.000-05:00
+Yaxel Lendeborg,,player_pts_rebs,26.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs,2026-11-05T22:00:00.000-05:00
+Yaxel Lendeborg,,player_pts_rebs_asts,30.5,NBA,False,False,False,standard,STANDARD,player_pts_rebs_asts,2026-11-05T22:00:00.000-05:00
