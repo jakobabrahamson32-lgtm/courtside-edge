@@ -981,6 +981,14 @@ if page=='Model Performance':
     c2.metric('Wins',f'{wins:,}')
     c3.metric('Verified hit rate',f'{wins/total:.1%}' if total else '—')
     c4.metric('Projection error (MAE)',f"{(errors['Actual']-errors['Projection']).abs().mean():.1f}" if not errors.empty else '—')
+    # Audit potentially ambiguous zero-stat settlements without changing recorded outcomes.
+    zero_results=decided[decided['Actual'].eq(0)]
+    if not zero_results.empty:
+        st.warning(
+            f"{len(zero_results):,} settled decisions record an actual value of zero. "
+            "Some may be legitimate, but player participation and settlement-source "
+            "accuracy should be checked before treating the hit rate as fully audited."
+        )
     # Compare recent settled results with the full record without rewriting history.
     if 'SettledAtUTC' in decided.columns:
         settled_times=pd.to_datetime(decided['SettledAtUTC'],utc=True,errors='coerce')
