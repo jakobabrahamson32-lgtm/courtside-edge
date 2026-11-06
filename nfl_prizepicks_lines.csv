@@ -1,16 +1,15 @@
 Player,Team,Stat,SportsbookLine,GameStartsAt
-Bijan Robinson,,Receiving Yards,24.5,2026-11-08T09:30:00.000-05:00
 Bijan Robinson,,Rushing Attempts,19.0,2026-11-08T09:30:00.000-05:00
 Brian Robinson Jr.,,Rushing Attempts,6.5,2026-11-08T09:30:00.000-05:00
 Charlie Woerner,,Receiving Yards,3.5,2026-11-08T09:30:00.000-05:00
-Chase Brown,,Receiving Yards,21.5,2026-11-08T09:30:00.000-05:00
+Chase Brown,,Receiving Yards,22.5,2026-11-08T09:30:00.000-05:00
 Chase Brown,,Rushing Attempts,14.0,2026-11-08T09:30:00.000-05:00
 Chase Brown,,Rushing TDs,0.5,2026-11-08T09:30:00.000-05:00
 Drew Sample,,Receiving Yards,4.5,2026-11-08T09:30:00.000-05:00
 Ja'Marr Chase,,Receptions,6.5,2026-11-08T09:30:00.000-05:00
 Jahan Dotson,,Receiving Yards,26.5,2026-11-08T09:30:00.000-05:00
 Jahan Dotson,,Receptions,2.0,2026-11-08T09:30:00.000-05:00
-Joe Burrow,,Passing Attempts,36.5,2026-11-08T09:30:00.000-05:00
+Joe Burrow,,Passing Attempts,36.0,2026-11-08T09:30:00.000-05:00
 Joe Burrow,,Passing Completions,25.5,2026-11-08T09:30:00.000-05:00
 Joe Burrow,,Passing TDs,2.0,2026-11-08T09:30:00.000-05:00
 Joe Burrow,,Rushing Attempts,2.5,2026-11-08T09:30:00.000-05:00
@@ -23,7 +22,7 @@ Samaje Perine,,Rushing Attempts,5.5,2026-11-08T09:30:00.000-05:00
 Tee Higgins,,Receiving Yards,77.5,2026-11-08T09:30:00.000-05:00
 Adam Trautman,,Receiving Yards,5.5,2026-11-08T13:00:00.000-05:00
 Adonai Mitchell,,Receiving Yards,50.5,2026-11-08T13:00:00.000-05:00
-Alvin Kamara,,Receiving Yards,17.5,2026-11-08T13:00:00.000-05:00
+Alvin Kamara,,Receiving Yards,18.5,2026-11-08T13:00:00.000-05:00
 Amon-Ra St. Brown,,Receiving Yards,76.5,2026-11-08T13:00:00.000-05:00
 Amon-Ra St. Brown,,Receptions,6.5,2026-11-08T13:00:00.000-05:00
 Braelon Allen,,Receiving Yards,9.5,2026-11-08T13:00:00.000-05:00
@@ -123,7 +122,7 @@ Rachaad White,,Receiving Yards,16.5,2026-11-08T13:00:00.000-05:00
 Rachaad White,,Rushing Attempts,11.0,2026-11-08T13:00:00.000-05:00
 Rashee Rice,,Receiving Yards,59.5,2026-11-08T13:00:00.000-05:00
 Rashee Rice,,Receptions,5.0,2026-11-08T13:00:00.000-05:00
-Sam LaPorta,,Receiving Yards,44.5,2026-11-08T13:00:00.000-05:00
+Sam LaPorta,,Receiving Yards,45.5,2026-11-08T13:00:00.000-05:00
 Shedeur Sanders,,Passing Completions,18.5,2026-11-08T13:00:00.000-05:00
 Sione Vaki,,Receiving Yards,1.5,2026-11-08T13:00:00.000-05:00
 Tetairoa McMillan,,Receiving Yards,65.5,2026-11-08T13:00:00.000-05:00
@@ -150,8 +149,8 @@ Nico Collins,,Receptions,5.0,2026-11-08T16:05:00.000-05:00
 Omarion Hampton,,Rushing Attempts,10.5,2026-11-08T16:05:00.000-05:00
 Oronde Gadsden II,,Receiving Yards,16.5,2026-11-08T16:05:00.000-05:00
 Quentin Johnston,,Receptions,2.5,2026-11-08T16:05:00.000-05:00
-Tank Dell,,Receiving Yards,14.5,2026-11-08T16:05:00.000-05:00
-Tre' Harris,,Receiving Yards,30.5,2026-11-08T16:05:00.000-05:00
+Tank Dell,,Receiving Yards,15.5,2026-11-08T16:05:00.000-05:00
+Tre' Harris,,Receiving Yards,31.5,2026-11-08T16:05:00.000-05:00
 Tre' Harris,,Receptions,2.5,2026-11-08T16:05:00.000-05:00
 Woody Marks,,Receiving Yards,13.5,2026-11-08T16:05:00.000-05:00
 Woody Marks,,Rushing Attempts,17.0,2026-11-08T16:05:00.000-05:00
@@ -221,6 +220,7 @@ Luther Burden III,,Receiving Yards,65.5,2026-11-08T20:20:00.000-05:00
 Ted Hurst III,,Receiving Yards,13.5,2026-11-08T20:20:00.000-05:00
 Tez Johnson,,Receiving Yards,12.5,2026-11-08T20:20:00.000-05:00
 Aaron Jones Sr.,,Receiving Yards,7.5,2026-11-09T20:15:00.000-05:00
+Aaron Jones Sr.,,Rushing Attempts,8.0,2026-11-09T20:15:00.000-05:00
 Carson Wentz,,Passing Attempts,30.5,2026-11-09T20:15:00.000-05:00
 Carson Wentz,,Passing Completions,19.5,2026-11-09T20:15:00.000-05:00
 Carson Wentz,,Passing Yards,207.5,2026-11-09T20:15:00.000-05:00
@@ -233,7 +233,6 @@ James Cook III,,Rushing Attempts,18.5,2026-11-09T20:15:00.000-05:00
 Jauan Jennings,,Receiving Yards,7.5,2026-11-09T20:15:00.000-05:00
 Jordan Addison,,Receiving Yards,39.5,2026-11-09T20:15:00.000-05:00
 Jordan Mason,,Rushing Attempts,12.0,2026-11-09T20:15:00.000-05:00
-Josh Allen,,Passing Attempts,31.5,2026-11-09T20:15:00.000-05:00
 Josh Allen,,Passing Completions,20.5,2026-11-09T20:15:00.000-05:00
 Josh Allen,,Rushing Attempts,7.0,2026-11-09T20:15:00.000-05:00
 Justin Jefferson,,Receptions,6.5,2026-11-09T20:15:00.000-05:00
