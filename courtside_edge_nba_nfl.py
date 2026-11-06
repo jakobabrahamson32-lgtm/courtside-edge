@@ -353,13 +353,15 @@ def show_recent_games(sport, player_name, stat=None, player_id=None):
     preferred=aliases.get(str(stat),stat)
     default=choices.index(preferred) if preferred in choices else 0
     selected=st.selectbox('Stat to chart',choices,index=default,key=f'log_stat_{sport}_{norm(player_name)}_{norm(stat)}')
-    chart=logs[['Game',selected]].dropna().set_index('Game')
+    chart=logs[['Game',selected]].copy()
+    chart[selected]=pd.to_numeric(chart[selected],errors='coerce')
+    chart=chart.dropna(subset=['Game',selected]).tail(5).set_index('Game')
     if chart.empty:
-        st.info('No completed games with this statistic.')
+        st.info('No verified numeric results for this statistic in the recent games.')
         return
     values=chart[selected]
     k1,k2,k3=st.columns(3)
-    k1.metric('Last 5 average',f'{values.mean():.1f}',help='Average from the completed games shown below.')
+    k1.metric(f'Last {len(values)} average',f'{values.mean():.1f}',help='Average from the completed games shown below.')
     k2.metric('Highest game',f'{values.max():.1f}')
     k3.metric('Lowest game',f'{values.min():.1f}')
     st.bar_chart(chart,color='#7C3AED',use_container_width=True)
