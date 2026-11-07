@@ -19,20 +19,21 @@ Joe Burrow,,Rushing Attempts,2.5,2026-11-08T09:30:00.000-05:00
 Khalil Herbert,,Receiving Yards,0.5,2026-11-08T09:30:00.000-05:00
 Khalil Herbert,,Receptions,0.5,2026-11-08T09:30:00.000-05:00
 Kyle Pitts Sr.,,Receptions,4.0,2026-11-08T09:30:00.000-05:00
-Michael Penix Jr.,,Passing Attempts,31.5,2026-11-08T09:30:00.000-05:00
+Michael Penix Jr.,,Passing Completions,20.5,2026-11-08T09:30:00.000-05:00
 Michael Penix Jr.,,Passing TDs,1.5,2026-11-08T09:30:00.000-05:00
 Michael Penix Jr.,,Passing Yards,222.5,2026-11-08T09:30:00.000-05:00
 Mike Gesicki,,Receiving Yards,27.5,2026-11-08T09:30:00.000-05:00
 Mike Gesicki,,Receptions,2.5,2026-11-08T09:30:00.000-05:00
+Olamide Zaccheaus,,Receiving Yards,9.5,2026-11-08T09:30:00.000-05:00
 Samaje Perine,,Receiving Yards,5.5,2026-11-08T09:30:00.000-05:00
 Samaje Perine,,Rushing Attempts,5.5,2026-11-08T09:30:00.000-05:00
 Tee Higgins,,Receptions,5.5,2026-11-08T09:30:00.000-05:00
+Adonai Mitchell,,Receptions,3.5,2026-11-08T13:00:00.000-05:00
 Alvin Kamara,,Receptions,3.5,2026-11-08T13:00:00.000-05:00
 Amon-Ra St. Brown,,Receptions,6.5,2026-11-08T13:00:00.000-05:00
-Antonio Williams,,Receiving Yards,48.5,2026-11-08T13:00:00.000-05:00
 Antonio Williams,,Receptions,4.5,2026-11-08T13:00:00.000-05:00
-Audric Estime,,Receiving Yards,1.5,2026-11-08T13:00:00.000-05:00
-Audric Estime,,Rushing Attempts,7.0,2026-11-08T13:00:00.000-05:00
+Audric Estime,,Receiving Yards,3.5,2026-11-08T13:00:00.000-05:00
+Audric Estime,,Rushing Attempts,7.5,2026-11-08T13:00:00.000-05:00
 Austin Ekeler,,Receiving Yards,5.5,2026-11-08T13:00:00.000-05:00
 Blake Corum,,Receiving Yards,4.5,2026-11-08T13:00:00.000-05:00
 Blake Corum,,Rushing Attempts,11.0,2026-11-08T13:00:00.000-05:00
@@ -40,6 +41,7 @@ Bo Nix,,Passing Attempts,32.5,2026-11-08T13:00:00.000-05:00
 Bo Nix,,Passing Completions,20.0,2026-11-08T13:00:00.000-05:00
 Bo Nix,,Passing Yards,210.5,2026-11-08T13:00:00.000-05:00
 Braelon Allen,,Rushing Attempts,9.5,2026-11-08T13:00:00.000-05:00
+Breece Hall,,Receiving Yards,14.5,2026-11-08T13:00:00.000-05:00
 Bryce Young,,Passing Completions,21.5,2026-11-08T13:00:00.000-05:00
 Bryce Young,,Passing Yards,225.5,2026-11-08T13:00:00.000-05:00
 Caleb Douglas,,Receiving Yards,40.5,2026-11-08T13:00:00.000-05:00
@@ -47,12 +49,11 @@ CeeDee Lamb,,Receiving Yards,83.5,2026-11-08T13:00:00.000-05:00
 CeeDee Lamb,,Receptions,6.5,2026-11-08T13:00:00.000-05:00
 Chig Okonkwo,,Receptions,3.5,2026-11-08T13:00:00.000-05:00
 Chuba Hubbard,,Rushing Attempts,17.0,2026-11-08T13:00:00.000-05:00
-Courtland Sutton,,Receiving Yards,33.5,2026-11-08T13:00:00.000-05:00
 Cyrus Allen,,Receiving Yards,14.5,2026-11-08T13:00:00.000-05:00
 Dak Prescott,,Passing Attempts,33.0,2026-11-08T13:00:00.000-05:00
 Dak Prescott,,Passing Completions,22.5,2026-11-08T13:00:00.000-05:00
 Dak Prescott,,Passing TDs,2.0,2026-11-08T13:00:00.000-05:00
-Dak Prescott,,Passing Yards,263.5,2026-11-08T13:00:00.000-05:00
+Dak Prescott,,Passing Yards,260.5,2026-11-08T13:00:00.000-05:00
 Daniel Jones,,Passing Attempts,32.0,2026-11-08T13:00:00.000-05:00
 Daniel Jones,,Passing Completions,20.0,2026-11-08T13:00:00.000-05:00
 Daniel Jones,,Passing Yards,204.5,2026-11-08T13:00:00.000-05:00
@@ -85,18 +86,19 @@ Jared Goff,,Passing Attempts,31.5,2026-11-08T13:00:00.000-05:00
 Jared Goff,,Passing Completions,21.5,2026-11-08T13:00:00.000-05:00
 Jared Goff,,Passing TDs,2.0,2026-11-08T13:00:00.000-05:00
 Jared Goff,,Passing Yards,261.5,2026-11-08T13:00:00.000-05:00
-Javonte Williams,,Receiving Yards,8.5,2026-11-08T13:00:00.000-05:00
+Javonte Williams,,Receiving Yards,7.5,2026-11-08T13:00:00.000-05:00
 Javonte Williams,,Rushing Attempts,17.5,2026-11-08T13:00:00.000-05:00
-Jayden Daniels,,Passing Attempts,31.0,2026-11-08T13:00:00.000-05:00
-Jayden Daniels,,Passing Yards,214.5,2026-11-08T13:00:00.000-05:00
+Jayden Daniels,,Passing Completions,19.5,2026-11-08T13:00:00.000-05:00
+Jayden Daniels,,Passing Yards,211.5,2026-11-08T13:00:00.000-05:00
 Jayden Daniels,,Rushing Attempts,6.0,2026-11-08T13:00:00.000-05:00
 Jaylen Waddle,,Receiving Yards,47.5,2026-11-08T13:00:00.000-05:00
 Joe Milton III,,Rushing Attempts,5.5,2026-11-08T13:00:00.000-05:00
 John Bates,,Receiving Yards,3.5,2026-11-08T13:00:00.000-05:00
 Jonathan Taylor,,Receiving Yards,18.5,2026-11-08T13:00:00.000-05:00
+Juwan Johnson,,Receiving Yards,27.5,2026-11-08T13:00:00.000-05:00
 KC Concepcion Jr.,,Receptions,4.5,2026-11-08T13:00:00.000-05:00
 Keenan Allen,,Receiving Yards,41.5,2026-11-08T13:00:00.000-05:00
-Kendre Miller,,Rushing Attempts,11.5,2026-11-08T13:00:00.000-05:00
+Kyren Williams,,Receiving Yards,19.5,2026-11-08T13:00:00.000-05:00
 Kyren Williams,,Receptions,2.5,2026-11-08T13:00:00.000-05:00
 Kyren Williams,,Rushing Attempts,13.5,2026-11-08T13:00:00.000-05:00
 Laquon Treadwell,,Receiving Yards,14.5,2026-11-08T13:00:00.000-05:00
@@ -109,22 +111,21 @@ Malik Willis,,Passing Yards,208.5,2026-11-08T13:00:00.000-05:00
 Malik Willis,,Rushing Attempts,5.5,2026-11-08T13:00:00.000-05:00
 Marvin Mims Jr.,,Receiving Yards,9.5,2026-11-08T13:00:00.000-05:00
 Matthew Stafford,,Passing Attempts,33.0,2026-11-08T13:00:00.000-05:00
+Matthew Stafford,,Passing Completions,22.0,2026-11-08T13:00:00.000-05:00
 Mitchell Evans,,Receiving Yards,7.5,2026-11-08T13:00:00.000-05:00
 Ollie Gordon II,,Rushing Attempts,16.5,2026-11-08T13:00:00.000-05:00
-Patrick Mahomes,,Passing Attempts,32.0,2026-11-08T13:00:00.000-05:00
-Puka Nacua,,Receiving Yards,92.5,2026-11-08T13:00:00.000-05:00
 Puka Nacua,,Receptions,8.0,2026-11-08T13:00:00.000-05:00
 Quinshon Judkins,,Rushing Attempts,16.5,2026-11-08T13:00:00.000-05:00
 Rachaad White,,Receiving Yards,16.5,2026-11-08T13:00:00.000-05:00
 Rachaad White,,Rushing Attempts,10.5,2026-11-08T13:00:00.000-05:00
-Rashee Rice,,Receiving Yards,59.5,2026-11-08T13:00:00.000-05:00
 Rashee Rice,,Receptions,5.0,2026-11-08T13:00:00.000-05:00
+Ryan Flournoy,,Receiving Yards,38.5,2026-11-08T13:00:00.000-05:00
 Sam LaPorta,,Receiving Yards,48.5,2026-11-08T13:00:00.000-05:00
 Saquon Barkley,,Receiving Yards,9.5,2026-11-08T13:00:00.000-05:00
 Saquon Barkley,,Rushing Attempts,13.0,2026-11-08T13:00:00.000-05:00
 Seth McGowan,,Receiving Yards,2.5,2026-11-08T13:00:00.000-05:00
 Seth McGowan,,Rushing Attempts,5.5,2026-11-08T13:00:00.000-05:00
-Shedeur Sanders,,Passing Yards,187.5,2026-11-08T13:00:00.000-05:00
+Shedeur Sanders,,Passing Yards,188.5,2026-11-08T13:00:00.000-05:00
 Sione Vaki,,Receiving Yards,1.5,2026-11-08T13:00:00.000-05:00
 Sione Vaki,,Rushing Attempts,5.5,2026-11-08T13:00:00.000-05:00
 Stefon Diggs,,Receptions,4.5,2026-11-08T13:00:00.000-05:00
@@ -137,10 +138,10 @@ Troy Franklin,,Receiving Yards,6.5,2026-11-08T13:00:00.000-05:00
 Tutu Atwell,,Receiving Yards,19.5,2026-11-08T13:00:00.000-05:00
 Tutu Atwell,,Receptions,1.5,2026-11-08T13:00:00.000-05:00
 Tyler Goodson,,Rushing Attempts,5.5,2026-11-08T13:00:00.000-05:00
+Tyler Higbee,,Receiving Yards,27.5,2026-11-08T13:00:00.000-05:00
 Tyler Shough,,Passing Completions,22.5,2026-11-08T13:00:00.000-05:00
 Tyler Shough,,Passing TDs,1.5,2026-11-08T13:00:00.000-05:00
-Tyler Warren,,Receiving Yards,42.5,2026-11-08T13:00:00.000-05:00
-C.J. Stroud,,Passing Attempts,32.5,2026-11-08T16:05:00.000-05:00
+C.J. Stroud,,Passing Attempts,32.0,2026-11-08T16:05:00.000-05:00
 C.J. Stroud,,Passing Yards,251.5,2026-11-08T16:05:00.000-05:00
 C.J. Stroud,,Rushing Attempts,2.5,2026-11-08T16:05:00.000-05:00
 Charlie Kolar,,Receiving Yards,14.5,2026-11-08T16:05:00.000-05:00
@@ -150,14 +151,12 @@ Justin Herbert,,Passing Completions,18.5,2026-11-08T16:05:00.000-05:00
 Justin Herbert,,Passing Yards,208.5,2026-11-08T16:05:00.000-05:00
 Kayshon Boutte,,Receiving Yards,15.5,2026-11-08T16:05:00.000-05:00
 Keaton Mitchell,,Receiving Yards,11.5,2026-11-08T16:05:00.000-05:00
-Keaton Mitchell,,Rushing Attempts,3.5,2026-11-08T16:05:00.000-05:00
 Kimani Vidal,,Receiving Yards,7.5,2026-11-08T16:05:00.000-05:00
 Kimani Vidal,,Rushing Attempts,5.5,2026-11-08T16:05:00.000-05:00
 Nico Collins,,Receiving Yards,68.5,2026-11-08T16:05:00.000-05:00
 Nico Collins,,Receptions,5.0,2026-11-08T16:05:00.000-05:00
 Omarion Hampton,,Receiving Yards,6.5,2026-11-08T16:05:00.000-05:00
 Omarion Hampton,,Rushing Attempts,10.5,2026-11-08T16:05:00.000-05:00
-Oronde Gadsden II,,Receiving Yards,16.5,2026-11-08T16:05:00.000-05:00
 Tank Dell,,Receiving Yards,14.5,2026-11-08T16:05:00.000-05:00
 Woody Marks,,Receiving Yards,13.5,2026-11-08T16:05:00.000-05:00
 Woody Marks,,Rushing Attempts,17.0,2026-11-08T16:05:00.000-05:00
@@ -167,12 +166,14 @@ Brock Bowers,,Receptions,6.5,2026-11-08T16:25:00.000-05:00
 Brock Purdy,,Passing Attempts,30.5,2026-11-08T16:25:00.000-05:00
 Brock Purdy,,Passing Completions,21.5,2026-11-08T16:25:00.000-05:00
 Christian McCaffrey,,Receptions,5.0,2026-11-08T16:25:00.000-05:00
+Christian Watson,,Receiving Yards,70.5,2026-11-08T16:25:00.000-05:00
 Christian Watson,,Receptions,4.5,2026-11-08T16:25:00.000-05:00
 Cooper Kupp,,Receiving Yards,25.5,2026-11-08T16:25:00.000-05:00
 Corey Kiner,,Receptions,0.5,2026-11-08T16:25:00.000-05:00
 Corey Kiner,,Rushing Attempts,6.5,2026-11-08T16:25:00.000-05:00
 DeMario Douglas,,Receiving Yards,40.5,2026-11-08T16:25:00.000-05:00
 DeMario Douglas,,Receptions,3.5,2026-11-08T16:25:00.000-05:00
+Demarcus Robinson,,Receiving Yards,34.5,2026-11-08T16:25:00.000-05:00
 Demarcus Robinson,,Receptions,2.5,2026-11-08T16:25:00.000-05:00
 Drake Maye,,Passing Attempts,31.5,2026-11-08T16:25:00.000-05:00
 Drake Maye,,Passing TDs,1.5,2026-11-08T16:25:00.000-05:00
@@ -186,7 +187,6 @@ Gardner Minshew II,,Passing Completions,20.5,2026-11-08T16:25:00.000-05:00
 Gardner Minshew II,,Passing Yards,199.5,2026-11-08T16:25:00.000-05:00
 George Kittle,,Receiving Yards,68.5,2026-11-08T16:25:00.000-05:00
 George Kittle,,Receptions,6.0,2026-11-08T16:25:00.000-05:00
-Hunter Henry,,Receiving Yards,37.5,2026-11-08T16:25:00.000-05:00
 Hunter Henry,,Receptions,3.5,2026-11-08T16:25:00.000-05:00
 Jadarian Price,,Receptions,1.5,2026-11-08T16:25:00.000-05:00
 Jaxon Smith-Njigba,,Receiving Yards,92.5,2026-11-08T16:25:00.000-05:00
@@ -198,12 +198,12 @@ Jordan Love,,Passing Yards,276.5,2026-11-08T16:25:00.000-05:00
 Jordan Watkins,,Receiving Yards,25.5,2026-11-08T16:25:00.000-05:00
 Josh Jacobs,,Receiving Yards,21.5,2026-11-08T16:25:00.000-05:00
 Josh Jacobs,,Receptions,3.5,2026-11-08T16:25:00.000-05:00
-Kaelon Black,,Receiving Yards,2.5,2026-11-08T16:25:00.000-05:00
+Kaelon Black,,Receiving Yards,3.5,2026-11-08T16:25:00.000-05:00
 Kirk Cousins,,Passing Attempts,36.5,2026-11-08T16:25:00.000-05:00
 Kirk Cousins,,Passing Completions,23.5,2026-11-08T16:25:00.000-05:00
 Kirk Cousins,,Passing TDs,1.5,2026-11-08T16:25:00.000-05:00
 Kirk Cousins,,Passing Yards,249.5,2026-11-08T16:25:00.000-05:00
-MarShawn Lloyd,,Receiving Yards,2.5,2026-11-08T16:25:00.000-05:00
+MarShawn Lloyd,,Receiving Yards,3.5,2026-11-08T16:25:00.000-05:00
 MarShawn Lloyd,,Rushing Attempts,3.5,2026-11-08T16:25:00.000-05:00
 Matthew Golden,,Receptions,5.0,2026-11-08T16:25:00.000-05:00
 Michael Mayer,,Receiving Yards,29.5,2026-11-08T16:25:00.000-05:00
@@ -214,6 +214,7 @@ Reggie Virgil,,Receiving Yards,13.5,2026-11-08T16:25:00.000-05:00
 Rhamondre Stevenson,,Receiving Yards,23.5,2026-11-08T16:25:00.000-05:00
 Rhamondre Stevenson,,Receptions,3.5,2026-11-08T16:25:00.000-05:00
 Simi Fehoko,,Receiving Yards,2.5,2026-11-08T16:25:00.000-05:00
+Simi Fehoko,,Receptions,0.5,2026-11-08T16:25:00.000-05:00
 Tory Horton,,Receiving Yards,17.5,2026-11-08T16:25:00.000-05:00
 Trey McBride,,Receiving Yards,59.5,2026-11-08T16:25:00.000-05:00
 Trey McBride,,Receptions,7.0,2026-11-08T16:25:00.000-05:00
@@ -243,16 +244,29 @@ Luther Burden III,,Receptions,5.0,2026-11-08T20:20:00.000-05:00
 Rome Odunze,,Receiving Yards,48.5,2026-11-08T20:20:00.000-05:00
 Rome Odunze,,Receptions,3.0,2026-11-08T20:20:00.000-05:00
 Ted Hurst III,,Receiving Yards,20.5,2026-11-08T20:20:00.000-05:00
+Aaron Jones Sr.,,Receiving Yards,7.5,2026-11-09T20:15:00.000-05:00
+Aaron Jones Sr.,,Rushing Attempts,8.5,2026-11-09T20:15:00.000-05:00
+Ben Yurosek,,Receiving Yards,3.5,2026-11-09T20:15:00.000-05:00
+Carson Wentz,,Passing Attempts,30.5,2026-11-09T20:15:00.000-05:00
+Carson Wentz,,Passing Completions,19.5,2026-11-09T20:15:00.000-05:00
+Carson Wentz,,Passing Yards,209.5,2026-11-09T20:15:00.000-05:00
 DJ Moore,,Receiving Yards,47.5,2026-11-09T20:15:00.000-05:00
 DJ Moore,,Receptions,3.5,2026-11-09T20:15:00.000-05:00
+Dalton Kincaid,,Receiving Yards,36.5,2026-11-09T20:15:00.000-05:00
+Dawson Knox,,Receiving Yards,7.5,2026-11-09T20:15:00.000-05:00
 James Cook III,,Receiving Yards,9.5,2026-11-09T20:15:00.000-05:00
 James Cook III,,Rushing Attempts,18.5,2026-11-09T20:15:00.000-05:00
-Jauan Jennings,,Receiving Yards,9.5,2026-11-09T20:15:00.000-05:00
+Jordan Addison,,Receiving Yards,39.5,2026-11-09T20:15:00.000-05:00
 Jordan Addison,,Receptions,3.5,2026-11-09T20:15:00.000-05:00
-Josh Allen,,Passing Yards,231.5,2026-11-09T20:15:00.000-05:00
+Jordan Mason,,Rushing Attempts,12.0,2026-11-09T20:15:00.000-05:00
+Josh Allen,,Passing Attempts,30.5,2026-11-09T20:15:00.000-05:00
+Josh Allen,,Passing Yards,237.5,2026-11-09T20:15:00.000-05:00
 Josh Allen,,Rushing Attempts,7.0,2026-11-09T20:15:00.000-05:00
+Justin Jefferson,,Receiving Yards,77.5,2026-11-09T20:15:00.000-05:00
 Justin Jefferson,,Receptions,6.5,2026-11-09T20:15:00.000-05:00
 Keon Coleman,,Receiving Yards,28.5,2026-11-09T20:15:00.000-05:00
 Khalil Shakir,,Receiving Yards,38.5,2026-11-09T20:15:00.000-05:00
 Ray Davis,,Rushing Attempts,1.5,2026-11-09T20:15:00.000-05:00
+T.J. Hockenson,,Receiving Yards,41.5,2026-11-09T20:15:00.000-05:00
+T.J. Hockenson,,Receptions,4.5,2026-11-09T20:15:00.000-05:00
 Ty Johnson,,Receiving Yards,15.5,2026-11-09T20:15:00.000-05:00
