@@ -384,9 +384,9 @@ with st.sidebar:
     nav_icons={'Overview':'⌂','Betting Comparisons':'⇄','All PrizePicks Props':'▦','Player Props':'♙','Lay of the Day':'✦','Model History':'◷','Model Performance':'▥','Settings':'⚙'}
     page=st.radio('NAVIGATION',list(nav_icons),format_func=lambda name:f"{nav_icons[name]}   {name}",label_visibility='collapsed',key='propified_page')
     st.divider()
-    if st.button('↻ Refresh data',type='primary',use_container_width=True):
+    if st.button('↻ Reload saved data',type='primary',use_container_width=True):
         st.cache_data.clear();st.rerun()
-    st.caption('Hosted data · Propified repository')
+    st.caption('Reload clears the dashboard cache; it does not run the GitHub data-refresh workflow or fetch new sportsbook lines.')
 
 def standard_prizepicks_props(selected_sport):
     """Display all available standard, non-live, non-combo, non-promo PrizePicks lines.
