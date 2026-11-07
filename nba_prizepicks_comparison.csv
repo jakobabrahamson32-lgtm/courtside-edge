@@ -10,7 +10,6 @@ Trae Young,WSH,player_free_throws_made,4.5,6.6,2.1,MORE,2026-11-07T20:00:00.000-
 Andre Drummond,NYK,player_free_throws_attempted,0.5,1.9,1.4,MORE,2026-11-07T20:00:00.000-05:00,10,0.467,46.7,QUALIFIED
 Draymond Green,GSW,player_turnovers,1.5,2.9,1.4,MORE,2026-11-07T20:30:00.000-05:00,9,0.467,46.7,QUALIFIED
 Khaman Maluach,PHO,Rebounds,5.0,7.3,2.3,MORE,2026-11-07T21:10:00.000-05:00,10,0.46,46.0,QUALIFIED
-Landry Shamet,NYK,player_free_throws_made,0.5,1.8,1.3,MORE,2026-11-07T20:00:00.000-05:00,10,0.433,43.3,QUALIFIED
 Brandin Podziemski,GSW,player_free_throws_attempted,2.5,3.8,1.3,MORE,2026-11-07T20:30:00.000-05:00,10,0.433,43.3,QUALIFIED
 Khaman Maluach,PHO,player_free_throws_attempted,0.5,1.8,1.3,MORE,2026-11-07T21:00:00.000-05:00,10,0.433,43.3,QUALIFIED
 Trae Young,WSH,player_free_throws_attempted,5.5,7.8,2.3,MORE,2026-11-07T20:00:00.000-05:00,10,0.418,41.8,QUALIFIED
@@ -21,8 +20,8 @@ Damian Lillard,POR,player_free_throws_made,4.5,6.2,1.7,MORE,2026-11-07T22:00:00.
 Aaron Nesmith,IND,player_free_throws_made,1.5,2.6,1.1,MORE,2026-11-07T17:00:00.000-05:00,8,0.367,36.7,QUALIFIED
 Karl-Anthony Towns,NYK,player_turnovers,2.5,3.6,1.1,MORE,2026-11-07T20:00:00.000-05:00,10,0.367,36.7,QUALIFIED
 James Harden,CLE,player_free_throws_attempted,4.0,5.4,1.4,MORE,2026-11-07T20:00:00.000-05:00,10,0.35,35.0,QUALIFIED
+Jamal Cain,ORL,Rebounds,3.5,2.3,-1.2,LESS,2026-11-07T20:30:00.000-05:00,10,0.343,34.3,QUALIFIED
 Tristan da Silva,ORL,player_free_throws_attempted,1.5,0.5,-1.0,LESS,2026-11-07T20:30:00.000-05:00,10,0.333,33.3,QUALIFIED
-Nikola Jokic,DEN,player_free_throws_made,5.5,3.7,-1.8,LESS,2026-11-07T17:00:00.000-05:00,10,0.327,32.7,QUALIFIED
 OG Anunoby,NYK,player_free_throws_made,4.0,5.3,1.3,MORE,2026-11-07T20:00:00.000-05:00,10,0.325,32.5,QUALIFIED
 Cameron Johnson,DEN,player_free_throws_made,1.5,0.4,-1.1,LESS,2026-11-07T17:00:00.000-05:00,7,0.367,32.11,QUALIFIED
 James Harden,CLE,player_free_throws_made,3.5,4.6,1.1,MORE,2026-11-07T20:00:00.000-05:00,10,0.314,31.4,QUALIFIED
@@ -35,7 +34,6 @@ Michael Porter Jr.,BKN,player_free_throws_attempted,4.0,5.1,1.1,MORE,2026-11-07T
 AJ Dybantsa,WSH,player_free_throws_attempted,4.0,5.1,1.1,MORE,2026-11-07T20:00:00.000-05:00,8,0.275,27.5,QUALIFIED
 Damian Lillard,POR,player_free_throws_attempted,5.5,7.0,1.5,MORE,2026-11-07T22:00:00.000-05:00,10,0.273,27.3,QUALIFIED
 Nikola Jokic,DEN,player_free_throws_attempted,6.0,4.4,-1.6,LESS,2026-11-07T17:00:00.000-05:00,10,0.267,26.7,QUALIFIED
-Karl-Anthony Towns,NYK,player_free_throws_made,4.5,3.3,-1.2,LESS,2026-11-07T20:00:00.000-05:00,10,0.267,26.7,QUALIFIED
 Andrew Nembhard,IND,player_free_throws_made,2.5,3.3,0.8,MORE,2026-11-07T17:00:00.000-05:00,9,0.267,26.7,QUALIFIED
 Jase Richardson,ORL,player_free_throws_attempted,1.5,0.7,-0.8,LESS,2026-11-07T20:30:00.000-05:00,10,0.267,26.7,QUALIFIED
 Tristan da Silva,ORL,3-PT Made,2.5,3.3,0.8,MORE,2026-11-07T20:30:00.000-05:00,10,0.267,26.7,QUALIFIED
@@ -44,6 +42,7 @@ Toumani Camara,POR,player_free_throws_attempted,0.5,1.3,0.8,MORE,2026-11-07T22:0
 Oso Ighodaro,PHO,player_free_throws_attempted,0.5,1.5,1.0,MORE,2026-11-07T21:00:00.000-05:00,6,0.333,24.98,QUALIFIED
 Jamal Murray,DEN,player_free_throws_attempted,4.5,5.6,1.1,MORE,2026-11-07T17:00:00.000-05:00,10,0.244,24.4,QUALIFIED
 Jalen Johnson,ATL,player_free_throws_attempted,4.5,5.6,1.1,MORE,2026-11-07T19:30:00.000-05:00,9,0.244,24.4,QUALIFIED
+Karl-Anthony Towns,NYK,player_free_throws_attempted,5.5,4.2,-1.3,LESS,2026-11-07T20:00:00.000-05:00,10,0.236,23.6,QUALIFIED
 Andrew Nembhard,IND,player_free_throws_attempted,3.0,3.7,0.7,MORE,2026-11-07T17:00:00.000-05:00,9,0.233,23.3,QUALIFIED
 Anthony Black,ORL,player_free_throws_made,2.5,3.6,1.1,MORE,2026-11-07T20:30:00.000-05:00,5,0.367,22.94,QUALIFIED
 Shai Gilgeous-Alexander,OKC,player_free_throws_made,7.5,5.8,-1.7,LESS,2026-11-07T20:00:00.000-05:00,10,0.227,22.7,QUALIFIED
@@ -56,9 +55,11 @@ Stephen Curry,GSW,Rebounds,4.0,3.2,-0.8,LESS,2026-11-07T20:40:00.000-05:00,10,0.
 Nolan Traore,BKN,player_turnovers,2.5,1.9,-0.6,LESS,2026-11-07T19:30:00.000-05:00,10,0.2,20.0,QUALIFIED
 Anthony Black,ORL,player_free_throws_attempted,3.5,4.6,1.1,MORE,2026-11-07T20:30:00.000-05:00,5,0.314,19.62,QUALIFIED
 Kyshawn George,WSH,Points,15.5,18.5,3.0,MORE,2026-11-07T20:00:00.000-05:00,10,0.194,19.4,QUALIFIED
+Nolan Traore,BKN,Points,10.5,12.5,2.0,MORE,2026-11-07T19:30:00.000-05:00,10,0.19,19.0,QUALIFIED
 Jase Richardson,ORL,Points,7.5,6.1,-1.4,LESS,2026-11-07T20:30:00.000-05:00,10,0.187,18.7,QUALIFIED
 Jared McCain,OKC,Points,13.5,11.0,-2.5,LESS,2026-11-07T20:00:00.000-05:00,10,0.185,18.5,QUALIFIED
 Draymond Green,GSW,Assists,6.0,7.1,1.1,MORE,2026-11-07T20:30:00.000-05:00,9,0.183,18.3,QUALIFIED
+Nikola Jokic,DEN,player_free_throws_made,4.5,3.7,-0.8,LESS,2026-11-07T17:00:00.000-05:00,10,0.178,17.8,QUALIFIED
 Franz Wagner,ORL,Assists,7.0,8.2,1.2,MORE,2026-11-07T20:40:00.000-05:00,10,0.171,17.1,QUALIFIED
 Ajay Mitchell,OKC,player_free_throws_made,3.5,2.9,-0.6,LESS,2026-11-07T20:00:00.000-05:00,10,0.171,17.1,QUALIFIED
 Aaron Nesmith,IND,player_steals,0.5,1.0,0.5,MORE,2026-11-07T17:00:00.000-05:00,8,0.167,16.7,QUALIFIED
@@ -68,26 +69,23 @@ James Harden,CLE,player_turnovers,2.5,3.0,0.5,MORE,2026-11-07T20:00:00.000-05:00
 Kyshawn George,WSH,player_turnovers,2.5,3.0,0.5,MORE,2026-11-07T20:00:00.000-05:00,10,0.167,16.7,QUALIFIED
 Landry Shamet,NYK,Assists,1.5,2.0,0.5,MORE,2026-11-07T20:00:00.000-05:00,10,0.167,16.7,QUALIFIED
 Jamal Cain,ORL,player_free_throws_attempted,1.5,1.0,-0.5,LESS,2026-11-07T20:30:00.000-05:00,10,0.167,16.7,QUALIFIED
-Tristan da Silva,ORL,Assists,1.5,2.0,0.5,MORE,2026-11-07T20:30:00.000-05:00,10,0.167,16.7,QUALIFIED
 Yaxel Lendeborg,GSW,player_turnovers,2.5,3.0,0.5,MORE,2026-11-07T20:30:00.000-05:00,10,0.167,16.7,QUALIFIED
 Devin Vassell,SAS,player_free_throws_made,1.5,2.0,0.5,MORE,2026-11-07T22:00:00.000-05:00,10,0.167,16.7,QUALIFIED
-Scoot Henderson,POR,Rebounds,2.5,2.0,-0.5,LESS,2026-11-07T22:00:00.000-05:00,10,0.167,16.7,QUALIFIED
 Victor Wembanyama,SAS,player_turnovers,2.5,2.0,-0.5,LESS,2026-11-07T22:00:00.000-05:00,10,0.167,16.7,QUALIFIED
 Kenrich Williams,OKC,Points,7.5,6.3,-1.2,LESS,2026-11-07T20:00:00.000-05:00,10,0.16,16.0,QUALIFIED
-OG Anunoby,NYK,Rebounds,6.0,5.1,-0.9,LESS,2026-11-07T20:10:00.000-05:00,10,0.15,15.0,QUALIFIED
 Jalen Johnson,ATL,player_free_throws_made,4.0,4.6,0.6,MORE,2026-11-07T19:30:00.000-05:00,9,0.15,15.0,QUALIFIED
 Victor Wembanyama,SAS,player_free_throws_made,7.0,6.0,-1.0,LESS,2026-11-07T22:00:00.000-05:00,10,0.143,14.3,QUALIFIED
 CJ McCollum,ATL,Assists,3.5,4.0,0.5,MORE,2026-11-07T19:30:00.000-05:00,10,0.143,14.3,QUALIFIED
 Anthony Davis,WSH,player_free_throws_made,3.5,4.0,0.5,MORE,2026-11-07T20:00:00.000-05:00,10,0.143,14.3,QUALIFIED
 Alperen Sengun,HOU,player_free_throws_made,3.5,4.0,0.5,MORE,2026-11-07T21:00:00.000-05:00,8,0.143,14.3,QUALIFIED
 Victor Wembanyama,SAS,player_blocks,3.5,4.0,0.5,MORE,2026-11-07T22:00:00.000-05:00,10,0.143,14.3,QUALIFIED
-Isaiah Hartenstein,OKC,Points,8.5,7.3,-1.2,LESS,2026-11-07T20:00:00.000-05:00,10,0.141,14.1,QUALIFIED
 Stephon Castle,SAS,Rebounds,5.0,5.7,0.7,MORE,2026-11-07T22:10:00.000-05:00,10,0.14,14.0,QUALIFIED
 Franz Wagner,ORL,player_free_throws_attempted,6.0,5.2,-0.8,LESS,2026-11-07T20:30:00.000-05:00,10,0.133,13.3,QUALIFIED
 Anthony Davis,WSH,player_free_throws_attempted,4.5,5.1,0.6,MORE,2026-11-07T20:00:00.000-05:00,10,0.133,13.3,QUALIFIED
 Andrew Nembhard,IND,player_turnovers,2.5,2.1,-0.4,LESS,2026-11-07T17:00:00.000-05:00,9,0.133,13.3,QUALIFIED
 DeMar DeRozan,DEN,player_steals,0.5,0.9,0.4,MORE,2026-11-07T17:00:00.000-05:00,8,0.133,13.3,QUALIFIED
 Obi Toppin,IND,3-PT Made,1.5,1.9,0.4,MORE,2026-11-07T17:00:00.000-05:00,9,0.133,13.3,QUALIFIED
+Alex Sarr,WSH,player_free_throws_made,1.5,1.9,0.4,MORE,2026-11-07T20:00:00.000-05:00,10,0.133,13.3,QUALIFIED
 Kenrich Williams,OKC,player_steals,0.5,0.1,-0.4,LESS,2026-11-07T20:00:00.000-05:00,10,0.133,13.3,QUALIFIED
 Peyton Watson,CLE,player_turnovers,1.5,1.9,0.4,MORE,2026-11-07T20:00:00.000-05:00,9,0.133,13.3,QUALIFIED
 Shai Gilgeous-Alexander,OKC,player_turnovers,2.5,2.1,-0.4,LESS,2026-11-07T20:00:00.000-05:00,10,0.133,13.3,QUALIFIED
@@ -111,7 +109,6 @@ Franz Wagner,ORL,Rebounds,5.5,6.1,0.6,MORE,2026-11-07T20:30:00.000-05:00,10,0.10
 Stephen Curry,GSW,player_free_throws_made,5.5,6.1,0.6,MORE,2026-11-07T20:30:00.000-05:00,10,0.109,10.9,WATCHLIST
 Nickeil Alexander-Walker,ATL,player_free_throws_attempted,4.0,4.4,0.4,MORE,2026-11-07T19:30:00.000-05:00,10,0.1,10.0,WATCHLIST
 Kelly Oubre Jr.,IND,player_free_throws_attempted,1.5,1.8,0.3,MORE,2026-11-07T17:00:00.000-05:00,10,0.1,10.0,WATCHLIST
-Nikola Jokic,DEN,player_steals,1.5,1.8,0.3,MORE,2026-11-07T17:00:00.000-05:00,10,0.1,10.0,WATCHLIST
 Pascal Siakam,IND,player_free_throws_made,3.0,3.3,0.3,MORE,2026-11-07T17:00:00.000-05:00,10,0.1,10.0,WATCHLIST
 Evan Mobley,CLE,player_turnovers,1.5,1.2,-0.3,LESS,2026-11-07T20:00:00.000-05:00,10,0.1,10.0,WATCHLIST
 Miles McBride,NYK,3-PT Made,1.5,1.8,0.3,MORE,2026-11-07T20:00:00.000-05:00,10,0.1,10.0,WATCHLIST
@@ -119,8 +116,6 @@ Wendell Carter Jr.,ORL,player_free_throws_made,2.5,2.8,0.3,MORE,2026-11-07T20:30
 Devin Booker,PHO,3-PT Made,1.5,1.8,0.3,MORE,2026-11-07T21:00:00.000-05:00,8,0.1,10.0,WATCHLIST
 Shai Gilgeous-Alexander,OKC,Points,31.5,28.6,-2.9,LESS,2026-11-07T20:00:00.000-05:00,10,0.092,9.2,WATCHLIST
 Donovan Clingan,POR,Rebounds,11.0,10.0,-1.0,LESS,2026-11-07T22:10:00.000-05:00,10,0.091,9.1,WATCHLIST
-Donovan Mitchell,CLE,player_free_throws_made,4.5,4.1,-0.4,LESS,2026-11-07T20:00:00.000-05:00,10,0.089,8.9,WATCHLIST
-Donovan Mitchell,CLE,Rebounds,4.5,4.9,0.4,MORE,2026-11-07T20:00:00.000-05:00,10,0.089,8.9,WATCHLIST
 Cameron Johnson,DEN,Rebounds,4.0,3.6,-0.4,LESS,2026-11-07T17:10:00.000-05:00,7,0.1,8.75,WATCHLIST
 Michael Porter Jr.,BKN,player_free_throws_made,3.5,3.8,0.3,MORE,2026-11-07T19:30:00.000-05:00,10,0.086,8.6,WATCHLIST
 Nickeil Alexander-Walker,ATL,player_free_throws_made,3.5,3.8,0.3,MORE,2026-11-07T19:30:00.000-05:00,10,0.086,8.6,WATCHLIST
@@ -132,7 +127,6 @@ Pascal Siakam,IND,Assists,4.0,3.7,-0.3,LESS,2026-11-07T17:10:00.000-05:00,10,0.0
 Deni Avdija,POR,player_free_throws_attempted,9.5,8.8,-0.7,LESS,2026-11-07T22:00:00.000-05:00,10,0.074,7.4,WATCHLIST
 Donovan Mitchell,CLE,player_free_throws_attempted,5.5,5.1,-0.4,LESS,2026-11-07T20:00:00.000-05:00,10,0.073,7.3,WATCHLIST
 Anthony Black,ORL,Assists,4.5,5.0,0.5,MORE,2026-11-07T20:30:00.000-05:00,5,0.111,6.94,WATCHLIST
-Karl-Anthony Towns,NYK,player_free_throws_attempted,4.5,4.2,-0.3,LESS,2026-11-07T20:00:00.000-05:00,10,0.067,6.7,WATCHLIST
 Nickeil Alexander-Walker,ATL,player_turnovers,2.5,2.3,-0.2,LESS,2026-11-07T19:30:00.000-05:00,10,0.067,6.7,WATCHLIST
 Anthony Davis,WSH,3-PT Made,0.5,0.7,0.2,MORE,2026-11-07T20:00:00.000-05:00,10,0.067,6.7,WATCHLIST
 Anthony Davis,WSH,player_turnovers,2.5,2.3,-0.2,LESS,2026-11-07T20:00:00.000-05:00,10,0.067,6.7,WATCHLIST
@@ -144,6 +138,7 @@ Donovan Clingan,POR,player_steals,0.5,0.3,-0.2,LESS,2026-11-07T22:00:00.000-05:0
 Toumani Camara,POR,player_free_throws_made,0.5,0.7,0.2,MORE,2026-11-07T22:00:00.000-05:00,10,0.067,6.7,WATCHLIST
 Deni Avdija,POR,player_free_throws_made,6.5,6.1,-0.4,LESS,2026-11-07T22:00:00.000-05:00,10,0.062,6.2,WATCHLIST
 Kevin Durant,HOU,Rebounds,5.0,4.7,-0.3,LESS,2026-11-07T21:10:00.000-05:00,10,0.06,6.0,WATCHLIST
+Karl-Anthony Towns,NYK,player_free_throws_made,3.5,3.3,-0.2,LESS,2026-11-07T20:00:00.000-05:00,10,0.057,5.7,WATCHLIST
 Ajay Mitchell,OKC,Points,19.5,18.4,-1.1,LESS,2026-11-07T20:00:00.000-05:00,10,0.056,5.6,WATCHLIST
 Victor Wembanyama,SAS,Rebounds,11.5,12.1,0.6,MORE,2026-11-07T22:00:00.000-05:00,10,0.052,5.2,WATCHLIST
 Jarrett Allen,CLE,player_free_throws_attempted,4.0,3.8,-0.2,LESS,2026-11-07T20:00:00.000-05:00,10,0.05,5.0,WATCHLIST
@@ -156,6 +151,9 @@ Aaron Nesmith,IND,Points,12.5,12.0,-0.5,LESS,2026-11-07T17:00:00.000-05:00,8,0.0
 Miles McBride,NYK,Points,7.5,7.2,-0.3,LESS,2026-11-07T20:00:00.000-05:00,10,0.04,4.0,WATCHLIST
 Devin Booker,PHO,Assists,5.0,5.2,0.2,MORE,2026-11-07T21:10:00.000-05:00,8,0.04,4.0,WATCHLIST
 Stephen Curry,GSW,player_free_throws_attempted,6.0,6.2,0.2,MORE,2026-11-07T20:30:00.000-05:00,10,0.033,3.3,WATCHLIST
+Jarrett Allen,CLE,player_steals,0.5,0.6,0.1,MORE,2026-11-07T20:00:00.000-05:00,10,0.033,3.3,WATCHLIST
+Karl-Anthony Towns,NYK,player_blocks,0.5,0.4,-0.1,LESS,2026-11-07T20:00:00.000-05:00,10,0.033,3.3,WATCHLIST
+OG Anunoby,NYK,player_blocks,0.5,0.4,-0.1,LESS,2026-11-07T20:00:00.000-05:00,10,0.033,3.3,WATCHLIST
 Amen Thompson,HOU,player_turnovers,1.5,1.6,0.1,MORE,2026-11-07T21:00:00.000-05:00,10,0.033,3.3,WATCHLIST
 Scoot Henderson,POR,player_turnovers,2.5,2.6,0.1,MORE,2026-11-07T22:00:00.000-05:00,10,0.033,3.3,WATCHLIST
 Jamal Cain,ORL,Points,6.5,6.3,-0.2,LESS,2026-11-07T20:30:00.000-05:00,10,0.031,3.1,WATCHLIST
@@ -163,11 +161,11 @@ Anthony Black,ORL,Points,14.5,15.2,0.7,MORE,2026-11-07T20:30:00.000-05:00,5,0.04
 Anthony Davis,WSH,Points,20.5,21.1,0.6,MORE,2026-11-07T20:00:00.000-05:00,10,0.029,2.9,WATCHLIST
 DeMar DeRozan,DEN,player_free_throws_attempted,3.5,3.6,0.1,MORE,2026-11-07T17:00:00.000-05:00,8,0.029,2.9,WATCHLIST
 Wendell Carter Jr.,ORL,player_free_throws_attempted,3.5,3.4,-0.1,LESS,2026-11-07T20:30:00.000-05:00,10,0.029,2.9,WATCHLIST
+Mikel Brown Jr.,BKN,Rebounds,2.5,2.4,-0.1,LESS,2026-11-07T19:30:00.000-05:00,7,0.033,2.89,WATCHLIST
 Brandin Podziemski,GSW,Assists,4.0,4.1,0.1,MORE,2026-11-07T20:40:00.000-05:00,10,0.025,2.5,WATCHLIST
 Jrue Holiday,POR,Assists,4.0,4.1,0.1,MORE,2026-11-07T22:10:00.000-05:00,10,0.025,2.5,WATCHLIST
 Miles Bridges,PHO,Points,16.5,16.2,-0.3,LESS,2026-11-07T21:00:00.000-05:00,8,0.018,1.8,WATCHLIST
 Alperen Sengun,HOU,player_free_throws_attempted,5.5,5.4,-0.1,LESS,2026-11-07T21:00:00.000-05:00,8,0.018,1.8,WATCHLIST
-De'Aaron Fox,SAS,Assists,5.5,5.6,0.1,MORE,2026-11-07T22:00:00.000-05:00,10,0.018,1.8,WATCHLIST
 Jabari Smith Jr.,HOU,Rebounds,6.0,6.1,0.1,MORE,2026-11-07T21:00:00.000-05:00,10,0.017,1.7,WATCHLIST
 Wendell Carter Jr.,ORL,Points,12.5,12.3,-0.2,LESS,2026-11-07T20:30:00.000-05:00,10,0.016,1.6,WATCHLIST
 Jrue Holiday,POR,Points,12.5,12.3,-0.2,LESS,2026-11-07T22:00:00.000-05:00,10,0.016,1.6,WATCHLIST
@@ -177,6 +175,7 @@ Devin Vassell,SAS,Points,11.5,11.6,0.1,MORE,2026-11-07T22:00:00.000-05:00,10,0.0
 Victor Wembanyama,SAS,Points,27.5,27.6,0.1,MORE,2026-11-07T22:00:00.000-05:00,10,0.004,0.4,WATCHLIST
 Christian Braun,DEN,player_free_throws_made,1.5,1.5,0.0,EVEN,2026-11-07T17:00:00.000-05:00,10,0.0,0.0,NO EDGE
 Isaiah Hartenstein,OKC,player_turnovers,1.5,1.5,0.0,EVEN,2026-11-07T20:00:00.000-05:00,10,0.0,0.0,NO EDGE
+James Harden,CLE,3-PT Made,2.5,2.5,0.0,EVEN,2026-11-07T20:00:00.000-05:00,10,0.0,0.0,NO EDGE
 Jared McCain,OKC,player_free_throws_attempted,1.5,1.5,0.0,EVEN,2026-11-07T20:00:00.000-05:00,10,0.0,0.0,NO EDGE
 Desmond Bane,ORL,player_free_throws_attempted,3.0,3.0,0.0,EVEN,2026-11-07T20:30:00.000-05:00,10,0.0,0.0,NO EDGE
 Amen Thompson,HOU,player_free_throws_attempted,4.0,4.0,0.0,EVEN,2026-11-07T21:00:00.000-05:00,10,0.0,0.0,NO EDGE
