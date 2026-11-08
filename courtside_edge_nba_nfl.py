@@ -1017,6 +1017,17 @@ if page=='Model Performance':
     st.dataframe(grouped,hide_index=True,use_container_width=True,
         column_config={'Hit rate':st.column_config.NumberColumn('Verified hit rate',format='percent')})
     st.caption('Compare sample sizes before interpreting hit rates. Small groups are especially noisy.')
+    # Error is meaningful only within the same statistic and unit.
+    st.markdown('#### Projection error by stat')
+    stat_errors=errors.groupby('Stat').agg(
+        Settled=('Actual','size'),
+        MAE=('Actual',lambda actual: float((actual-errors.loc[actual.index,'Projection']).abs().mean()))
+    ).reset_index().sort_values('Settled',ascending=False)
+    st.dataframe(stat_errors,hide_index=True,use_container_width=True,
+        column_config={'MAE':st.column_config.NumberColumn('Mean absolute error',format='%.2f')})
+    st.caption('MAE is measured in each stat’s own units (points, yards, assists, etc.). '
+               'Do not compare or average different prop types as if they shared one unit. '
+               'This measures projection error, not betting profitability.')
     st.markdown('#### Does a larger projection gap actually help?')
     eligible=decided.dropna(subset=['Projection','Line']).copy()
     eligible['Relative gap']=((eligible['Projection']-eligible['Line']).abs()/
