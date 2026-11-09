@@ -982,7 +982,8 @@ if page=='Model Performance':
     c1.metric('Verified decisions',f'{total:,}')
     c2.metric('Wins',f'{wins:,}')
     c3.metric('Verified hit rate',f'{wins/total:.1%}' if total else '—')
-    c4.metric('Projection error (MAE)',f"{(errors['Actual']-errors['Projection']).abs().mean():.1f}" if not errors.empty else '—')
+    c4.metric('Pushes',f"{int(settled['Result'].eq('PUSH').sum()):,}")
+    st.caption('Overall projection error is not shown because NBA and NFL prop types have different units. See per-stat MAE below.')
     # Audit potentially ambiguous zero-stat settlements without changing recorded outcomes.
     zero_results=decided[decided['Actual'].eq(0)]
     if not zero_results.empty:
