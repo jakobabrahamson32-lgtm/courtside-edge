@@ -69,6 +69,8 @@ def run_pipeline(sport: str) -> bool:
                 continue
             break
         if completed.returncode != 0:
+            if stage == "lines":
+                print(f"ODDS FEED FAILURE ({sport}): {script} exited {completed.returncode}. Check PARLAY_API_KEY, provider HTTP errors, and returned market coverage. Saved odds may be outdated.", flush=True)
             print(f"ERROR: {script} exited with code {completed.returncode}. Stopping {sport} refresh.", flush=True)
             if stage == "projections":
                 continue
