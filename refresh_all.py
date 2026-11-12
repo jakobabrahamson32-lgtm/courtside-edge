@@ -31,7 +31,14 @@ PIPELINES = {
 
 def run_pipeline(sport: str) -> bool:
     print(f"\n{'=' * 56}\n{sport} DATA REFRESH\n{'=' * 56}", flush=True)
+    results = {}
     for label, script, output in PIPELINES[sport]:
+        if "comparisons" in label.lower() and not (results.get("projections") and results.get("lines")):
+            print(f"WARNING: Skipping {sport} comparison; projections or lines did not refresh.", flush=True)
+            results["comparison"] = False
+            break
+        stage = "projections" if "projections" in label.lower() else "lines" if "PrizePicks lines" in label else "comparison"
+        results[stage] = False
         partner_mode = os.environ.get("PRIZEPICKS_SOURCE", "parlay").lower() == "partner"
         if partner_mode and "PrizePicks lines" in label:
             script = "prizepicks_partner_api.py"
@@ -39,11 +46,15 @@ def run_pipeline(sport: str) -> bool:
         output_path = ROOT / output
         if not script_path.is_file():
             print(f"ERROR: Missing {script}. Put it in {ROOT}", flush=True)
-            return False
+            if stage == "projections":
+                continue
+            break
         if "PrizePicks" in label and not partner_mode and not os.environ.get("PARLAY_API_KEY"):
             print("ERROR: PARLAY_API_KEY is not set in this Terminal session.", flush=True)
             print('Set it with: export PARLAY_API_KEY="YOUR_API_KEY"', flush=True)
-            return False
+            if stage == "projections":
+                continue
+            break
 
         print(f"\n→ {label} ({script})", flush=True)
         before = output_path.stat().st_mtime_ns if output_path.exists() else None
@@ -54,18 +65,26 @@ def run_pipeline(sport: str) -> bool:
             completed = subprocess.run(command, cwd=ROOT, check=False)
         except OSError as exc:
             print(f"ERROR: Could not launch {script}: {exc}", flush=True)
-            return False
+            if stage == "projections":
+                continue
+            break
         if completed.returncode != 0:
             print(f"ERROR: {script} exited with code {completed.returncode}. Stopping {sport} refresh.", flush=True)
-            return False
+            if stage == "projections":
+                continue
+            break
         if not output_path.is_file():
             print(f"ERROR: Expected {output} was not created. Stopping {sport} refresh.", flush=True)
-            return False
+            if stage == "projections":
+                continue
+            break
         after = output_path.stat().st_mtime_ns
         if before is not None and after == before:
             print(f"WARNING: {output} was not modified. It may contain old data.", flush=True)
             # Avoid passing off a stale comparison as fresh.
-            return False
+            if stage == "projections":
+                continue
+            break
         try:
             with output_path.open(newline="", encoding="utf-8-sig") as f:
                 reader = csv.reader(f)
@@ -73,13 +92,19 @@ def run_pipeline(sport: str) -> bool:
                 rows = sum(1 for _ in reader)
         except (OSError, UnicodeError, csv.Error) as exc:
             print(f"ERROR: Cannot read {output}: {exc}", flush=True)
-            return False
+            if stage == "projections":
+                continue
+            break
         if rows == 0:
             print(f"WARNING: {output} has zero data rows. Stopping {sport} refresh.", flush=True)
-            return False
+            if stage == "projections":
+                continue
+            break
         print(f"✓ {output}: {rows:,} rows", flush=True)
-    print(f"\n✓ {sport} refresh complete.", flush=True)
-    return True
+        results[stage] = True
+    ok = all(results.get(stage, False) for stage in ("projections", "lines", "comparison"))
+    print(f"\n{sport} refresh {'complete' if ok else 'incomplete'}: {results}", flush=True)
+    return ok
 
 
 def main() -> int:
