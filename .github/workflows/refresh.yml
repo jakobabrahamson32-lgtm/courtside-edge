@@ -33,12 +33,33 @@ jobs:
           pip install -r requirements.txt
           pip install requests nba_api nflreadpy pyarrow numpy
 
+      - name: Check odds provider configuration
+        env:
+          PARLAY_API_KEY: ${{ secrets.PARLAY_API_KEY }}
+        run: |
+          if [ -z "$PARLAY_API_KEY" ]; then
+            echo "::warning::PARLAY_API_KEY is missing. NBA and NFL sportsbook lines cannot refresh."
+            echo "Odds provider: API key missing" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Odds provider: API key configured (provider access not yet verified)" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - name: Refresh NBA and NFL data
         id: refresh
         continue-on-error: true
         env:
           PARLAY_API_KEY: ${{ secrets.PARLAY_API_KEY }}
         run: python refresh_all.py
+
+      - name: Summarize refresh status
+        if: always() && steps.refresh.outcome != 'skipped'
+        env:
+          REFRESH_OUTCOME: ${{ steps.refresh.outcome }}
+        run: |
+          echo "Refresh script outcome: $REFRESH_OUTCOME" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$REFRESH_OUTCOME" != "success" ]; then
+            echo "NBA/NFL lines may be stale. Inspect the Refresh NBA and NFL data logs for ODDS FEED FAILURE or HTTP errors." >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: Save pregame model history
         run: python model_history.py
