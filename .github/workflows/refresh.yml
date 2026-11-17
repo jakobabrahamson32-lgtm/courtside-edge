@@ -61,7 +61,10 @@ jobs:
             echo "NBA/NFL lines may be stale. Inspect the Refresh NBA and NFL data logs for ODDS FEED FAILURE or HTTP errors." >> "$GITHUB_STEP_SUMMARY"
           fi
 
+      # Avoid recording stale pregame picks after a failed data refresh.
+      # Settlement remains independent so existing predictions can resolve.
       - name: Save pregame model history
+        if: steps.refresh.outcome == 'success'
         run: python model_history.py
 
       - name: Settle completed game predictions
