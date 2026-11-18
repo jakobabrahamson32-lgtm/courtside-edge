@@ -29,6 +29,35 @@ PIPELINES = {
 }
 
 
+def sportsbook_lines_current(path, now=None):
+    """Reject a newly written feed when every dated game is already old."""
+    from datetime import timezone, timedelta
+    now = now or datetime.now(timezone.utc)
+    with open(path, newline="", encoding="utf-8-sig") as handle:
+        reader = csv.DictReader(handle)
+        fields = reader.fieldnames or []
+        date_field = "gameStartsAt" if "gameStartsAt" in fields else "GameStartsAt" if "GameStartsAt" in fields else None
+        if not date_field:
+            return False, "No game-start timestamp column in sportsbook feed"
+        dates = []
+        for row in reader:
+            value = (row.get(date_field) or "").strip()
+            if not value:
+                continue
+            try:
+                dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+                if dt.tzinfo is not None:
+                    dates.append(dt.astimezone(timezone.utc))
+            except ValueError:
+                continue
+    if not dates:
+        return False, "No valid timezone-aware game timestamps in sportsbook feed"
+    newest = max(dates)
+    if newest < now - timedelta(hours=48):
+        return False, f"All sportsbook games are outdated; latest start {newest.isoformat()}"
+    return True, f"Latest game start {newest.isoformat()}"
+
+
 def run_pipeline(sport: str) -> bool:
     print(f"\n{'=' * 56}\n{sport} DATA REFRESH\n{'=' * 56}", flush=True)
     results = {}
@@ -102,6 +131,12 @@ def run_pipeline(sport: str) -> bool:
             if stage == "projections":
                 continue
             break
+        if stage == "lines":
+            fresh, detail = sportsbook_lines_current(output_path)
+            print(f"SPORTSBOOK DATE CHECK ({sport}): {detail}", flush=True)
+            if not fresh:
+                print(f"ODDS FEED FAILURE ({sport}): No trustworthy current game lines.", flush=True)
+                break
         print(f"✓ {output}: {rows:,} rows", flush=True)
         results[stage] = True
     ok = all(results.get(stage, False) for stage in ("projections", "lines", "comparison"))
