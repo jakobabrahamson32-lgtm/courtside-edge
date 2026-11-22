@@ -36,7 +36,7 @@ def sportsbook_lines_current(path, now=None):
     with open(path, newline="", encoding="utf-8-sig") as handle:
         reader = csv.DictReader(handle)
         fields = reader.fieldnames or []
-        date_field = "gameStartsAt" if "gameStartsAt" in fields else "GameStartsAt" if "GameStartsAt" in fields else None
+        date_field = next((name for name in ("gameStartsAt", "GameStartsAt", "GameStartsAtUTC") if name in fields), None)
         if not date_field:
             return False, "No game-start timestamp column in sportsbook feed"
         dates = []
